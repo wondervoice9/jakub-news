@@ -41,6 +41,16 @@ jobs:
         with:
           packages: "platform-tools platforms;android-33 build-tools;33.0.2"
 
+      - name: Create legacy tools/ symlink for Bubblewrap SDK check
+        run: |
+          # Bubblewrap still looks for $ANDROID_HOME/tools/bin/sdkmanager,
+          # but setup-android only installs cmdline-tools. Link it so the
+          # doctor check passes.
+          if [ ! -e "$ANDROID_HOME/tools" ]; then
+            ln -s "$ANDROID_HOME/cmdline-tools/latest" "$ANDROID_HOME/tools"
+          fi
+          ls -la "$ANDROID_HOME/tools/bin" | head
+
       - name: Install Bubblewrap libraries
         run: |
           npm install -g @bubblewrap/cli@latest
