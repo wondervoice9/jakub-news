@@ -1,0 +1,76 @@
+{
+  "instrument": {
+    "cftc_code": "088691",
+    "name": "GOLD - COMMODITY EXCHANGE INC.",
+    "display_name": "Zlato (COMEX)",
+    "yfinance_symbol": "GC=F"
+  },
+  "macro_symbols": {
+    "dxy": "DX-Y.NYB",
+    "tnx": "^TNX",
+    "vix": "^VIX"
+  },
+  "history_weeks": 156,
+  "cot_index_windows": {
+    "six_months": 26,
+    "three_years": 156
+  },
+  "moving_averages_weeks": [20, 50],
+  "sentiment_thresholds": {
+    "extreme_bearish_max": 20,
+    "bearish_max": 40,
+    "neutral_max": 60,
+    "bullish_max": 80
+  },
+  "verdict_weights": {
+    "cot": 0.30,
+    "usd": 0.25,
+    "rates": 0.20,
+    "trend": 0.15,
+    "vix": 0.10
+  },
+  "verdict_labels": {
+    "strong_sell": "SILNÝ SELL",
+    "sell": "SELL",
+    "neutral": "NEUTRÁL",
+    "buy": "BUY",
+    "strong_buy": "SILNÝ BUY"
+  },
+  "verdict_explanations": {
+    "strong_sell": "Většina signálů je nepříznivá pro zlato — historicky vysoká pravděpodobnost poklesu nebo konsolidace. Long pozice jsou rizikové.",
+    "sell": "Signály se přiklánějí na medvědí stranu. Opatrnost s novými long pozicemi, zvaž zúžení stop-lossu.",
+    "neutral": "Signály se navzájem ruší — není jasný směrový edge. Počkej na silnější setup nebo redukuj velikost pozic.",
+    "buy": "Signály naznačují převahu býčích faktorů. Podmínky pro long pozice jsou příznivé, ale zůstávají obvyklé obchodní rizika.",
+    "strong_buy": "Většina signálů je velmi býčích — historicky dobrá zóna pro akumulaci. Kontrariánský COT + slabý dolar + strach na trhu = podpora ceny zlata."
+  },
+  "projection": {
+    "analogy_tolerance": 5,
+    "horizons_weeks": [4, 8],
+    "percentiles": [25, 50, 75],
+    "min_analogies": 3
+  },
+  "sentiment_labels": {
+    "extreme_bearish": "extrémně medvědí",
+    "bearish": "medvědí",
+    "neutral": "neutrální",
+    "bullish": "býčí",
+    "extreme_bullish": "extrémně býčí"
+  },
+  "text_templates": {
+    "past": "Za posledních {weeks} týdnů se COT Index spekulantů posunul z {index_start}. na {index_end}. percentilu (3Y). Cena zlata se za tu dobu změnila o {price_change_pct} %.",
+    "present": {
+      "extreme_bearish": "Spekulanti drží extrémně medvědí pozice ({index_3y}. percentil za 3 roky, {index_6m}. za 6 měsíců). Commercials akumulují long expozici. Historicky to bývá kontrariánsky býčí signál.",
+      "bearish": "Spekulanti jsou v medvědím pásmu ({index_3y}. percentil za 3 roky). Sentiment je negativní, ale ne vyhrocený. Pozicování zatím nedává silný signál.",
+      "neutral": "Pozicování spekulantů je neutrální ({index_3y}. percentil za 3 roky, {index_6m}. za 6 měsíců). COT momentálně nedává směrový signál.",
+      "bullish": "Spekulanti jsou v býčím pásmu ({index_3y}. percentil za 3 roky). Sentiment je pozitivní, pozicování se blíží k oblastem, kde v minulosti vznikaly korekce.",
+      "extreme_bullish": "Spekulanti drží extrémně býčí pozice ({index_3y}. percentil za 3 roky, {index_6m}. za 6 měsíců). Commercials masivně hedgují. Kontrariánsky medvědí signál."
+    },
+    "future": {
+      "extreme_bearish": "Podle {analogies} historických analogií: 4-týdenní medián {p50_pct} %, pásmo {p25_pct} až {p75_pct} %. Za 8 týdnů medián {median_8w_pct} %. V kombinaci s ostatními makrofaktory je celkový verdikt: {verdict_label}.",
+      "bearish": "Podle {analogies} analogií: 4-týdenní medián {p50_pct} %, pásmo {p25_pct} až {p75_pct} %. Za 8 týdnů medián {median_8w_pct} %. Celkový verdikt v kombinaci s makrofaktory: {verdict_label}.",
+      "neutral": "Podle {analogies} analogií: 4-týdenní medián {p50_pct} %, pásmo {p25_pct} až {p75_pct} %. Za 8 týdnů medián {median_8w_pct} %. Celkový verdikt: {verdict_label}.",
+      "bullish": "Podle {analogies} analogií: 4-týdenní medián {p50_pct} %, pásmo {p25_pct} až {p75_pct} %. Za 8 týdnů medián {median_8w_pct} %. Celkový verdikt v kombinaci s makrofaktory: {verdict_label}.",
+      "extreme_bullish": "Podle {analogies} analogií: 4-týdenní medián {p50_pct} %, pásmo {p25_pct} až {p75_pct} %. Za 8 týdnů medián {median_8w_pct} %. Celkový verdikt: {verdict_label}."
+    }
+  }
+}
