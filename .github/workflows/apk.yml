@@ -81,16 +81,14 @@ jobs:
 
       - name: Build signed APK + AAB
         env:
-          STORE_PASS: ${{ secrets.TWA_KEYSTORE_PASSWORD }}
-          KEY_PASS: ${{ secrets.TWA_KEY_PASSWORD }}
+          # Bubblewrap reads these env vars directly — flags aren't reliably
+          # plumbed through across versions.
+          BUBBLEWRAP_KEYSTORE_PASSWORD: ${{ secrets.TWA_KEYSTORE_PASSWORD }}
+          BUBBLEWRAP_KEY_PASSWORD: ${{ secrets.TWA_KEY_PASSWORD }}
         run: |
           # Bubblewrap asks "No checksum file — regenerate project?" (default Y).
-          # We've just generated the project via generate-twa.mjs, so answer "n"
-          # to skip a redundant regen and let the build proceed.
-          echo "n" | bubblewrap build \
-            --skipPwaValidation \
-            --keyPassword="$KEY_PASS" \
-            --storePassword="$STORE_PASS"
+          # We've just generated the project via generate-twa.mjs, so answer "n".
+          echo "n" | bubblewrap build --skipPwaValidation
 
       - name: List build outputs
         run: ls -la *.apk *.aab 2>/dev/null || ls -la
