@@ -41,8 +41,12 @@ jobs:
         with:
           packages: "platform-tools platforms;android-33 build-tools;33.0.2"
 
-      - name: Install Bubblewrap CLI
-        run: npm install -g @bubblewrap/cli@latest
+      - name: Install Bubblewrap libraries
+        run: |
+          npm install -g @bubblewrap/cli@latest
+          # Also install @bubblewrap/core locally so scripts/generate-twa.mjs
+          # can import it without relying on global resolution quirks.
+          npm install --no-save @bubblewrap/core@latest
 
       - name: Pre-configure Bubblewrap (skip first-run prompts)
         run: |
@@ -59,16 +63,11 @@ jobs:
           echo "$KEYSTORE_BASE64" | base64 -d > android.keystore
           ls -la android.keystore
 
-      - name: Initialize TWA project from manifest
+      - name: Generate Android project from twa-manifest.json
         run: |
-          bubblewrap init \
-            --manifest=https://wondervoice9.github.io/jakub-news/manifest.webmanifest \
-            --directory=. \
-            --twaManifest=./twa-manifest.json || true
-          # `init` may exit nonzero after succeeding if the project already exists;
-          # we verify the scaffold below.
+          node scripts/generate-twa.mjs
           ls -la
-          test -f build.gradle
+          test -f build.gradle || test -f app/build.gradle
 
       - name: Build signed APK + AAB
         env:
