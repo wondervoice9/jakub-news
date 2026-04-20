@@ -1,0 +1,43 @@
+{
+  "packageId": "com.wondervoice9.jakubnews",
+  "host": "wondervoice9.github.io",
+  "name": "Jakub News",
+  "launcherName": "Jakub News",
+  "display": "standalone",
+  "themeColor": "#0f172a",
+  "themeColorDark": "#0f172a",
+  "navigationColor": "#0f172a",
+  "navigationColorDark": "#0f172a",
+  "navigationDividerColor": "#0f172a",
+  "navigationDividerColorDark": "#0f172a",
+  "backgroundColor": "#0f172a",
+  "enableNotifications": false,
+  "startUrl": "/jakub-news/",
+  "iconUrl": "https://wondervoice9.github.io/jakub-news/icons/icon-512.png",
+  "maskableIconUrl": "https://wondervoice9.github.io/jakub-news/icons/icon-maskable-512.png",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "android"
+  },
+  "splashScreenFadeOutDuration": 300,
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://wondervoice9.github.io/jakub-news/manifest.webmanifest",
+  "fullScopeUrl": "https://wondervoice9.github.io/jakub-news/",
+  "minSdkVersion": 21,
+  "orientation": "portrait",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "serviceAccountJsonFile": "",
+  "fullscreen": false
+}
