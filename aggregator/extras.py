@@ -175,29 +175,65 @@ def fetch_joke_cs() -> dict:
 
 # -------------------- QUOTE --------------------
 
+def _fetch_wikipedia_bio(author: str) -> str:
+    """Free fallback: pull the first sentence(s) of a Czech (then English) Wikipedia summary.
+
+    Wikipedia's REST summary endpoint returns a plain-text `extract`. We prefer cs.wikipedia;
+    if the page doesn't exist there, fall back to en.wikipedia. Never raises — returns "" on failure.
+    """
+    for lang in ("cs", "en"):
+        try:
+            slug = author.strip().replace(" ", "_")
+            resp = requests.get(
+                f"https://{lang}.wikipedia.org/api/rest_v1/page/summary/{slug}",
+                headers={"User-Agent": "JakubNews/1.0 (personal)"},
+                timeout=10,
+            )
+            if resp.status_code != 200:
+                continue
+            data = resp.json()
+            if data.get("type") == "disambiguation":
+                continue
+            extract = (data.get("extract") or "").strip()
+            if not extract:
+                continue
+            # Trim to ~2 sentences / 260 chars
+            parts = extract.split(". ")
+            short = ". ".join(parts[:2]).rstrip(".") + "."
+            if len(short) > 260:
+                short = short[:257] + "..."
+            return short
+        except Exception as e:
+            print(f"    [wiki bio {lang} error] {e}")
+    return ""
+
+
 def _fetch_author_bio(author: str) -> str:
-    """Use Gemini to generate a 1-2 sentence Czech bio of the quote author. Optional."""
+    """1–2 sentence Czech bio of the quote author. Gemini first, Wikipedia as free fallback."""
     if not author or author.lower() in ("unknown", "anonymous", "neznámý"):
         return ""
+    # Stage 1: Gemini (nicer Czech, but rate-limited)
     try:
         api_key = os.environ.get("GEMINI_API_KEY")
-        if not api_key or api_key == "PASTE_YOUR_KEY_HERE":
-            return ""
-        client = genai.Client(api_key=api_key)
-        prompt = (
-            f"Napiš krátký česky bio o osobě '{author}' — jednou větou kdo byl/je, "
-            f"druhou větou roky života a hlavní činnost. Maximálně 2 věty, celkem max 200 znaků. "
-            f"Žádný úvod, odpověz přímo bio."
-        )
-        resp = client.models.generate_content(
-            model="gemini-2.5-flash-lite",
-            contents=prompt,
-            config=types.GenerateContentConfig(temperature=0.2),
-        )
-        return (resp.text or "").strip()
+        if api_key and api_key != "PASTE_YOUR_KEY_HERE":
+            client = genai.Client(api_key=api_key)
+            prompt = (
+                f"Napiš krátký česky bio o osobě '{author}' — jednou větou kdo byl/je, "
+                f"druhou větou roky života a hlavní činnost. Maximálně 2 věty, celkem max 200 znaků. "
+                f"Žádný úvod, odpověz přímo bio."
+            )
+            resp = client.models.generate_content(
+                model="gemini-2.5-flash-lite",
+                contents=prompt,
+                config=types.GenerateContentConfig(temperature=0.2),
+            )
+            text = (resp.text or "").strip()
+            if text:
+                return text
     except Exception as e:
-        print(f"    [author bio error] {e}")
-        return ""
+        print(f"    [author bio gemini error] {e}")
+    # Stage 2: Wikipedia fallback (free, no quota)
+    return _fetch_wikipedia_bio(author)
 
 
 def _scrape_citaty_net() -> dict | None:
