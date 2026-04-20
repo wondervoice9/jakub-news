@@ -84,7 +84,10 @@ jobs:
           STORE_PASS: ${{ secrets.TWA_KEYSTORE_PASSWORD }}
           KEY_PASS: ${{ secrets.TWA_KEY_PASSWORD }}
         run: |
-          bubblewrap build \
+          # Bubblewrap asks "No checksum file — regenerate project?" (default Y).
+          # We've just generated the project via generate-twa.mjs, so answer "n"
+          # to skip a redundant regen and let the build proceed.
+          echo "n" | bubblewrap build \
             --skipPwaValidation \
             --keyPassword="$KEY_PASS" \
             --storePassword="$STORE_PASS"
