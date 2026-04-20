@@ -1,6 +1,6 @@
 // Service worker for offline app shell. Does NOT cache data.json or
 // cot_gold.json (always fresh).
-const VERSION = "v17-png-icons";
+const VERSION = "v19-logo-v10";
 const CACHE = `jakub-news-${VERSION}`;
 const SHELL = [
   "./",
