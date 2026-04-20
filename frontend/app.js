@@ -759,12 +759,14 @@ function scheduleWeatherRefresh() {
 // -------------------- SWIPE GESTURES --------------------
 
 function setupSwipe() {
-  const target = document.getElementById("content");
-  let startX = 0, startY = 0, tracking = false;
+  // Listen on document so swipes anywhere (incl. tabs row) work.
+  const target = document.body;
+  let startX = 0, startY = 0, startT = 0, tracking = false;
   target.addEventListener("touchstart", e => {
     if (e.touches.length !== 1) return;
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
+    startT = Date.now();
     tracking = true;
   }, { passive: true });
   target.addEventListener("touchend", e => {
@@ -774,8 +776,9 @@ function setupSwipe() {
     if (!t) return;
     const dx = t.clientX - startX;
     const dy = t.clientY - startY;
-    // Horizontal swipe only (x dominant, length > 60, not much vertical)
-    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+    const dt = Date.now() - startT;
+    // Horizontal swipe: x dominant (> |dy|*1.3), min 40px, max 600ms (flick).
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.3 && dt < 600) {
       switchTabBy(dx < 0 ? 1 : -1);
     }
   }, { passive: true });

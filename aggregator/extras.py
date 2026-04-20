@@ -97,7 +97,7 @@ def today_info() -> dict:
     week_num = now.isocalendar().week
     return {
         "day_name": CZ_DAYS[now.weekday()],
-        "date_cz": f"{now.day}. {CZ_MONTHS[now.month - 1]} {now.year}",
+        "date_cz": f"{now.day}. {CZ_MONTHS[now.month - 1]}",
         "date_iso": now.strftime("%Y-%m-%d"),
         "week_number": week_num,
         "week_parity": "sudý" if week_num % 2 == 0 else "lichý",
