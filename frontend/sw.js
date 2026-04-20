@@ -1,6 +1,6 @@
 // Service worker for offline app shell. Does NOT cache data.json or
 // cot_gold.json (always fresh).
-const VERSION = "v16-sell-buy-verdict";
+const VERSION = "v17-png-icons";
 const CACHE = `jakub-news-${VERSION}`;
 const SHELL = [
   "./",
@@ -13,6 +13,9 @@ const SHELL = [
   "./cot.js",
   "./manifest.webmanifest",
   "./icons/icon.svg",
+  "./icons/icon-192.png",
+  "./icons/icon-512.png",
+  "./icons/icon-maskable-512.png",
 ];
 
 self.addEventListener("install", e => {
