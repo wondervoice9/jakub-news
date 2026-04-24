@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T10:18:36.271090+00:00",
+  "generated_at": "2026-04-24T10:57:21.027382+00:00",
   "today": {
     "day_name": "Pátek",
     "date_cz": "24. dubna",
@@ -12,16 +12,16 @@
   "weather": {
     "location": "Liberec",
     "current": {
-      "temperature": 9.4,
+      "temperature": 9.5,
       "weather_code": 2,
       "weather_desc": "Polojasno",
       "wind_speed": 14.1,
-      "humidity": 62
+      "humidity": 63
     },
     "forecast": [
       {
         "date": "2026-04-24",
-        "temp_max": 11.6,
+        "temp_max": 10.7,
         "temp_min": 5.5,
         "weather_code": 3,
         "weather_desc": "Zataženo",
@@ -30,7 +30,7 @@
       {
         "date": "2026-04-25",
         "temp_max": 18.1,
-        "temp_min": 6.4,
+        "temp_min": 5.8,
         "weather_code": 3,
         "weather_desc": "Zataženo",
         "precipitation": 0.0
@@ -38,7 +38,7 @@
       {
         "date": "2026-04-26",
         "temp_max": 11.1,
-        "temp_min": 3.3,
+        "temp_min": 3.8,
         "weather_code": 3,
         "weather_desc": "Zataženo",
         "precipitation": 0.0
@@ -47,7 +47,7 @@
   },
   "joke_en": {
     "id": "joke_en_20260424",
-    "text": "Have a great weekend!\nI hope your code behaves the same on Monday as it did on Friday.",
+    "text": "Never date a baker. They're too kneady.",
     "source": "JokeAPI",
     "source_url": "https://jokeapi.dev/"
   },
@@ -59,9 +59,9 @@
   },
   "quote": {
     "id": "quote_20260424",
-    "text": "Armáda beranů, kterou vede lev, je silnější, než armáda lvů, kterou vede beran.",
+    "text": "Hlupák má před vzdělaným člověkem velkou výhodu - je sám se sebou vždy spokojený.",
     "author": "Napoleon Bonaparte",
-    "author_bio": "Napoleon Bonaparte byl francouzský vojenský a politický vůdce. Žil v letech 1769–1821 a proslavil se jako císař a dobyvatel.",
+    "author_bio": "Napoleon I. Bonaparte byl francouzský vojevůdce a státník, císař v letech 1804–1814 a poté sto dní na přelomu jara a léta 1815.",
     "source": "Citáty.net",
     "source_url": "https://citaty.net/autori/napoleon-bonaparte/"
   },
@@ -119,12 +119,84 @@
         "title": "Iran War Live Updates: Trump Says Lebanon Cease-Fire Is Extended by 3 Weeks",
         "summary": "The Israeli military said it had struck Hezbollah targets on Friday, but its truce with Lebanon appeared to be holding. Stopping the fighting between Israel and the Iran-backed militia could help end the war in Iran.",
         "link": "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz",
-        "published": "2026-04-24T10:03:36+00:00",
+        "published": "2026-04-24T10:46:57+00:00",
         "source": "NYT World",
         "lang": "en",
         "sub": null,
-        "title_cs": "Aktualizace války v Íránu: Trump říká, že příměří v Libanonu je prodlouženo o 3 týdny",
+        "title_cs": "Aktualizace z války v Íránu: Trump říká, že příměří v Libanonu je prodlouženo o 3 týdny",
         "summary_cs": "Izraelská armáda uvedla, že v pátek zasáhla cíle Hizballáhu, ale její příměří s Libanonem se zdálo být dodržováno. Zastavení bojů mezi Izraelem a milicí podporovanou Íránem by mohlo pomoci ukončit válku v Íránu."
+      },
+      {
+        "id": "61c94948b5ac4dbf",
+        "title": "DoJ watchdog will investigate release of Epstein files – US politics live",
+        "summary": "An internal watchdog will review the agency’s handling of records related to Jeffrey Epstein, including whether relevant documents were properly redacted Sign up for the Breaking News US email to get newsletter alerts in your inbox The Trump administration is vowing to crack down on foreign tech companies’ exploitation of US artificial intelligence models, singling out China at a time that country is narrowing the gap with the US in the AI race. In a Thursday memo, Michael Kratsios, the presi...",
+        "link": "https://www.theguardian.com/us-news/live/2026/apr/24/doj-watchdog-epstein-donald-trump-iran-war-budget-bill-latest-news",
+        "published": "2026-04-24T10:43:38+00:00",
+        "source": "Guardian World",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Kontrolní orgán ministerstva spravedlnosti prošetří zveřejnění dokumentů Epsteina – Živě z americké politiky",
+        "summary_cs": "Vnitřní kontrolní orgán přezkoumá, jak agentura nakládala se záznamy týkajícími se Jeffreyho Epsteina, včetně toho, zda byly relevantní dokumenty řádně anonymizovány. Přihlaste se k odběru zpravodaje Breaking News US a získejte upozornění do své schránky. Trumpova administrativa slibuje tvrdý postup proti zahraničním technologickým společnostem zneužívajícím americké modely umělé inteligence, přičemž vyzdvihuje Čínu v době, kdy tato země snižuje náskok USA v závodě o AI. Ve čtvrtečním memorandu Michael Kratsios, prezident..."
+      },
+      {
+        "id": "d38c2a00331a888f",
+        "title": "A Lost Tribe in India Makes Its Exodus to Israel",
+        "summary": "The B’nei Menashe believe they are the descendants of Manasseh, a tribal patriarch from thousands of years ago. Evidence is thin, but Israel is welcoming them “home.”",
+        "link": "https://www.nytimes.com/2026/04/23/world/asia/india-jewish-tribe-israel-bnei-menashe.html",
+        "published": "2026-04-24T10:41:24+00:00",
+        "source": "NYT World",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Ztracený kmen v Indii podniká exodus do Izraele",
+        "summary_cs": "B'nei Menashe věří, že jsou potomky Manassese, kmene předků z před tisíci lety. Důkazy jsou slabé, ale Izrael je vítá „domů“."
+      },
+      {
+        "id": "3d2c0e22547d8ed5",
+        "title": "Middle East crisis live: Trump says Israel-Lebanon ceasefire extended by three weeks but claims he won’t rush Iran deal",
+        "summary": "US president orders navy to ‘shoot and kill’ boats laying mines in Hormuz and claims ‘total control’ over the strait Trump claims US has total control over strait of Hormuz after Iran seizes two container ships Analysis: Trump may talk of regime infighting, but Iran seems united by strategy born of war The EU’s foreign chief has said that talks with Iran should include nuclear experts otherwise “we will end up with a more dangerous Iran.” Speaking on Friday ahead of an informal summit of EU l...",
+        "link": "https://www.theguardian.com/world/live/2026/apr/24/iran-war-live-updates-trump-hormuz-strait-israel-lebanon-truce",
+        "published": "2026-04-24T10:40:38+00:00",
+        "source": "Guardian World",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Krize na Blízkém východě živě: Trump říká, že příměří mezi Izraelem a Libanonem je prodlouženo o tři týdny, ale tvrdí, že s dohodou s Íránem nebude spěchat",
+        "summary_cs": "Americký prezident nařizuje námořnictvu „střílet a zabíjet“ lodě pokládající miny v Hormuzském průlivu a tvrdí, že má „úplnou kontrolu“ nad průlivem. Trump tvrdí, že USA mají úplnou kontrolu nad Hormuzským průlivem poté, co Írán zabavil dvě kontejnerové lodě. Analýza: Trump sice mluví o vnitřních rozporech v režimu, ale Írán se zdá být sjednocen strategií zrozenou z války. Šéfka unijní diplomacie uvedla, že rozhovory s Íránem by měly zahrnovat jaderné experty, jinak „skončíme s nebezpečnějším Íránem“. V pátek před neformálním summitem EU..."
+      },
+      {
+        "id": "756916f57281d7ac",
+        "title": "US justice department blocking Met police investigation into Mandelson, reports say – UK politics live",
+        "summary": "The department of justice has refused to hand over key evidence from the Jeffrey Epstein files and could delay Scotland Yard’s criminal inquiry. Back in the Lords, Conservative former deputy prime minister Therese Coffey said she thought some MPs and peers were more interested in passing an unsafe assisted dying bill than introducing proper safeguards. Representing the view of opponents of assisted dying, Coffey said: “The continuing claim that this bill is the safest in the world, and was la...",
+        "link": "https://www.theguardian.com/politics/live/2026/apr/24/keir-starmer-peter-mandelson-us-met-police-westminster-assisted-dying-latest-news",
+        "published": "2026-04-24T10:39:06+00:00",
+        "source": "Guardian World",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Americké ministerstvo spravedlnosti blokuje vyšetřování policie v Mandelsonově případu, uvádí zprávy – Živě z britské politiky",
+        "summary_cs": "Ministerstvo spravedlnosti odmítlo předat klíčové důkazy z případu Jeffreyho Epsteina a mohlo by zpozdit trestní řízení Scotland Yardu. Zpět ve Sněmovně lordů konzervativní bývalá zástupkyně premiéra Therese Coffeyová uvedla, že si myslí, že někteří poslanci a peerové se více zajímají o schválení nebezpečného zákona o asistované sebevraždě, než o zavedení řádných ochranných opatření. Coffeyová, zastupující názor odpůrců asistované sebevraždy, řekla: „Přetrvávající tvrzení, že tento zákon je nejbezpečnější na světě a byl přijat...“"
+      },
+      {
+        "id": "f3ae2c759e2de5b4",
+        "title": "Soundtrack of the sea: divers use underwater speakers to help dying coral reefs",
+        "summary": "Divers are installing waterproof speakers in the ocean to help pull a coral reef near Jamaica back from the brink The northern coast of Jamaica once served as the backdrop for scenes in the James Bond thriller No Time to Die. But today, beneath those same turquoise waves, a real-life mission is unfolding: the race to pull a dying coral reef back from the brink. However, the tools a team of divers are carrying to the seafloor are not what you would expect to find in a marine biologist’s kit. T...",
+        "link": "https://www.theguardian.com/environment/2026/apr/24/coral-reefs-jamaica",
+        "published": "2026-04-24T10:30:37+00:00",
+        "source": "Guardian World",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Zvuková stopa moře: potápěči používají podvodní reproduktory k záchraně umírajících korálových útesů",
+        "summary_cs": "Potápěči instalují ve vodě vodotěsné reproduktory, aby pomohli korálovému útesu u Jamajky vrátit se z okraje propasti. Severní pobřeží Jamajky kdysi sloužilo jako pozadí pro scény z bondovky Není čas zemřít. Ale dnes, pod stejnými tyrkysovými vlnami, probíhá mise v reálném životě: závod o záchranu umírajícího korálového útesu z okraje propasti. Nástroje, které tým potápěčů nese na mořské dno, však nejsou tím, co byste očekávali v soupravě mořského biologa. T..."
+      },
+      {
+        "id": "f54251257ed9dfd2",
+        "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+        "summary": "An internal Pentagon email reportedly outlines options to punish allies over a perceived lack of support for Iran war.",
+        "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-24T10:14:37+00:00",
+        "source": "BBC World",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "NATO říká, že „neexistuje žádné ustanovení“ pro vyloučení členů po zprávě, že USA by mohly usilovat o pozastavení členství Španělska",
+        "summary_cs": "Interní e-mail Pentagonu údajně nastiňuje možnosti potrestání spojenců za údajný nedostatek podpory pro válku v Íránu."
       },
       {
         "id": "d3e2fc3e5ba7388b",
@@ -135,107 +207,59 @@
         "source": "BBC World",
         "lang": "en",
         "sub": null,
-        "title_cs": "Incident s daty britské biobanky způsobený „pár zkaženými jablky“, říká šéf",
-        "summary_cs": "Profesor Sir Rory Collins řekl, že je z incidentu „rozzlobený“ a „rozrušený“, stejně jako šéf banky a jeden z účastníků."
+        "title_cs": "Incident s daty britské biobanky způsoben „pár zkaženými jablky“, říká šéf",
+        "summary_cs": "Profesor Sir Rory Collins řekl, že byl z incidentu „rozzlobený“ a „rozrušený“, stejně jako šéf banky a účastník."
       },
       {
-        "id": "86b1d0078fc802a7",
-        "title": "Digested week:Iranian embassy trolls the most ‘powerfool’ man on the planet | Emma Brockes",
-        "summary": "Diplomats poke fun at Donald Trump while Madonna loses her corset off the back of a golf buggy The one upside to a rolling international crisis is that it can give backroom people a rare chance to shine. Witness, this week, the breakout stars of the Iranian diplomatic corps, who from two different diplomatic missoverions managed to poke fun at Donald Trump while maintaining the base-level decorum that so eludes the American president. Continue reading...",
-        "link": "https://www.theguardian.com/uk-news/2026/apr/24/digested-week-iranian-embassy-donald-trump-madonna-nike",
-        "published": "2026-04-24T09:55:32+00:00",
+        "id": "11b168ba599beeda",
+        "title": "After Meloni’s law change, Americans hope Italian supreme court ruling will open door to citizenship",
+        "summary": "Sabrina Crawford among those refused because of rule change, which now also affects children of immigrants born in Italy In 2025, after a long and arduous journey in her attempts to gain Italian citizenship, including a pivotal genealogical research trip to a village in Calabria, US-born Sabrina Crawford was hoping to fulfil her lifelong dream of building a life in Italy as she edged towards the final hurdle of the bureaucratic process. But her plans were scuppered when Giorgia Meloni’s far-r...",
+        "link": "https://www.theguardian.com/world/2026/apr/24/italy-citizenship-law-change-us-citizens-supreme-court",
+        "published": "2026-04-24T10:00:37+00:00",
         "source": "Guardian World",
         "lang": "en",
         "sub": null,
-        "title_cs": "Strávený týden: Íránská ambasáda si utahuje z nejmocnějšího muže planety | Emma Brockes",
-        "summary_cs": "Diplomaté si dobírají Donalda Trumpa, zatímco Madonně se z golfového vozíku svaluje korzet. Jedinou výhodou pokračující mezinárodní krize je, že lidem v zákulisí dává vzácnou příležitost zazářit. Svědectvím jsou hvězdy íránského diplomatického sboru, které z dvou různých diplomatických misí dokázaly dobírat Donalda Trumpa a zároveň si zachovat základní zdvořilost, která americkému prezidentovi tak uniká. Pokračovat ve čtení..."
+        "title_cs": "Po změně zákona Meloniové Američané doufají, že rozhodnutí italského nejvyššího soudu otevře dveře k občanství",
+        "summary_cs": "Sabrina Crawfordová je mezi těmi, kterým bylo zamítnuto občanství kvůli změně pravidla, která nyní ovlivňuje i děti imigrantů narozené v Itálii. V roce 2025, po dlouhé a náročné cestě ve snaze získat italské občanství, včetně klíčové genealogické výzkumné cesty do vesnice v Kalábrii, americká rodačka Sabrina Crawfordová doufala, že splní svůj celoživotní sen o životě v Itálii, když se blížila k poslední překážce byrokratického procesu. Její plány však zhatila Giorgia Meloniová s její radikální..."
       },
       {
-        "id": "3126642f7963195e",
-        "title": "Watch: Powerful tornado barrels through northern Oklahoma",
-        "summary": "The weather phenomenon struck parts of Enid, a city of about 50,000 people near the state's northern border, according to the National Weather Service.",
-        "link": "https://www.bbc.com/news/videos/c30re0j9q7jo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24T09:49:40+00:00",
-        "source": "BBC World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Sledujte: Silné tornádo se prohnalo severní Oklahomou",
-        "summary_cs": "Podle Národní meteorologické služby zasáhlo toto meteorologické jev části Enidu, města s přibližně 50 000 obyvateli poblíž severní hranice státu."
-      },
-      {
-        "id": "756916f57281d7ac",
-        "title": "US justice department blocking Met police investigation into Mandelson, reports say – UK politics live",
-        "summary": "The department of justice has refused to hand over key evidence from the Jeffrey Epstein files and could delay Scotland Yard’s criminal inquiry. The final debate in the House of Lords on the assisted dying bill is happening now, follow along as we bring you the latest lines. The bill passed the House of Commons in June last year, but there has been so many amendments tabled in the Lords – more than 1,280 – that it appears doomed to fail given there is not enough time to review them all before...",
-        "link": "https://www.theguardian.com/politics/live/2026/apr/24/keir-starmer-peter-mandelson-us-met-police-westminster-assisted-dying-latest-news",
-        "published": "2026-04-24T09:48:18+00:00",
+        "id": "2766b727ad6478ed",
+        "title": "US gambling addiction is ‘out of control’ as betting markets boom, policy expert warns",
+        "summary": "The gambling crisis ‘demands a public health response’ and should be regulated like alcohol or tobacco, expert says Gambling addiction is spiraling “out of control” in the US, a leading campaigner for stricter guardrails has warned, as experts from around the world are set to gather in Boston to push for more regulation of the industry. The rapid expansion of online gambling, prediction markets and sports betting platforms, “demands a public health response”, according to Harry Levant, direct...",
+        "link": "https://www.theguardian.com/us-news/2026/apr/24/gambling-addiction-out-of-control-betting-markets",
+        "published": "2026-04-24T10:00:37+00:00",
         "source": "Guardian World",
         "lang": "en",
         "sub": null,
-        "title_cs": "Americké ministerstvo spravedlnosti blokuje vyšetřování Met policie proti Mandelsonovi, uvádí zprávy – UK politics live",
-        "summary_cs": "Ministerstvo spravedlnosti odmítlo předat klíčové důkazy ze spisů Jeffreyho Epsteina a mohlo by zpozdit trestní řízení Scotland Yardu. Probíhá závěrečná debata ve Sněmovně lordů o návrhu zákona o asistované sebevraždě, sledujte s námi nejnovější informace. Návrh zákona prošel Sněmovnou lordů v červnu loňského roku, ale v Dolní sněmovně bylo předloženo tolik pozměňovacích návrhů – více než 1 280 – že se zdá být odsouzen k neúspěchu, vzhledem k tomu, že není dostatek času na jejich přezkoumání před..."
-      },
-      {
-        "id": "35c4091807ccfe33",
-        "title": "Wildfires in Florida after dry winter and spring lead to drought across US",
-        "summary": "One blaze broke out north-west of Fort Lauderdale in Florida, a state known for its wetlands and everglades Much of the US is battling a widespread drought after a very dry winter and start to spring. South-eastern areas, in particular the states of Florida and Georgia, are experiencing some of the worst of this prolonged bout of dry weather, with calls for the risk to be labelled a level 4 “exceptional” drought in the region, the most severe category. In recent days, strong winds and low hum...",
-        "link": "https://www.theguardian.com/news/2026/apr/24/wildfires-in-florida-after-dry-winter-and-spring-lead-to-drought-across-us",
-        "published": "2026-04-24T09:42:06+00:00",
-        "source": "Guardian World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Požáry na Floridě po suché zimě a jaře vedou k suchu po celých USA",
-        "summary_cs": "Jeden požár vypukl severozápadně od Fort Lauderdale na Floridě, státě známém svými mokřady a everglades. Velká část USA bojuje s rozsáhlým suchem po velmi suché zimě a začátku jara. Jihovýchodní oblasti, zejména státy Florida a Georgia, zažívají nejhorší dopady tohoto prodlouženého období sucha, s výzvami k označení rizika jako výjimečné sucho úrovně 4 v regionu, což je nejzávažnější kategorie. V posledních dnech silný vítr a nízká vl..."
-      },
-      {
-        "id": "e31a3f7f4e674d64",
-        "title": "Environmental crisis in Russian city after drone attack on refinery",
-        "summary": "People in the Russian city of Tuapse are worried about the effects of an oil refinery fire after a Ukrainian attack.",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/24/environmental-crisis-in-russian-city-after-drone-attack-on-refinery?traffic_source=rss",
-        "published": "2026-04-24T09:27:41+00:00",
-        "source": "Al Jazeera",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Environmentální krize v ruském městě po útoku dronu na rafinérii",
-        "summary_cs": "Obyvatelé ruského města Tuapse se obávají dopadů požáru v ropné rafinérii po ukrajinském útoku."
-      },
-      {
-        "id": "2e02833cd2b60f79",
-        "title": "'A dangerous standoff' as Strait of Hormuz blockade continues",
-        "summary": "The US and Iran's rival blockades of the Strait of Hormuz have become a \"test of wills\", says Lyse Doucet.",
-        "link": "https://www.bbc.com/news/videos/ckgwlgyyyv0o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24T09:26:14+00:00",
-        "source": "BBC World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "'Nebezpečné patová situace', protože blokáda Hormuzského průlivu pokračuje",
-        "summary_cs": "Rivalizující blokády Hormuzského průlivu ze strany USA a Íránu se staly „zkouškou vůle“, říká Lyse Doucet."
-      },
-      {
-        "id": "3d2c0e22547d8ed5",
-        "title": "Middle East crisis live: Trump says Israel-Lebanon ceasefire extended by three weeks but claims he won’t rush Iran deal",
-        "summary": "US president orders navy to ‘shoot and kill’ boats laying mines in Hormuz and claims ‘total control’ over the strait Trump claims US has total control over strait of Hormuz after Iran seizes two container ships Analysis: Trump may talk of regime infighting, but Iran seems united by strategy born of war The EU’s foreign chief has said that talks with Iran should include nuclear experts otherwise “we will end up with a more dangerous Iran.” Speaking on Friday ahead of an informal summit of EU l...",
-        "link": "https://www.theguardian.com/world/live/2026/apr/24/iran-war-live-updates-trump-hormuz-strait-israel-lebanon-truce",
-        "published": "2026-04-24T09:24:43+00:00",
-        "source": "Guardian World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Krize na Blízkém východě živě: Trump říká, že příměří mezi Izraelem a Libanonem je prodlouženo o tři týdny, ale tvrdí, že nebude spěchat s dohodou s Íránem",
-        "summary_cs": "Americký prezident nařizuje námořnictvu „střílet a zabíjet“ lodě pokládající miny v Hormuzu a tvrdí, že má „úplnou kontrolu“ nad průlivem. Trump tvrdí, že USA mají úplnou kontrolu nad Hormuzským průlivem poté, co Írán zabavil dvě kontejnerové lodě. Analýza: Trump sice mluví o vnitřních rozporech režimu, ale Írán se zdá být sjednocen strategií zrozenou z války. Šéfka unijní diplomacie uvedla, že rozhovory s Íránem by měly zahrnovat jaderné experty, jinak „skončíme s nebezpečnějším Íránem“. V pátek před neformálním summitem EU..."
-      },
-      {
-        "id": "e1860a5506f41932",
-        "title": "Rebel Wilson accused of hacking fellow actor’s Snapchat, leading to nude photo leak",
-        "summary": "Charlotte MacInnes, who is suing Wilson for defamation, says alleged cyber attack was ‘completely terrifying and caused me a new kind of anxiety’ Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast A rising star who is suing Rebel Wilson says she felt mocked by the Hollywood actor’s wife appearing to reference her testimony in a social media post. Charlotte MacInnes launched defamation proceedings against the Pitch Perfect star o...",
-        "link": "https://www.theguardian.com/film/2026/apr/24/actor-mocked-rebel-wilson-wife-instagram-post-defamation-trial-ntwnfb",
-        "published": "2026-04-24T09:21:15+00:00",
-        "source": "Guardian World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Rebel Wilson obviněna z hacknutí Snapchatu kolegy herce, což vedlo k úniku nahých fotografií",
-        "summary_cs": "Charlotte MacInnes, která žaluje Wilsonovou za pomluvu, říká, že údajný kybernetický útok byl „naprosto děsivý a způsobil mi novou formu úzkosti“. Sledujte náš živý blog s novinkami z Austrálie pro nejnovější aktualizace. Získejte náš e-mail s nejnovějšími zprávami, bezplatnou aplikaci nebo denní podcast. Vycházející hvězda, která žaluje Rebel Wilsonovou, říká, že se cítila zesměšněna manželkou hollywoodské herečky, která se zdánlivě odvolávala na její svědectví v příspěvku na sociálních sítích. Charlotte MacInnes zahájila řízení o pomluvu proti hvězdě filmu Pitch Perfect o..."
+        "title_cs": "Závislost na hazardních hrách v USA je „mimo kontrolu“, protože sázkové trhy vzkvétají, varuje politický expert",
+        "summary_cs": "Krize hazardních her „vyžaduje reakci veřejného zdraví“ a měla by být regulována jako alkohol nebo tabák, říká expert. Závislost na hazardních hrách se v USA „vymyká kontrole“, varoval přední zastánce přísnějších pravidel, zatímco experti z celého světa se sejdou v Bostonu, aby prosazovali větší regulaci tohoto odvětví. Rychlé rozšíření online hazardních her, prediktivních trhů a platforem pro sportovní sázení „vyžaduje reakci veřejného zdraví“, uvedl Harry Levant, ředitel..."
       }
     ],
     "czech": [
+      {
+        "id": "24961ea88b6ee4a1",
+        "title": "Recenze: Neurazí, ale ani nevyděsí. Netflix uvedl animované Stranger Things",
+        "summary": "Desetidílná série Stranger Things: Příběhy z pětaosmdesátého se odehrává mezi druhou a třetí řadou oblíbené ságy. Nabízí jednu novou sympatickou hrdinku a pak už jen vše, co jsme viděli dříve. Tato jednohubka brzy omrzí.",
+        "link": "https://www.seznamzpravy.cz/clanek/kultura-stranger-things-pribehy-z-petaosmdesateho-recenze-304764",
+        "published": "2026-04-24T12:20:00+02:00",
+        "source": "Seznam Zprávy",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Recenze: Neurazí, ale ani nevyděsí. Netflix uvedl animované Stranger Things",
+        "summary_cs": "Desetidílná série Stranger Things: Příběhy z pětaosmdesátého se odehrává mezi druhou a třetí řadou oblíbené ságy. Nabízí jednu novou sympatickou hrdinku a pak už jen vše, co jsme viděli dříve. Tato jednohubka brzy omrzí."
+      },
+      {
+        "id": "81cf1c1549ea3f65",
+        "title": "V Písku budou ordinovat tři noví zubaři. O výstavbě spalovny by mohlo rozhodnout další referendum",
+        "summary": "Čtvrteční jednání píseckého zastupitelstva projednalo kromě smluv s novými zubaři i téma likvidace komunálního odpadu po zákazu skládkování. Zubařům město poskytne bezúročnou půjčku na výbavu ordinací.",
+        "link": "https://www.irozhlas.cz/zpravy-domov/v-pisku-budou-ordinovat-tri-novi-zubari-o-vystavbe-spalovny-mohlo-rozhodnout_2604241216_kch",
+        "published": "2026-04-24T12:16:00+02:00",
+        "source": "iRozhlas",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "V Písku budou ordinovat tři noví zubaři. O výstavbě spalovny by mohlo rozhodnout další referendum",
+        "summary_cs": "Čtvrteční jednání píseckého zastupitelstva projednalo kromě smluv s novými zubaři i téma likvidace komunálního odpadu po zákazu skládkování. Zubařům město poskytne bezúročnou půjčku na výbavu ordinací."
+      },
       {
         "id": "b21f1065ead2d7fd",
         "title": "Nejsilnější El Niňo za deset let bude letos sužovat Asii, varují předpovědi",
@@ -273,6 +297,30 @@
         "summary_cs": "Evropa se probudila z letité mírové iluze a začala masivně zbrojit.\nKdo dává na obranu v poměru k velikosti své ekonomiky absolutně nejvíc peněz?\n\nOtestujte svůj geopolitický přehled v naší interaktivní tipovačce ze série e15 Data Check!"
       },
       {
+        "id": "f2543853f3181e19",
+        "title": "Státní svátky v Rakousku 2026: Přehled a otevírací doba obchodů",
+        "summary": "Rakouské státní svátky v roce 2026 připomínají důležité události a zároveň přinášejí dny volna.\n\nV přehledu najdete konkrétní data jednotlivých svátků i informaci o tom, kdy jsou obchody zavřené, a kde naopak platí výjimky.\nPodívejte se, jaký význam mají jednotlivé svátky pro Rakušany a na co se připravit při cestování nebo plánování nákupů.",
+        "link": "https://www.e15.cz/svatky-rakousko",
+        "published": "2026-04-24T12:00:00+02:00",
+        "source": "E15",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Státní svátky v Rakousku 2026: Přehled a otevírací doba obchodů",
+        "summary_cs": "Rakouské státní svátky v roce 2026 připomínají důležité události a zároveň přinášejí dny volna.\n\nV přehledu najdete konkrétní data jednotlivých svátků i informaci o tom, kdy jsou obchody zavřené, a kde naopak platí výjimky.\nPodívejte se, jaký význam mají jednotlivé svátky pro Rakušany a na co se připravit při cestování nebo plánování nákupů."
+      },
+      {
+        "id": "0e06987f7e13411e",
+        "title": "Odvrácená strana velkých sportovních akcí. ‚Po olympiádě v Tokiu bylo těžké najít motivaci,‘ říká Rohan",
+        "summary": "Prázdnota, zmatek a nechuť. I takové pocity mohou zažívat vrcholoví sportovci po skončení velké akce. Po měsících intenzivní přípravy přichází období, kdy je těžké udržet motivaci. Láska ke sportu se tak často mění v pocit povinnosti. Jak se s náročnými chvílemi vypořádává, popsal vodní slalomář a stříbrný olympijský medailista z her v Tokiu Lukáš Rohan.",
+        "link": "https://www.irozhlas.cz/sport/ostatni-sporty/lukas-rohan-vodni-slalom-kanoistika-rozhovor-udrzeni-motivace-olympiada_2604241156_ask",
+        "published": "2026-04-24T11:56:00+02:00",
+        "source": "iRozhlas",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Odvrácená strana velkých sportovních akcí. ‚Po olympiádě v Tokiu bylo těžké najít motivaci,‘ říká Rohan",
+        "summary_cs": "Prázdnota, zmatek a nechuť. I takové pocity mohou zažívat vrcholoví sportovci po skončení velké akce. Po měsících intenzivní přípravy přichází období, kdy je těžké udržet motivaci. Láska ke sportu se tak často mění v pocit povinnosti. Jak se s náročnými chvílemi vypořádává, popsal vodní slalomář a stříbrný olympijský medailista z her v Tokiu Lukáš Rohan."
+      },
+      {
         "id": "82737be56b4d381e",
         "title": "Historicky první zbrojnice. V Jindřichově na Šumpersku budou mít hasiči nové zázemí, zapojit chtějí i děti",
         "summary": "V Jindřichově na Šumpersku se hasiči dočkají historicky první zbrojnice. Tamní členové dobrovolné jednotky zatím žádnou nemají, využívají tak provizorní prostory. Nové zázemí budou mít hasiči na místě bývalé pily. Město investice do nové hasičské zbrojnice vyjde na zhruba 35 milionů korun.",
@@ -307,57 +355,33 @@
         "sub": null,
         "title_cs": "Draží se unikáty za 85 milionů, táhne rekordní zlato i sběratelské mince",
         "summary_cs": "Aukční dům Macho & Chlapovič draží v pátek od 12:30 téměř 1 800 položek. Celková cena se odhaduje na 85 milionů korun.\nHlavním lákadlem je pražský desetidukát Leopolda I. s odhadem přes 12 milionů korun.\nZájem o mince obecně žene vzhůru i cena fyzického zlata, která se za dva roky zdvojnásobila."
-      },
-      {
-        "id": "149e4810563f25a8",
-        "title": "Američané na Blízkém východě používají ukrajinské technologie",
-        "summary": "Nasazení ukrajinského řešení následuje měsíc poté, co americký prezident Donald Trump odmítl nabídku Ukrajiny na pomoc při obraně proti íránským dronům.",
-        "link": "https://www.seznamzpravy.cz/clanek/zahranicni-americane-na-blizkem-vychode-pouzivaji-ukrajinske-technologie-304737",
-        "published": "2026-04-24T11:15:00+02:00",
-        "source": "Seznam Zprávy",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Američané na Blízkém východě používají ukrajinské technologie",
-        "summary_cs": "Nasazení ukrajinského řešení následuje měsíc poté, co americký prezident Donald Trump odmítl nabídku Ukrajiny na pomoc při obraně proti íránským dronům."
-      },
-      {
-        "id": "b9f779125db70917",
-        "title": "Skupina ČEZ uzavřela dohodu s Rolls-Roycem. Britská společnost v Česku postaví modulární reaktory",
-        "summary": "Zástupci energetické skupiny ČEZ uzavřeli smlouvu o provedení přípravných prací s britskou společností Rolls-Royce SMR na vývoj malých modulárních reaktorů. Dohoda má nastavit investorský model a financování projektů. První modulární reaktor v Česku by měl vzniknout v Temelíně. Ještě před ním by měl být postaven jeden v Británii. V budoucnu by spolupráce mohla vést i k vývoji dalších projektů.",
-        "link": "https://www.irozhlas.cz/zpravy-domov/skupina-cez-uzavrela-dohodu-s-rolls-royce-britska-spolecnost-v-cesku-postavi_2604241111_ape",
-        "published": "2026-04-24T11:11:00+02:00",
-        "source": "iRozhlas",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Skupina ČEZ uzavřela dohodu s Rolls-Roycem. Britská společnost v Česku postaví modulární reaktory",
-        "summary_cs": "Zástupci energetické skupiny ČEZ uzavřeli smlouvu o provedení přípravných prací s britskou společností Rolls-Royce SMR na vývoj malých modulárních reaktorů. Dohoda má nastavit investorský model a financování projektů. První modulární reaktor v Česku by měl vzniknout v Temelíně. Ještě před ním by měl být postaven jeden v Británii. V budoucnu by spolupráce mohla vést i k vývoji dalších projektů."
-      },
-      {
-        "id": "218118a656a9da6d",
-        "title": "Akciové trhy po celém světě klesnou, varuje britská viceguvernérka",
-        "summary": "Akciové trhy se pohybují na historických maximech, podceňují přitom četná rizika, kterým světová ekonomika čelí. Uvedla to viceguvernérka Anglické centrální banky Sarah Breedenová.",
-        "link": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-akciove-trhy-po-celem-svete-klesnou-varuje-britska-viceguvernerka-304749",
-        "published": "2026-04-24T10:58:00+02:00",
-        "source": "Seznam Zprávy",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Akciové trhy po celém světě klesnou, varuje britská viceguvernérka",
-        "summary_cs": "Akciové trhy se pohybují na historických maximech, podceňují přitom četná rizika, kterým světová ekonomika čelí. Uvedla to viceguvernérka Anglické centrální banky Sarah Breedenová."
-      },
-      {
-        "id": "5c704de802c970e5",
-        "title": "Turisté na Gibraltaru dávají makakům sušenky, ale i brambůrky. Primáti kvůli tomu musí jíst hlínu",
-        "summary": "Zatímco ve volné přírodě jedí makakové téměř výhradně rostliny a občas si přilepší třeba drobným hmyzem, na Gibraltaru konzumují sušenky s čokoládou, zmrzlinové kornouty či brambůrky. A aby pomohli svému trávicímu traktu vypořádat se s cukry a tuky z lidských svačin, pojídají gibraltarští makakové hlínu. Zjistila to studie vědců převážně z Cambridgeské univerzity publikovaná v časopise Nature, o níž informoval španělský deník El País.",
-        "link": "https://www.irozhlas.cz/veda-technologie/priroda/turiste-na-gibraltaru-davaji-makakum-susenky-ale-i-bramburky-primati-kvuli-tomu_2604241046_dns",
-        "published": "2026-04-24T10:46:00+02:00",
-        "source": "iRozhlas",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Turisté na Gibraltaru dávají makakům sušenky, ale i brambůrky. Primáti kvůli tomu musí jíst hlínu",
-        "summary_cs": "Zatímco ve volné přírodě jedí makakové téměř výhradně rostliny a občas si přilepší třeba drobným hmyzem, na Gibraltaru konzumují sušenky s čokoládou, zmrzlinové kornouty či brambůrky. A aby pomohli svému trávicímu traktu vypořádat se s cukry a tuky z lidských svačin, pojídají gibraltarští makakové hlínu. Zjistila to studie vědců převážně z Cambridgeské univerzity publikovaná v časopise Nature, o níž informoval španělský deník El País."
       }
     ],
     "sport": [
+      {
+        "id": "118ce384d79b3cd7",
+        "title": "Patriots' Vrabel addresses media after photos with NFL reporter",
+        "summary": "New England Patriots head coach Mike Vrabel addressed media ahead of the NFL Draft on Thursday night to 'take accountability' after photos were released of him with NFL reporter Dianna Russini.",
+        "link": "https://www.skysports.com/nfl/news/12040/13535837/mike-vrabel-new-england-patriots-head-coach-takes-accountability-as-he-prepares-to-miss-day-three-of-nfl-draft-after-photos-with-dianna-russini",
+        "published": "2026-04-24T11:30:00+00:00",
+        "source": "Sky Sports Premier League",
+        "lang": "en",
+        "sub": "football",
+        "title_cs": "Vrabel z Patriots se vyjádřil k médiím po fotografiích s novinářkou NFL",
+        "summary_cs": "Hlavní trenér New England Patriots Mike Vrabel se ve čtvrtek večer před draftem NFL vyjádřil k médiím, aby „převzal zodpovědnost“ poté, co byly zveřejněny fotografie s novinářkou NFL Diannou Russiniovou."
+      },
+      {
+        "id": "b51281a643d4f6d7",
+        "title": "Doyle: Spirit can step up to the task at Ripon",
+        "summary": "Our ambassador is in action at Ripon on Saturday, live on Sky Sports Racing, and looks forward to partnering a well-regarded two-year-old for Archie Watson on Sunday.",
+        "link": "https://www.skysports.com/racing/news/12040/13535841/hollie-doyles-exclusive-blog-sky-sports-racing-ambassador-previews-her-best-chances-over-the-weekend",
+        "published": "2026-04-24T10:58:00+00:00",
+        "source": "Sky Sports Premier League",
+        "lang": "en",
+        "sub": "football",
+        "title_cs": "Doyle: Spirit může přijmout výzvu v Riponu",
+        "summary_cs": "Náš ambasador bude v sobotu v akci v Riponu, živě na Sky Sports Racing, a těší se na partnerství s dobře hodnoceným dvouletým koněm pro Archieho Watsona v neděli."
+      },
       {
         "id": "46377e7ada7f9405",
         "title": "FREE STREAM: Surrey vs Essex in County Championship - Day 1",
@@ -367,8 +391,8 @@
         "source": "Sky Sports Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "ŽIVÝ PŘENOS ZDARMA: Surrey vs Essex v County Championship – 1. den",
-        "summary_cs": "Surrey se utkají s Essexem v County Championship – a vy můžete sledovat každý míček živě a zdarma na YouTube kanálu Sky Sports Cricket prostřednictvím níže uvedeného přenosu."
+        "title_cs": "BEZPLATNÝ STREAM: Surrey vs Essex v County Championship – 1. den",
+        "summary_cs": "Surrey se utkají s Essexem v County Championship – a můžete sledovat každý míček živě a zdarma na YouTube kanálu Sky Sports Cricket prostřednictvím níže uvedeného streamu."
       },
       {
         "id": "e564e3272659d78d",
@@ -379,20 +403,32 @@
         "source": "Sky Sports Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "Littler: S Van Veenem jsem od manhattanského incidentu nemluvil",
-        "summary_cs": "Luke Littler přiznává, že od jejich manhattanského incidentu ještě nemluvil s Gianem van Veenem, ale trvá na tom, že záležitost je uzavřena."
+        "title_cs": "Littler: Od roztržky v Manchesteru jsem s Van Veenem nemluvil",
+        "summary_cs": "Luke Littler přiznává, že od jejich roztržky v Manchesteru ještě nemluvil s Gianem van Veenem, ale trvá na tom, že záležitost je vyřešena."
       },
       {
-        "id": "a4a55f9a1c4baaf4",
-        "title": "Chance Liga a nadstavba: celý program, termíny zápasů a televize - iSport.cz",
-        "summary": "Chance Liga a nadstavba: celý program, termíny zápasů a televize iSport.cz",
+        "id": "743089d4b87cde21",
+        "title": "Brobbey should have been sent off against Spurs - panel",
+        "summary": "Sunderland's Brian Brobbey should have been sent off for two yellow-card offences against Tottenham, a Premier League panel has ruled.",
+        "link": "https://www.bbc.com/sport/football/articles/cqj85lrgv70o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-24T10:24:14+00:00",
+        "source": "BBC Football (Premier League)",
+        "lang": "en",
+        "sub": "football",
+        "title_cs": "Panel: Brobbey měl být vyloučen proti Spurs",
+        "summary_cs": "Brian Brobbey ze Sunderlandu měl být vyloučen za dva přestupky s žlutou kartou proti Tottenhamu, rozhodl panel Premier League."
+      },
+      {
+        "id": "002ed8c8f8f3b84d",
+        "title": "Program nadstavby Chance Ligy: Termín posledního derby Slavia vs. Sparta - iSport.cz",
+        "summary": "Program nadstavby Chance Ligy: Termín posledního derby Slavia vs. Sparta iSport.cz",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX0VyV3loYUxwQTBXME1hQ2xrN1hKcklqeXVvaWVxd3J4UXJpREZ0T292bHhQd3NEVGlqWmhIYzJPRHJkR1NvYmlIRlRLeU80SjNlSm02YkpFRVZ6Q0F0cG9tU1ZGLWlUSUR1Q1hFeUtNcUNfanJvV0tsd0ZUeFJadnI2MTBlblo4dElfVmo2dDJfNXBHdnJTZ1drdG52aS1sRFQtWG4ySXZURU5zVUxPNlNtLXdGc3N5SlJuVUMzRlNWTEtJczZudjVwd3c?oc=5",
         "published": "2026-04-24T10:12:16+00:00",
         "source": "Česká liga (fotbal)",
         "lang": "cs",
         "sub": "football",
-        "title_cs": "Chance Liga a nadstavba: celý program, termíny zápasů a televize - iSport.cz",
-        "summary_cs": "Chance Liga a nadstavba: celý program, termíny zápasů a televize iSport.cz"
+        "title_cs": "Program nadstavby Chance Ligy: Termín posledního derby Slavia vs. Sparta - iSport.cz",
+        "summary_cs": "Program nadstavby Chance Ligy: Termín posledního derby Slavia vs. Sparta iSport.cz"
       },
       {
         "id": "7e78de238290eb3e",
@@ -404,7 +440,7 @@
         "lang": "en",
         "sub": "football",
         "title_cs": "Howe se „těší“ na rozhovory s majiteli Newcastlu",
-        "summary_cs": "Hlavní trenér Eddie Howe říká, že se těší na setkání s majiteli Newcastlu United příští týden, aby „vyjádřil věci ze svého pohledu“."
+        "summary_cs": "Hlavní trenér Eddie Howe říká, že se těší na příští týden na setkání s majiteli Newcastlu United, aby „vyjádřil věci ze svého pohledu“."
       },
       {
         "id": "aa0fdc99444f52d7",
@@ -419,52 +455,28 @@
         "summary_cs": "Dokráčí Sparta k titulu? Po reprezentační pauze jde Fortuna liga do finiše Footballclub.cz"
       },
       {
-        "id": "fb4150ded8b19afa",
-        "title": "From Vasco da Gama to Dortmund: The young English coach travelling the world",
-        "summary": "Alex Clapham was set for a job as an assistant manager at a Championship club when Borussia Dortmund came calling. He knew he had to drop everything. “The first call was to my missus to tell her it was Germany rather than England,” he tells Sky Sports .",
-        "link": "https://www.skysports.com/football/news/12040/13524722/alex-clapham-interview-borussia-dortmunds-former-set-piece-coach-on-lessons-at-bvb-vasco-da-gama-and-more",
+        "id": "584114c8c026d9b8",
+        "title": "Title would be fitting tribute for Rangers captain Tavernier, says Röhl",
+        "summary": "Danny Röhl wants captain James Tavernier to end his time at Rangers with the \"beautiful moment\" of lifting the Scottish Premiership trophy.",
+        "link": "https://www.skysports.com/football/news/12040/13535852/scottish-premiership-title-would-be-fitting-tribute-for-rangers-captain-james-tavernier-says-danny-r246hl",
         "published": "2026-04-24T10:00:00+00:00",
         "source": "Sky Sports Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "Z Vasco da Gama do Dortmundu: Mladý anglický trenér cestuje po světě",
-        "summary_cs": "Alex Clapham se chystal na pozici asistenta manažera v klubu Championship, když se ozval Borussia Dortmund. Věděl, že musí všechno nechat."
+        "title_cs": "Titulem by to byla vhodná pocta pro kapitána Rangers Taverniera, říká Röhl",
+        "summary_cs": "Danny Röhl chce, aby kapitán James Tavernier ukončil své působení v Rangers „krásným momentem“ zvednutí trofeje skotské Premiership."
       },
       {
-        "id": "1ef426c97c886479",
-        "title": "'Oh my gosh!' | Golfer goes topless and it does NOT go well!",
-        "summary": "With the ball in shallow water, Michael Brennan went topless for a shot at Zurich Classic of New Orleans and it did not end well!",
-        "link": "https://www.skysports.com/watch/video/13535766/golfer-goes-topless-and-it-does-not-go-well",
-        "published": "2026-04-24T08:49:00+00:00",
-        "source": "Sky Sports Premier League",
+        "id": "36c6fb97f045be1d",
+        "title": "Sabres' Dahlin and Bills' Allen arrived in Buffalo in 2018. Both finally sharing in sports success - Houston Chronicle",
+        "summary": "Sabres' Dahlin and Bills' Allen arrived in Buffalo in 2018. Both finally sharing in sports success Houston Chronicle",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVWlETHVNUUU0SkNrZktzQUZVOWJTUEY3VnBDSWF0YkJ6VmRQTnhDWU00SHlPVEVESnJNNVVEXzJSbm5zMWZGMFAtd2dVU183c2tucF82cGZZdFJSNFBUeFRGVGdnUFNhMUh5dndEbmNrMHNYX2pTS05acVRRNjhBc0RGZndqMDRzbW1sMlYyc1VqdUQ4emhkOTVuMElfR0RLWnFF?oc=5",
+        "published": "2026-04-24T10:34:03+00:00",
+        "source": "NHL News",
         "lang": "en",
-        "sub": "football",
-        "title_cs": "„Panebože!“ | Golfista se svlékl do půl těla a nedopadlo to dobře!",
-        "summary_cs": "S míčkem v mělké vodě se Michael Brennan svlékl do půl těla, aby mohl zahrát ránu na Zurich Classic of New Orleans, a nedopadlo to dobře!"
-      },
-      {
-        "id": "5afd1667f598a43a",
-        "title": "Bernabeu transformed into tennis court - and Bellingham meets Nadal!",
-        "summary": "Watch how the iconic Santiago Bernabeu has been transformed into a clay court venue for the duration of the Madrid Open.",
-        "link": "https://www.skysports.com/watch/video/13535757/santiago-bernabeu-transformed-into-a-tennis-court-as-jude-bellingham-meets-rafael-nadal",
-        "published": "2026-04-24T08:02:00+00:00",
-        "source": "Sky Sports Premier League",
-        "lang": "en",
-        "sub": "football",
-        "title_cs": "Bernabeu proměněno v tenisový kurt – a Bellingham se setkal s Nadalem!",
-        "summary_cs": "Podívejte se, jak se ikonický Santiago Bernabeu na dobu trvání Madrid Open proměnil v antukový kurt."
-      },
-      {
-        "id": "1627cc34bdd9ea96",
-        "title": "Derby jako tečka za základní částí: Jablonec útočí na třetí místo a skalp rivala - Jablonecký deník",
-        "summary": "Derby jako tečka za základní částí: Jablonec útočí na třetí místo a skalp rivala Jablonecký deník",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOal84SlJnWUNzN1Q4NXdYWFhVbVpjQW1HTWo4RkVNUU9halpTQ3ZkbUR3aVZyMG1WQm5iVzB6VlZGUm1HaFN4c3FmTmtZZDUwM2FtaEdlWDI2S0p4aVJVeWtlalVLVG5tS2pNRDM4LXVNQUk3T1dYOUxESE40MWVRODF2cjQxM2FaVU5BcklfMFhtaDBQRWxmXzU1bkp5MFlqelVla1lvTWVLZUVyajU4?oc=5",
-        "published": "2026-04-24T07:45:00+00:00",
-        "source": "Česká liga (fotbal)",
-        "lang": "cs",
-        "sub": "football",
-        "title_cs": "Derby jako tečka za základní částí: Jablonec útočí na třetí místo a skalp rivala - Jablonecký deník",
-        "summary_cs": "Derby jako tečka za základní částí: Jablonec útočí na třetí místo a skalp rivala Jablonecký deník"
+        "sub": "hockey",
+        "title_cs": "Dahlin ze Sabres a Allen z Bills přišli do Buffala v roce 2018. Oba konečně sdílejí sportovní úspěch - Houston Chronicle",
+        "summary_cs": "Dahlin ze Sabres a Allen z Bills přišli do Buffala v roce 2018. Oba konečně sdílejí sportovní úspěch Houston Chronicle"
       },
       {
         "id": "bad061b3e31fc707",
@@ -475,8 +487,8 @@
         "source": "NHL News",
         "lang": "en",
         "sub": "hockey",
-        "title_cs": "Proč je Tynan Lawrence stále jedním z nejlepších prospektů pro draft NHL 2026 – The New York Times",
-        "summary_cs": "Proč je Tynan Lawrence stále jedním z nejlepších prospektů pro draft NHL 2026 The New York Times"
+        "title_cs": "Proč je Tynan Lawrence stále jedním z nejlepších prospektů draftu NHL 2026 - The New York Times",
+        "summary_cs": "Proč je Tynan Lawrence stále jedním z nejlepších prospektů draftu NHL 2026 The New York Times"
       },
       {
         "id": "0114eb181030dfc2",
@@ -487,20 +499,8 @@
         "source": "NHL News",
         "lang": "en",
         "sub": "hockey",
-        "title_cs": "Kolegové Kanaďané! Milujete NHL? Zajímá vás fotbal a mistrovství světa? Toto je váš tahák – The New York Times",
-        "summary_cs": "Kolegové Kanaďané! Milujete NHL? Zajímá vás fotbal a mistrovství světa? Toto je váš tahák The New York Times"
-      },
-      {
-        "id": "c26215fcd3d7963a",
-        "title": "Po USA padlo i Švédsko. Čeští hokejisté do 18 let po obrovské bitvě slaví další senzaci - Ruik",
-        "summary": "Po USA padlo i Švédsko. Čeští hokejisté do 18 let po obrovské bitvě slaví další senzaci Ruik",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaFA2ZkxtZl80cWJHZm9pdnFPdXhFV1F2aFpQUDV2V3lvNVFUWVJMUk4tUkV3ak5MbWw5Q0diMHhqeFM0ZVI2Wk50c054Smx1bTVqQWEtN3FXRTk2X3BWR1NOWFFRUXQ4MmY5QzhyeFNTN1B0OUVWSDQ5TU5kamVDTzhRWm16bFFBVUgzeUZ0M2hjSEoza244ckdRV2dzVDdTR0djeThKQ2NMbzQ?oc=5",
-        "published": "2026-04-24T09:54:21+00:00",
-        "source": "Česká hokejová reprezentace",
-        "lang": "cs",
-        "sub": "hockey",
-        "title_cs": "Po USA padlo i Švédsko. Čeští hokejisté do 18 let po obrovské bitvě slaví další senzaci - Ruik",
-        "summary_cs": "Po USA padlo i Švédsko. Čeští hokejisté do 18 let po obrovské bitvě slaví další senzaci Ruik"
+        "title_cs": "Kolegové Kanaďané! Milujete NHL? Zajímá vás fotbal a mistrovství světa? Zde je váš tahák - The New York Times",
+        "summary_cs": "Kolegové Kanaďané! Milujete NHL? Zajímá vás fotbal a mistrovství světa? Zde je váš tahák The New York Times"
       },
       {
         "id": "8be5481428262f25",
@@ -512,7 +512,7 @@
         "lang": "en",
         "sub": "f1",
         "title_cs": "Q&A Andrewa Bensona: Pošlete nám své otázky",
-        "summary_cs": "Náš dopisovatel F1 Andrew Benson tento týden pořádá Q&A, takže své otázky posílejte nyní."
+        "summary_cs": "Náš dopisovatel F1 Andrew Benson má tuto sezónu týdenní Q&A, takže své otázky posílejte hned teď."
       },
       {
         "id": "5ffedf3ee8102975",
@@ -524,7 +524,7 @@
         "lang": "en",
         "sub": "f1",
         "title_cs": "Proč McLaren přiveze do Miami „zcela nový“ vůz F1 – ale očekává, že totéž udělají všichni rivalové",
-        "summary_cs": "Hodnocení a implementace vývoje v průběhu sezóny se stalo jednou z nejsilnějších stránek McLarenu v posledních sezónách Formule 1, zejména v letech 2023 a 2024, kdy na začátku kampaně představili balíčky vylepšení, které se ukázaly jako transformační. Týmový šéf Andrea Stella tedy využil fóra speciální akce pro vybraná média v továrně McLarenu ve Wokingu, aby popsal MCL40, který přivezou do... Čtěte dál"
+        "summary_cs": "Hodnocení a provádění vývoje v průběhu sezóny se stalo jednou z nejsilnějších stránek McLarenu v posledních sezónách Formule 1, zejména v letech 2023 a 2024, kdy na začátku kampaně představili modernizační balíčky, které se ukázaly jako transformační. Takže když šéf týmu Andrea Stella využil fóra speciální akce pro vybraná média v továrně McLarenu ve Wokingu k popisu vozu MCL40, který přivezou do ... Pokračujte ve čtení"
       },
       {
         "id": "68b234222977526f",
@@ -535,8 +535,8 @@
         "source": "BBC F1",
         "lang": "en",
         "sub": "f1",
-        "title_cs": "McLaren podepsal 11letého do programu pro mladé jezdce",
-        "summary_cs": "McLaren podepsal 11letého Harryho Williamse, svého nejmladšího jezdce v historii – o dva roky mladšího, než byl Lewis Hamilton, když se připojil."
+        "title_cs": "McLaren podepsal 11letého jezdce do programu pro mladé jezdce",
+        "summary_cs": "McLaren podepsal 11letého Harryho Williamse, svého nejmladšího jezdce v historii – o dva roky mladšího, než byl jezdec F1 Lewis Hamilton, když se připojil."
       }
     ],
     "tech": [
@@ -545,120 +545,120 @@
         "title": "AI failure could trigger the next financial crisis, warns Elizabeth Warren",
         "summary": "\"I know a bubble when I see one.\" That's what Sen. Elizabeth Warren (D-MA), who led the push to create a new consumer financial regulator in the wake of the 2008 recession, told a crowd at a Vanderbilt Policy Accelerator event in Washington, DC, on Wednesday. Warren warned of what she called \"striking\" parallels to […]",
         "link": "https://www.theverge.com/policy/917026/ai-economy-bubble-elizabeth-warren",
-        "published": "2026-04-24T10:17:02.968998+00:00",
+        "published": "2026-04-24T10:56:03.667375+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Selhání AI by mohlo spustit další finanční krizi, varuje Elizabeth Warrenová",
-        "summary_cs": "\"Poznám bublinu, když ji vidím.\" To řekla senátorka Elizabeth Warrenová (D-MA), která vedla snahy o vytvoření nového regulačního úřadu pro finanční spotřebitele po recesi v roce 2008, davu na akci Vanderbilt Policy Accelerator ve Washingtonu, D.C. ve středu. Warrenová varovala před tím, co nazvala „nápadnými“ paralelami k […]"
+        "title_cs": "Selhání umělé inteligence by mohlo vyvolat další finanční krizi, varuje Elizabeth Warrenová",
+        "summary_cs": "„Poznám bublinu, když ji vidím.\" To je to, co senátor Elizabeth Warren (D-MA), který vedl tlak na vytvoření nového spotřebitelského finančního regulátora v důsledku recese v roce 2008, řekl davu na akci Vanderbilt Policy Accelerator ve Washingtonu, DC, ve středu. Warrenová varovala před tím, co nazvala „nápadnými“ paralelami s [...]"
       },
       {
         "id": "7ef9a5050f3c511a",
         "title": "Microsoft launches ‘vibe working’ in Word, Excel, and PowerPoint",
         "summary": "Microsoft is rolling out a new Agent Mode inside Office apps like Word, Excel, and PowerPoint this week. Previously described by Microsoft as \"vibe working,\" the Agent Mode is a more powerful version of the Copilot experience in Office that Microsoft has been trying to sell to businesses. \"When we first shipped Copilot, foundation models […]",
         "link": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
-        "published": "2026-04-24T10:17:02.968950+00:00",
+        "published": "2026-04-24T10:56:03.667319+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
         "title_cs": "Microsoft spouští „vibe working“ ve Wordu, Excelu a PowerPointu",
-        "summary_cs": "Microsoft tento týden zavádí nový režim Agent Mode v aplikacích Office, jako je Word, Excel a PowerPoint. Režim Agent Mode, dříve popisovaný společností Microsoft jako „vibe working“, je výkonnější verzí zážitku Copilot v Office, který se Microsoft snaží prodávat firmám. „Když jsme poprvé spustili Copilot, základní modely […]"
+        "summary_cs": "Microsoft tento týden zavádí nový režim agenta v aplikacích Office, jako je Word, Excel a PowerPoint. Dříve popsaný společností Microsoft jako „fungující atmosféra“, režim Agent je výkonnější verzí zkušenosti Copilot v Office, kterou se společnost Microsoft snaží prodat podnikům. „Když jsme poprvé dodali Copilot, modely základů [...]"
       },
       {
         "id": "e6e81aef2a4a7acc",
         "title": "You’re about to feel the AI money squeeze",
         "summary": "Earlier this month, millions of OpenClaw users woke up to a sweeping mandate: The viral AI agent tool, which this year took the worldwide tech industry by storm, had been severely restricted by Anthropic. Anthropic, like other leading AI labs, was under immense pressure to lessen the strain on its systems and start turning a […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue",
-        "published": "2026-04-24T10:17:02.968902+00:00",
+        "published": "2026-04-24T10:56:03.667260+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Brzy pocítíte tlak AI peněz",
-        "summary_cs": "Začátkem tohoto měsíce se miliony uživatelů OpenClaw probudily do rozsáhlého nařízení: Virová nástroj AI agent, který letos ovládl světový technologický průmysl, byl společností Anthropic vážně omezen. Anthropic, stejně jako další přední laboratoře AI, byl pod obrovským tlakem, aby snížil zátěž svých systémů a začal generovat […]"
+        "title_cs": "Chystáte se cítit, jak se peníze AI mačkají",
+        "summary_cs": "Začátkem tohoto měsíce se miliony uživatelů OpenClaw probudily s rozsáhlým mandátem: Virová AI agent nástroj, který letos vzal celosvětový technologický průmysl útokem, byl silně omezen Anthropic. Anthropic, stejně jako ostatní přední laboratoře AI, byl pod obrovským tlakem, aby snížil tlak na své systémy a začal otáčet [...]"
       },
       {
         "id": "b4d479c8fa594a37",
         "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
         "summary": "Today on Decoder, I want to lay out an idea that’s been banging around my head for weeks now as we’ve been reporting on AI and having conversations here on this show. I’ve been calling it software brain, and it’s a particular way of seeing the world that fits everything into algorithms, databases and loops […]",
         "link": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
-        "published": "2026-04-24T10:17:02.968852+00:00",
+        "published": "2026-04-24T10:56:03.667199+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
         "title_cs": "LIDÉ NETOUŽÍ PO AUTOMATIZACI",
-        "summary_cs": "Dnes na Decoder chci představit myšlenku, která mi už týdny víří hlavou, zatímco informujeme o AI a vedeme rozhovory v této show. Nazval jsem to softwarový mozek a je to specifický způsob vidění světa, který všechno vtěsní do algoritmů, databází a smyček […]"
+        "summary_cs": "Dnes v programu Decoder chci představit nápad, který se mi už týdny honí hlavou, když jsme v tomto pořadu informovali o umělé inteligenci a vedli rozhovory. Nazval jsem to softwarovým mozkem a je to zvláštní způsob, jak vidět svět, který vše zapadá do algoritmů, databází a smyček [...]"
       },
       {
         "id": "c52a4bb1a310adc7",
         "title": "OpenAI says its new GPT-5.5 model is more efficient and better at coding",
         "summary": "OpenAI just announced its new GPT-5.5 model, which the company calls its \"smartest and most intuitive to use model yet, and the next step toward a new way of getting work done on a computer.\" OpenAI just released GPT-5.4 last month, but says that the new GPT-5.5 \"excels\" at tasks like writing and debugging code, […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt",
-        "published": "2026-04-24T10:17:02.968792+00:00",
+        "published": "2026-04-24T10:56:03.667126+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "OpenAI uvádí, že její nový model GPT-5.5 je efektivnější a lepší v kódování",
-        "summary_cs": "OpenAI právě oznámila svůj nový model GPT-5.5, který společnost nazývá svým „nejchytřejším a neintuitivnějším modelem, jaký kdy byl, a dalším krokem k novému způsobu práce na počítači“. OpenAI vydala GPT-5.4 teprve minulý měsíc, ale uvádí, že nový GPT-5.5 „exceluje“ v úkolech, jako je psaní a ladění kódu, […]"
+        "title_cs": "OpenAI říká, že jeho nový model GPT-5.5 je efektivnější a lepší v kódování",
+        "summary_cs": "OpenAI právě oznámila svůj nový model GPT-5.5, který společnost nazývá \"nejchytřejším a nejintuitivnějším modelem pro použití a dalším krokem k novému způsobu práce na počítači.„ OpenAI právě minulý měsíc vydal GPT-5.4, ale říká, že nový GPT-5.5 „vyniká“ v úkolech, jako je psaní a ladění kódu, […]"
       },
       {
         "id": "17f0036b31959ad7",
         "title": "Anthropic&#8217;s Mythos breach was humiliating",
         "summary": "Anthropic's tightly controlled rollout of Claude Mythos has taken an awkward turn. After spending weeks insisting the AI model is so capable at cybersecurity that it is too dangerous to release publicly, it appears the model fell into the wrong hands anyway. According to Bloomberg, a \"small group of unauthorized users\" has had access to […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
-        "published": "2026-04-24T10:17:02.968744+00:00",
+        "published": "2026-04-24T10:56:03.667066+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Průlom Mythos společnosti Anthropic byl ponižující",
-        "summary_cs": "Přísně kontrolované spuštění Claude Mythos společností Anthropic nabralo nepříjemný směr. Poté, co týdny trvala na tom, že model AI je tak schopný v kybernetické bezpečnosti, že je příliš nebezpečný na veřejné vydání, zdá se, že se model stejně dostal do nesprávných rukou. Podle Bloombergu měla k […]"
+        "title_cs": "Anthropic's Mythos porušení bylo ponižující",
+        "summary_cs": "Anthropicovo přísně kontrolované uvedení Claude Mythosu nabralo nepříjemný obrat. Poté, co strávil týdny trváním na tom, že model AI je natolik schopný v oblasti kybernetické bezpečnosti, že je příliš nebezpečné zveřejnit, se zdá, že model stejně padl do nesprávných rukou. Podle agentury Bloomberg měla „malá skupina neoprávněných uživatelů“ přístup k […]"
       },
       {
         "id": "1d0c25970a219756",
         "title": "Meta is laying off 10 percent of its staff",
         "summary": "Meta is planning to layoff around 10 percent of employees in May, according to a memo from the company's chief people officer, Janelle Gale, published by Bloomberg. That means approximately 8,000 people will see their jobs cut. Meta will also be closing around 6,000 open roles, according to Gale. The cuts follow Meta's significant investments […]",
         "link": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
-        "published": "2026-04-24T10:17:02.968696+00:00",
+        "published": "2026-04-24T10:56:03.667005+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
         "title_cs": "Meta propouští 10 procent svých zaměstnanců",
-        "summary_cs": "Meta plánuje v květnu propustit přibližně 10 procent zaměstnanců, podle memoranda od personální ředitelky společnosti Janelle Gale, zveřejněného Bloombergu. To znamená, že přibližně 8 000 lidí přijde o práci. Meta také zruší přibližně 6 000 otevřených pozic, podle Gale. Tyto škrty následují po významných investicích společnosti Meta […]"
+        "summary_cs": "Meta plánuje v květnu propustit asi 10 procent zaměstnanců, podle memoranda od vedoucího personálního oddělení společnosti Janelle Gale, které zveřejnil Bloomberg. To znamená, že přibližně 8 000 lidí uvidí, že jejich pracovní místa budou zrušena. Meta také uzavře přibližně 6 000 otevřených rolí, podle Gale. Škrty následují po významných investicích společnosti Meta […]"
       },
       {
         "id": "38d4d445b92d50de",
         "title": "Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax",
         "summary": "Claude users can access more apps with Anthropic's AI now thanks to new connectors for everything from hiking to grocery shopping. Anthropic already supported connecting numerous work-related apps to Claude, like Microsoft apps, but this expansion focuses on personal apps like Audible, Spotify, Uber, AllTrails, TripAdvisor, Instacart, TurboTax, and others. Some of these apps, such […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors",
-        "published": "2026-04-24T10:17:02.968647+00:00",
+        "published": "2026-04-24T10:56:03.666942+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Claude se připojuje přímo k vašim osobním aplikacím jako Spotify, Uber Eats a TurboTax",
-        "summary_cs": "Uživatelé Claude mohou nyní díky novým konektorům pro vše od turistiky po nákup potravin přistupovat k více aplikacím s AI od Anthropic. Anthropic již podporoval připojení mnoha pracovních aplikací ke Claude, jako jsou aplikace Microsoftu, ale toto rozšíření se zaměřuje na osobní aplikace, jako jsou Audible, Spotify, Uber, AllTrails, TripAdvisor, Instacart, TurboTax a další. Některé z těchto aplikací, jako […]"
+        "title_cs": "Claude se připojuje přímo k vašim osobním aplikacím, jako jsou Spotify, Uber Eats a TurboTax",
+        "summary_cs": "Uživatelé Claude mají nyní přístup k více aplikacím s umělou inteligencí Anthropic díky novým konektorům pro vše od pěší turistiky až po nakupování potravin. Anthropic již podporoval propojení mnoha aplikací souvisejících s prací s Claude, jako jsou aplikace Microsoft, ale toto rozšíření se zaměřuje na osobní aplikace jako Audible, Spotify, Uber, AllTrails, TripAdvisor, Instacart, TurboTax a další. Některé z těchto aplikací, jako [...]"
       },
       {
         "id": "19320f712f7ee4fd",
         "title": "Prestigious photo contest answers ‘what is a photo?’",
         "summary": "We love to muse over how \"real\" photography is defined here at The Verge now that generative AI is so prolific, and the World Press Photo competition might have the answer. The prestigious award celebrates the best of photojournalism, where capturing reality is paramount. The winning entry for 2026 - \"Separated by ICE,\" captured by […]",
         "link": "https://www.theverge.com/gadgets/918016/prestigious-photo-contest-answers-what-is-a-photo",
-        "published": "2026-04-24T10:17:02.968594+00:00",
+        "published": "2026-04-24T10:56:03.666872+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Prestižní fotografická soutěž odpovídá na otázku „co je fotografie?“",
-        "summary_cs": "Rádi se zamýšlíme nad tím, jak je „skutečná“ fotografie definována zde na The Verge, nyní, když je generativní AI tak rozšířená, a soutěž World Press Photo by mohla mít odpověď. Prestižní ocenění oslavuje to nejlepší z fotožurnalistiky, kde je zachycení reality prvořadé. Vítězný příspěvek pro rok 2026 – „Separated by ICE“, zachycený […]"
+        "title_cs": "Prestižní fotografická soutěž odpovídá na otázku „co je to fotka?“",
+        "summary_cs": "Rádi přemýšlíme o tom, jak je „skutečná“ fotografie definována zde na The Verge nyní, když je generativní AI tak plodná a soutěž World Press Photo by mohla mít odpověď. Prestižní ocenění oslavuje to nejlepší z fotožurnalistiky, kde je zachycení reality prvořadé. Vítězný příspěvek pro rok 2026 - „Separated by ICE“, zachycený […]"
       },
       {
         "id": "730cb2c4244bbaa1",
         "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
         "summary": "Chinese AI company DeepSeek released a preview of its hotly anticipated next-generation AI model V4 on Friday, saying that the open-source model can compete with leading closed-source systems from US rivals including Anthropic, Google, and OpenAI. DeepSeek says V4 marks a major improvement over prior models, especially in coding, a capability that has become central […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
-        "published": "2026-04-24T10:17:02.968520+00:00",
+        "published": "2026-04-24T10:56:03.666783+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Čínský DeepSeek předvádí nový AI model rok poté, co šokoval americké rivaly",
-        "summary_cs": "Čínská společnost DeepSeek v pátek zveřejnila náhled svého dlouho očekávaného AI modelu nové generace V4 a uvedla, že tento open-source model může konkurovat předním uzavřeným systémům od amerických rivalů, včetně Anthropic, Google a OpenAI. DeepSeek uvádí, že V4 představuje významné zlepšení oproti předchozím modelům, zejména v kódování, což je schopnost, která se stala ústřední […]"
+        "title_cs": "Čínský DeepSeek představuje nový model AI rok poté, co otřásl americkými soupeři",
+        "summary_cs": "Čínská společnost DeepSeek vydala v pátek náhled svého horce očekávaného modelu AI nové generace V4 s tím, že model s otevřeným zdrojovým kódem může konkurovat předním systémům s uzavřeným zdrojovým kódem od amerických konkurentů včetně Anthropic, Google a OpenAI. DeepSeek říká, že V4 představuje významné zlepšení oproti předchozím modelům, zejména v kódování, což je schopnost, která se stala ústředním [...]"
       },
       {
         "id": "ccdfffceb85c526c",
@@ -681,8 +681,8 @@
         "source": "Wired AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Muži za vašimi oblíbenými AI gay „thirst trapy“",
-        "summary_cs": "Virový moment z červeného koberce osvětlil skupinu svalnatých instagramových influencerů – a fanoušky, kteří jsou příliš vzrušení, než aby jim vadilo, že nejsou skuteční."
+        "title_cs": "Muži za vašimi oblíbenými pastmi na homosexuální žízeň s umělou inteligencí",
+        "summary_cs": "Virová chvíle na červeném koberci osvětlila skupinu veselých instagramových influencerů - a následovníků, kteří jsou příliš nadržení na to, aby jim záleželo na tom, že nejsou skuteční."
       },
       {
         "id": "60b12a032765a1bf",
@@ -753,8 +753,8 @@
         "source": "IEEE Spectrum Robotics",
         "lang": "en",
         "sub": "robotics",
-        "title_cs": "Tento robotik, který se stal učitelem, postavil repliku ENIACu v životní velikosti",
-        "summary_cs": "Tom Burick se vždy považoval za stavitele. V průběhu let navrhl roboty, postavil vintage slzný přívěs a naposledy vedl skupinu studentů při stavbě plnohodnotné repliky klíčového počítače ze 40. let. Burick je učitelem technologií na PS Academy v Gilbertu v Arizoně, střední a vysoké škole pro studenty s autismem a dalšími speciálními vzdělávacími potřebami. Na začátku školního roku 2025–26 zahájil se svými studenty projekt na stavbu plnohodnotné repliky…"
+        "title_cs": "Tento robotický učitel postavil repliku ENIACu v životní velikosti",
+        "summary_cs": "Tom Burick se vždy považoval za stavitele. V průběhu let navrhl roboty, postavil vintage přívěs se slzami a nedávno vedl skupinu studentů při stavbě plnohodnotné repliky stěžejního počítače ze čtyřicátých let. Burick je technologickým instruktorem na PS Academy v Gilbertu v Arizoně, střední a střední škole pro studenty s autismem a dalšími specializovanými vzdělávacími potřebami. Na začátku školního roku 2025–26 zahájil se svými studenty projekt na vybudování"
       },
       {
         "id": "f58aa3a14461cd57",
@@ -765,8 +765,8 @@
         "source": "IEEE Spectrum Robotics",
         "lang": "en",
         "sub": "robotics",
-        "title_cs": "Navrhovaný zákaz čínských robotů je dalším krokem USA k technologické suverenitě",
-        "summary_cs": "Americký zákon o robotice pro bezpečnost, dvoustranný návrh zákona předložený v březnu senátory Tomem Cottonem (R-Ark.) a Chuckem Schumerem (D-N.Y.) a zástupkyní Elise Stefanik (R-N.Y.), navrhuje omezit používání čínských pozemních robotů, včetně humanoidů, psů a pásových vozidel, americkou vládou. Tento návrh přišel jen několik dní poté, co Federální komunikační komise (FCC) zpřísnila svá pravidla pro nové zahraniční routery. Tyto dvě změny jsou součástí mnohem širšího oddělování citlivých amerických technologií od…"
+        "title_cs": "Navrhovaný zákaz čínských robotů je nejnovějším krokem americké technologické suverenity",
+        "summary_cs": "Americký zákon o bezpečnostní robotice, který v březnu představili senátoři Tom Cotton (R-Ark.) a Chuck Schumer (D-N.Y.) a zástupkyně Elise Stefanik (R-N.Y.), navrhuje omezit používání čínských pozemních robotů americkou vládou, včetně humanoidů, psů a plazů. Návrh přišel jen několik dní poté, co Federální komunikační komise (FCC) zpřísnila pravidla pro nové směrovače zahraniční výroby. Tyto dvě změny jsou součástí mnohem širšího oddělení citlivosti"
       },
       {
         "id": "6098c0bf8efea39f",
@@ -777,11 +777,23 @@
         "source": "IEEE Spectrum Robotics",
         "lang": "en",
         "sub": "robotics",
-        "title_cs": "Profesorka USC, která stála u zrodu sociálně asistivní robotiky",
-        "summary_cs": "Když obor robotického inženýrství, ve kterém chtěla Maja Matarić pracovat, neexistoval, pomohla ho vytvořit. V roce 2005 pomohla definovat novou oblast sociálně asistivní robotiky. Jako docentka informatiky, neurovědy a pediatrie na University of Southern California v Los Angeles vyvinula roboty, které poskytují personalizovanou terapii a péči prostřednictvím sociálních interakcí. Maja Matarić Zaměstnavatel University of Southern California, Los Angeles Pozice Profesorka…"
+        "title_cs": "Profesor USC, který byl průkopníkem sociálně asistivní robotiky",
+        "summary_cs": "Když robotický inženýrský obor, ve kterém chtěla Maja Matarić pracovat, neexistoval, pomohla ho vytvořit. V roce 2005 pomohla definovat novou oblast sociálně asistivní robotiky. Jako docentka informatiky, neurovědy a pediatrie na University of Southern California v Los Angeles vyvinula roboty, které poskytují personalizovanou terapii a péči prostřednictvím sociálních interakcí. Maja Matarić Zaměstnavatel Univerzita Jižní Kalifornie, Los Angeles Job Ti"
       }
     ],
     "culture": [
+      {
+        "id": "0247ee4ad7898c45",
+        "title": "Babyshambles announce huge Margate show as only UK gig of 2026: “A beano is guaranteed for all”",
+        "summary": "Support comes from Big Special, Warmduscher and more The post Babyshambles announce huge Margate show as only UK gig of 2026: “A beano is guaranteed for all” appeared first on NME .",
+        "link": "https://www.nme.com/news/music/babyshambles-announce-huge-margate-show-as-only-uk-gig-of-2026-a-beano-is-guaranteed-for-all-buy-tickets-3942250?utm_source=rss&utm_medium=rss&utm_campaign=babyshambles-announce-huge-margate-show-as-only-uk-gig-of-2026-a-beano-is-guaranteed-for-all-buy-tickets",
+        "published": "2026-04-24T10:54:51+00:00",
+        "source": "NME Music",
+        "lang": "en",
+        "sub": "music",
+        "title_cs": "Babyshambles oznamují velký koncert v Margate jako jediné britské vystoupení roku 2026: „Zábava zaručena pro všechny“",
+        "summary_cs": "Support zajišťují Big Special, Warmduscher a další. Příspěvek Babyshambles oznamují velký koncert v Margate jako jediné britské vystoupení roku 2026: „Zábava zaručena pro všechny“ se poprvé objevil na NME."
+      },
       {
         "id": "57733a7dcf68c32a",
         "title": "KoRn share first new music in four years with ferocious ‘Reward the Scars’ from ‘Diablo IV’",
@@ -791,8 +803,8 @@
         "source": "NME Music",
         "lang": "en",
         "sub": "music",
-        "title_cs": "KoRn sdílí první novou hudbu po čtyřech letech, divokou ‘Reward the Scars’ z ‘Diablo IV’",
-        "summary_cs": "Kapela se tento víkend vrací na pódium, před svou britskou a evropskou tour v roce 2026, která se uskuteční později v tomto roce. Příspěvek KoRn sdílí první novou hudbu po čtyřech letech, divokou ‘Reward the Scars’ z ‘Diablo IV’ se poprvé objevil na NME."
+        "title_cs": "KoRn sdílí první novou hudbu po čtyřech letech s divokou skladbou ‘Reward the Scars’ z ‘Diablo IV’",
+        "summary_cs": "Kapela se tento víkend vrací na pódium, před svou britskou a evropskou tour v roce 2026, která se uskuteční později v tomto roce. Příspěvek KoRn sdílí první novou hudbu po čtyřech letech s divokou skladbou ‘Reward the Scars’ z ‘Diablo IV’ se poprvé objevil na NME."
       },
       {
         "id": "2050e86f85a19164",
@@ -815,20 +827,32 @@
         "source": "NME Music",
         "lang": "en",
         "sub": "music",
-        "title_cs": "Sledujte, jak Dave Grohl a Pat Smear překvapili fanouška zpívajícího ‘Monkey Wrench’ na launch party alba Foo Fighters",
-        "summary_cs": "Jejich 12. album, 'Your Favorite Toy', vychází dnes (24. dubna). Příspěvek Sledujte, jak Dave Grohl a Pat Smear překvapili fanouška zpívajícího ‘Monkey Wrench’ na launch party alba Foo Fighters se poprvé objevil na NME."
+        "title_cs": "Sledujte, jak Dave Grohl a Pat Smear překvapili fanouška zpívajícího ‘Monkey Wrench’ na párty k uvedení alba Foo Fighters",
+        "summary_cs": "Jejich 12. album, 'Your Favorite Toy', vychází dnes (24. dubna). Příspěvek Sledujte, jak Dave Grohl a Pat Smear překvapili fanouška zpívajícího ‘Monkey Wrench’ na párty k uvedení alba Foo Fighters se poprvé objevil na NME."
       },
       {
-        "id": "ffcbfe2388e47b50",
-        "title": "Watch Bring Me The Horizon play ‘Youtopia’ live for the first time and bring ‘The House Of Wolves’ back into the setlist",
-        "summary": "The band are currently out on their ‘Ascension Program 2’ North American tour The post Watch Bring Me The Horizon play ‘Youtopia’ live for the first time and bring ‘The House Of Wolves’ back into the setlist appeared first on NME .",
-        "link": "https://www.nme.com/news/music/watch-bring-me-the-horizon-play-youtopia-live-for-the-first-time-and-bring-the-house-of-wolves-back-into-the-setlist-3942176?utm_source=rss&utm_medium=rss&utm_campaign=watch-bring-me-the-horizon-play-youtopia-live-for-the-first-time-and-bring-the-house-of-wolves-back-into-the-setlist",
-        "published": "2026-04-24T09:08:10+00:00",
-        "source": "NME Music",
+        "id": "61bff9d04f480df6",
+        "title": "Blackpink’s Jisoo Determined to Play ‘Variety of Roles’ in the Future Following Rising Star Award at Canneseries: ‘It Makes Me Want to Work Harder’",
+        "summary": "Famously secretive star Jisoo – known as a member of Blackpink – met with journalists after receiving the Madame Figaro Rising Star Award at Canneseries.  “It was my first time at Cannes alone. Still, I was able to feel the significance of the Pink Carpet. The name itself has a special meaning for me,” she […]",
+        "link": "https://variety.com/2026/music/asia/blackpink-jisoo-acting-canneseries-rising-star-1236729637/",
+        "published": "2026-04-24T10:56:03+00:00",
+        "source": "Variety",
         "lang": "en",
-        "sub": "music",
-        "title_cs": "Sledujte, jak Bring Me The Horizon poprvé živě zahráli ‘Youtopia’ a vrátili ‘The House Of Wolves’ do setlistu",
-        "summary_cs": "Kapela je momentálně na svém severoamerickém turné ‘Ascension Program 2’. Příspěvek Sledujte, jak Bring Me The Horizon poprvé živě zahráli ‘Youtopia’ a vrátili ‘The House Of Wolves’ do setlistu se poprvé objevil na NME."
+        "sub": "film",
+        "title_cs": "Jisoo z Blackpink je odhodlána hrát „různé role“ v budoucnu po zisku ceny Rising Star na Canneseries: „Nutí mě to chtít pracovat víc“",
+        "summary_cs": "Známá tajnůstkářská hvězda Jisoo – známá jako členka Blackpink – se setkala s novináři po obdržení ceny Madame Figaro Rising Star na Canneseries. „Bylo to poprvé, co jsem byla na Cannes sama. Přesto jsem dokázala pocítit význam Růžového koberce. Samotný název má pro mě zvláštní význam,“ řekla […]"
+      },
+      {
+        "id": "147d8a4833319dc0",
+        "title": "Amanda Turnbull’s Rise Studios’ Partnership With Inter Medya Spawns Turkish Series ‘Caged Love’",
+        "summary": "Dubai-based Rise Studios, which is headed by former Warner Bros. Discovery Middle East chief Amanda Turnbull, and Turkish sales and production company Inter Medya have started shooting “Caged Love” which is the first TV series spawned by their recently forged strategic partnership. Directed by Canan Çelik, who is known for globally exported hit shows “Love […]",
+        "link": "https://variety.com/2026/tv/news/amanda-turnbull-rise-studios-inter-medya-turkish-caged-love-1236729615/",
+        "published": "2026-04-24T10:34:51+00:00",
+        "source": "Variety",
+        "lang": "en",
+        "sub": "film",
+        "title_cs": "Partnerství Rise Studios Amandy Turnbull s Inter Medya přináší tureckou sérii ‘Caged Love’",
+        "summary_cs": "Dubajské Rise Studios, které vede bývalá šéfka Warner Bros. Discovery Middle East Amanda Turnbull, a turecká prodejní a produkční společnost Inter Medya zahájily natáčení „Caged Love“, což je první televizní seriál vzešlý z jejich nedávno navázaného strategického partnerství. Režie se ujala Canan Çelik, známá pro globálně exportované hitové pořady „Love […]"
       },
       {
         "id": "cba0bbcb64ac4dbb",
@@ -839,32 +863,8 @@
         "source": "Variety",
         "lang": "en",
         "sub": "film",
-        "title_cs": "Oscarový Martin Zandvliet hovoří o seriálu Canneseries ‘Harvest’ a svém ‘Úspěchu’ s traktory",
-        "summary_cs": "Vážený dánský veřejnoprávní vysílatel DR Drama, tvůrce seriálů „Borgen“, „The Killing“ a „Cry Wolf“, má 24. dubna potěšit diváky v pařížském Grand Theatre Lumiere svým nejnovějším ambiciózním dramatem „Harvest“, které bude mít premiéru v hlavní soutěži Canneseries. Název vyniká na více úrovních. Označuje dlouhometrážní narativní debut jednoho z nejrespektovanějších dánských filmařů Martina Zandvlieta, který byl nominován na Oscara za drama [...]."
-      },
-      {
-        "id": "362997efb9e25429",
-        "title": "Cannes ACID Doc ‘Into the Jaws of the Ogre,’ With Footage Shot in Iran Under Censorship, Lands at Rediance (EXCLUSIVE)",
-        "summary": "Beijing-based sales company Rediance has taken on international sales of “Into the Jaws of the Ogre,” the debut feature documentary from Iranian-French director Mahsa Karampour, which is set to screen in the ACID sidebar at the Cannes Film Festival. The film centres on Karampour’s reunion with her brother Siâvash, formerly a vocalist in an Iranian […]",
-        "link": "https://variety.com/2026/film/news/cannes-acid-into-the-jaws-of-the-ogre-rediance-sales-1236728464/",
-        "published": "2026-04-24T08:00:00+00:00",
-        "source": "Variety",
-        "lang": "en",
-        "sub": "film",
-        "title_cs": "Dokument z Cannes ACID ‘Into the Jaws of the Ogre’, s záběry natočenými v Íránu pod cenzurou, získal Rediance (EXKLUZIVNĚ)",
-        "summary_cs": "Prodejní společnost Rediance se sídlem v Pekingu převzala mezinárodní prodej celovečerního debutového dokumentu „Into the Jaws of the Ogre“ íránsko-francouzské režisérky Mahsy Karampour, který bude promítán v sekci ACID na filmovém festivalu v Cannes. Film se zaměřuje na shledání Karampour s jejím bratrem Siâvashem, bývalým zpěvákem íránské [...]"
-      },
-      {
-        "id": "97932dfd45cf1602",
-        "title": "From ‘A Woman Was Killed’ to ‘The Deal With Iran,’ ‘Godvergeten’: Flanders’ Docu Surge",
-        "summary": "At Canneseries, fiction and non-fiction projects hail from all corners of the globe. And, as Flanders features a strong TV drama industry, so it is the case with non-fiction and documentary series.  For more than three decades, Luc Gommers has been at the heart of Flanders’ major public broadcaster, VRT. After starting his journey first […]",
-        "link": "https://variety.com/2026/tv/global/flanders-docu-surge-a-woman-was-killed-vrt-canneseries-1236729176/",
-        "published": "2026-04-24T07:30:48+00:00",
-        "source": "Variety",
-        "lang": "en",
-        "sub": "film",
-        "title_cs": "Od ‘A Woman Was Killed’ po ‘The Deal With Iran’, ‘Godvergeten’: Vzestup dokumentů z Flander",
-        "summary_cs": "Na festivalu Canneseries se objevují hrané i dokumentární projekty z celého světa. A jelikož Flandry disponují silným průmyslem televizních dramat, platí to i pro dokumentární seriály. Již více než tři desetiletí je Luc Gommers v centru pozornosti hlavního vlámského veřejnoprávního vysílatele VRT. Po zahájení své cesty nejprve [...]"
+        "title_cs": "Martin Zandvliet, nominovaný na Oscara, hovoří o seriálu ‘Harvest’ na Canneseries a svém „Následnictví“ s traktory",
+        "summary_cs": "Vážená dánská veřejnoprávní televize DR Drama, stojící za pořady „Borgen“, „The Killing“ a „Cry Wolf“, má 24. dubna v Cannes Grand Theatre Lumiere potěšit diváky svým nejnovějším ambiciózním dramatem „Harvest“, které bude mít premiéru v hlavní soutěži Canneseries. Název vyniká na několika úrovních. Je to celovečerní narativní debut jednoho z nejrespektovanějších dánských filmařů Martina Zandvlieta, nominovaného na Oscara za drama […]"
       },
       {
         "id": "0d4ec5cfe3444a2c",
@@ -891,16 +891,16 @@
         "summary_cs": "Universal Pixels využívá software a kamery Panasonic s podporou AI k prezentaci reunion tour Oasis Enterprise Times"
       },
       {
-        "id": "206f71b76d112031",
-        "title": "Oasis: what is Noel and Liam Gallagher’s net worth? - MoneyWeek",
-        "summary": "Oasis: what is Noel and Liam Gallagher’s net worth? MoneyWeek",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYzd1TDdUay1oaDQzUlVPNW91eUExODIzZ1VXMTRVMkFhNjVaYmlPVWc2WjJfRU01a0Q2TkJoVlllWEsxc0c4d19iNGcyRVpyYlZjM0pJc0hWZXprUFdoSVYtalRRS2d6Wkdtd0U3QktZSUdtN21vc2lfS05IeWpfcHY3Y0szY2VR?oc=5",
-        "published": "2026-03-20T07:00:00+00:00",
+        "id": "2aa46bd0eab6392c",
+        "title": "Liam Gallagher's biting response to claims he is doing Oasis reunion tour 'just for the money' - MSN",
+        "summary": "Liam Gallagher's biting response to claims he is doing Oasis reunion tour 'just for the money' MSN",
+        "link": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPQ1Y1ZGFaOVE5Tzlrd3RwRTRJdGRYaFdUUTRKZWQ0d3d6UDRhazlwRG40bjFYTkgxMlZZMjJCWW1yOW5Ka2h5VVJEQUZyOHE1MFhselJST0V0V3hGMFVrbDZjNW1LMkpkYkh1d3RiWlZmbVA3akd1MEtNSjNjZG5rb1JGNjlxZFFOd2p4TTk5UF8tdjVkU09KelBmcjJyWFV0eGUxbjVESGxvdWJaZ1ZtQ3V0Vlc4M2VObi1GU1JQb1dGcVlhOHRGdzduLUl3ZUs2NzBzV3dOUGdablRTdVAxb2dTand6Uk10dVpuLU41ZFJlUHc5NmdnUkExaTNVRXZhMzdYNVM5WUFvQzVLNWpnOHlCR2pRZ0pwM1lHNGVCR3FwSElKTEVsX3IwY0dQYTNBUl9ianVtZFMwQy1ad2FnTnN6VzJ6bjZja2pOY0VUOXVRZHRwRWdiNjVpLWswM3FWZDc1U05HMExYUE5heURmajhxbnpiM21DNzFIMm1KemkyZjZuSGtBdnlNQVdJdw?oc=5",
+        "published": "2026-04-19T04:30:58+00:00",
         "source": "Oasis News",
         "lang": "en",
         "sub": "oasis",
-        "title_cs": "Oasis: jaké je čisté jmění Noela a Liama Gallagherových? - MoneyWeek",
-        "summary_cs": "Oasis: jaké je čisté jmění Noela a Liama Gallagherových? MoneyWeek"
+        "title_cs": "Liam Gallagherova jízlivá odpověď na tvrzení, že reunion tour Oasis dělá „jen pro peníze“ - MSN",
+        "summary_cs": "Liam Gallagherova jízlivá odpověď na tvrzení, že reunion tour Oasis dělá „jen pro peníze“ MSN"
       }
     ],
     "good_news": [
@@ -913,8 +913,8 @@
         "source": "Positive News",
         "lang": "en",
         "sub": null,
-        "title_cs": "Co se tento týden povedlo: důležité dobré zprávy",
-        "summary_cs": "Byli oceněni ekologičtí „šampioni“, svět dosáhl významného energetického milníku a věda porazila typ slepoty, a další. Příspěvek Co se tento týden povedlo: důležité dobré zprávy se poprvé objevil na Positive News."
+        "title_cs": "Co se tento týden povedlo: dobrá zpráva, na které záleží",
+        "summary_cs": "Ekologičtí „šampioni“ byli oceněni, svět dosáhl významného energetického milníku a věda porazila určitý typ slepoty, plus další Příspěvek Co se tento týden povedlo: Dobrá zpráva, na které záleží, se objevila nejprve v Pozitivních zprávách ."
       },
       {
         "id": "21b4815e8ed8514a",
@@ -925,8 +925,8 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Dívka objevila ohroženého aksolotla pod mostem ve Walesu a rodina zorganizovala mimořádnou záchranu",
-        "summary_cs": "Matka byla ohromena, když její desetiletá dcera objevila kriticky ohroženého aksolotla pod mostem ve Walesu – vzrušující okamžik, který rodinu přiměl zkrátit dovolenou, aby vzácného mloka zachránila a prozkoumala. Melanie Hillová a její rodina cestovali ve svém obytném voze po Jižním Walesu, když 10. dubna její dcera […] Příspěvek Dívka objevila ohroženého aksolotla pod mostem ve Walesu a rodina zorganizovala mimořádnou záchranu se poprvé objevil na Good News Network."
+        "title_cs": "Dívka skvrny ohrožené Axolotl pod mostem ve Walesu a rodina montuje mimořádnou záchranu",
+        "summary_cs": "Matka byla ohromena, když její desetiletá dcera spatřila kriticky ohroženého axolotla pod mostem ve Walesu - vzrušující okamžik, kvůli kterému rodina zkrátila dovolenou, aby zachránila a prozkoumala vzácného mloka. Melanie Hill a její rodina cestovali po Jižním Walesu ve své karavanové dodávce, když se 10. dubna její dcera […] Příspěvek Girl Spots Endangered Axolotl Under a Bridge in Wales and Family Mounts Extraordinary Rescue se poprvé objevil na Good News Network"
       },
       {
         "id": "26d1e12664a5d4d0",
@@ -937,8 +937,32 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Semena „slyší“ déšť – a zvukové vlny je nutí růst rychleji, ukazuje studie MIT",
-        "summary_cs": "Semena mohou ožívat při uklidňujícím zvuku deště a vnímat kapky, ještě než jsou pod povrchem, naznačuje nová studie. Série experimentů na Massachusetts Institute of Technology ukázala, že rýžová semena klíčila rychleji při zvuku deště. Zvuk padajících kapek efektivně rozvibroval semena […] Příspěvek Semena „slyší“ déšť – a zvukové vlny je nutí růst rychleji, ukazuje studie MIT se poprvé objevil na Good News Network."
+        "title_cs": "Semena mohou „slyšet“ déšť - a zvukové vlny jim urychlují růst",
+        "summary_cs": "Semena mohou ožít uklidňujícím zvukem dešťových srážek a vycítit kapky, když jsou stále pod povrchem, naznačuje nová studie. Série experimentů na Massachusettském technologickém institutu prokázala, že semena rýže klíčí rychleji za zvuku dešťových srážek. Zvuk padajících kapiček účinně otřásl semínky […] Příspěvek Seeds Can ‘Hear‘ the Rain - And the Sound Waves Make Them Grow Faster Shows MIT Study se poprvé objevil na Good News Network ."
+      },
+      {
+        "id": "87d3bc7face60d61",
+        "title": "The surprise pushback against America’s junk food culture",
+        "summary": "The US government has unexpectedly urged Americans to ditch ultra-processed food. Its new dietary guidelines have some merit The post The surprise pushback against America’s junk food culture appeared first on Positive News .",
+        "link": "https://www.positive.news/society/the-unexpected-pushback-against-americas-junk-food-culture/",
+        "published": "2026-04-23T15:02:57+00:00",
+        "source": "Positive News",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Překvapivý odpor vůči americké kultuře nezdravého jídla",
+        "summary_cs": "Americká vláda nečekaně vyzvala Američany, aby se zbavili ultra zpracovaných potravin. Jeho nové stravovací pokyny mají určitou hodnotu Příspěvek Překvapivý odpor vůči americké kultuře nezdravého jídla se objevil nejprve v Pozitivních zprávách ."
+      },
+      {
+        "id": "46dea9f8aa9c1403",
+        "title": "After Hiker Falls From Cliff, Dog is Left Behind Shivering Until Pilot Crowdfunds for Rescue Flight to Reunite Them",
+        "summary": "Jessica Johnston was lucky to have survived after plummeting from the top of a 180-foot waterfall while hiking in the mountains. But when she lost her footing—she also lost her dog. They were enjoying one of the world’s richest landscapes, New Zealand’s South Island—with its rainforests, glaciers, fjords, and crystal-clear lakes.  Every day was a […] The post After Hiker Falls From Cliff, Dog is Left Behind Shivering Until Pilot Crowdfunds for Rescue Flight to Reunite Them appeared first on G...",
+        "link": "https://www.goodnewsnetwork.org/after-hiker-falls-from-cliff-her-dog-is-left-behind-shivering-until-pilot-crowdfunds-for-rescue/",
+        "published": "2026-04-23T14:18:31+00:00",
+        "source": "Good News Network",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Poté, co turista spadne z útesu, je pes ponechán za sebou třesoucí se, dokud pilot Crowdfunds pro záchranný let, aby je sjednotil",
+        "summary_cs": "Jessica Johnstonová měla štěstí, že přežila po propadu z vrcholu 180 stop dlouhého vodopádu při pěší turistice v horách. Ale když přišla o půdu pod nohama, přišla i o psa. Užívali si jednu z nejbohatších krajin na světě, Jižní ostrov Nového Zélandu - s deštnými pralesy, ledovci, fjordy a křišťálově čistými jezery.  Každý den byl […] Příspěvek poté, co turista spadne z útesu, se pes třese, dokud pilotní Crowdfunds pro záchranný let, aby je znovu sjednotil"
       },
       {
         "id": "654abc516a537ed7",
@@ -949,8 +973,32 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "250 milionů zasazených stromů! Ekologicky zaměřený vyhledávač Ecosia dosáhl milníku ke Dni Země",
-        "summary_cs": "Těsně před Dnem Země dosáhl Ecosia, neziskový vyhledávač, úžasného milníku a oslavuje 250 milionů stromů zasazených po celém světě, čímž se stal největším světovým pěstitelům původních stromů. Od svého založení v roce 2009 Ecosia vybudovala největší světovou síť místních zalesňovacích operací s více než 200 000 pěstiteli stromů a 125 organizacemi po celém světě. Uživatelé […] Příspěvek 250 milionů zasazených stromů! Ekologicky zaměřený vyhledávač Ecosia dosáhl milníku ke Dni Země se poprvé objevil na..."
+        "title_cs": "Zasazen 250 miliontý strom! Ekologický vyhledávač Ecosia dosáhl milníku pro Den Země",
+        "summary_cs": "Neziskový vyhledávač Ecosia, který dosáhl hvězdného milníku těsně před Dnem Země, slaví 250 milionů vysázených stromů po celém světě a stává se největším světovým pěstitelem původních stromů. Od svého založení v roce 2009 vybudovala Ecosia největší síť místních zalesňovacích operací na světě, která čítá více než 200 000 pěstitelů stromů a 125 organizací po celém světě. Users ’[…] 250 miliontý vysazený strom! Ekologický vyhledávač Ecosia dosáhl milníku pro ucho"
+      },
+      {
+        "id": "d5b23c4710d79f32",
+        "title": "Good News in History, April 23",
+        "summary": "112 years ago today, the first-ever baseball game was played at Wrigley Field in Chicago. Then known as Weeghman Park, its original occupants were the Chicago Whales, then known as the “Chi-Feds.” Wrigley Field is known for its ivy-covered brick outfield wall, the unusual wind patterns off Lake Michigan, the iconic red marquee over the […] The post Good News in History, April 23 appeared first on Good News Network .",
+        "link": "https://www.goodnewsnetwork.org/events060423/",
+        "published": "2026-04-23T07:00:00+00:00",
+        "source": "Good News Network",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Dobré zprávy v historii, 23. dubna",
+        "summary_cs": "Před 112 lety se dnes na Wrigley Field v Chicagu hrál vůbec první baseballový zápas. Tehdy známý jako Weeghman Park, jeho původní obyvatelé byli Chicago Whales, pak známý jako \"Chi-Feds.„ Wrigley Field je známé svou břečťanem pokrytou cihlovou zdí, neobvyklými vzory větru u jezera Michigan, ikonickou červenou markýzou nad […] Příspěvek Good News in History, 23. dubna se poprvé objevil na Good News Network ."
+      },
+      {
+        "id": "682bf2b64ea54c21",
+        "title": "Teacher’s Opera Karaoke Goes Viral and Lands Him Audition on Britain’s Got Talent (WATCH His Nessun Dorma)",
+        "summary": "A teacher’s pub karaoke rendition of the opera classic Nessun Dorma was so good that it went viral—and also earned the attention of producers from Britain’s Got Talent. 37-year-old Benjamin Gillham had been out drinking in Liverpool, celebrating the birthday of his friend Laura Beever. The two went for drinks, and then decided to do […] The post Teacher’s Opera Karaoke Goes Viral and Lands Him Audition on Britain’s Got Talent (WATCH His Nessun Dorma) appeared first on Good News Network .",
+        "link": "https://www.goodnewsnetwork.org/teachers-opera-karaoke-goes-viral-and-lands-him-audition-on-britains-got-talent-watch-his-nessun-dorma/",
+        "published": "2026-04-22T18:09:55+00:00",
+        "source": "Good News Network",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Učitelovo operní karaoke se stává virálním a přistává mu konkurz na Britain's Got Talent (PODÍVEJTE SE NA jeho Nessun Dorma)",
+        "summary_cs": "Karaoke interpretace operní klasiky Nessun Dorma v hospodě pro učitele byla tak dobrá, že se stala virální - a také si získala pozornost producentů z Britain's Got Talent. 37letý Benjamin Gillham popíjel v Liverpoolu a oslavoval narozeniny své přítelkyně Laury Beeverové. Ti dva šli na drink, a pak se rozhodli udělat […] Post Učitel Opera Karaoke Goes Viral and Lands Him Audition on Britain's Got Talent (PODÍVEJTE se na Jeho Nessun Dorma) se poprvé objevil na Good Ne"
       },
       {
         "id": "cc6f4643beab98c7",
@@ -961,68 +1009,20 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "První kompletní kostra 9metrového vyhynulého aligátora – prohlédněte si ji v Georgii",
-        "summary_cs": "Muzeum v Georgii je nyní domovem první kompletní a vědecky přesné sestavené kostry druhu Deinosuchus schwimmeri, jednoho z největších a nejnebezpečnějších plazů, kteří kdy žili. Deinosuchus schwimmeri, který žil na východě Spojených států před 83 až 76 miliony let, byl příbuzný moderních aligátorů velikosti školního autobusu, který požíral dinosaury. Měřil až […] Příspěvek První kompletní kostra 9metrového vyhynulého aligátora – prohlédněte si ji v Georgii se poprvé objevil na Good..."
+        "title_cs": "První kompletní kosterní odlitek 30 stop dlouhého vyhynulého aligátora - podívejte se na něj v Gruzii",
+        "summary_cs": "Muzeum v Gruzii je nyní domovem první úplné a vědecky přesné kostry Deinosuchus schwimmeri, jednoho z největších a nejnebezpečnějších plazů, kteří kdy žili. Deinosuchus schwimmeri, který chodil po východních Spojených státech před 83 až 76 miliony lety, byl dinosaura-jíst, školní autobus velikosti příbuzný moderních aligátorů. Měření až […] Příspěvek s vůbec prvním kompletním kosterním obsazením 30 stop dlouhého vyhynulého aligátora - podívejte se na něj v Georgia appea"
       },
       {
-        "id": "c3044d43ed4c57ce",
-        "title": "Groundbreaking Bowel Cancer Trial Had Zero Relapses for Patients After 33 Months",
-        "summary": "A small but substantial tweak to the treatment regime of bowel cancer demonstrated remarkable improvements in survival almost 3 years after surgery. Changing the kind of drug and the delivery window showed substantial improvements over the previous pairing, and build on earlier results showing that the drug led to major tumor shrinkage in patients with […] The post Groundbreaking Bowel Cancer Trial Had Zero Relapses for Patients After 33 Months appeared first on Good News Network .",
-        "link": "https://www.goodnewsnetwork.org/groundbreaking-bowel-cancer-trial-had-zero-relapses-for-patients-after-33-months/",
-        "published": "2026-04-21T15:30:26+00:00",
+        "id": "b838f874847e9a2f",
+        "title": "His ‘Granborghini‘ Project Gives Elderly People Joyrides in Supercars (WATCH)",
+        "summary": "An Englishman whose grandmother took her own life while suffering from loneliness has started a turbo-charged effort to reduce social isolation. Called “Granborghini” the charity connects seniors and elderly in the UK with the owners of supercars made by Ferrari and Maclaren to give them a spin. Organizer Mark Cody had always promised ‘gran’ he’d […] The post His ‘Granborghini‘ Project Gives Elderly People Joyrides in Supercars (WATCH) appeared first on Good News Network .",
+        "link": "https://www.goodnewsnetwork.org/his-granborghini-project-gives-elderly-people-joyrides-in-supercars-watch/",
+        "published": "2026-04-22T15:00:37+00:00",
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Převratná zkouška rakoviny tlustého střeva bez recidivy u pacientů po 33 měsících",
-        "summary_cs": "Malá, ale významná úprava léčebného režimu rakoviny tlustého střeva prokázala pozoruhodné zlepšení přežití téměř 3 roky po operaci. Změna druhu léku a časového okna podání ukázala podstatné zlepšení oproti předchozí kombinaci a navazuje na dřívější výsledky ukazující, že lék vedl k významnému zmenšení nádorů u pacientů s […] Příspěvek Převratná zkouška rakoviny tlustého střeva bez recidivy u pacientů po 33 měsících se poprvé objevil na Good News Network."
-      },
-      {
-        "id": "df19caee8fbb1f9c",
-        "title": "Ready to take charge: three innovative types of energy storage",
-        "summary": "From mammoth molten salt-filled thermal storage units to systems that use liquid air, here’s the latest in energy storage tech The post Ready to take charge: three innovative types of energy storage appeared first on Positive News .",
-        "link": "https://www.positive.news/society/ready-to-take-charge-three-innovative-types-of-energy-storage/",
-        "published": "2026-04-21T11:39:28+00:00",
-        "source": "Positive News",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Připraveni převzít kontrolu: tři inovativní typy ukládání energie",
-        "summary_cs": "Od obřích zásobníků tepla naplněných solí až po systémy využívající zkapalněný vzduch, zde jsou nejnovější technologie ukládání energie. Příspěvek Připraveni převzít kontrolu: tři inovativní typy ukládání energie se poprvé objevil na Positive News."
-      },
-      {
-        "id": "aec624ef3d209935",
-        "title": "Evidence from Pompeii Reveals Roman ‘Automatic’ Weapon Used More Than 2,000 Years Ago",
-        "summary": "2,100 years ago, famed Roman general and one-time dictator Lucius Cornelius Sulla laid siege to a rebellious Pompeii during a lesser-known conflict called the Social War. On the day, Sulla brought along a special form of artillery. The contraption could fire multiple projectiles without needing either to reload or reengage the firing mechanism; in order […] The post Evidence from Pompeii Reveals Roman ‘Automatic’ Weapon Used More Than 2,000 Years Ago appeared first on Good News Network .",
-        "link": "https://www.goodnewsnetwork.org/evidence-from-pompeii-reveals-roman-automatic-weapon-used-more-than-2000-years-ago/",
-        "published": "2026-04-20T18:30:32+00:00",
-        "source": "Good News Network",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Důkazy z Pompejí odhalují římskou „automatickou“ zbraň používanou před více než 2 000 lety",
-        "summary_cs": "Před 2 100 lety slavný římský generál a kdysi diktátor Lucius Cornelius Sulla obléhal vzbouřené Pompeje během méně známého konfliktu zvaného Společenská válka. V ten den si Sulla přivezl speciální formu dělostřelectva. Přístroj mohl vystřelit více projektilů, aniž by bylo nutné znovu nabíjet nebo znovu aktivovat mechanismus střelby; v té době […] Příspěvek Důkazy z Pompejí odhalují římskou „automatickou“ zbraň používanou před více než 2 000 lety se poprvé objevil na Good News Network."
-      },
-      {
-        "id": "da97360d4e43d340",
-        "title": "‘Landmark’ Antitrust Ruling Finds Live Nation and Ticketmaster Operating as Exploitative Monopoly",
-        "summary": "A jury recently decided unanimously that Live Nation and its subsidiary Ticketmaster were operating as a monopoly, and that this had led to exploitative pricing and promotional contracts with venues. Rolling Stone magazine called it a “landmark decision,” and while fans and concertgoers shouldn’t expect ticket prices to go down anytime soon, it could usher […] The post ‘Landmark’ Antitrust Ruling Finds Live Nation and Ticketmaster Operating as Exploitative Monopoly appeared first on Good News...",
-        "link": "https://www.goodnewsnetwork.org/landmark-antitrust-ruling-finds-live-nation-and-ticketmaster-operating-as-exploitative-monopoly/",
-        "published": "2026-04-20T11:00:11+00:00",
-        "source": "Good News Network",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "„Zlomové“ antimonopolní rozhodnutí shledalo Live Nation a Ticketmaster jako vykořisťující monopol",
-        "summary_cs": "Porota nedávno jednomyslně rozhodla, že Live Nation a její dceřiná společnost Ticketmaster fungovaly jako monopol, a že to vedlo k vykořisťujícím cenám a propagačním smlouvám s pořadateli. Časopis Rolling Stone to označil za „zlomové rozhodnutí“, a ačkoli fanoušci a návštěvníci koncertů by neměli očekávat snížení cen vstupenek v dohledné době, mohlo by to zahájit […] Příspěvek „Zlomové“ antimonopolní rozhodnutí shledalo Live Nation a Ticketmaster jako vykořisťující monopol se poprvé objevil na Good..."
-      },
-      {
-        "id": "da06aa10b2a793e8",
-        "title": "Canada has banned employers from ghosting job candidates",
-        "summary": "A new law requires employers to respond to interviewees in a move that could reshape hiring practices The post Canada has banned employers from ghosting job candidates appeared first on Positive News .",
-        "link": "https://www.positive.news/society/canada-has-banned-employers-from-ghosting-job-candidates/",
-        "published": "2026-04-20T08:52:25+00:00",
-        "source": "Positive News",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Kanada zakázala zaměstnavatelům „duchaření“ uchazečů o práci",
-        "summary_cs": "Nový zákon vyžaduje, aby zaměstnavatelé odpovídali uchazečům o zaměstnání, což by mohlo změnit náborové praktiky. Příspěvek Kanada zakázala zaměstnavatelům „duchaření“ uchazečů o práci se poprvé objevil na Positive News."
+        "title_cs": "Jeho projekt „Granborghini“ dává starším lidem radost v superautech (SLEDUJTE)",
+        "summary_cs": "Angličanka, jejíž babička si vzala život, když trpěla osamělostí, se začala prudce snažit snížit sociální izolaci. Charita s názvem „Granborghini“ spojuje seniory a seniory ve Velké Británii s majiteli supersportů vyrobených Ferrari a Maclaren, aby jim umožnila projížďku. Organizátor Mark Cody vždy sliboval „babičku“, kterou […] Příspěvek Jeho projekt „Granborghini“ dává starším lidem radost v superautech (WATCH) se objevil jako první na Good News Network ."
       }
     ]
   }
