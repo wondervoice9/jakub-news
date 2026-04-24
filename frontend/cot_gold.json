@@ -1,120 +1,120 @@
 {
   "meta": {
-    "last_fetch_attempt_utc": "2026-04-20T11:12:11+00:00",
-    "last_successful_fetch_utc": "2026-04-20T11:12:11+00:00",
-    "last_report_date": "2026-04-14",
+    "last_fetch_attempt_utc": "2026-04-24T23:10:45+00:00",
+    "last_successful_fetch_utc": "2026-04-24T23:10:45+00:00",
+    "last_report_date": "2026-04-21",
     "cftc_code": "088691",
     "instrument_name": "GOLD - COMMODITY EXCHANGE INC.",
     "display_name": "Zlato (COMEX)"
   },
   "latest": {
-    "report_date": "2026-04-14",
-    "open_interest": 362274,
-    "noncomm_long": 210009,
-    "noncomm_short": 47483,
-    "noncomm_net": 162526,
-    "comm_long": 55757,
-    "comm_short": 256839,
-    "comm_net": -201082,
-    "price_close": 4857.60009765625,
-    "cot_index_6m": 6.5530426722003945,
-    "cot_index_3y": 37.33977709186455,
-    "noncomm_net_change": 6221,
-    "comm_net_change": -7331,
-    "open_interest_change": 7397
+    "report_date": "2026-04-21",
+    "open_interest": 365842,
+    "noncomm_long": 212893,
+    "noncomm_short": 48887,
+    "noncomm_net": 164006,
+    "comm_long": 56261,
+    "comm_short": 259201,
+    "comm_net": -202940,
+    "price_close": 4725.39990234375,
+    "cot_index_6m": 8.11203691024196,
+    "cot_index_3y": 37.94644138106305,
+    "noncomm_net_change": 1480,
+    "comm_net_change": -1858,
+    "open_interest_change": 3568
   },
   "sentiment": {
     "bucket": "bearish",
     "label": "medvědí"
   },
   "projection": {
-    "analogies_count": 11,
+    "analogies_count": 13,
     "horizons": {
       "4": {
-        "p25_pct": -0.42,
+        "p25_pct": -0.46,
         "p50_pct": 0.13,
-        "p75_pct": 2.36,
-        "hit_rate_up": 0.545,
-        "hit_rate_down": 0.455,
-        "samples": 11
+        "p75_pct": 2.47,
+        "hit_rate_up": 0.538,
+        "hit_rate_down": 0.462,
+        "samples": 13
       },
       "8": {
-        "p25_pct": -2.15,
+        "p25_pct": -3.99,
         "p50_pct": 1.29,
-        "p75_pct": 2.43,
-        "hit_rate_up": 0.545,
-        "hit_rate_down": 0.455,
-        "samples": 11
+        "p75_pct": 2.61,
+        "hit_rate_up": 0.538,
+        "hit_rate_down": 0.462,
+        "samples": 13
       }
     }
   },
   "narrative": {
-    "past": "Za posledních 6 týdnů se COT Index spekulantů posunul z 36. na 37. percentilu (3Y). Cena zlata se za tu dobu změnila o -5.6 %.",
-    "present": "Spekulanti jsou v medvědím pásmu (37. percentil za 3 roky). Sentiment je negativní, ale ne vyhrocený. Pozicování zatím nedává silný signál.",
-    "future": "Podle 11 analogií: 4-týdenní medián 0.13 %, pásmo -0.42 až 2.36 %. Za 8 týdnů medián 1.29 %. Celkový verdikt v kombinaci s makrofaktory: BUY."
+    "past": "Za posledních 6 týdnů se COT Index spekulantů posunul z 38. na 38. percentilu (3Y). Cena zlata se za tu dobu změnila o -6.5 %.",
+    "present": "Spekulanti jsou v medvědím pásmu (38. percentil za 3 roky). Sentiment je negativní, ale ne vyhrocený. Pozicování zatím nedává silný signál.",
+    "future": "Podle 13 analogií: 4-týdenní medián 0.13 %, pásmo -0.46 až 2.47 %. Za 8 týdnů medián 1.29 %. Celkový verdikt v kombinaci s makrofaktory: NEUTRÁL."
   },
   "verdict": {
-    "score": 33.6,
-    "bucket": "buy",
-    "label": "BUY",
-    "explanation": "Signály naznačují převahu býčích faktorů. Podmínky pro long pozice jsou příznivé, ale zůstávají obvyklé obchodní rizika.",
+    "score": 2.0,
+    "bucket": "neutral",
+    "label": "NEUTRÁL",
+    "explanation": "Signály se navzájem ruší — není jasný směrový edge. Počkej na silnější setup nebo redukuj velikost pozic.",
     "factors": {
       "cot": {
         "label": "COT Index (kontrariánsky)",
         "score": 50.0,
-        "value": 37.3,
-        "value_label": "37. percentil",
+        "value": 37.9,
+        "value_label": "38. percentil",
         "weight": 0.3,
-        "note": "COT Index 37. — spekulanti mírně medvědí, lehce býčí tón."
+        "note": "COT Index 38. — spekulanti mírně medvědí, lehce býčí tón."
       },
       "usd": {
         "label": "Dolar (DXY)",
-        "score": 14.5,
-        "value": -0.44,
-        "value_label": "-0.4 % / 3M",
+        "score": -50.5,
+        "value": 1.51,
+        "value_label": "+1.5 % / 3M",
         "weight": 0.25,
-        "note": "Dolar (DXY) oslabuje -0.4 % za 3 měsíce. Silný dolar = tlak dolů na zlato."
+        "note": "Dolar (DXY) posiluje +1.5 % za 3 měsíce. Silný dolar = tlak dolů na zlato."
       },
       "rates": {
         "label": "10Y výnosy US",
-        "score": -0.3,
-        "value": 0.001,
-        "value_label": "+0.00 p.b. / 3M",
+        "score": -1.9,
+        "value": 0.01,
+        "value_label": "+0.01 p.b. / 3M",
         "weight": 0.2,
-        "note": "10Y US výnosy rostou o +0.00 p.b. za 3 měsíce. Rostoucí výnosy = konkurence pro zlato."
+        "note": "10Y US výnosy rostou o +0.01 p.b. za 3 měsíce. Rostoucí výnosy = konkurence pro zlato."
       },
       "trend": {
         "label": "Trend zlata",
-        "score": 100.0,
-        "value": 4857.6,
-        "value_label": "4858 USD",
+        "score": 0.0,
+        "value": 4725.4,
+        "value_label": "4725 USD",
         "weight": 0.15,
-        "note": "Cena nad 20W i 50W průměrem — silný uptrend."
+        "note": "Cena mezi průměry — smíšený trend."
       },
       "vix": {
         "label": "VIX (strach na trhu)",
         "score": 0.0,
-        "value": 19.5,
-        "value_label": "19.5",
+        "value": 18.7,
+        "value_label": "18.7",
         "weight": 0.1,
-        "note": "VIX 19.5 (normál). Vyšší strach = bid na safe-haven zlato."
+        "note": "VIX 18.7 (normál). Vyšší strach = bid na safe-haven zlato."
       }
     }
   },
   "macros": {
-    "dxy_change_3m_pct": -0.4359289414400652,
-    "tnx_change_3m_pp": 0.0014999866485595702,
-    "vix_current": 19.459999084472656,
-    "gold_ma_short": 4714.084985351563,
-    "gold_ma_long": 4050.63197265625,
+    "dxy_change_3m_pct": 1.5148404851961523,
+    "tnx_change_3m_pp": 0.00970001220703125,
+    "vix_current": 18.709999084472656,
+    "gold_ma_short": 4739.709985351563,
+    "gold_ma_long": 4078.43197265625,
     "ma_windows": [
       20,
       50
     ],
-    "dxy_current": 98.20999908447266,
-    "dxy_3m_ago": 98.63999938964844,
-    "tnx_current": 0.4245999813079834,
-    "tnx_3m_ago": 0.42309999465942383
+    "dxy_current": 98.51000213623047,
+    "dxy_3m_ago": 97.04000091552734,
+    "tnx_current": 0.4309999942779541,
+    "tnx_3m_ago": 0.42129998207092284
   },
   "history": [
     {
@@ -2274,6 +2274,19 @@
       "price_close": 4857.60009765625,
       "cot_index_6m": 6.5530426722003945,
       "cot_index_3y": 37.33977709186455
+    },
+    {
+      "report_date": "2026-04-21",
+      "open_interest": 365842,
+      "noncomm_long": 212893,
+      "noncomm_short": 48887,
+      "noncomm_net": 164006,
+      "comm_long": 56261,
+      "comm_short": 259201,
+      "comm_net": -202940,
+      "price_close": 4725.39990234375,
+      "cot_index_6m": 8.11203691024196,
+      "cot_index_3y": 37.94644138106305
     }
   ]
 }
