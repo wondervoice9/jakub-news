@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_fetch_attempt_utc": "2026-04-25T11:26:04+00:00",
-    "last_successful_fetch_utc": "2026-04-25T11:26:04+00:00",
+    "last_fetch_attempt_utc": "2026-04-27T15:26:47+00:00",
+    "last_successful_fetch_utc": "2026-04-27T15:26:47+00:00",
     "last_report_date": "2026-04-21",
     "cftc_code": "088691",
     "instrument_name": "GOLD - COMMODITY EXCHANGE INC.",
@@ -54,7 +54,7 @@
     "future": "Podle 13 analogií: 4-týdenní medián 0.13 %, pásmo -0.46 až 2.47 %. Za 8 týdnů medián 1.29 %. Celkový verdikt v kombinaci s makrofaktory: NEUTRÁL."
   },
   "verdict": {
-    "score": 2.0,
+    "score": -4.0,
     "bucket": "neutral",
     "label": "NEUTRÁL",
     "explanation": "Signály se navzájem ruší — není jasný směrový edge. Počkej na silnější setup nebo redukuj velikost pozic.",
@@ -69,16 +69,16 @@
       },
       "usd": {
         "label": "Dolar (DXY)",
-        "score": -50.5,
-        "value": 1.51,
-        "value_label": "+1.5 % / 3M",
+        "score": -74.3,
+        "value": 2.23,
+        "value_label": "+2.2 % / 3M",
         "weight": 0.25,
-        "note": "Dolar (DXY) posiluje +1.5 % za 3 měsíce. Silný dolar = tlak dolů na zlato."
+        "note": "Dolar (DXY) posiluje +2.2 % za 3 měsíce. Silný dolar = tlak dolů na zlato."
       },
       "rates": {
         "label": "10Y výnosy US",
-        "score": -1.9,
-        "value": 0.01,
+        "score": -2.2,
+        "value": 0.011,
         "value_label": "+0.01 p.b. / 3M",
         "weight": 0.2,
         "note": "10Y US výnosy rostou o +0.01 p.b. za 3 měsíce. Rostoucí výnosy = konkurence pro zlato."
@@ -102,19 +102,19 @@
     }
   },
   "macros": {
-    "dxy_change_3m_pct": 1.5148404851961523,
-    "tnx_change_3m_pp": 0.00970001220703125,
-    "vix_current": 18.709999084472656,
+    "dxy_change_3m_pct": 2.22822403365497,
+    "tnx_change_3m_pp": 0.010899972915649415,
+    "vix_current": 18.739999771118164,
     "gold_ma_short": 4739.55498046875,
     "gold_ma_long": 4078.369970703125,
     "ma_windows": [
       20,
       50
     ],
-    "dxy_current": 98.51000213623047,
-    "dxy_3m_ago": 97.04000091552734,
-    "tnx_current": 0.4309999942779541,
-    "tnx_3m_ago": 0.42129998207092284
+    "dxy_current": 98.36399841308594,
+    "dxy_3m_ago": 96.22000122070312,
+    "tnx_current": 0.43319997787475584,
+    "tnx_3m_ago": 0.42230000495910647
   },
   "history": [
     {
