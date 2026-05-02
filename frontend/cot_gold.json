@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_fetch_attempt_utc": "2026-05-01T23:39:05+00:00",
-    "last_successful_fetch_utc": "2026-05-01T23:39:05+00:00",
+    "last_fetch_attempt_utc": "2026-05-02T11:33:29+00:00",
+    "last_successful_fetch_utc": "2026-05-02T11:33:29+00:00",
     "last_report_date": "2026-04-28",
     "cftc_code": "088691",
     "instrument_name": "GOLD - COMMODITY EXCHANGE INC.",
@@ -16,7 +16,7 @@
     "comm_long": 60553,
     "comm_short": 255366,
     "comm_net": -194813,
-    "price_close": 4625.60009765625,
+    "price_close": 4629.89990234375,
     "cot_index_6m": 3.440321068543078,
     "cot_index_3y": 36.128498054985094,
     "noncomm_net_change": -4435,
@@ -49,7 +49,7 @@
     }
   },
   "narrative": {
-    "past": "Za posledních 6 týdnů se COT Index spekulantů posunul z 36. na 36. percentilu (3Y). Cena zlata se za tu dobu změnila o 1.2 %.",
+    "past": "Za posledních 6 týdnů se COT Index spekulantů posunul z 36. na 36. percentilu (3Y). Cena zlata se za tu dobu změnila o 1.3 %.",
     "present": "Spekulanti jsou v medvědím pásmu (36. percentil za 3 roky). Sentiment je negativní, ale ne vyhrocený. Pozicování zatím nedává silný signál.",
     "future": "Podle 12 analogií: 4-týdenní medián 0.04 %, pásmo -5.85 až 2.06 %. Za 8 týdnů medián -0.2 %. Celkový verdikt v kombinaci s makrofaktory: NEUTRÁL."
   },
@@ -70,7 +70,7 @@
       "usd": {
         "label": "Dolar (DXY)",
         "score": -20.5,
-        "value": 0.62,
+        "value": 0.61,
         "value_label": "+0.6 % / 3M",
         "weight": 0.25,
         "note": "Dolar (DXY) posiluje +0.6 % za 3 měsíce. Silný dolar = tlak dolů na zlato."
@@ -86,8 +86,8 @@
       "trend": {
         "label": "Trend zlata",
         "score": 0.0,
-        "value": 4625.6,
-        "value_label": "4626 USD",
+        "value": 4629.9,
+        "value_label": "4630 USD",
         "weight": 0.15,
         "note": "Cena mezi průměry — smíšený trend."
       },
@@ -102,16 +102,16 @@
     }
   },
   "macros": {
-    "dxy_change_3m_pct": 0.6157134730526285,
+    "dxy_change_3m_pct": 0.6146895506293684,
     "tnx_change_3m_pp": 0.010299968719482421,
     "vix_current": 16.989999771118164,
-    "gold_ma_short": 4755.82998046875,
-    "gold_ma_long": 4107.24197265625,
+    "gold_ma_short": 4756.044970703125,
+    "gold_ma_long": 4107.32796875,
     "ma_windows": [
       20,
       50
     ],
-    "dxy_current": 98.21099853515625,
+    "dxy_current": 98.20999908447266,
     "dxy_3m_ago": 97.61000061035156,
     "tnx_current": 0.4377999782562256,
     "tnx_3m_ago": 0.42750000953674316
@@ -2297,7 +2297,7 @@
       "comm_long": 60553,
       "comm_short": 255366,
       "comm_net": -194813,
-      "price_close": 4625.60009765625,
+      "price_close": 4629.89990234375,
       "cot_index_6m": 3.440321068543078,
       "cot_index_3y": 36.128498054985094
     }
