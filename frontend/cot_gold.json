@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_fetch_attempt_utc": "2026-05-09T00:12:21+00:00",
-    "last_successful_fetch_utc": "2026-05-09T00:12:21+00:00",
+    "last_fetch_attempt_utc": "2026-05-09T11:38:38+00:00",
+    "last_successful_fetch_utc": "2026-05-09T11:38:38+00:00",
     "last_report_date": "2026-05-05",
     "cftc_code": "088691",
     "instrument_name": "GOLD - COMMODITY EXCHANGE INC.",
@@ -16,7 +16,7 @@
     "comm_long": 58230,
     "comm_short": 257165,
     "comm_net": -198935,
-    "price_close": 4723.7001953125,
+    "price_close": 4720.39990234375,
     "cot_index_6m": 7.371514647172216,
     "cot_index_3y": 37.658275843693765,
     "noncomm_net_change": 3732,
@@ -49,12 +49,12 @@
     }
   },
   "narrative": {
-    "past": "Za posledních 6 týdnů se COT Index spekulantů posunul z 40. na 38. percentilu (3Y). Cena zlata se za tu dobu změnila o 5.2 %.",
+    "past": "Za posledních 6 týdnů se COT Index spekulantů posunul z 40. na 38. percentilu (3Y). Cena zlata se za tu dobu změnila o 5.1 %.",
     "present": "Spekulanti jsou v medvědím pásmu (38. percentil za 3 roky). Sentiment je negativní, ale ne vyhrocený. Pozicování zatím nedává silný signál.",
     "future": "Podle 15 analogií: 4-týdenní medián -0.05 %, pásmo -5.17 až 2.12 %. Za 8 týdnů medián -0.09 %. Celkový verdikt v kombinaci s makrofaktory: NEUTRÁL."
   },
   "verdict": {
-    "score": 5.5,
+    "score": 5.6,
     "bucket": "neutral",
     "label": "NEUTRÁL",
     "explanation": "Signály se navzájem ruší — není jasný směrový edge. Počkej na silnější setup nebo redukuj velikost pozic.",
@@ -69,8 +69,8 @@
       },
       "usd": {
         "label": "Dolar (DXY)",
-        "score": -35.2,
-        "value": 1.06,
+        "score": -35.1,
+        "value": 1.05,
         "value_label": "+1.1 % / 3M",
         "weight": 0.25,
         "note": "Dolar (DXY) posiluje +1.1 % za 3 měsíce. Silný dolar = tlak dolů na zlato."
@@ -86,8 +86,8 @@
       "trend": {
         "label": "Trend zlata",
         "score": 0.0,
-        "value": 4723.7,
-        "value_label": "4724 USD",
+        "value": 4720.4,
+        "value_label": "4720 USD",
         "weight": 0.15,
         "note": "Cena mezi průměry — smíšený trend."
       },
@@ -102,16 +102,16 @@
     }
   },
   "macros": {
-    "dxy_change_3m_pct": 1.0566025901014398,
+    "dxy_change_3m_pct": 1.0534978788281624,
     "tnx_change_3m_pp": 0.01659998893737793,
     "vix_current": 17.190000534057617,
-    "gold_ma_short": 4774.159985351563,
-    "gold_ma_long": 4134.529970703125,
+    "gold_ma_short": 4773.994970703125,
+    "gold_ma_long": 4134.46396484375,
     "ma_windows": [
       20,
       50
     ],
-    "dxy_current": 97.84300231933594,
+    "dxy_current": 97.83999633789062,
     "dxy_3m_ago": 96.81999969482422,
     "tnx_current": 0.4363999843597412,
     "tnx_3m_ago": 0.4197999954223633
@@ -2310,7 +2310,7 @@
       "comm_long": 58230,
       "comm_short": 257165,
       "comm_net": -198935,
-      "price_close": 4723.7001953125,
+      "price_close": 4720.39990234375,
       "cot_index_6m": 7.371514647172216,
       "cot_index_3y": 37.658275843693765
     }
