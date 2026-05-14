@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T07:46:35.972549+00:00",
+  "generated_at": "2026-05-14T08:36:23.278802+00:00",
   "today": {
     "day_name": "Čtvrtek",
     "date_cz": "14. května",
@@ -12,11 +12,11 @@
   "weather": {
     "location": "Liberec",
     "current": {
-      "temperature": 9.5,
-      "weather_code": 3,
-      "weather_desc": "Zataženo",
-      "wind_speed": 12.5,
-      "humidity": 75
+      "temperature": 9.7,
+      "weather_code": 80,
+      "weather_desc": "Přeháňky",
+      "wind_speed": 12.1,
+      "humidity": 73
     },
     "forecast": [
       {
@@ -47,7 +47,7 @@
   },
   "joke_en": {
     "id": "joke_en_20260514",
-    "text": "My husband and I were happy for 20 years. And then we met.",
+    "text": "My little daughter came to me all excited, saying \"Daddy! Daddy! Guess how old I'll be in June!\"\n\"Oh I don't know princess, why don't you tell me?\" I said. She gave me a huge smile and held up four fingers.\nIt's now three hours later, police have joined in and she still won't say where she got them.",
     "source": "JokeAPI",
     "source_url": "https://jokeapi.dev/"
   },
@@ -59,11 +59,11 @@
   },
   "quote": {
     "id": "quote_20260514",
-    "text": "Dobrá žena muže inspiruje, vtipná ho zaujme, krásná ho okouzlí, ale soucitná ho dostane.",
-    "author": "Victor Hugo",
-    "author_bio": "Victor Hugo byl francouzský spisovatel, básník a dramatik. Žil v letech 1802–1885 a proslavil se díly jako Bídníci a Chrám Matky Boží v Paříži.",
+    "text": "Žádný pesimista nikdy neobjevil tajemství hvězd, neplavil se do neznámých zemí, ani neobjevil nové obzory lidské duše.",
+    "author": "Helen Keller",
+    "author_bio": "Helen Kellerová, rodným jménem Helen Adams Keller byla americká spisovatelka, aktivistka a lektorka. Byla také členkou Socialistické strany Ameriky.",
     "source": "Citáty.net",
-    "source_url": "https://citaty.net/autori/victor-hugo/"
+    "source_url": "https://citaty.net/autori/helen-keller/"
   },
   "lesson": {
     "id": "lesson_20260514",
@@ -108,127 +108,223 @@
   "tabs": {
     "world": [
       {
-        "id": "02072ed5295e567a",
-        "title": "Catherine, Princess of Wales, to Make First Official Trip Abroad Since Cancer Diagnosis",
-        "summary": "Catherine is visiting Reggio Emilia, a city celebrated for its approach to early childhood education, a deep interest of hers. It is her first official visit abroad since her cancer diagnosis.",
-        "link": "https://www.nytimes.com/2026/05/13/world/europe/princess-catherine-italy-visit-uk-cancer.html",
-        "published": "2026-05-14T07:34:22+00:00",
+        "id": "041903a5fb5dea89",
+        "title": "China Restores Beef Trade With U.S. as Goodwill Gesture for Trump Visit",
+        "summary": "Beijing approved export licenses for hundreds of American slaughterhouses to resume beef shipments, ending a 15-month ban.",
+        "link": "https://www.nytimes.com/2026/05/14/world/asia/trump-china-beef.html",
+        "published": "2026-05-14T08:14:34+00:00",
         "source": "NYT World",
         "lang": "en",
         "sub": null,
-        "title_cs": "Princezna z Walesu se poprvé od diagnózy rakoviny oficiálně vydá do zahraničí",
-        "summary_cs": "Catherine navštíví město Reggio Emilia, které je proslulé svým přístupem ke vzdělávání v raném dětství, což je její hluboký zájem. Je to její první oficiální zahraniční cesta od diagnózy rakoviny."
+        "title_cs": "Čína obnovuje obchod s hovězím masem s USA jako gesto dobré vůle před návštěvou Trumpa",
+        "summary_cs": "Peking schválil vývozní licence pro stovky amerických jatek, aby obnovil dodávky hovězího masa a ukončil 15měsíční zákaz."
       },
       {
-        "id": "de1e24c42eb43687",
-        "title": "Victorian Labor signals tougher stance on young offenders after 109 charges against 14-year-old dropped",
-        "summary": "The state’s opposition said case was proof ‘the justice system is broken’ Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast The Victorian Labor government says it will “do everything” it can to “toughen consequences” for young offenders after police withdrew 109 charges against a 14-year-old girl, in a case the opposition described as proof “the justice system is broken”. The girl, who cannot be identified for legal reasons, ha...",
-        "link": "https://www.theguardian.com/australia-news/2026/may/14/109-charges-dropped-14-year-old-girl-victoria-labor-jacinta-allan-tougher-consequences-young-offenders-ntwnfb",
-        "published": "2026-05-14T07:28:42+00:00",
+        "id": "1cdc1b7ec8c3b47f",
+        "title": "How China changed Rubio name to let him join Trump summit despite sanctions",
+        "summary": "The state secretary, who is under Chinese sanctions, is on a state visit to Beijing under the name 'Marco Lu'.",
+        "link": "https://www.aljazeera.com/news/2026/5/14/how-china-changed-rubio-name-to-let-him-join-trump-summit-despite-sanctions?traffic_source=rss",
+        "published": "2026-05-14T08:11:39+00:00",
+        "source": "Al Jazeera",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Jak Čína změnila Rubiovo jméno, aby mu umožnila účast na summitu s Trumpem navzdory sankcím",
+        "summary_cs": "Státní tajemník, který je pod čínskými sankcemi, je na státní návštěvě Pekingu pod jménem 'Marco Lu'."
+      },
+      {
+        "id": "ef22d6ce4140c307",
+        "title": "What was HMRC’s investigation into Angela Rayner’s tax affairs all about?",
+        "summary": "Findings of inquiry into stamp duty paid on Hove flat crucial to any leadership bid UK politics live – latest updates Angela Rayner has been cleared by HMRC of deliberate wrongdoing or carelessness over her tax affairs, the Guardian reported , paving the way for a potential leadership bid as Keir Starmer’s grip on power unravels. Continue reading...",
+        "link": "https://www.theguardian.com/politics/2026/may/14/hmrc-investigation-into-angela-rayner-tax-affairs-stamp-duty-explainer",
+        "published": "2026-05-14T08:11:01+00:00",
         "source": "Guardian World",
         "lang": "en",
         "sub": null,
-        "title_cs": "Victoriánská labouristická strana signalizuje tvrdší postoj k mladistvým pachatelům po stažení 109 obvinění proti 14leté dívce",
-        "summary_cs": "Opozice státu uvedla, že případ je důkazem, že „justiční systém je rozbitý“. Sledujte náš živý blog s novinkami z Austrálie pro nejnovější informace. Získejte náš zpravodajský e-mail, bezplatnou aplikaci nebo denní podcast. Victoriánská labouristická vláda uvádí, že „udělá vše“, co je v jejích silách, aby „zpřísnila následky“ pro mladistvé pachatele poté, co policie stáhla 109 obvinění proti 14leté dívce v případu, který opozice popsala jako důkaz, že „justiční systém je rozbitý“. Dívka, která nesmí být z právních důvodů jmenována, ..."
+        "title_cs": "Co bylo předmětem vyšetřování HMRC ohledně daňových záležitostí Angely Raynerové?",
+        "summary_cs": "Závěry vyšetřování daně z převodu nemovitostí zaplacené na byt v Hove jsou klíčové pro jakýkoli pokus o vedení. Politika Spojeného království – nejnovější zprávy. Angela Raynerová byla podle Guardianu zproštěna viny HMRC ohledně úmyslného pochybení nebo nedbalosti ohledně svých daňových záležitostí, což dláždí cestu pro potenciální pokus o vedení, zatímco se rozplývá moc Keira Starmera. Pokračovat ve čtení..."
       },
       {
-        "id": "99d53e14f5ce3816",
-        "title": "Xi Says U.S.-China Relations Could Turn ‘Dangerous’ Over Taiwan",
-        "summary": "China’s leader, Xi Jinping said relations between the two countries could enter an “extremely dangerous place” if Mr. Trump ignored China’s demands over Taiwan.",
-        "link": "https://www.nytimes.com/2026/05/14/world/asia/china-xi-trump-taiwan-warning.html",
-        "published": "2026-05-14T07:26:40+00:00",
-        "source": "NYT World",
+        "id": "c92d61ff01de24a3",
+        "title": "Angela Rayner says Starmer should ‘reflect on’ stepping aside after HMRC clears her over tax affairs - UK politics live",
+        "summary": "The former deputy prime minister said she should be keen to ‘play my part’ in the event of a leadership contest Full report: Angela Rayner cleared by HMRC over tax affairs paving the way for potential leadership bid Tracy Brabin , the Labour mayor of West Yorkshire, was also on the Today programme this morning. She said she met Keir Starmer yesterday and had a “frank conversation” with him about how the government needed to do better. She said Labour would have to “escalate the pace of change...",
+        "link": "https://www.theguardian.com/politics/live/2026/may/14/angela-rayner-says-starmer-should-reflect-on-stepping-aside-after-hmrc-clears-her-over-tax-affairs-uk-politics-live",
+        "published": "2026-05-14T08:10:36+00:00",
+        "source": "Guardian World",
         "lang": "en",
         "sub": null,
-        "title_cs": "Si Ťin-pching: Vztahy USA a Číny by se mohly kvůli Tchaj-wanu stát „nebezpečnými“",
-        "summary_cs": "Čínský vůdce Si Ťin-pching uvedl, že vztahy mezi oběma zeměmi by se mohly dostat do „extrémně nebezpečné situace“, pokud by pan Trump ignoroval čínské požadavky ohledně Tchaj-wanu."
+        "title_cs": "Angela Raynerová říká, že by se Starmer měl 'zamyslet' nad odstoupením poté, co ji HMRC zprostila viny ohledně daňových záležitostí - politika Spojeného království živě",
+        "summary_cs": "Bývalá místopředsedkyně vlády uvedla, že by se měla těšit na to, že 'zahraje svou roli' v případě volby vedení. Úplná zpráva: Angela Raynerová zproštěna viny HMRC ohledně daňových záležitostí, což dláždí cestu pro potenciální pokus o vedení. Tracy Brabinová, labouristická starostka West Yorkshire, byla dnes ráno také v pořadu Today. Uvedla, že se včera setkala s Keirem Starmerem a měla s ním 'upřímnou konverzaci' o tom, jak vláda musí pracovat lépe. Uvedla, že labouristé budou muset 'zrychlit tempo změn...'"
+      },
+      {
+        "id": "cf76eaf4ec35ba2a",
+        "title": "Philippine politician wanted by ICC flees Senate",
+        "summary": "Senate president says Senator Ronald 'Bato' dela Rosa 'no longer in the building' where he had taken refuge.",
+        "link": "https://www.aljazeera.com/news/2026/5/14/philippine-politician-wanted-by-icc-flees-senate?traffic_source=rss",
+        "published": "2026-05-14T08:05:51+00:00",
+        "source": "Al Jazeera",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Filipínský politik hledaný Mezinárodním trestním soudem uprchl ze Senátu",
+        "summary_cs": "Předseda Senátu říká, že senátor Ronald 'Bato' dela Rosa 'už není v budově', kde hledal útočiště."
+      },
+      {
+        "id": "f291c1995e81425e",
+        "title": "What is at stake as Fatah holds its 8th general congress?",
+        "summary": "Delayed for years, the event has been described as a 'quiet battle' for loyalty, succession - and the movement's future.",
+        "link": "https://www.aljazeera.com/news/2026/5/14/what-is-at-stake-as-fatah-holds-its-8th-general-congress?traffic_source=rss",
+        "published": "2026-05-14T08:04:39+00:00",
+        "source": "Al Jazeera",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "O co jde, když Fatah drží svůj 8. generální kongres?",
+        "summary_cs": "Akce, odložená o roky, byla popsána jako 'tichá bitva' o loajalitu, nástupnictví – a budoucnost hnutí."
+      },
+      {
+        "id": "ccee7308c8212669",
+        "title": "Angela Rayner cleared by HMRC over tax affairs paving the way for potential leadership bid",
+        "summary": "Exclusive: former deputy prime minister says investigation ‘clipped my wings’ as she settles £40,000 in unpaid stamp duty Angela Rayner has been cleared by HMRC of deliberate wrongdoing or carelessness over her tax affairs, the Guardian can reveal, paving the way for a potential leadership bid as Keir Starmer’s grip on power unravels. The former deputy prime minister has settled £40,000 in unpaid stamp duty after initially paying the lower rate , but has not paid any penalty as a result of th...",
+        "link": "https://www.theguardian.com/politics/2026/may/14/angela-rayner-cleared-hmrc-tax-affairs-labour-leadership-starmer",
+        "published": "2026-05-14T08:01:53+00:00",
+        "source": "Guardian World",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Angela Raynerová zproštěna viny HMRC ohledně daňových záležitostí, což dláždí cestu pro potenciální pokus o vedení",
+        "summary_cs": "Exkluzivně: bývalá místopředsedkyně vlády říká, že vyšetřování jí 'svázalo ruce', zatímco splatila 40 000 liber na nezaplacené dani z převodu nemovitosti. Angela Raynerová byla podle Guardianu zproštěna viny HMRC ohledně úmyslného pochybení nebo nedbalosti ohledně svých daňových záležitostí, což dláždí cestu pro potenciální pokus o vedení, zatímco se rozplývá moc Keira Starmera. Bývalá místopředsedkyně vlády splatila 40 000 liber na nezaplacené dani z převodu nemovitosti poté, co původně zaplatila nižší sazbu, ale v důsledku toho nezaplatila žádnou pokutu..."
+      },
+      {
+        "id": "c17e1b611b2b1dbf",
+        "title": "French authorities lift lockdown on norovirus-hit cruise ship",
+        "summary": "Asymptomatic people allowed off ship from Wednesday afternoon but those infected ordered to remain in isolation A norovirus-hit cruise ship carrying mainly passengers from the UK and Ireland has had a French lockdown order lifted. All 1,701 people onboard Ambition were prevented from disembarking for more than 24 hours after it docked in Bordeaux on Tuesday, as one person died and dozens became ill with a vomiting virus. Continue reading...",
+        "link": "https://www.theguardian.com/uk-news/2026/may/14/french-authorities-lift-lockdown-on-norovirus-hit-cruise-ship-ambition",
+        "published": "2026-05-14T07:57:48+00:00",
+        "source": "Guardian World",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Francouzské úřady zrušily uzávěru výletní lodi zasažené norovirem",
+        "summary_cs": "Asymptomatické osoby mohou opustit loď od středečního odpoledne, ale nakažení musí zůstat v izolaci. Uzávěra výletní lodi Ambition, zasažené norovirem, na které cestovali převážně cestující z Velké Británie a Irska, byla zrušena francouzským nařízením o uzávěře. Všech 1 701 lidí na palubě bylo zabráněno v vystoupení po dobu více než 24 hodin poté, co loď v úterý zakotvila v Bordeaux, přičemž jedna osoba zemřela a desítky onemocněly virovým onemocněním způsobujícím zvracení. Pokračovat ve čtení..."
       },
       {
         "id": "e69312d72c3c92a5",
         "title": "Trump China visit live: Xi Jinping warns US and China could ‘come into conflict’ if Taiwan issue mishandled, state media reports",
         "summary": "Security was heightened in Beijing ahead of the two leaders’ crucial talks, which were set to be dominated by trade, AI and the war in Iran Trump lands in China for high-stakes summit with Xi Jinping as Iran war looms over talks Explainer: five key issues on the table at summit Donald Trump will drive through a Chinese capital that is smoggier than it was on his last visit in 2017 , when the authorities launched emergency measures to clear the skies of pollution days before his first state vi...",
         "link": "https://www.theguardian.com/us-news/live/2026/may/14/donald-trump-china-xi-jinping-live-updates-talks-meeting-summit-visit-beijing-latest-news",
-        "published": "2026-05-14T07:22:03+00:00",
+        "published": "2026-05-14T07:46:46+00:00",
         "source": "Guardian World",
         "lang": "en",
         "sub": null,
-        "title_cs": "Živě z Trumpovy návštěvy Číny: Si Ťin-pching varuje, že USA a Čína by se mohly „dostat do konfliktu“, pokud bude problém Tchaj-wanu špatně řešen, hlásí státní média",
-        "summary_cs": "Bezpečnost v Pekingu byla posílena před klíčovými rozhovory obou vůdců, které měly být dominovány obchodem, umělou inteligencí a válkou v Íránu. Trump přistál v Číně na vrcholnou schůzku se Si Ťin-pchingem, zatímco válka v Íránu visí nad jednáním. Vysvětlení: pět klíčových témat na summitu. Donald Trump projede čínským hlavním městem, které je smogovější než při jeho poslední návštěvě v roce 2017, kdy úřady zahájily nouzová opatření k vyčištění oblohy od znečištění několik dní před jeho první státní návštěvou..."
-      },
-      {
-        "id": "acb43584cb54d84b",
-        "title": "Massive Russian strikes across Ukraine leave one dead, officials say",
-        "summary": "Rescuers are searching for survivors in the rubble of a residential building hit overnight in Kyiv.",
-        "link": "https://www.bbc.com/news/articles/cq5p8yygq94o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-14T07:13:26+00:00",
-        "source": "BBC World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Masivní ruské údery po celé Ukrajině si vyžádaly jednu oběť, hlásí úřady",
-        "summary_cs": "Záchranáři pátrají po přeživších v troskách obytného domu zasaženého přes noc v Kyjevě."
+        "title_cs": "Trumpova návštěva Číny živě: Xi Ťin-pching varuje, že USA a Čína by se mohly 'dostat do konfliktu', pokud bude problém Tchaj-wanu špatně řešen, hlásí státní média",
+        "summary_cs": "Bezpečnost v Pekingu byla posílena před klíčovými rozhovory obou vůdců, které měly být dominovány obchodem, umělou inteligencí a válkou v Íránu. Trump přistál v Číně na summitu s vysokými sázkami s Xi Ťin-pchingem, zatímco válka v Íránu visí nad rozhovory. Vysvětlení: pět klíčových problémů na summitu. Donald Trump projede čínským hlavním městem, které je smogovější než při jeho poslední návštěvě v roce 2017, kdy úřady zavedly nouzová opatření k vyčištění oblohy od znečištění dny před jeho první státní návštěvou..."
       },
       {
         "id": "f0c47d6e7196add4",
         "title": "Inside Trump’s Summit Tour in Beijing: From Temple of Heaven to the Great Hall",
         "summary": "The Temple of Heaven and Great Hall of the People embody distinct parts of China’s history, which Xi Jinping has sought to underscore while hosting state visits.",
         "link": "https://www.nytimes.com/2026/05/14/world/asia/trump-xi-china-summit-temple-of-heaven-great-hall.html",
-        "published": "2026-05-14T07:12:58+00:00",
+        "published": "2026-05-14T07:46:43+00:00",
         "source": "NYT World",
         "lang": "en",
         "sub": null,
-        "title_cs": "Uvnitř Trumpovy summitové tour v Pekingu: Od Chrámu nebes po Velkou síň lidu",
-        "summary_cs": "Chrám nebes a Velká síň lidu ztělesňují odlišné části čínské historie, které se Si Ťin-pching snažil zdůraznit během hostování státních návštěv."
-      },
-      {
-        "id": "d76d621f8ece894d",
-        "title": "Trump and Xi meet in Beijing for key summit, with trade, Iran and AI on table",
-        "summary": "US president says he and his Chinese counterpart have ‘known each other for a long time’ and Xi is ‘great leader’ Trump in Beijing – latest updates Five key issues for Xi-Trump summit The US president, Donald Trump, has met China’s leader, Xi Jinping, for a momentous summit that will pack negotiations on global conflict, international trade and the future of artificial intelligence into just over 24 hours. Trump arrived at the Great Hall of the People, an imposing Mao-era building that border...",
-        "link": "https://www.theguardian.com/world/2026/may/14/trump-xi-jinping-meet-beijing-ahead-of-summit-trade-iran-war-ai-talks",
-        "published": "2026-05-14T07:05:07+00:00",
-        "source": "Guardian World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Trump a Si se setkali v Pekingu na klíčovém summitu, na programu obchod, Írán a AI",
-        "summary_cs": "Americký prezident říká, že se svým čínským protějškem „znají už dlouho“ a že Si je „skvělý vůdce“. Trump v Pekingu – nejnovější informace. Pět klíčových témat summitu Si-Trump. Americký prezident Donald Trump se setkal s čínským vůdcem Si Ťin-pchingem na významném summitu, který během necelých 24 hodin zahrne jednání o globálním konfliktu, mezinárodním obchodu a budoucnosti umělé inteligence. Trump dorazil do Velké síně lidu, impozantní budovy z Maovy éry, která hraničí..."
-      },
-      {
-        "id": "931f12836be2134d",
-        "title": "President Trump Goes to China",
-        "summary": "His talks with Xi Jinping in Beijing could decide whether the United States and China maintain their uneasy truce on trade.",
-        "link": "https://www.nytimes.com/2026/05/14/world/asia/trump-china-photos.html",
-        "published": "2026-05-14T07:03:57+00:00",
-        "source": "NYT World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Prezident Trump odjel do Číny",
-        "summary_cs": "Jeho rozhovory se Si Ťin-pchingem v Pekingu by mohly rozhodnout, zda Spojené státy a Čína udrží své napjaté příměří v obchodu."
-      },
-      {
-        "id": "b66d642912d88f16",
-        "title": "Iran war day 76: Vance says progress made in talks; Israel pounds Lebanon",
-        "summary": "US Vice President Vance says progress is being made in talks with Iran as President Trump begins his trip to China.",
-        "link": "https://www.aljazeera.com/news/2026/5/14/iran-war-day-76-vance-says-progress-made-in-talks-israel-pounds-lebanon?traffic_source=rss",
-        "published": "2026-05-14T07:00:12+00:00",
-        "source": "Al Jazeera",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Válka v Íránu den 76: Vance hlásí pokrok v jednáních; Izrael bombarduje Libanon",
-        "summary_cs": "Americký viceprezident Vance uvádí, že v jednáních s Íránem dochází k pokroku, zatímco prezident Trump zahajuje svou cestu do Číny."
-      },
-      {
-        "id": "530c32d5e2a8be81",
-        "title": "Trump in China for talks with Xi Jinping",
-        "summary": "Trump visits Beijing for high-stakes summit with Xi as Iran, trade and Taiwan strain US-China ties.",
-        "link": "https://www.aljazeera.com/gallery/2026/5/14/trump-in-china-for-talks-with-xi-jinping?traffic_source=rss",
-        "published": "2026-05-14T06:56:12+00:00",
-        "source": "Al Jazeera",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Trump v Číně na jednání se Si Ťin-pchingem",
-        "summary_cs": "Trump navštěvuje Peking na vrcholnou schůzku se Si, zatímco Írán, obchod a Tchaj-wan napínají vztahy mezi USA a Čínou."
+        "title_cs": "Uvnitř Trumpovy summitové prohlídky v Pekingu: Od Chrámu nebes po Velkou síň lidu",
+        "summary_cs": "Chrám nebes a Velká síň lidu ztělesňují odlišné části čínské historie, které se Xi Ťin-pching snažil zdůraznit při hostování státních návštěv."
       }
     ],
     "czech": [
+      {
+        "id": "f3c2a7f027f92971",
+        "title": "Firmy v Olomouckém kraji hledají brigádníky na léto. Hodinové mzdy letos mírně porostou",
+        "summary": "Mnozí vysokoškoláci a středoškoláci v Olomouckém kraji si začínají domlouvat brigády na letní prázdniny. Kolik si můžou vydělat a kde mají největší šanci práci získat? „Nejjednodušší jsou větší města, takže bez problémů Olomouc, Přerov, Prostějov, tam, kde jsou větší zázemí. Nejhůře obsaditelné jsou naše okrajové části,“ vysvětluje vedoucí personální agentury Man Power Miroslava Lacková.",
+        "link": "https://www.irozhlas.cz/zpravy-domov/firmy-v-olomouckem-kraji-hledaji-brigadniky-na-leto-hodinove-mzdy-letos-mirne_2605141010_ntu",
+        "published": "2026-05-14T10:10:00+02:00",
+        "source": "iRozhlas",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Firmy v Olomouckém kraji hledají brigádníky na léto. Hodinové mzdy letos mírně porostou",
+        "summary_cs": "Mnozí vysokoškoláci a středoškoláci v Olomouckém kraji si začínají domlouvat brigády na letní prázdniny. Kolik si můžou vydělat a kde mají největší šanci práci získat? „Nejjednodušší jsou větší města, takže bez problémů Olomouc, Přerov, Prostějov, tam, kde jsou větší zázemí. Nejhůře obsaditelné jsou naše okrajové části,“ vysvětluje vedoucí personální agentury Man Power Miroslava Lacková."
+      },
+      {
+        "id": "e1854a4b3b59bde0",
+        "title": "Hudební festivaly 2026: Kam vyrazit a jaké hvězdy letos přijedou",
+        "summary": "Festivalové léto se blíží. Kam vyrazit? Připravili jsme pro vás přehled a základní informace o těch největších hudebních přehlídkách v Česku.",
+        "link": "https://www.seznamzpravy.cz/clanek/kultura-hudebni-festivaly-2026-info-305444",
+        "published": "2026-05-14T10:00:00+02:00",
+        "source": "Seznam Zprávy",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Hudební festivaly 2026: Kam vyrazit a jaké hvězdy letos přijedou",
+        "summary_cs": "Festivalové léto se blíží. Kam vyrazit? Připravili jsme pro vás přehled a základní informace o těch největších hudebních přehlídkách v Česku."
+      },
+      {
+        "id": "3eb6351d0d8907da",
+        "title": "Při čtvrtině zápasů fotbalového MS hrozí nebezpečné horko. Pro Čechy budou rizikové tréninky",
+        "summary": "Nesnesitelné horko, slabší výkony hráčů a ohrožené zdraví diváků – tato rizika budou na letošním mistrovství světa ve fotbale velmi vysoká. Ukazuje to právě zveřejněná analýza vědeckého týmu z organizace World Weather Attribution. Ten se zabývá dopadem změny klimatu na konkrétní projevy extrémního počasí. Rizika se týkají i českého týmu, který svůj první zápas na turnaji v Severní Americe odehraje za čtyři týdny.",
+        "link": "https://www.irozhlas.cz/zpravy-svet/pri-ctvrtine-zapasu-fotbaloveho-ms-hrozi-nebezpecne-horko-pro-cechy-budou_2605141000_ako",
+        "published": "2026-05-14T10:00:00+02:00",
+        "source": "iRozhlas",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Při čtvrtině zápasů fotbalového MS hrozí nebezpečné horko. Pro Čechy budou rizikové tréninky",
+        "summary_cs": "Nesnesitelné horko, slabší výkony hráčů a ohrožené zdraví diváků – tato rizika budou na letošním mistrovství světa ve fotbale velmi vysoká. Ukazuje to právě zveřejněná analýza vědeckého týmu z organizace World Weather Attribution. Ten se zabývá dopadem změny klimatu na konkrétní projevy extrémního počasí. Rizika se týkají i českého týmu, který svůj první zápas na turnaji v Severní Americe odehraje za čtyři týdny."
+      },
+      {
+        "id": "def34c0804d636d0",
+        "title": "Národní divadlo Brno zařazuje na repertoár černou komedii o krizi bydlení",
+        "summary": "Co všechno je člověk schopen udělat pro vlastní pohodlí, ukazuje hororová komedie o krizi bydlení nazvaná Zářivá verbež, kterou nově nastudovalo brněnské Národní divadlo.",
+        "link": "https://www.seznamzpravy.cz/clanek/kultura-zariva-verbez-narodni-divadlo-brno-306144",
+        "published": "2026-05-14T09:59:00+02:00",
+        "source": "Seznam Zprávy",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Národní divadlo Brno zařazuje na repertoár černou komedii o krizi bydlení",
+        "summary_cs": "Co všechno je člověk schopen udělat pro vlastní pohodlí, ukazuje hororová komedie o krizi bydlení nazvaná Zářivá verbež, kterou nově nastudovalo brněnské Národní divadlo."
+      },
+      {
+        "id": "90f7f911fb41e080",
+        "title": "Železniční megatendr vrcholí. Vyhrát může jediný dopravce, tvrdí kritici",
+        "summary": "Středočeský kraj a Praha vybírají provozovatele vlaků v tendru za 142 miliard korun. Někteří účastníci ale kritizují podmínky výběrového řízení, které podle nich nahrávají Českým drahám a plzeňské Škodě Group.",
+        "link": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-doprava-zeleznicni-megatendr-vrcholi-vyhrat-muze-jediny-dopravce-tvrdi-kritici-306142",
+        "published": "2026-05-14T09:45:00+02:00",
+        "source": "Seznam Zprávy",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Železniční megatendr vrcholí. Vyhrát může jediný dopravce, tvrdí kritici",
+        "summary_cs": "Středočeský kraj a Praha vybírají provozovatele vlaků v tendru za 142 miliard korun. Někteří účastníci ale kritizují podmínky výběrového řízení, které podle nich nahrávají Českým drahám a plzeňské Škodě Group."
+      },
+      {
+        "id": "621ce5743e1f937d",
+        "title": "Rozhlasová hra Válka s mloky má novou 3D podobu. Díky ní se posluchači ocitnou přímo uprostřed děje",
+        "summary": "Legendární rozhlasová hra Karla Čapka Válka s mloky dostala nový zvuk. Experti z Technické univerzity v Liberci ji ve spolupráci s Českým rozhlasem upravili do 3D podoby. Díky tomu mají posluchači pocit, jako by byli přímo uprostřed děje. Úprava původní nahrávky z roku 1958 trvala skoro dva roky.",
+        "link": "https://www.irozhlas.cz/zpravy-domov/rozhlasova-hra-valka-s-mloky-ma-novou-3d-podobu-diky-ni-se-posluchaci-ocitnou_2605140945_ntu",
+        "published": "2026-05-14T09:45:00+02:00",
+        "source": "iRozhlas",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Rozhlasová hra Válka s mloky má novou 3D podobu. Díky ní se posluchači ocitnou přímo uprostřed děje",
+        "summary_cs": "Legendární rozhlasová hra Karla Čapka Válka s mloky dostala nový zvuk. Experti z Technické univerzity v Liberci ji ve spolupráci s Českým rozhlasem upravili do 3D podoby. Díky tomu mají posluchači pocit, jako by byli přímo uprostřed děje. Úprava původní nahrávky z roku 1958 trvala skoro dva roky."
+      },
+      {
+        "id": "df5647f1d46aae95",
+        "title": "NS potvrdil povinnost pořadatelů zajistit si souhlas autorů pro živou produkci",
+        "summary": "Nejvyšší soud rozhodl, že za autorské licence odpovídá ten, kdo představení organizačně řídí, nikoliv jen umělci nebo majitelé budov. Verdikt padl ve sporu Filipa Smoljaka s Divadlem Járy Cimrmana.",
+        "link": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ns-potvrdil-povinnost-poradatelu-zajistit-si-souhlas-autoru-pro-zivou-produkci-306143",
+        "published": "2026-05-14T09:42:58+02:00",
+        "source": "Seznam Zprávy",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "NS potvrdil povinnost pořadatelů zajistit si souhlas autorů pro živou produkci",
+        "summary_cs": "Nejvyšší soud rozhodl, že za autorské licence odpovídá ten, kdo představení organizačně řídí, nikoliv jen umělci nebo majitelé budov. Verdikt padl ve sporu Filipa Smoljaka s Divadlem Járy Cimrmana."
+      },
+      {
+        "id": "dfc16387984528e1",
+        "title": "50 let Majora Zemana. Seriál sledovalo 90 procent lidí. Byl drahý, ale i odfláknutý",
+        "summary": "Od vysílání prvních dílů monumentálního normalizačního seriálu 30 případů majora Zemana uplynulo 50 let. Některé scény se po zásahu špiček KSČ přetáčely. „Z velké části šlo o čistou ideologii a propagandu,“ říká historik.",
+        "link": "https://www.seznamzpravy.cz/clanek/magazin-historie-50-let-majora-zemana-serial-sledovalo-90-procent-lidi-byl-drahy-ale-i-odflaknuty-306024",
+        "published": "2026-05-14T09:30:00+02:00",
+        "source": "Seznam Zprávy",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "50 let Majora Zemana. Seriál sledovalo 90 procent lidí. Byl drahý, ale i odfláknutý",
+        "summary_cs": "Od vysílání prvních dílů monumentálního normalizačního seriálu 30 případů majora Zemana uplynulo 50 let. Některé scény se po zásahu špiček KSČ přetáčely. „Z velké části šlo o čistou ideologii a propagandu,“ říká historik."
+      },
       {
         "id": "387bddb870560b88",
         "title": "Učesat, ostříhat i připravit kávu. Studenti Bráfovy akademie v Třebíči zazářili na Junior show",
@@ -242,126 +338,30 @@
         "summary_cs": "Soutěžní klání v profesních dovednostech mají za sebou studenti Bráfovy akademie v Třebíči. Před publikem prezentují své umění nabyté studiem oborů řady služeb. O ceny bojovaly například kadeřnice, výtvarníci, cukráři, řezbáři či baristé."
       },
       {
-        "id": "e3a2c6f599f59770",
-        "title": "Deset miliard korun a více než pět let práce. Hlavní nádraží v Hradci Králové čeká do roku 2031 proměna",
+        "id": "dd1224f3018e1ae4",
+        "title": "Hlavní nádraží v Hradci Králové čeká do roku 2031 zásadní proměna. Začíná série výluk na pěti tratích",
         "summary": "Na pěti železničních tratích v Královéhradeckém, Středočeském a Pardubickém kraji ve čtvrtek začíná série výluk. Omezení souvisí s přestavbou hlavního nádraží v Hradci Králové a v různých fázích potrvá až do 27. května.",
         "link": "https://www.irozhlas.cz/zpravy-domov/deset-miliard-korun-a-vice-nez-pet-let-prace-hlavni-nadrazi-v-hradci-kralove_2605140904_ntu",
         "published": "2026-05-14T09:04:00+02:00",
         "source": "iRozhlas",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Deset miliard korun a více než pět let práce. Hlavní nádraží v Hradci Králové čeká do roku 2031 proměna",
+        "title_cs": "Hlavní nádraží v Hradci Králové čeká do roku 2031 zásadní proměna. Začíná série výluk na pěti tratích",
         "summary_cs": "Na pěti železničních tratích v Královéhradeckém, Středočeském a Pardubickém kraji ve čtvrtek začíná série výluk. Omezení souvisí s přestavbou hlavního nádraží v Hradci Králové a v různých fázích potrvá až do 27. května."
-      },
-      {
-        "id": "97d821210eb06119",
-        "title": "Až milion korun navíc do městského rozpočtu. Chrudim plánuje zavést 30korunový poplatek za pobyt",
-        "summary": "Chrudimská radnice chce začít vybírat poplatek z pobytu. Ubytovaní turisté zatím městu nemuseli platit nic. Nově by je návštěva měla stát několik desetikorun navíc za každý den. Vyhláška by tak znamenala další příjmy do městského rozpočtu.",
-        "link": "https://www.irozhlas.cz/zpravy-domov/az-milion-korun-navic-do-mestskeho-rozpoctu-chrudim-planuje-zavest-30korunovy_2605140855_aru",
-        "published": "2026-05-14T08:55:00+02:00",
-        "source": "iRozhlas",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Až milion korun navíc do městského rozpočtu. Chrudim plánuje zavést 30korunový poplatek za pobyt",
-        "summary_cs": "Chrudimská radnice chce začít vybírat poplatek z pobytu. Ubytovaní turisté zatím městu nemuseli platit nic. Nově by je návštěva měla stát několik desetikorun navíc za každý den. Vyhláška by tak znamenala další příjmy do městského rozpočtu."
-      },
-      {
-        "id": "b09c0eacc86ba3b6",
-        "title": "„Extrémně nepříjemný hluk.“ Hlasité rány z D1 utichnou",
-        "summary": "Obyvatelé Dluhonic na Přerovsku se dočkají zásahu proti obtěžujícímu hluku z nové části dálnice D1. Přestože měření neukázala překročení hygienických limitů, město Přerov slíbilo financovat protihlukové opatření.",
-        "link": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-extremne-neprijemny-hluk-hlasite-rany-z-d1-utichnou-305996",
-        "published": "2026-05-14T08:40:00+02:00",
-        "source": "Seznam Zprávy",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "„Extrémně nepříjemný hluk.“ Hlasité rány z D1 utichnou",
-        "summary_cs": "Obyvatelé Dluhonic na Přerovsku se dočkají zásahu proti obtěžujícímu hluku z nové části dálnice D1. Přestože měření neukázala překročení hygienických limitů, město Přerov slíbilo financovat protihlukové opatření."
-      },
-      {
-        "id": "5d85195185f24443",
-        "title": "Květnové projednání akceleračních zón už v pátek. Dle plánu se dotýkají více než stovek obcí a měst",
-        "summary": "Ministerstvo pro místní rozvoj plánuje na území České republiky zavedení akceleračních zón. Ty by v místě umožnily stavbu solárních nebo větrných elektráren. Navrhované změny územního rozvojového plánu se dotýkají více než stovek obcí a měst. K tématu připravilo ministerstvo na 15. května veřejné setkání.",
-        "link": "https://www.irozhlas.cz/zpravy-domov/kvetnove-projednani-akceleracnich-zon-uz-v-patek-dle-planu-se-dotykaji-vice-nez_2605140838_aha",
-        "published": "2026-05-14T08:38:00+02:00",
-        "source": "iRozhlas",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Květnové projednání akceleračních zón už v pátek. Dle plánu se dotýkají více než stovek obcí a měst",
-        "summary_cs": "Ministerstvo pro místní rozvoj plánuje na území České republiky zavedení akceleračních zón. Ty by v místě umožnily stavbu solárních nebo větrných elektráren. Navrhované změny územního rozvojového plánu se dotýkají více než stovek obcí a měst. K tématu připravilo ministerstvo na 15. května veřejné setkání."
-      },
-      {
-        "id": "3c47ea77587c42d2",
-        "title": "ČEZ zvýšil zisk i výhled. Pomohla zima i růst cen energií",
-        "summary": "ČEZ v prvním čtvrtletí zvýšil čistý zisk o 13 procent na 14,5 miliardy korun.\nTržby i EBITDA naopak klesly, hlavně kvůli nižším realizačním cenám elektřiny.\nFirma zároveň zlepšila celoroční výhled, mimo jiné kvůli růstu cen energií.",
-        "link": "https://www.e15.cz/byznys/prumysl-a-energetika/cez-zvysil-zisk-i-vyhled-pomohla-zima-i-rust-cen-energii-1432796",
-        "published": "2026-05-14T08:33:00+02:00",
-        "source": "E15",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "ČEZ zvýšil zisk i výhled. Pomohla zima i růst cen energií",
-        "summary_cs": "ČEZ v prvním čtvrtletí zvýšil čistý zisk o 13 procent na 14,5 miliardy korun.\nTržby i EBITDA naopak klesly, hlavně kvůli nižším realizačním cenám elektřiny.\nFirma zároveň zlepšila celoroční výhled, mimo jiné kvůli růstu cen energií."
-      },
-      {
-        "id": "24c2127809868dc2",
-        "title": "Za přeplnění popelnice hrozí pokuta. V čem Češi chybují při třídění odpadu",
-        "summary": "Třídit odpad se učíme už v dětství, často v tom chybujeme i v dospělosti. Ne všichni třeba vědí, že je důležité popelnice nepřeplňovat, hrozí za to pokuta.",
-        "link": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-za-preplneni-popelnice-hrozi-pokuta-v-cem-cesi-chybuji-pri-trideni-odpadu-306066",
-        "published": "2026-05-14T08:20:00+02:00",
-        "source": "Seznam Zprávy",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Za přeplnění popelnice hrozí pokuta. V čem Češi chybují při třídění odpadu",
-        "summary_cs": "Třídit odpad se učíme už v dětství, často v tom chybujeme i v dospělosti. Ne všichni třeba vědí, že je důležité popelnice nepřeplňovat, hrozí za to pokuta."
-      },
-      {
-        "id": "92159ca7532616e0",
-        "title": "Fotopasti u kontejnerů na tříděný odpad. Na jihu Moravy bojují proti nepořádku kolem popelnic",
-        "summary": "Některá města na jihu Moravy chtějí bojovat s nepořádkem kolem popelnic na tříděný odpad pomocí fotopastí. Jejich počty rozšiřují třeba v Blansku, ve Znojmě plánují instalaci vůbec prvních pastí. Radnice napříč krajem se setkávají mimo jiné i s vylamováním nádob na textil nebo elektroodpad.",
-        "link": "https://www.irozhlas.cz/zpravy-domov/fotopasti-u-kontejneru-na-trideny-odpad-na-jihu-moravy-bojuji-proti-neporadku_2605140813_aru",
-        "published": "2026-05-14T08:13:00+02:00",
-        "source": "iRozhlas",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Fotopasti u kontejnerů na tříděný odpad. Na jihu Moravy bojují proti nepořádku kolem popelnic",
-        "summary_cs": "Některá města na jihu Moravy chtějí bojovat s nepořádkem kolem popelnic na tříděný odpad pomocí fotopastí. Jejich počty rozšiřují třeba v Blansku, ve Znojmě plánují instalaci vůbec prvních pastí. Radnice napříč krajem se setkávají mimo jiné i s vylamováním nádob na textil nebo elektroodpad."
-      },
-      {
-        "id": "5892896a13f10a7b",
-        "title": "Let It Roll podruhé v Mostě. Letošní ročník hudebního festivalu pomůže nejen lidem v nouzi, ale i přírodě",
-        "summary": "Až devatenáct tisíc lidí má podle organizátorů přijet k jezeru Most na hudební festival Let It Roll. Konat se bude v létě na přelomu července a srpna. Jako loni budou po festivalu podpořeny místní neziskové organizace. Zavedeny jsou také ekologická opatření, která pomohou se snížením odpadu a znečištěním přírody.",
-        "link": "https://www.irozhlas.cz/kultura/hudba/let-it-roll-podruhe-v-moste-letosni-rocnik-hudebniho-festivalu-pomuze-nejen_2605140800_aha",
-        "published": "2026-05-14T08:00:00+02:00",
-        "source": "iRozhlas",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Let It Roll podruhé v Mostě. Letošní ročník hudebního festivalu pomůže nejen lidem v nouzi, ale i přírodě",
-        "summary_cs": "Až devatenáct tisíc lidí má podle organizátorů přijet k jezeru Most na hudební festival Let It Roll. Konat se bude v létě na přelomu července a srpna. Jako loni budou po festivalu podpořeny místní neziskové organizace. Zavedeny jsou také ekologická opatření, která pomohou se snížením odpadu a znečištěním přírody."
-      },
-      {
-        "id": "a02ed76cf1d89c7c",
-        "title": "O novou službu porodních asistentek je zájem. V Královéhradeckém kraji ji nabízejí tři porodnice",
-        "summary": "Od ledna letošního roku funguje po celém Česku nová služba porodních asistentek. V Královéhradeckém kraji ji zajišťuje Krajský zdravotnický holding ve svých porodnicích v Náchodě, Jičíně a Trutnově.",
-        "link": "https://www.irozhlas.cz/zivotni-styl/zdravi/o-novou-sluzbu-porodnich-asistentek-je-zajem-v-kralovehradeckem-kraji-ji_2605140749_aru",
-        "published": "2026-05-14T07:49:00+02:00",
-        "source": "iRozhlas",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "O novou službu porodních asistentek je zájem. V Královéhradeckém kraji ji nabízejí tři porodnice",
-        "summary_cs": "Od ledna letošního roku funguje po celém Česku nová služba porodních asistentek. V Královéhradeckém kraji ji zajišťuje Krajský zdravotnický holding ve svých porodnicích v Náchodě, Jičíně a Trutnově."
       }
     ],
     "sport": [
       {
-        "id": "49c3b963632c280b",
-        "title": "'One of the greatest catches in IPL history' | Incredible grab leaves bowler STUNNED",
+        "id": "7697d118e1490cb0",
+        "title": "'One of greatest catches in IPL history' | Incredible grab leaves bowler STUNNED",
         "summary": "Manish Pandey takes one of the greatest catches in IPL history to dismiss Tim David.",
         "link": "https://www.skysports.com/watch/video/13543852/ipl-incredible-grab-leaves-bowler-stunned-one-of-the-greatest-catches-in-ipl-history",
         "published": "2026-05-14T08:26:00+00:00",
         "source": "Sky Sports Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "'Jeden z nejlepších chycení v historii IPL' | Neuvěřitelný zákrok zanechal nadhazovače OHROMENÉHO",
-        "summary_cs": "Manish Pandey předvedl jedno z nejlepších chycení v historii IPL, když vyřadil Tima Davida."
+        "title_cs": "'Jeden z nejlepších zákroků v historii IPL' | Neuvěřitelný chyt se zanechal nadhazovače OHROMENÉHO",
+        "summary_cs": "Manish Pandey předvedl jeden z nejlepších zákroků v historii IPL, když vyřadil Tima Davida."
       },
       {
         "id": "413904e7208430e3",
@@ -372,8 +372,8 @@
         "source": "Sky Sports Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "Harwood-Bellis MOCKUJE hráče Boro dalekohledem po pozdním vítězství",
-        "summary_cs": "Kapitán Southamptonu Taylor Harwood-Bellis zřejmě zesměšňoval hráče Middlesbrough gestem s dalekohledem po pozdním vítězném gólu, a to uprostřed obvinění, že Saints špehovali trénink Boro před jejich zápasem play-off."
+        "title_cs": "Harwood-Bellis MOCKUJE hráče Boro oslavou s dalekohledem po pozdním vítězství",
+        "summary_cs": "Kapitán Southamptonu Taylor Harwood-Bellis zjevně zesměšňoval hráče Middlesbrough oslavou s dalekohledem uprostřed obvinění, že Saints špehovali trénink Boro před jejich zápasem play-off."
       },
       {
         "id": "93c947aeefc7e1ff",
@@ -384,8 +384,8 @@
         "source": "Sky Sports Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "Harden zaznamenal 30 bodů, Cavaliers porazili Pistons v prodloužení",
-        "summary_cs": "James Harden nastřílel 30 bodů, což je jeho nejlepší výkon v play-off, a Donovan Mitchell přidal 21 bodů. Cleveland Cavaliers se dokázali vrátit z devítibodového manka v závěru základní hrací doby a ve středu večer porazili Detroit Pistons 117:113 po prodloužení, čímž v sérii semifinále Východní konference vedou 3:2."
+        "title_cs": "Harden skóroval 30 bodů, Cavaliers porazili Pistons v prodloužení",
+        "summary_cs": "James Harden nastřílel v play-off 30 bodů a Donovan Mitchell přidal 21, čímž pomohl Cleveland Cavaliers zvrátit devítibodové manko na konci základní hrací doby a porazit Detroit Pistons 117:113 v prodloužení ve středu večer, aby v sérii Východní konference vedli 3:2."
       },
       {
         "id": "52e03d1228ec2fcb",
@@ -397,7 +397,7 @@
         "lang": "en",
         "sub": "football",
         "title_cs": "Proč máme VAR víc, ne míň? Fotbal nezabije svou zlatou slepici | Jonathan Liew",
-        "summary_cs": "Tato tolik nenáviděná technologie se stala svým vlastním spektáklem, protože generuje neustálý proud pobouření, debat a zapojení. „Jen to pořád odkládejte,“ říká Darren England rozhodčímu Chrisi Kavanaghovi v neděli odpoledne na West Hamu. V sázce je titul, možná i sestup, a jak se opakovaně přehrávají záběry na pásce, kdo by mohl vinit skromného videorozhodčího, že si chce vychutnat okamžik? Prohlédnout si ho ze všech relevantních úhlů, zvážit všechny možnosti. Cítit tu... "
+        "summary_cs": "Tato tolik nenáviděná technologie se stala svým vlastním spektáklem tím, že generuje neustálý proud pobouření, debat a zapojení. „Jen to pořád odkládejte,“ říká Darren England rozhodčímu Chrisi Kavanaghovi v neděli odpoledne na West Hamu. Hraje se o titul, možná i o sestup, a jak se opakované záběry řadí na přehrávači, kdo by mohl vinit skromného videorozhodčího, že si chce vychutnat okamžik? Prohlédnout si ho ze všech relevantních úhlů, zvážit všechny možnosti. Cítit ten pocit..."
       },
       {
         "id": "970939fabd06b61d",
@@ -408,8 +408,8 @@
         "source": "Sky Sports Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "Jak sledovat KAŽDÝ zbývající zápas Premier League",
-        "summary_cs": "Jak se dramatická sezóna Premier League blíží k napínavému konci, Sky Sports se postará o to, abyste nezmeškali ani minutu akce."
+        "title_cs": "Jak sledovat KAŽDÝ zbývající zápas PL",
+        "summary_cs": "Jak se dramatická sezóna Premier League blíží k napínavému konci, Sky Sports zajistí, že nezmeškáte ani minutu akce."
       },
       {
         "id": "2337a62d0fff8e34",
@@ -420,8 +420,8 @@
         "source": "Sky Sports Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "2:00 ráno! Ohňostroje na finále Coppa Italia způsobily chaos na Italian Open",
-        "summary_cs": "Italský tenista Luciano Darderi se musel potýkat s kouřovou pauzou způsobenou ohňostrojem na sousedním Stadio Olimpico během finále Coppa Italia, než nakonec porazil teenagera Rafaela Jodara a postoupil do semifinále Italian Open. Zápas skončil těsně po 2. hodině ráno místního času."
+        "title_cs": "2 ráno! Ohňostroje finále Coppa Italia způsobily chaos na Italian Open",
+        "summary_cs": "Ital Luciano Darderi se musel vyrovnat s kouřovou pauzou způsobenou ohňostrojem na finále Coppa Italia na sousedním Stadio Olimpico, než nakonec porazil teenagera Rafaela Jodara a postoupil do semifinále Italian Open v zápase, který skončil těsně po 2. hodině ranní místního času."
       },
       {
         "id": "e3fb2aa0ed6adebf",
@@ -444,8 +444,8 @@
         "source": "Sky Sports Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "Fontwell hostí šestihodinovou čtvrteční dostihovou dráhu",
-        "summary_cs": "Fontwell je dnes dějištěm letosních překážkových dostihů, přičemž veškeré dění bude živě přenášeno na Sky Sports Racing."
+        "title_cs": "Fontwell hostí šestihodinovou čtvrteční kartu",
+        "summary_cs": "Fontwell je dnes dějištěm letního skokového dostihu, veškerá akce živě na Sky Sports Racing."
       },
       {
         "id": "2e6de84063ac0903",
@@ -460,6 +460,30 @@
         "summary_cs": "Fabio Wardley potřebuje více času na odvetu s Danielem Duboisem, říká olympijský vítěz v supertěžké váze Audley Harrison."
       },
       {
+        "id": "483c608bc52fd82b",
+        "title": "MS v hokeji ONLINE: Další český trénink. Národní tým poprvé zkouší hlavní halu ve Fribourgu - iSport.cz",
+        "summary": "MS v hokeji ONLINE: Další český trénink. Národní tým poprvé zkouší hlavní halu ve Fribourgu iSport.cz",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQVDZuaVd5LVVkdTJvSktOMnRVVUV6N3kzeVZnR1VXTEd4R2FIN0pqX3hyTnphTTVKVWtVeXoyZ21rRU00Ql9rbXNadS10WlNxaEstNFVqMWV3ZUE2LW54b2ZDelFWaHowWThta1Zndl81Vm0xNDRhNmt2ZHVTVDZESXdzeFN0b0JTNFlJT001OV90aEgtcDc0TldraU9LNWdsUXVLajEwb2Q1XzQ4UTIxLVFwSjRhSGpTdnRKU3lBTWdjRVlCZXJ0VjZhMkFXNVBzcndrZUxZdENyMVo0Mm85eXhGWFpsdGhvRHpEN1N4bGN0dXAxbFE?oc=5",
+        "published": "2026-05-14T08:18:00+00:00",
+        "source": "Česká hokejová reprezentace",
+        "lang": "cs",
+        "sub": "hockey",
+        "title_cs": "MS v hokeji ONLINE: Další český trénink. Národní tým poprvé zkouší hlavní halu ve Fribourgu - iSport.cz",
+        "summary_cs": "MS v hokeji ONLINE: Další český trénink. Národní tým poprvé zkouší hlavní halu ve Fribourgu iSport.cz"
+      },
+      {
+        "id": "3e31b73ccd68f234",
+        "title": "MS v hokeji ONLINE: Největším favoritem turnaje je Kanada, Češi podle kurzů až šestí v řadě - iSport.cz",
+        "summary": "MS v hokeji ONLINE: Největším favoritem turnaje je Kanada, Češi podle kurzů až šestí v řadě iSport.cz",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPZXItQnRxZ0lPWklsc2hxZVh1NlNRMHprMnhoOUJ1dW50d0hwZVlhVjhveVMwb0N3dkNGWWlOd1U3REF0REhwdDQ4bE9UWGI0X2pDTnpja25qQjZDTlZsWlZrTUxVcjg0QTkya2wxUDlNOTB5TEtnVEN1NUpCcW4ySE9uZWRkenBsY0owTnNuVmZydlR5VGV5VmNwWDBSbVIzQ0daNkx5MmVRSGY0cWlua3NYTmpMYnU0dHZMWHFrWWtNTlVpaGRIMFdtMHVGdHFzVGJHc3RaTmtSWlYxQnEzY3pjWVluWVBoZ05veVdIQUt0UFJBWmc?oc=5",
+        "published": "2026-05-14T07:39:00+00:00",
+        "source": "Česká hokejová reprezentace",
+        "lang": "cs",
+        "sub": "hockey",
+        "title_cs": "MS v hokeji ONLINE: Největším favoritem turnaje je Kanada, Češi podle kurzů až šestí v řadě - iSport.cz",
+        "summary_cs": "MS v hokeji ONLINE: Největším favoritem turnaje je Kanada, Češi podle kurzů až šestí v řadě iSport.cz"
+      },
+      {
         "id": "bab365451fe7b477",
         "title": "Toyota Game Recap: R2G5 - 5/13/2026 - NHL.com",
         "summary": "Toyota Game Recap: R2G5 - 5/13/2026 NHL.com",
@@ -472,28 +496,28 @@
         "summary_cs": "Shrnutí zápasu Toyota: R2G5 - 13. 5. 2026 NHL.com"
       },
       {
-        "id": "b121f3e93ccc2843",
-        "title": "Avalanche to play Golden Knights or Ducks in Western Conference Final - NHL.com",
-        "summary": "Avalanche to play Golden Knights or Ducks in Western Conference Final NHL.com",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNjRaY2JFcFozajAwZTVISVg0NEw0a29HMGx5ak81NDBKVThMU09oalBEWkh6MHNLX0Fsb3RlM2JCM0F6eFlEWm5VLUV1Q1dnMkZrLTZSLVhlMFpSbjlGWVlENHppQmVZWXJTREtLZlljTUQ1MUMza1FCS1dpckN4cU4yY0dCV19rQ2tuR0l3NW1tSzdudjJkMGNhM2d6ZGowZlJRb0duemtNaUx5WFlndWpfaUE1Vnc?oc=5",
-        "published": "2026-05-14T06:56:15+00:00",
-        "source": "NHL News",
+        "id": "385a0c77bddaf8d8",
+        "title": "Why Haas fears loss of ground to Alpine in F1's upper-midfield battle",
+        "summary": "After the Japanese Grand Prix, Haas F1 Team sat in the heady heights of fourth in Formula 1's constructors' championship, two points clear of Alpine. Yet, a muted weekend at its 'home' race in Miami has now put it five points behind the Anglo-French outfit, courtesy of Pierre Gasly's sprint race point and Franco Colapinto's run to seventh. Much of that can be put down to the efficacy of their ... Keep reading",
+        "link": "https://www.autosport.com/f1/news/why-haas-fears-loss-of-ground-to-alpine-in-f1s-upper-midfield-battle/10820502/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+        "published": "2026-05-14T08:11:02+00:00",
+        "source": "Autosport F1",
         "lang": "en",
-        "sub": "hockey",
-        "title_cs": "Avalanche se utkají s Golden Knights nebo Ducks ve finále Západní konference - NHL.com",
-        "summary_cs": "Avalanche se utkají s Golden Knights nebo Ducks ve finále Západní konference NHL.com"
+        "sub": "f1",
+        "title_cs": "Proč se Haas obává ztráty půdy na Alpine v boji střední třídy F1",
+        "summary_cs": "Po Velké ceně Japonska se Haas F1 Team nacházel na závratných výšinách čtvrtého místa v Poháru konstruktérů Formule 1, dva body před Alpine. Nicméně, tlumený víkend na domácím závodě v Miami nyní způsobil, že za anglo-francouzským týmem zaostává o pět bodů, díky bodu Pierra Gaslyho ve sprintovém závodě a cestě Franca Colapinta na sedmé místo. Velká část toho může být přičítána účinnosti jejich... Pokračujte ve čtení"
       },
       {
-        "id": "b326d20472480370",
-        "title": "Kulak scores in OT, Avalanche eliminate Wild, advance to Western Conference Final - NHL.com",
-        "summary": "Kulak scores in OT, Avalanche eliminate Wild, advance to Western Conference Final NHL.com",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU01pbHp2RVhJZzVVNktLZ1RWdjhDZzhxSlk5anFrZWJpQ3NlWGFLWEgxVUZYcFhoOWRjRDFHV2FqU0tSNlMtYzhyRTNVTWJqWnBKeDNlbUVXYmcwMWNKVHBULUVDbW1NdkczVWd5bFV6YW5LTk45MXhwSW8xczRoNXFsSjFLeHd3SkRB?oc=5",
-        "published": "2026-05-14T06:45:00+00:00",
-        "source": "NHL News",
+        "id": "b78f346a6fe57452",
+        "title": "Italian Open match delayed by cup final fireworks",
+        "summary": "A match at the Italian Open is halted for almost 20 minutes by smoke from fireworks after the Coppa Italia final at the neighbouring Stadio Olimpico.",
+        "link": "https://www.bbc.com/sport/tennis/articles/cqlpe4xr9qpo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-14T07:48:31+00:00",
+        "source": "BBC Tennis",
         "lang": "en",
-        "sub": "hockey",
-        "title_cs": "Kulak skóroval v prodloužení, Avalanche vyřadili Wild a postoupili do finále Západní konference - NHL.com",
-        "summary_cs": "Kulak skóroval v prodloužení, Avalanche vyřadili Wild a postoupili do finále Západní konference NHL.com"
+        "sub": "tennis",
+        "title_cs": "Zápas Italian Open zpožděn ohňostrojem z finále poháru",
+        "summary_cs": "Zápas na Italian Open byl na téměř 20 minut přerušen kouřem z ohňostroje po finále Coppa Italia na sousedním Stadio Olimpico."
       },
       {
         "id": "0dc895cd77a628ba",
@@ -504,32 +528,8 @@
         "source": "BBC F1",
         "lang": "en",
         "sub": "f1",
-        "title_cs": "Vrátí se F1 k motorům z minulosti?",
-        "summary_cs": "F1 je uprostřed dvou paralelních diskuzí o motorech. Andrew Benson se zamýšlí nad tím, zda jedna z nich povede k návratu V8."
-      },
-      {
-        "id": "d04755fdc9785926",
-        "title": "F1: Chequered Flag",
-        "summary": "Alisha Palmowski talks F1 Academy's return, plus Lando Norris chats with Declan Rice.",
-        "link": "https://www.bbc.co.uk/sounds/play/p0nl0lfk?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-14T05:00:00+00:00",
-        "source": "BBC F1",
-        "lang": "en",
-        "sub": "f1",
-        "title_cs": "F1: Šachovnicová vlajka",
-        "summary_cs": "Alisha Palmowski hovoří o návratu F1 Academy a Lando Norris si povídá s Declanem Ricem."
-      },
-      {
-        "id": "142e7acfbae7c475",
-        "title": "Confident Swiatek rediscovers ruthless best in Rome",
-        "summary": "Four-time French Open champion Iga Swiatek produces another statement win to reach the Rome semi-finals - and is finding her form just in time for Roland Garros.",
-        "link": "https://www.bbc.com/sport/tennis/articles/cpqpv91v225o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-13T13:13:21+00:00",
-        "source": "BBC Tennis",
-        "lang": "en",
-        "sub": "tennis",
-        "title_cs": "Sebevědomá Swiateková znovu objevila svou drtivou sílu v Římě",
-        "summary_cs": "Čtyřnásobná vítězka French Open Iga Swiateková předvedla další dominantní vítězství a postoupila do semifinále v Římě – a právě včas pro Roland Garros nachází svou formu."
+        "title_cs": "Vrátí se F1 k budoucnosti se svými motory?",
+        "summary_cs": "F1 je uprostřed dvou paralelních diskusí o motorech. Andrew Benson se zabývá tím, zda jedna z nich povede k návratu V8."
       }
     ],
     "tech": [
@@ -538,7 +538,7 @@
         "title": "The 9 biggest new features in Android 17",
         "summary": "Would it shock you to hear that Android 17 is filled with new AI-enabled features, like improved dictation and vibe-coded widgets? Fortunately, that's not all. The platform is getting non-AI updates too, from an emoji overhaul to a new screentime tool that helps you avoid distracting apps. Google has just revealed the biggest changes coming […]",
         "link": "https://www.theverge.com/tech/928653/google-android-17-9-biggest-new-features-android-show-io",
-        "published": "2026-05-14T07:44:49.404053+00:00",
+        "published": "2026-05-14T08:34:57.386935+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
@@ -550,7 +550,7 @@
         "title": "Sam Altman says Elon Musk’s mind games were damaging OpenAI",
         "summary": "OpenAI CEO Sam Altman says Elon Musk did \"huge damage\" to the culture of the AI startup. During testimony as part of Musk's lawsuit against OpenAI, Altman said Musk required OpenAI president Greg Brockman and former chief scientist Ilya Sutskever to rank researchers by their accomplishments and \"take a chainsaw through a bunch.\" Altman conceded […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/928861/openai-sam-altman-elon-musk-damage",
-        "published": "2026-05-14T07:44:49.404011+00:00",
+        "published": "2026-05-14T08:34:57.386848+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
@@ -562,7 +562,7 @@
         "title": "Meta won’t let you block its AI account on Threads",
         "summary": "Meta announced on Tuesday that it's testing a Threads feature that lets users tag a Meta AI account to get answers to questions or context about a conversation on the platform. If you've spent any time looking at replies on X as of late, this new feature sounds a lot like Meta's take on people […]",
         "link": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
-        "published": "2026-05-14T07:44:49.403969+00:00",
+        "published": "2026-05-14T08:34:57.386789+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
@@ -574,19 +574,19 @@
         "title": "Sam Altman was winning on the stand, but it might not be enough",
         "summary": "After two weeks of hearing from assorted witnesses that he was a lying snake, the jury finally heard from the lying snake himself: Sam Altman. At the end of the testimony, his lawyer William Savitt asked him how it felt to be accused of stealing a charity. \"We created, through a ton of hard work, […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/929129/sam-altman-testimony-elon-musk-openai-trial",
-        "published": "2026-05-14T07:44:49.403926+00:00",
+        "published": "2026-05-14T08:34:57.386732+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Sam Altman u soudu vyhrával, ale nemusí to stačit",
-        "summary_cs": "Poté, co dva týdny slyšel od různých svědků, že je lhář a had, porota konečně slyšela od samotného lháře a hada: Sama Altmana. Na konci svědectví se ho jeho právník William Savitt zeptal, jaké to je být obviněn z krádeže charity. „Vytvořili jsme s velkým úsilím […]"
+        "title_cs": "Sam Altman na lavici svědků vyhrával, ale nemusí to stačit",
+        "summary_cs": "Poté, co dva týdny slyšel od různých svědků, že je lhář a had, porota konečně slyšela od samotného lháře a hada: Sama Altmana. Na konci svědectví se ho jeho právník William Savitt zeptal, jak se cítí, když je obviněn z krádeže charity. „Vytvořili jsme s velkým úsilím […]"
       },
       {
         "id": "57f9ff373da2d22b",
         "title": "Data centers are coming for rural America",
         "summary": "At its peak, the Androscoggin paper mill in Jay, Maine, a rural town about 67 miles northwest of Portland, employed about 1,500 people - until a pulp digester exploded in 2020, forcing the mill to close permanently. In 2023, the 1.4 million-square-foot facility was purchased through a joint venture by JGT2 Redevelopment and a number […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine",
-        "published": "2026-05-14T07:44:49.403883+00:00",
+        "published": "2026-05-14T08:34:57.386672+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
@@ -598,60 +598,72 @@
         "title": "Alexa is moving into Amazon․com",
         "summary": "Amazon is bringing Alexa Plus to Amazon.com, integrating its LLM-powered AI assistant directly into the company's shopping experience. Beginning today, when you type a query into Amazon, you'll be talking to Alexa for Shopping, the company's new shopping assistant, powered by Alexa Plus. So, while a search for \"toilet paper\" will still return the expected […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
-        "published": "2026-05-14T07:44:49.403838+00:00",
+        "published": "2026-05-14T08:34:57.386611+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Alexa se stěhuje na Amazon.com",
-        "summary_cs": "Amazon přináší Alexu Plus na Amazon.com a integruje svého asistenta s umělou inteligencí poháněného LLM přímo do nákupního zážitku společnosti. Od dnešního dne, když do Amazonu zadáte dotaz, budete mluvit s Alexou pro nakupování, novým nákupním asistentem společnosti, poháněným Alexou Plus. Takže zatímco hledání „toaletního papíru“ stále vrátí očekávané […]"
+        "title_cs": "Alexa se stěhuje na Amazon․com",
+        "summary_cs": "Amazon přináší Alexu Plus na Amazon.com a integruje svého asistenta s umělou inteligencí poháněného LLM přímo do nákupního zážitku společnosti. Od dnešního dne, když do Amazonu zadáte dotaz, budete mluvit s Alexou pro nakupování, novým nákupním asistentem společnosti, poháněným Alexou Plus. Takže, zatímco vyhledávání „toaletního papíru“ stále vrátí očekávané […]"
       },
       {
         "id": "3f2173e4e88c8e07",
         "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
         "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial […]",
         "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-        "published": "2026-05-14T07:44:49.403793+00:00",
+        "published": "2026-05-14T08:34:57.386551+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
         "title_cs": "Živé zpravodajství ze soudního sporu Elona Muska a Sama Altmana o budoucnost OpenAI",
-        "summary_cs": "Sam Altman a Elon Musk se střetávají ve vysoce sledovaném procesu, který by mohl změnit budoucnost OpenAI a jejího nejznámějšího produktu ChatGPT. V roce 2024 Musk podal žalobu, v níž obvinil OpenAI z opuštění své zakládající mise vyvíjet AI ku prospěchu lidstva a přesunu zaměření na zvyšování zisků. Elon Musk, jeho finanční […]"
+        "summary_cs": "Sam Altman a Elon Musk se střetávají ve vysoce sledovaném soudním procesu, který by mohl změnit budoucnost OpenAI a jejího nejznámějšího produktu ChatGPT. V roce 2024 Musk podal žalobu, v níž obvinil OpenAI z opuštění své zakládající mise vyvíjet AI ku prospěchu lidstva a přesunu zaměření na zvyšování zisků. Elon Musk, jeho finanční […]"
       },
       {
         "id": "cd257de0c3625220",
         "title": "Microsoft doesn’t want any of this",
         "summary": "Maybe I'm just punch-drunk in my third week attending Musk v. Altman, but I have become very, very fond of Microsoft during the course of this trial. They don't want to be here any more than I do. Their opening statement was honestly one of the most Microsoft things I've ever seen. More than anything […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
-        "published": "2026-05-14T07:44:49.403745+00:00",
+        "published": "2026-05-14T08:34:57.386488+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
         "title_cs": "Microsoft o nic z toho nestojí",
-        "summary_cs": "Možná jsem jen omámený ve svém třetím týdnu účasti na Musk v. Altman, ale během tohoto procesu jsem si Microsoft velmi, velmi oblíbil. Nechtějí tu být o nic víc než já. Jejich úvodní prohlášení bylo upřímně jedním z nejvíce „microsoftovských“ věcí, jaké jsem kdy viděl. Víc než cokoli jiného […]"
+        "summary_cs": "Možná jsem jen omámený ve svém třetím týdnu účasti na Musk v. Altman, ale během tohoto procesu jsem si Microsoft velmi, velmi oblíbil. Nechtějí tu být o nic víc než já. Jejich úvodní prohlášení bylo upřímně jednou z nejvíce „microsoftovských“ věcí, jaké jsem kdy viděl. Více než cokoli jiného […]"
       },
       {
         "id": "851a7a24bd72f2a0",
         "title": "Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat",
         "summary": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it […]",
         "link": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
-        "published": "2026-05-14T07:44:49.403688+00:00",
+        "published": "2026-05-14T08:34:57.386420+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
         "title_cs": "Mark Zuckerberg oznamuje „zcela soukromý“ šifrovaný chat Meta AI",
-        "summary_cs": "Generální ředitel Mety Mark Zuckerberg říká, že jeho nový anonymní chat je „prvním velkým produktem AI, kde se na serverech neukládají žádné záznamy vašich konverzací“. Zprávy v anonymním chatu se neukládají ani nezaznamenávají do historie chatu uživatelů, podobně jako anonymní režimy v jiných chatbotech AI, ale Meta říká, že její verze je jiná, protože […]"
+        "summary_cs": "Generální ředitel Mety Mark Zuckerberg říká, že jeho nový anonymní chat je „prvním velkým produktem AI, kde se na serverech neukládají žádné záznamy vašich konverzací“. Zprávy v anonymním chatu se neukládají ani neukládají do historie chatu uživatelů, podobně jako anonymní režimy v jiných chatbotech AI, ale Meta říká, že její verze je jiná, protože […]"
       },
       {
         "id": "434c7b021bcc5f06",
         "title": "Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs",
         "summary": "Microsoft Edge is adding a new feature that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open articles, and more. In its […]",
         "link": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
-        "published": "2026-05-14T07:44:49.403588+00:00",
+        "published": "2026-05-14T08:34:57.386333+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
         "title_cs": "Aktualizace Copilotu v Microsoft Edge využívá AI k získávání informací z vašich karet",
         "summary_cs": "Microsoft Edge přidává novou funkci, která umožní jeho chatbotu AI Copilot shromažďovat informace ze všech vašich otevřených karet. Když zahájíte konverzaci s Copilotem, můžete se chatbota ptát na obsah vašich karet, porovnávat produkty, které si prohlížíte, shrnovat otevřené články a další. Ve svém […]"
+      },
+      {
+        "id": "3dc454c87f977a12",
+        "title": "Stát konečně začne sdílet data a bude možné zjistit, jak se s nimi nakládá a proč",
+        "summary": "Ve sbírce zákonů byl zveřejněn zákon o správě dat a řízeném přístupu k datům (zákon č. 60/2026 Sb.). Platit začne 27. května letošního roku a může jít o velký krok v tom, jak se ve státní správě bude nakládat s daty a jejich sdílením.",
+        "link": "https://www.lupa.cz/aktuality/stat-konecne-zacne-sdilet-data-a-bude-mozne-zjistit-jak-se-s-nimi-naklada-a-proc/?utm_source=rss&utm_medium=text&utm_campaign=rss",
+        "published": "2026-05-14T08:09:14+00:00",
+        "source": "Lupa.cz",
+        "lang": "cs",
+        "sub": "ai",
+        "title_cs": "Stát konečně začne sdílet data a bude možné zjistit, jak se s nimi nakládá a proč",
+        "summary_cs": "Ve sbírce zákonů byl zveřejněn zákon o správě dat a řízeném přístupu k datům (zákon č. 60/2026 Sb.). Platit začne 27. května letošního roku a může jít o velký krok v tom, jak se ve státní správě bude nakládat s daty a jejich sdílením."
       },
       {
         "id": "f00d7b1206a88a49",
@@ -666,16 +678,16 @@
         "summary_cs": "V Praze na ČVUT nedávno odstartovalo Národní centrum umělé inteligence, které má Česku pomoci s přesunem výzkumu v této oblasti do praxe. Teď se rozjíždí další iniciativa, jenž by s rozvojem AI v zemi měla pomoci. Na superpočítačovém centru IT4Innovations při VŠB-TUO v Ostravě se rozjela Czech AI Factory (CZAI), jejíž součástí bude nový AI superpočítač nebo výzkumné a poradenské uzly v Praze a Brně."
       },
       {
-        "id": "080a9c87c3e2400e",
-        "title": "Je čas se probudit, ztrácíme konkurenceschopnost a zaostáváme, varují největší technologické firmy Evropy",
-        "summary": "Šéfové sedmi klíčových firem varují před ztrátou konkurenceschopnosti Evropy v čipech, umělé inteligenci i obraně • . • Sedm podniků s tržní hodnotou přes bilion eur kritizuje dusivou regulaci, která brání inovacím dříve, než se stihnou rozvinout. • Evropské firmy čelí fragmentaci trhu a složitým ...",
-        "link": "https://www.zive.cz/clanky/je-cas-se-probudit-ztracime-konkurenceschopnost-a-zaostavame-varuji-nejvetsi-technologicke-firmy-evropy/sc-3-a-241153/default.aspx",
-        "published": "2026-05-14T06:45:00+00:00",
-        "source": "Živě.cz",
+        "id": "072ce4d7b5c29fdd",
+        "title": "AI přestává být hračka. Podle šéfa Google Cloud brzy přijde kolektivní inteligence",
+        "summary": "Éra experimentů končí. Boris Georgiev z Google Cloud vysvětluje, jak autonomní AI agenti mění byznys a postupně nahrazují desítky klasických aplikací. Článek AI přestává být hračka. Podle šéfa Google Cloud brzy přijde kolektivní inteligence se nejdříve objevil na CzechCrunch .",
+        "link": "https://cc.cz/ai-prestava-byt-hracka-podle-sefa-google-cloud-brzy-prijde-kolektivni-inteligence/",
+        "published": "2026-05-14T08:05:48+00:00",
+        "source": "CzechCrunch",
         "lang": "cs",
-        "sub": "ai",
-        "title_cs": "Je čas se probudit, ztrácíme konkurenceschopnost a zaostáváme, varují největší technologické firmy Evropy",
-        "summary_cs": "Šéfové sedmi klíčových firem varují před ztrátou konkurenceschopnosti Evropy v čipech, umělé inteligenci i obraně • . • Sedm podniků s tržní hodnotou přes bilion eur kritizuje dusivou regulaci, která brání inovacím dříve, než se stihnou rozvinout. • Evropské firmy čelí fragmentaci trhu a složitým ..."
+        "sub": "startups",
+        "title_cs": "AI přestává být hračka. Podle šéfa Google Cloud brzy přijde kolektivní inteligence",
+        "summary_cs": "Éra experimentů končí. Boris Georgiev z Google Cloud vysvětluje, jak autonomní AI agenti mění byznys a postupně nahrazují desítky klasických aplikací. Článek AI přestává být hračka. Podle šéfa Google Cloud brzy přijde kolektivní inteligence se nejdříve objevil na CzechCrunch ."
       },
       {
         "id": "197a39dd5ed1ffe6",
@@ -726,18 +738,6 @@
         "summary_cs": "Po dosažení tržeb 2,2 miliardy dolarů v roce 2025 získal obranný technologický startup další masivní kolo financování, vedené společnostmi Thrive a a16z, uvádí."
       },
       {
-        "id": "d824164b19432e6b",
-        "title": "IKEA ukázala novou kolekci. Najdete v ní nafukovací křeslo, houpací lavici i otočnou lampu",
-        "summary": "Nová kolekce nabídne 44 produktů pro variabilní využití v menších domácnostech. Jednu z designérek navíc inspirovali Pat a Mat i Večerníček. Článek IKEA ukázala novou kolekci. Najdete v ní nafukovací křeslo, houpací lavici i otočnou lampu se nejdříve objevil na CzechCrunch .",
-        "link": "https://cc.cz/ikea-ukazala-novou-kolekci-najdete-v-ni-nafukovaci-kreslo-houpaci-lavici-i-otocnou-lampu/",
-        "published": "2026-05-13T14:20:13+00:00",
-        "source": "CzechCrunch",
-        "lang": "cs",
-        "sub": "startups",
-        "title_cs": "IKEA ukázala novou kolekci. Najdete v ní nafukovací křeslo, houpací lavici i otočnou lampu",
-        "summary_cs": "Nová kolekce nabídne 44 produktů pro variabilní využití v menších domácnostech. Jednu z designérek navíc inspirovali Pat a Mat i Večerníček. Článek IKEA ukázala novou kolekci. Najdete v ní nafukovací křeslo, houpací lavici i otočnou lampu se nejdříve objevil na CzechCrunch ."
-      },
-      {
         "id": "a86db8fe6ddb4b30",
         "title": "Hello Robot Sets the Standard for Practical, Safe Home Robots",
         "summary": "Many roboticists (and at least one robotics journalist) have been seduced by the dream of a robot butler. And the rampant popularity of videos showing humanoid robots doing household tasks in improbably clean kitchens and unrealistically tidy bedrooms suggests that we’re not the only ones interested in a robot that can do our chores. But for all kinds of reasons , legged humanoids are not yet ready for industrial or commercial applications at scale, and home applications ( if people even want...",
@@ -747,7 +747,7 @@
         "lang": "en",
         "sub": "robotics",
         "title_cs": "Hello Robot stanovuje standard pro praktické a bezpečné domácí roboty",
-        "summary_cs": "Mnoho robotiků (a alespoň jeden robotický novinář) podlehlo snu o robotickém komorníkovi. A nekontrolovaná popularita videí ukazujících humanoidní roboty provádějící domácí práce v nepravděpodobně čistých kuchyních a nerealisticky uklizených ložnicích naznačuje, že nejsme jediní, kdo se zajímá o robota, který by mohl dělat naše práce. Ale ze všech možných důvodů, dvourozměrní humanoidi ještě nejsou připraveni pro průmyslové nebo komerční aplikace ve velkém měřítku a domácí aplikace (pokud lidé vůbec chtějí…)"
+        "summary_cs": "Mnoho robotiků (a alespoň jeden robotický novinář) podlehlo snu o robotickém komorníkovi. A nekontrolovaná popularita videí ukazujících humanoidní roboty provádějící domácí práce v nepravděpodobně čistých kuchyních a nerealisticky uklizených ložnicích naznačuje, že nejsme jediní, kdo se zajímá o robota, který by mohl dělat naše domácí práce. Ale ze všech možných důvodů, dvourozměrní humanoidi ještě nejsou připraveni pro průmyslové nebo komerční aplikace ve velkém měřítku a domácí aplikace (pokud lidé vůbec chtějí…)"
       },
       {
         "id": "2305686fda463dcc",
@@ -758,8 +758,8 @@
         "source": "IEEE Spectrum Robotics",
         "lang": "en",
         "sub": "robotics",
-        "title_cs": "Video pátek: AI dává robotickým rukám lidskou zručnost",
-        "summary_cs": "Video pátek je váš týdenní výběr úžasných robotických videí, které shromáždili vaši přátelé z robotiky IEEE Spectrum. Každý týden také zveřejňujeme kalendář nadcházejících robotických akcí na příštích několik měsíců. Prosím, pošlete nám své akce k zařazení. ICRA 2026: 1.–5. června 2026, VÍDEŇ RSS 2026: 13.–17. července 2026, SYDNEY Letní škola pro více-robotické systémy: 29. července–4. srpna 2026, PRAHA Actuate 2026: 18.–19. srpna 2026, SAN FRANCISCO Užijte si dnešní videa! Představujeme GENE-26.5 – první mozek AI, který…"
+        "title_cs": "Video pátek: AI dává robotickým rukám lidskou obratnost",
+        "summary_cs": "Video pátek je váš týdenní výběr úžasných robotických videí, která shromáždili vaši přátelé z robotiky IEEE Spectrum. Každý týden také zveřejňujeme kalendář nadcházejících robotických akcí na příštích několik měsíců. Prosím, pošlete nám své akce k zařazení. ICRA 2026: 1.–5. června 2026, VÍDEŇ RSS 2026: 13.–17. července 2026, SYDNEY Letní škola o vícerozměrných robotických systémech: 29. července–4. srpna 2026, PRAHA Actuate 2026: 18.–19. srpna 2026, SAN FRANCISCO Užijte si dnešní videa! Představujeme GENE-26.5 – první mozek AI, který…"
       },
       {
         "id": "37050d396dd1984a",
@@ -776,6 +776,30 @@
     ],
     "culture": [
       {
+        "id": "e925319f3ef58678",
+        "title": "Americké duo The Dresden Dolls přiveze do Archy+ reedici desky \"Yes, Virginia...\"",
+        "summary": "The Dresden Dolls se po letech vracejí v plné síle s nově nahraným albem \"Yes, Virginia...(Tailor's Version)\" a světovým turné, které nemine ani Prahu. Do prostor Archy+ přivezou 4. září ...",
+        "link": "https://musicserver.cz/clanek/78923/americke-duo-the-dresden-dolls-priveze-do-archy-reedici-desky-yes-virginia/",
+        "published": "2026-05-14T08:34:00+00:00",
+        "source": "Musicserver CZ",
+        "lang": "cs",
+        "sub": "music",
+        "title_cs": "Americké duo The Dresden Dolls přiveze do Archy+ reedici desky \"Yes, Virginia...\"",
+        "summary_cs": "The Dresden Dolls se po letech vracejí v plné síle s nově nahraným albem \"Yes, Virginia...(Tailor's Version)\" a světovým turné, které nemine ani Prahu. Do prostor Archy+ přivezou 4. září ..."
+      },
+      {
+        "id": "68edea7ca7c03c4f",
+        "title": "KATSEYE announce 2026 UK, European and North American arena tour",
+        "summary": "The girls will kick off at Dublin's 3Arena, and are also set to play London's O2 and Manchester's Co-Op Live The post KATSEYE announce 2026 UK, European and North American arena tour appeared first on NME .",
+        "link": "https://www.nme.com/news/music/katseye-announce-2026-uk-european-and-north-american-arena-tour-buy-tickets-3945339?utm_source=rss&utm_medium=rss&utm_campaign=katseye-announce-2026-uk-european-and-north-american-arena-tour-buy-tickets",
+        "published": "2026-05-14T08:12:06+00:00",
+        "source": "NME Music",
+        "lang": "en",
+        "sub": "music",
+        "title_cs": "KATSEYE oznamuje turné po Velké Británii, Evropě a Severní Americe v roce 2026",
+        "summary_cs": "Dívky odstartují v dublinské 3Areně a jsou také připraveny hrát londýnskou O2 a manchesterskou Co-Op Live Post KATSEYE oznamuje, že v roce 2026 se na NME poprvé objevilo turné po britské, evropské a severoamerické aréně."
+      },
+      {
         "id": "0140dd30e3bf7de1",
         "title": "John Lennon, Aerosmith, Patti Smith producer Jack Douglas dies, age 80: “A brilliant artist and collaborator who inspired us in profound ways”",
         "summary": "The legendary producer passed away on Monday night (11 May) The post John Lennon, Aerosmith, Patti Smith producer Jack Douglas dies, age 80: “A brilliant artist and collaborator who inspired us in profound ways” appeared first on NME .",
@@ -784,8 +808,8 @@
         "source": "NME Music",
         "lang": "en",
         "sub": "music",
-        "title_cs": "Zemřel producent John Lennon, Aerosmith a Patti Smith Jack Douglas, ve věku 80 let: „Brilantní umělec a spolupracovník, který nás hluboce inspiroval“",
-        "summary_cs": "Legendární producent zemřel v pondělí večer (11. května). Článek John Lennon, Aerosmith, Patti Smith producer Jack Douglas dies, age 80: “A brilliant artist and collaborator who inspired us in profound ways” se poprvé objevil na NME."
+        "title_cs": "John Lennon, Aerosmith, producent Patti Smith Jack Douglas umírá ve věku 80 let: „Skvělý umělec a spolupracovník, který nás hluboce inspiroval“",
+        "summary_cs": "Legendární producent zemřel v pondělí v noci (11. května) Příspěvek John Lennon, Aerosmith, producent Patti Smith Jack Douglas umírá ve věku 80 let: „Brilantní umělec a spolupracovník, který nás hluboce inspiroval“ se objevil nejprve na NME ."
       },
       {
         "id": "9b0b30662e162476",
@@ -800,28 +824,16 @@
         "summary_cs": "Po oznámení čtyřiadvacáté studiové nahrávky \"Splat!\" veteránů Deep Purple netrvalo dlouho a přichází také první ukázka nové hudby. Britská formace vsadila na úvodní kousek alba, ..."
       },
       {
-        "id": "80ad8373e553e682",
-        "title": "Kdo sesadí Taylor Swift? V českých rádiích jí nejvíce konkurují Damiano David a Miley Cyrus",
-        "summary": "Další týden, další prvenství pro Taylor Swift. Zpěvaččino vítězné tažení s \"The Fate of Ophelia\" českým éterem nekončí, ke změnám došlo alespoň na druhém a třetím místě, kam se posunuli Damiano David a Miley Cyrus. V čele albového přehledu zůstal Buka, nejstreamovanějším singlem se znovu může pyšnit PTK.",
-        "link": "https://musicserver.cz/clanek/78922/pohled-do-ceskych-hitparad-19-tyden-2026/",
-        "published": "2026-05-14T06:00:00+00:00",
-        "source": "Musicserver CZ",
-        "lang": "cs",
-        "sub": "music",
-        "title_cs": "Kdo sesadí Taylor Swift? V českých rádiích jí nejvíce konkurují Damiano David a Miley Cyrus",
-        "summary_cs": "Další týden, další prvenství pro Taylor Swift. Zpěvaččino vítězné tažení s \"The Fate of Ophelia\" českým éterem nekončí, ke změnám došlo alespoň na druhém a třetím místě, kam se posunuli Damiano David a Miley Cyrus. V čele albového přehledu zůstal Buka, nejstreamovanějším singlem se znovu může pyšnit PTK."
-      },
-      {
-        "id": "d2b2cdaf81254bfe",
-        "title": "Shakira, Madonna, and BTS to Headline World Cup Final Halftime Show",
-        "summary": "This year's match will take place at New Jersey's MetLife Stadium on July 19",
-        "link": "https://www.rollingstone.com/music/music-news/world-cup-final-halftime-show-shakira-madonna-bts-1235562522/",
-        "published": "2026-05-14T05:37:02+00:00",
-        "source": "Rolling Stone",
+        "id": "ff40e54d4234436f",
+        "title": "Biopic on Armless Cricketer Amir Hussain Lone Unveiled at Cannes (EXCLUSIVE)",
+        "summary": "A feature film on the life of Amir Hussain Lone, the armless cricketer who captains the Jammu and Kashmir para cricket team, was unveiled on the sidelines of the Cannes Film Festival. The film will be directed by Nishil Sheth, an Indian writer-director whose debut feature “Bhasmasur” premiered on the international festival circuit and won […]",
+        "link": "https://variety.com/2026/film/markets-festivals/biopic-amir-hussain-lone-armless-cricketer-cannes-1236748269/",
+        "published": "2026-05-14T08:01:26+00:00",
+        "source": "Variety",
         "lang": "en",
-        "sub": "music",
-        "title_cs": "Shakira, Madonna a BTS vystoupí v poločasové show finále Mistrovství světa",
-        "summary_cs": "Letošní zápas se uskuteční 19. července na stadionu MetLife v New Jersey."
+        "sub": "film",
+        "title_cs": "Biopic na Armless Cricketer Amir Hussain Lone odhalen v Cannes (EXKLUZIVNĚ)",
+        "summary_cs": "Celovečerní film o životě Amira Hussaina Loneho, bezrukého hráče kriketu, který řídí kriketový tým Jammu a Kashmir para, byl odhalen na okraji filmového festivalu v Cannes. Film bude režírovat indický spisovatel a režisér Nishil Sheth, jehož debut „Bhasmasur“ měl premiéru na mezinárodním festivalovém okruhu a vyhrál […]"
       },
       {
         "id": "9bf05c29cccfc619",
@@ -832,8 +844,8 @@
         "source": "Variety",
         "lang": "en",
         "sub": "film",
-        "title_cs": "S Netflixovým seriálem „Nemesis“ přináší tvůrkyně seriálu „Power“ Courtney A. Kemp lákavou televizi: Recenze TV",
-        "summary_cs": "V nejnovějším kriminálním seriálu Netflixu „Nemesis“ prozkoumávají tvůrkyně univerza „Power“ Courtney A. Kemp a spoluzakladatelka Tani Morale různé úhly pohledu na morálku očima dvou velmi odlišných mužů, kteří se snaží vybudovat si své dědictví. Jeden muž pracuje v systému, který ho nikdy neměl přijmout, a druhý v [...]"
+        "title_cs": "Tvůrce Netflixu „Nemesis“ „Power“ Courtney A. Kemp přináší dráždivou televizi: TV recenze",
+        "summary_cs": "V posledním kriminálním seriálu Netflixu „Nemesis“ tvůrce vesmíru „Power“ Courtney A. Kemp a spolutvůrce Tani Morale zkoumají různé hranoly morálky očima dvou naprosto odlišných mužů a snaží se vybojovat odkaz pro sebe. Jeden člověk pracuje v systému, který ho nikdy neměl obejmout, a druhý v […]"
       },
       {
         "id": "552bf5ce17dbbd3b",
@@ -844,20 +856,8 @@
         "source": "Variety",
         "lang": "en",
         "sub": "film",
-        "title_cs": "Spin-off „Yellowstone“ „Dutton Ranch“ kopíruje Taylora Sheridana do Texasu: Recenze TV",
-        "summary_cs": "První současný spin-off „Yellowstone“, „Marshals“, si zachoval montanské prostředí, ale změnil žánr z velkorozpočtové telenovely na skromný televizní procedurál. Druhý, „Dutton Ranch“, si zachovává tón originálu a přesouvá děj do Texasu – což není náhoda, protože je to domov tvůrce „Yellowstone“ a výkonného producenta „Dutton Ranch“ Taylora Sheridana a pozadí [...]"
-      },
-      {
-        "id": "c57009802af2e0c0",
-        "title": "‘Dutton Ranch’ Review: ‘Yellowstone’ Lands a Sturdy, Simplified Sequel — Stolen by the New Cast",
-        "summary": "After starting over on a new ranch at the end of \"Yellowstone,\" Beth (Kelly Reilly) and Rip (Cole Hauser) start over again, on a different ranch, this time in Texas. But don't worry: It's plenty familiar from there.",
-        "link": "https://www.indiewire.com/criticism/shows/dutton-ranch-review-yellowstone-sequel-beth-rip-1235193704/",
-        "published": "2026-05-14T07:00:00+00:00",
-        "source": "IndieWire",
-        "lang": "en",
-        "sub": "film",
-        "title_cs": "Recenze „Dutton Ranch“: „Yellowstone“ získává pevné, zjednodušené pokračování – ukradené novým obsazením",
-        "summary_cs": "Po začátku na novém ranči na konci „Yellowstone“ začínají Beth (Kelly Reilly) a Rip (Cole Hauser) znovu, na jiném ranči, tentokrát v Texasu. Ale nebojte se: odtud je to už dostatečně povědomé."
+        "title_cs": "\"Yellowstone\" spin-off \"Dutton Ranch\" řeže a vkládá stan Taylor Sheridan do Texasu: TV recenze",
+        "summary_cs": "První současný „Yellowstone“ spin-off, „Marshals“, zachoval prostředí Montany, ale změnil žánry z velkorozpočtové mýdlové opery na skromné vysílání procedurální. Druhý, „Dutton Ranch“, zachovává tón originálu při přesouvání akce do Texasu — ne náhodou, domov tvůrce „Yellowstone“ a výkonného producenta „Dutton Ranch“ Taylora Sheridana a pozadí [...]"
       },
       {
         "id": "7847b3ca55208211",
@@ -868,8 +868,8 @@
         "source": "Linkin Park News",
         "lang": "en",
         "sub": "linkin_park",
-        "title_cs": "Nová éra Linkin Park udržuje Linkin Park v centru pozornosti – AD HOC NEWS",
-        "summary_cs": "Nová éra Linkin Park udržuje Linkin Park v centru pozornosti AD HOC NEWS"
+        "title_cs": "Nová éra Linkin Parku udržuje pozornost Linkin Parku - AD HOC NOVINKY",
+        "summary_cs": "Nová éra Linkin Park udržuje Linkin Park v centru pozornosti AD HOC NOVINEK"
       },
       {
         "id": "e2f65acb91d49e9b",
@@ -880,8 +880,8 @@
         "source": "Oasis News",
         "lang": "en",
         "sub": "oasis",
-        "title_cs": "Dokument o reunionu Oasis míří do kin – a pak na Disney+ – Music Ally",
-        "summary_cs": "Dokument o reunionu Oasis míří do kin – a pak na Disney+ Music Ally"
+        "title_cs": "Oasis reunion dokumentární hlavy pro kina – a pak Disney+ - Music Ally",
+        "summary_cs": "Dokument Oasis reunion míří do kin – a pak Disney+ Music Ally"
       },
       {
         "id": "0eb204ecfe53d581",
@@ -892,11 +892,23 @@
         "source": "Oasis News",
         "lang": "en",
         "sub": "oasis",
-        "title_cs": "Dokument o reunion tour Oasis od tvůrce „Peaky Blinders“ Stevena Knighta míří na Disney+ – C21media",
-        "summary_cs": "Dokument o reunion tour Oasis od tvůrce „Peaky Blinders“ Stevena Knighta míří na Disney+ C21media"
+        "title_cs": "Oasis reunion tour doc od tvůrce Peaky Blinders Stevena Knighta pro Disney+ - C21media",
+        "summary_cs": "Oasis reunion tour doc od tvůrce Peaky Blinders Stevena Knighta pro Disney+ C21media"
       }
     ],
     "good_news": [
+      {
+        "id": "c650e2c469f2bbf2",
+        "title": "Good News in History, May 14",
+        "summary": "Happy Birthday to director-screenwriter George Lucas who turns 81. Receiving 5 Oscar nominations (including Best Picture) for his 1973 debut film American Graffiti proved that he could write and direct, and producing the groundbreaking science fiction franchise Star Wars proved he could create a cultural phenomenon worth billions of dollars. He also dreamed up Indiana […] The post Good News in History, May 14 appeared first on Good News Network .",
+        "link": "https://www.goodnewsnetwork.org/events060514/",
+        "published": "2026-05-14T07:00:00+00:00",
+        "source": "Good News Network",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Dobré zprávy v historii, 14. května",
+        "summary_cs": "Všechno nejlepší režisérovi a scenáristovi George Lucasovi, kterému je 81 let. Získání 5 nominací na Oscara (včetně nejlepšího filmu) za debutový film American Graffiti z roku 1973 prokázalo, že umí psát a režírovat, a produkce průkopnické sci-fi série Star Wars dokázala, že dokáže vytvořit kulturní fenomén v hodnotě miliard dolarů. Také si vysnil Indianu […] Příspěvek Good News in History, 14. května se poprvé objevil na Good News Network ."
+      },
       {
         "id": "4349adb14ca307f0",
         "title": "EU Passes Animal Protection Law for Keeping, Breeding, and Selling",
@@ -906,8 +918,20 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "EU schválila zákon na ochranu zvířat při chovu, držení a prodeji",
-        "summary_cs": "Evropský parlament se dohodl na prvních pravidlech EU pro dobré životní podmínky zvířat, která omezí škodlivé praktiky chovu a držení. Hlasování dopadlo 558 ku 35 pro, 52 se zdrželo. Evropská rada již dala zelenou a pravidla vstoupí v platnost pro chovatele [...] Příspěvek EU schválila zákon na ochranu zvířat při chovu, držení a prodeji se poprvé objevil na Good News Network."
+        "title_cs": "EU schvaluje zákon o ochraně zvířat při chovu, šlechtění a prodeji",
+        "summary_cs": "Evropský parlament se dohodl na prvním souboru pravidel EU upravujících dobré životní podmínky zvířat, který odstraní škodlivé chovatelské a vlastnické praktiky. Hlasovalo 558 poslanců, 35 bylo proti a 52 se zdrželo hlasování. Evropská rada jej již ozelenila a pro chovatele vstoupí v platnost […] Post EU schvaluje zákon o ochraně zvířat pro chov, chov a prodej se poprvé objevil v síti dobrých zpráv."
+      },
+      {
+        "id": "985a2f3e40595faf",
+        "title": "Shanghai Achieves 98% Industrial Recycling Rates After 2019 Waste Management Plan",
+        "summary": "In 2019, the Chinese megalopolis of Shanghai began a full-steam-ahead approach to reducing solid waste generation in the city. In that year, some 26,000 metric tons of waste was produced every day, but after 6 years of intensive investment, messaging, and habit-forming, the household recycling rate is up 10%, with 35 to 45% of all […] The post Shanghai Achieves 98% Industrial Recycling Rates After 2019 Waste Management Plan appeared first on Good News Network .",
+        "link": "https://www.goodnewsnetwork.org/shanghai-achieves-98-industrial-45-home-recycling-rates-after-2019-waste-management-plan/",
+        "published": "2026-05-13T15:30:45+00:00",
+        "source": "Good News Network",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Šanghaj dosahuje 98% míry průmyslové recyklace po roce 2019 plánu nakládání s odpady",
+        "summary_cs": "V roce 2019 zahájila čínská megalopole v Šanghaji plnohodnotný přístup ke snižování produkce pevného odpadu ve městě. V tomto roce bylo každý den vyprodukováno přibližně 26 000 metrických tun odpadu, ale po 6 letech intenzivních investic, zasílání zpráv a vytváření návyků se míra recyklace domácností zvýšila o 10%, přičemž 35 až 45% všech […] Po Šanghaji dosahuje 98% míry průmyslové recyklace Po roce 2019 se plán nakládání s odpady objevil nejprve v síti Good News Network ."
       },
       {
         "id": "79e0c3cb29a2d8d7",
@@ -918,8 +942,8 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Řecko poskytlo ochranu mořské oblasti pro ohrožené středomořské mnichy",
-        "summary_cs": "Prezident Řecka nedávno podepsal zákon o nové národní mořské chráněné oblasti kolem neobydleného ostrova Gyaros v Kykladech, kde se nachází největší kolonie středomořských mnichů na světě. Tito tuleni patří mezi nejvíce ohrožené mořské savce na světě a navzdory [...] Příspěvek Řecko poskytlo ochranu mořské oblasti pro ohrožené středomořské mnichy se poprvé objevil na Good News Network."
+        "title_cs": "Domov ohrožených tuleňů mnichů na ostrově Vital Island získává ochranu moří z Řecka",
+        "summary_cs": "S rozkvětem pera prezident Řecka nedávno podepsal zákon o nové chráněné mořské oblasti na národní úrovni kolem Gyarosu, neobydleného ostrova v Kykladách, který hostí největší světovou kolonii tuleňů středomořských. Tito tuleni patří mezi nejohroženější mořské savce na světě a navzdory […] Domov pro ohrožené mnichy Vital Island Gains Marine Protections z Řecka se poprvé objevil na síti Good News Network ."
       },
       {
         "id": "146025af0b8bcb1e",
@@ -930,8 +954,8 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Motýl, který před sto lety ve Velké Británii vyhynul, se má vrátit na slavné zrevitalizované pozemky",
-        "summary_cs": "Jak již GNN dříve informovala, Británie miluje své motýly a tento krásný druh s černými žilkami dostává zvláštní pozornost, protože se připravuje na znovuusídlení po celém ostrově. Motýl bělopásek černokřídlý, který ve Spojeném království vyhynul na počátku 20. století kvůli změnám ve využívání půdy a ztrátě přirozeného prostředí, se má díky znovuzavedení vrátit [...] Příspěvek Motýl, který před sto lety ve Velké Británii vyhynul, se má vrátit na slavné zrevitalizované pozemky se poprvé objevil na Good News Network."
+        "title_cs": "Motýl, který před sto lety vyhynul v Británii, je připraven na návrat do slavné země Rewilded Estate",
+        "summary_cs": "Jak již dříve uvedla společnost GNN, Británie miluje své motýly a této kráse s černou žilou se dostává zvláštní pozornosti, protože se připravuje na obnovení po celém ostrově. Vyhynulý ve Velké Británii od počátku 20. století kvůli změnám ve využívání půdy a ztrátě stanovišť, bílý motýl s černou žilou se zdá být připraven na návrat díky znovuzavedení […] Příspěvek Butterfly That Went Extinct in Britain a Century Ago Set for Return to Famous Rewilded Estate Land se objevil nejprve na Good"
       },
       {
         "id": "411304ed615a8b3b",
@@ -942,8 +966,8 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Ochránci přírody úspěšně bojují s invazivními stromy a rybami v klíčových ekosystémech Jižní Afriky",
-        "summary_cs": "V Jižní Africe odstranila koordinovaná série projektů nebezpečné zamoření invazivními druhy z 13 000 akrů důležitého původního prostředí. Mezi lety 2017 a 2025 se skupiny pracující pod hlavičkou Mezinárodní unie pro ochranu přírody (IUCN) pustily do řady snah zaměřených na invazivní nepůvodní druhy kombinací [...] Příspěvek Ochránci přírody úspěšně bojují s invazivními stromy a rybami v klíčových ekosystémech Jižní Afriky se poprvé objevil na Good News ..."
+        "title_cs": "Ochránci přírody úspěšně řeší invazivní stromy a ryby v životně důležitých jihoafrických ekosystémech",
+        "summary_cs": "Koordinovaná řada projektů v Jižní Africe odstranila nebezpečné napadení invazními druhy z 13 000 akrů důležitého původního stanoviště. V letech 2017 až 2025 se skupiny pracující pod hlavičkou Mezinárodní unie pro ochranu přírody (IUCN) pustily do řady snah zaměřených na invazní nepůvodní druhy prostřednictvím kombinace […] Post Conservationists Successfully Tackle Invasive Trees and Fish in Vital South Africa Ecosystems objevil fi"
       },
       {
         "id": "76a605b381b90dd0",
@@ -954,8 +978,8 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Prototyp větrné turbíny na moři napájí palubní datové centrum, zatímco moře rozptyluje teplo",
-        "summary_cs": "Společnost zabývající se větrnou energií na moři vyvinula prototyp turbíny, který hostí 12megawattové datové centrum ve svých balastních nádržích. Poptávka po výpočetní technice v oblasti umělé inteligence přiměla vývojáře datových center hledat kreativní řešení při budování těchto neuvěřitelně energeticky náročných instalací. Jedním z nich je jejich umístění do plovoucích offshore instalací, kde lze získávat obnovitelnou energii [...] Příspěvek Prototyp větrné turbíny na moři napájí palubní datové centrum, zatímco moře rozptyluje teplo se poprvé objevil na..."
+        "title_cs": "Prototyp offshore větrné turbíny pohání palubní datové centrum, zatímco moře rozptyluje teplo",
+        "summary_cs": "Společnost zabývající se větrnou energií na moři vyvinula prototyp turbíny, která ve svých zátěžových nádržích hostí datové centrum o výkonu 12 megawattů. Požadavky výpočetní techniky AI přiměly vývojáře datových center, aby při budování těchto neuvěřitelně výkonných instalací hledali kreativní řešení. Jedním z nich je vybudovat plovoucí zařízení na moři, kde lze shromažďovat obnovitelnou energii […] Prototyp pobřežní větrné turbíny pohání palubní datové centrum, zatímco moře rozptyluje teplo"
       },
       {
         "id": "fe17c4643d7cb68d",
@@ -966,56 +990,32 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "44 mil hlavní balkánské řeky zbaveno válečné betonové překážky – PODÍVEJTE SE",
-        "summary_cs": "V malé zprávě o dobrých zprávách z dalekého koutu Evropy plavou původní ryby v důležité řece poté, co ochránci přírody odstranili válečnou betonovou překážku. Řeka Pčinja protéká 80 mil Severní Makedonií a vtéká do Srbska, ale více než 40 mil jejího toku bylo přerušeno hromadou [...] Příspěvek 44 mil hlavní balkánské řeky zbaveno válečné betonové překážky – PODÍVEJTE SE se poprvé objevil na Good News Network."
+        "title_cs": "44 mil velké balkánské řeky osvobozeno od válečných betonových překážek – PODÍVEJTE",
+        "summary_cs": "V malém kousku dobré zprávy z dalekého koutu Evropy plavou volně na důležité řece domorodé ryby poté, co ochránci přírody odstranili válečnou betonovou překážku. Řeka Pchinja protéká 80 mil přes Severní Makedonii a do Srbska, ale více než 40 mil její cesty bylo přerušeno hromadou […] 44 mil velké balkánské řeky osvobozené od válečných betonových překážek – PODÍVEJTE se nejprve na Good News Network ."
       },
       {
-        "id": "c6d2e2b18f989d86",
-        "title": "Dancer with ALS Performs on Stage Again Through Digital Avatar–WATCH",
-        "summary": "Brain interface technology allowed a dancer suffering from ALS to project her imagination onto the stage in the form of a mixed reality avatar that pranced around a theater in Amsterdam as part of a first-of-its-kind performance. Whether tense or free, timid or morose, the avatar encapsulated all the long years of training that saw […] The post Dancer with ALS Performs on Stage Again Through Digital Avatar–WATCH appeared first on Good News Network .",
-        "link": "https://www.goodnewsnetwork.org/dancer-with-als-performs-on-stage-again-through-digital-avatar-watch/",
-        "published": "2026-05-11T15:30:14+00:00",
+        "id": "ecd413141053f144",
+        "title": "‘It’s so full of love’, the festival for young carers",
+        "summary": "For one weekend a year, the Young Carers Festival helps them swap adult responsibilities for the simple joy of being a child The post ‘It’s so full of love’, the festival for young carers appeared first on Positive News .",
+        "link": "https://www.positive.news/lifestyle/the-festival-for-young-carers/",
+        "published": "2026-05-12T07:14:20+00:00",
+        "source": "Positive News",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "\"Je to tak plné lásky\", festival pro mladé pečovatele",
+        "summary_cs": "Jeden víkend v roce jim festival Mladí pečovatelé pomáhá vyměnit odpovědnost dospělých za jednoduchou radost z toho, že jsou dětmi. Příspěvek „Je to tak plné lásky“, festival pro mladé pečovatele se poprvé objevil v Pozitivních zprávách ."
+      },
+      {
+        "id": "7391936980cd799e",
+        "title": "Homeless Man Helps Find and Return Stolen Dog’s Ashes, Receives Thousands to Get Back on His Feet",
+        "summary": "A Seattle man homeless for 7 years is getting a fresh start after he found and returned the priceless memorial relics of a deceased family dog. When Holly and Brandon Dunn’s car was broken into in Seattle’s University District, the thief made off with the most irreplaceable items they owned: the ashes, ceramic paw prints, […] The post Homeless Man Helps Find and Return Stolen Dog’s Ashes, Receives Thousands to Get Back on His Feet appeared first on Good News Network .",
+        "link": "https://www.goodnewsnetwork.org/homeless-man-helps-find-and-return-stolen-dogs-ashes-receives-thousands-to-get-back-on-his-feet/",
+        "published": "2026-05-11T18:30:42+00:00",
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Tanečnice s ALS opět vystupuje na jevišti prostřednictvím digitálního avatara – SLEDUJTE",
-        "summary_cs": "Technologie rozhraní mozku umožnila tanečnici trpící ALS promítnout svou představivost na jeviště v podobě avatara smíšené reality, který se proháněl divadlem v Amsterdamu jako součást první svého druhu. Ať už napjatý nebo volný, plachý nebo mrzutý, avatar ztělesňoval všechny dlouhé roky tréninku, které viděl [...] Příspěvek Tanečnice s ALS opět vystupuje na jevišti prostřednictvím digitálního avatara – SLEDUJTE se poprvé objevil na Good News Network."
-      },
-      {
-        "id": "87a9e13cd7809852",
-        "title": "Australia Becomes 30th Country to Eliminate Trachoma, Leading Cause of Infectious Blindness",
-        "summary": "Australia has become the 30th nation worldwide to eliminate trachoma as a public health concern according to multiple statements. The leading cause of blindness due to infectious disease, Aboriginal and Torres Strait Islander communities were still at risk of trachoma where the bacteria which causes it has persisted for years despite its earlier disappearance from […] The post Australia Becomes 30th Country to Eliminate Trachoma, Leading Cause of Infectious Blindness appeared first on Good Ne...",
-        "link": "https://www.goodnewsnetwork.org/australia-becomes-30th-country-to-eliminate-trachoma-leading-cause-of-infectious-blindness/",
-        "published": "2026-05-11T13:00:53+00:00",
-        "source": "Good News Network",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Austrálie se stala 30. zemí, která eliminovala trachom, hlavní příčinu infekční slepoty",
-        "summary_cs": "Austrálie se podle několika prohlášení stala 30. zemí na světě, která eliminovala trachom jako zdravotní problém. Trachom, hlavní příčina slepoty způsobená infekčním onemocněním, stále ohrožoval komunity domorodých obyvatel a obyvatel ostrovů Torresova průlivu, kde bakterie způsobující toto onemocnění přetrvávala po léta navzdory jeho dřívějšímu zmizení z [...] Příspěvek Austrálie se stala 30. zemí, která eliminovala trachom, hlavní příčinu infekční slepoty se poprvé objevil na Good Ne..."
-      },
-      {
-        "id": "ab28c69fd2633e37",
-        "title": "Asiatic Wild Ass Returns to Eastern Mongolia After 65-year Isolation from Landscape Fencing",
-        "summary": "The Asiatic wild ass, known locally as the khulan (Equus hemionus), has returned to eastern Mongolia and is showing clear signs of re-establishing a population after more than 65 years of absence from the region. For decades, fencing along the Trans-Mongolian Railway (TMR) has restricted movement of khulan and other migratory species. Recent efforts to […] The post Asiatic Wild Ass Returns to Eastern Mongolia After 65-year Isolation from Landscape Fencing appeared first on Good News Network .",
-        "link": "https://www.goodnewsnetwork.org/asiatic-wild-ass-returns-to-eastern-mongolia-after-65-year-isolation-from-landscape-fencing/",
-        "published": "2026-05-11T11:00:50+00:00",
-        "source": "Good News Network",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Asijský divoký osel se vrátil do východního Mongolska po 65 letech izolace kvůli oplocení krajiny",
-        "summary_cs": "Asijský divoký osel, místně známý jako kulan (Equus hemionus), se vrátil do východního Mongolska a vykazuje jasné známky obnovení populace po více než 65 letech absence v regionu. Po desetiletí ohrady podél Transmongolské železnice (TMR) omezovaly pohyb kulanů a dalších migrujících druhů. Nedávné úsilí o [...] Příspěvek Asijský divoký osel se vrátil do východního Mongolska po 65 letech izolace kvůli oplocení krajiny se poprvé objevil na Good News Network."
-      },
-      {
-        "id": "efc221964f6e602f",
-        "title": "Africa’s Rarest Antelope Gets Boost as Zoos Send 4 Bongos to Kenya to Help Save the Species From the Brink",
-        "summary": "Four mountain bongos, Africa’s rarest species of antelope, have just touched down in Kenya in a major step forward in efforts to save the species from the brink of extinction. With fewer than 50 remaining in the wild, the historic translocation from European zoos to Mount Kenya Wildlife Conservancy provides a significant boost to its […] The post Africa’s Rarest Antelope Gets Boost as Zoos Send 4 Bongos to Kenya to Help Save the Species From the Brink appeared first on Good News Network .",
-        "link": "https://www.goodnewsnetwork.org/africas-rarest-antelope-gets-boost-as-zoos-send-4-bongos-to-kenya-to-help-save-the-species/",
-        "published": "2026-05-09T17:24:12+00:00",
-        "source": "Good News Network",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Nejvzácnější antilopa Afriky získává podporu, když zoo posílají 4 bongy do Keni, aby pomohly zachránit druh před zkázou",
-        "summary_cs": "Čtyři horské bongy, nejvzácnější druh antilopy v Africe, právě přistály v Keni, což je významný krok vpřed ve snaze zachránit tento druh před vyhynutím. S méně než 50 jedinci zbývajícími ve volné přírodě poskytuje historický přesun z evropských zoologických zahrad do Conservancy Mount Kenya Wildlife Conservancy významnou podporu pro jeho [...] Příspěvek Nejvzácnější antilopa Afriky získává podporu, když zoo posílají 4 bongy do Keni, aby pomohly zachránit druh před zkázou se poprvé objevil na Good News Network."
+        "title_cs": "Bezdomovec pomáhá najít a vrátit ukradený psí popel, dostane tisíce, aby se postavil na nohy",
+        "summary_cs": "Bezdomovec ze Seattlu, který žije už 7 let, zažívá nový začátek poté, co našel a vrátil neocenitelné pamětní relikvie zesnulého rodinného psa. Když se Holly a Brandon Dunnovi vloupali do auta v univerzitní čtvrti v Seattlu, zloděj utekl s nenahraditelnými předměty, které vlastnili: popel, otisky keramických tlap, […] Příspěvek Bezdomovec pomáhá najít a vrátit ukradený psí popel, přijímá tisíce, aby se dostal zpět na nohy se poprvé objevil na Good News Network ."
       }
     ]
   }
