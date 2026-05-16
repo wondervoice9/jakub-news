@@ -1,7 +1,7 @@
 {
   "meta": {
-    "last_fetch_attempt_utc": "2026-05-15T21:57:01+00:00",
-    "last_successful_fetch_utc": "2026-05-15T21:57:01+00:00",
+    "last_fetch_attempt_utc": "2026-05-16T10:12:04+00:00",
+    "last_successful_fetch_utc": "2026-05-16T10:12:04+00:00",
     "last_report_date": "2026-05-12",
     "cftc_code": "088691",
     "instrument_name": "GOLD - COMMODITY EXCHANGE INC.",
@@ -16,7 +16,7 @@
     "comm_long": 57725,
     "comm_short": 267983,
     "comm_net": -210258,
-    "price_close": 4543.60009765625,
+    "price_close": 4555.7998046875,
     "cot_index_6m": 16.134536989245046,
     "cot_index_3y": 41.06830302061429,
     "noncomm_net_change": 8319,
@@ -49,7 +49,7 @@
     }
   },
   "narrative": {
-    "past": "Za posledních 6 týdnů se COT Index spekulantů posunul z 38. na 41. percentilu (3Y). Cena zlata se za tu dobu změnila o -2.3 %.",
+    "past": "Za posledních 6 týdnů se COT Index spekulantů posunul z 38. na 41. percentilu (3Y). Cena zlata se za tu dobu změnila o -2.1 %.",
     "present": "Pozicování spekulantů je neutrální (41. percentil za 3 roky, 16. za 6 měsíců). COT momentálně nedává směrový signál.",
     "future": "Podle 17 analogií: 4-týdenní medián 0.29 %, pásmo -1.01 až 2.97 %. Za 8 týdnů medián -0.09 %. Celkový verdikt: SELL."
   },
@@ -86,8 +86,8 @@
       "trend": {
         "label": "Trend zlata",
         "score": 0.0,
-        "value": 4543.6,
-        "value_label": "4544 USD",
+        "value": 4555.8,
+        "value_label": "4556 USD",
         "weight": 0.15,
         "note": "Cena mezi průměry — smíšený trend."
       },
@@ -103,17 +103,17 @@
   },
   "macros": {
     "dxy_change_3m_pct": 2.171668280597122,
-    "tnx_change_3m_pp": 0.05430002212524414,
+    "tnx_change_3m_pp": 0.05429997444152832,
     "vix_current": 18.43000030517578,
-    "gold_ma_short": 4774.719970703125,
-    "gold_ma_long": 4159.55796875,
+    "gold_ma_short": 4775.3299560546875,
+    "gold_ma_long": 4159.801962890625,
     "ma_windows": [
       20,
       50
     ],
     "dxy_current": 99.2699966430664,
     "dxy_3m_ago": 97.16000366210938,
-    "tnx_current": 0.45950002670288087,
+    "tnx_current": 0.45949997901916506,
     "tnx_3m_ago": 0.4052000045776367
   },
   "history": [
@@ -2323,7 +2323,7 @@
       "comm_long": 57725,
       "comm_short": 267983,
       "comm_net": -210258,
-      "price_close": 4543.60009765625,
+      "price_close": 4555.7998046875,
       "cot_index_6m": 16.134536989245046,
       "cot_index_3y": 41.06830302061429
     }
