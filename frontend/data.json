@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T07:18:38.011806+00:00",
+  "generated_at": "2026-05-16T07:58:59.705421+00:00",
   "today": {
     "day_name": "Sobota",
     "date_cz": "16. května",
@@ -12,25 +12,25 @@
   "weather": {
     "location": "Liberec",
     "current": {
-      "temperature": 8.5,
+      "temperature": 9.0,
       "weather_code": 61,
       "weather_desc": "Slabý déšť",
-      "wind_speed": 10.0,
-      "humidity": 80
+      "wind_speed": 9.3,
+      "humidity": 75
     },
     "forecast": [
       {
         "date": "2026-05-16",
         "temp_max": 12.7,
         "temp_min": 7.6,
-        "weather_code": 80,
-        "weather_desc": "Přeháňky",
+        "weather_code": 61,
+        "weather_desc": "Slabý déšť",
         "precipitation": 1.4
       },
       {
         "date": "2026-05-17",
-        "temp_max": 14.5,
-        "temp_min": 4.5,
+        "temp_max": 14.8,
+        "temp_min": 4.7,
         "weather_code": 3,
         "weather_desc": "Zataženo",
         "precipitation": 0.0
@@ -38,7 +38,7 @@
       {
         "date": "2026-05-18",
         "temp_max": 16.2,
-        "temp_min": 5.1,
+        "temp_min": 4.7,
         "weather_code": 3,
         "weather_desc": "Zataženo",
         "precipitation": 0.1
@@ -47,7 +47,7 @@
   },
   "joke_en": {
     "id": "joke_en_20260516",
-    "text": "I'll never forget my Granddad's last words to me just before he died. \"Are you still holding the ladder?\"",
+    "text": "Eight bytes walk into a bar.\nThe bartender asks, \"Can I get you anything?\"\n\"Yeah,\" reply the bytes.\n\"Make us a double.\"",
     "source": "JokeAPI",
     "source_url": "https://jokeapi.dev/"
   },
@@ -59,11 +59,11 @@
   },
   "quote": {
     "id": "quote_20260516",
-    "text": "Když si člověk postaví dům, vždycky zpozoruje, že se při tom naučil něčemu, co měl rozhodně znát, než začal stavět.",
-    "author": "Friedrich Nietzsche",
-    "author_bio": "Friedrich Nietzsche byl vlivný německý filozof. Žil v letech 1844–1900 a proslul svými kritickými díly o morálce, náboženství a filozofii.",
+    "text": "Myšlenky, které si zvolíte, jsou nástrojem, kterým malujete na plátno svého života.",
+    "author": "Louise L. Hay",
+    "author_bio": "Louise L. Hay byla americká spisovatelka publikací o osobním růstu.",
     "source": "Citáty.net",
-    "source_url": "https://citaty.net/autori/friedrich-nietzsche/"
+    "source_url": "https://citaty.net/autori/louise-l-hay/"
   },
   "lesson": {
     "id": "lesson_20260516",
@@ -108,16 +108,52 @@
   "tabs": {
     "world": [
       {
+        "id": "4bf293fc23213e96",
+        "title": "Spain PM defends Eurovision boycott over Israel",
+        "summary": "Spanish PM Pedro Sanchez has defended Spain’s boycott of the Eurovision Song Contest over Israel’s participation.",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/16/spain-pm-defends-eurovision-boycott-over-israel?traffic_source=rss",
+        "published": "2026-05-16T07:31:10+00:00",
+        "source": "Al Jazeera",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Španělský premiér obhajuje bojkot Eurovize kvůli Izraeli",
+        "summary_cs": "Španělský premiér Pedro Sánchez obhajoval bojkot Španělska na Eurovision Song Contest kvůli účasti Izraele."
+      },
+      {
+        "id": "a6d257af04bf26ba",
+        "title": "Trump Turns Taiwan Arms Sales Into Bargaining Chip With China",
+        "summary": "The president said a potential arms deal for Taiwan was a “very good negotiating chip” in talks with Beijing. His words raise questions about the steadfastness of U.S. support.",
+        "link": "https://www.nytimes.com/2026/05/16/world/asia/trump-taiwan-arms-bargaining-chip-china.html",
+        "published": "2026-05-16T07:21:29+00:00",
+        "source": "NYT World",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Trump proměnil prodej zbraní Tchaj-wanu v páku s Čínou",
+        "summary_cs": "Prezident uvedl, že potenciální dohoda o prodeji zbraní Tchaj-wanu je „velmi dobrou vyjednávací pákou“ v rozhovorech s Pekingem. Jeho slova vyvolávají otázky o pevnosti americké podpory."
+      },
+      {
+        "id": "91a318642a6757da",
+        "title": "Trump Says a Top ISIS Leader Was Killed in a U.S.-Nigerian Mission",
+        "summary": "The leader, whom the State Department designated a terrorist in 2023, had been hiding in Africa, President Trump said.",
+        "link": "https://www.nytimes.com/2026/05/16/world/africa/trump-isis-nigeria-al-minuki.html",
+        "published": "2026-05-16T07:10:45+00:00",
+        "source": "NYT World",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Trump: Vysoce postavený vůdce ISIS byl zabit při americko-nigerijské misi",
+        "summary_cs": "Vůdce, kterého ministerstvo zahraničí v roce 2023 označilo za teroristu, se podle prezidenta Trumpa skrýval v Africe."
+      },
+      {
         "id": "a14e1fc0d846ae90",
         "title": "‘Why are we even doing this?’ The week that left Britain’s PM looking like an interim leader",
-        "summary": "PM has shed authority in week that has made him look like an interim leader in office only until replacement found It was a minute or so into his BBC interview on Friday morning, after being asked about “moves” to remove Keir Starmer, that Steve Reed ran out of patience. “There is no contest,” he interrupted. “‘Moves’ mean nothing. People need 81 nominations to stand against the prime minister.” The housing secretary, a close ally of Starmer and a founding member of the Labour Together thinkt...",
+        "summary": "Week of leadership jostling has left Keir Starmer looking vulnerable and short of time – even though no challenger has officially come forward It was a minute or so into his BBC interview on Friday morning, after being asked about “moves” to remove Keir Starmer, that Steve Reed ran out of patience. “There is no contest,” he interrupted. “‘Moves’ mean nothing. People need 81 nominations to stand against the prime minister.” The housing secretary, a close ally of Starmer and a founding member o...",
         "link": "https://www.theguardian.com/politics/2026/may/16/keir-starmer-labour-leadership-talk-burnham-streeting",
         "published": "2026-05-16T07:00:02+00:00",
         "source": "Guardian World",
         "lang": "en",
         "sub": null,
-        "title_cs": "„Proč to vůbec děláme?“ Týden, po kterém britský premiér vypadal jako dočasný vůdce",
-        "summary_cs": "Premiér ztratil autoritu v týdnu, který ho nechal vypadat jako dočasného vůdce ve funkci jen do nalezení náhrady. Bylo to asi minutu po jeho pátečním rozhovoru pro BBC, po otázce na „kroky“ k odstranění Keira Starmera, kdy Steve Reed ztratil trpělivost. „Žádný souboj neprobíhá,“ přerušil ho. „„Kroky“ nic neznamenají. Lidé potřebují 81 nominací, aby se mohli postavit premiérovi.“ Ministr bydlení, blízký spojenec Starmera a zakládající člen think-tanku Labour Together..."
+        "title_cs": "„Proč to vůbec děláme?“ Týden, po kterém britský premiér vypadá jako dočasný lídr",
+        "summary_cs": "Týden přetahování o vedení zanechal Keira Starmera zranitelného a s nedostatkem času – ačkoli se žádný vyzyvatel oficiálně neobjevil. Bylo to asi minutu po jeho pátečním rozhovoru pro BBC, poté, co byl dotázán na „kroky“ k odstranění Keira Starmera, že Steve Reed ztratil trpělivost. „Žádný souboj neprobíhá,“ přerušil ho. „„Kroky“ nic neznamenají. Lidé potřebují 81 nominací, aby se mohli postavit premiérovi.“ Ministr pro bydlení, blízký spojenec Starmera a zakládající člen..."
       },
       {
         "id": "f394fdbfeeeab9b2",
@@ -128,7 +164,7 @@
         "source": "Al Jazeera",
         "lang": "en",
         "sub": null,
-        "title_cs": "Aston Villa drtí Liverpool 4:2 a zajišťuje si místo v Lize mistrů",
+        "title_cs": "Aston Villa rozdrtila Liverpool 4:2 a zajistila si místo v Lize mistrů",
         "summary_cs": "Problémy Liverpoolu se prohlubují, když Ollie Watkins vstřelil dva góly a pomohl svému týmu k dominantnímu vítězství na Villa Parku."
       },
       {
@@ -140,20 +176,8 @@
         "source": "Al Jazeera",
         "lang": "en",
         "sub": null,
-        "title_cs": "Kde se Eurovision pokazila?",
-        "summary_cs": "Eurovize se dlouho prohlašovala za nepolitickou. Letos je tento nárok možná jejím nejvíce zpochybňovaným vystoupením."
-      },
-      {
-        "id": "a6d257af04bf26ba",
-        "title": "Trump Turns Taiwan Arms Sales Into Bargaining Chip With China",
-        "summary": "The president said a potential arms deal for Taiwan was a “very good negotiating chip” in talks with Beijing. His words raise questions about the steadfastness of U.S. support.",
-        "link": "https://www.nytimes.com/2026/05/16/world/asia/trump-taiwan-arms-bargaining-chip-china.html",
-        "published": "2026-05-16T06:41:00+00:00",
-        "source": "NYT World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Trump proměnil prodej zbraní Tchaj-wanu v obchodní páku s Čínou",
-        "summary_cs": "Prezident uvedl, že potenciální dohoda o prodeji zbraní Tchaj-wanu je „velmi dobrou vyjednávací pákou“ v rozhovorech s Pekingem. Jeho slova vyvolávají otázky o neochvějnosti podpory USA."
+        "title_cs": "Kde se Eurovize pokazila?",
+        "summary_cs": "Eurovize se dlouho prezentovala jako nepolitická. Letos je toto tvrzení možná jejím nejvíce zpochybňovaným vystoupením."
       },
       {
         "id": "4e746d0dcf59314f",
@@ -188,7 +212,7 @@
         "source": "Al Jazeera",
         "lang": "en",
         "sub": null,
-        "title_cs": "Trump: Zabito druhé nejvýše postavené velitele IS Abu-Bilal al-Minuki",
+        "title_cs": "Trump: Zabit druhý nejvyšší velitel IS Abu-Bilal al-Minuki",
         "summary_cs": "Americké a nigerijské síly provedly společnou operaci proti veliteli, který byl v roce 2023 označen za „globálního teroristu“."
       },
       {
@@ -200,45 +224,69 @@
         "source": "Al Jazeera",
         "lang": "en",
         "sub": null,
-        "title_cs": "Spurs Wembanyamy postupují do finále Západní konference, Pistons zůstávají v NBA playoff ve hře",
+        "title_cs": "Wembanyamovi Spurs postoupili do finále Západní konference, Pistons zůstávají v NBA playoff ve hře",
         "summary_cs": "San Antonio porazilo Timberwolves a zajistilo si místo ve finále Západní konference, zatímco Detroit porazil Cleveland a srovnal sérii."
-      },
-      {
-        "id": "2ba86d0dd3a23aca",
-        "title": "‘An hour of abuse’: Jeremy Corbyn on Labour coups, and whether he feels sorry for Starmer",
-        "summary": "As Keir Starmer endures a slow ousting as PM, former Labour leader Corbyn recalls his own expulsion and looks at the runners and riders “Yeah, I do feel [sorry for him],” said Jeremy Corbyn, with only a little hesitation. “On a personal level it must be devastating. It is a horrible feeling. You suddenly realise that this person doesn’t trust you at all and really doesn’t wish you well at all, and you suddenly realise that any trust that was there actually disappears.” There are few in politi...",
-        "link": "https://www.theguardian.com/politics/2026/may/16/jeremy-corbyn-target-labour-coup-keir-starmer-andy-burnham-wes-streeting-angela-rayner-leadership",
-        "published": "2026-05-16T06:00:03+00:00",
-        "source": "Guardian World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "„Hodina urážek“: Jeremy Corbyn o pučích v Labour a zda lituje Starmera",
-        "summary_cs": "Zatímco Keir Starmer zažívá pomalé odvolávání z pozice premiéra, bývalý vůdce Labour Corbyn vzpomíná na své vlastní vyloučení a dívá se na běžce a jezdce „Ano, [lituji ho],“ řekl Jeremy Corbyn s jen malým zaváháním. „Na osobní úrovni to musí být zdrcující. Je to hrozný pocit. Najednou si uvědomíte, že vám tato osoba vůbec nedůvěřuje a opravdu vám nepřeje, a najednou si uvědomíte, že jakákoli důvěra, která tam byla, zmizí.“ V politice je málo lidí..."
-      },
-      {
-        "id": "d3ba190a8a2cfcd4",
-        "title": "UK drivers struggle to get insurance for Chinese EVs such as Jaecoo",
-        "summary": "Firms do not offer cover for some models, or charge more than for equivalent petrol cars, research finds UK insurers are more hesitant to cover some hybrid and electric vehicles (EVs) from China than cars from other countries, research suggests. While some drivers can save money by buying cars made in China, they may have more limited options to get insurance than those buying electric, hybrid and petrol cars from Europe, the US and South Korea. Continue reading...",
-        "link": "https://www.theguardian.com/money/2026/may/16/uk-insurance-cover-chinese-evs-jaecoo-byd-xpeng",
-        "published": "2026-05-16T06:00:02+00:00",
-        "source": "Guardian World",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Britští řidiči mají potíže s pojištěním čínských elektromobilů, jako je Jaecoo",
-        "summary_cs": "Firmy nenabízejí krytí pro některé modely nebo účtují více než za srovnatelné benzínové vozy, ukazuje průzkum. Britští pojišťovatelé jsou k některým hybridním a elektrickým vozidlům (EV) z Číny zdráhavější než k vozům z jiných zemí, naznačuje průzkum. Zatímco někteří řidiči mohou ušetřit nákupem vozů vyrobených v Číně, mohou mít omezenější možnosti získání pojištění než ti, kteří kupují elektrická, hybridní a benzínová auta z Evropy, USA a Jižní Koreje. Pokračovat ve čtení..."
       }
     ],
     "czech": [
       {
-        "id": "1ef0166b4677cdbb",
-        "title": "Veřejný prostor ve Vysokém Mýtu ožije hudbou. Hudební škola vytvořila dvě místa pro busking",
+        "id": "abbdf37d25596793",
+        "title": "Běžné věci i vzácná Čechie-Böhmerland. V Pelhřimově otevřel nový depozitář, má 2500 čtverečních metrů",
+        "summary": "Vzácné motorky nebo jen běžné dobové povlečení, které se používalo v nemocnicích v 80. letech minulého století. To všechno teď stěhují muzejníci na Vysočině do nového centrálního depozitáře v Pelhřimově. K uložení uměleckých a historických artefaktů nabízí téměř 2500 metrů čtverečních plochy.",
+        "link": "https://www.irozhlas.cz/zpravy-domov/bezne-veci-i-vzacna-cechie-bohmerland-v-pelhrimove-otevrel-novy-depozitar-ma_2605160938_vdv",
+        "published": "2026-05-16T09:38:00+02:00",
+        "source": "iRozhlas",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Běžné věci i vzácná Čechie-Böhmerland. V Pelhřimově otevřel nový depozitář, má 2500 čtverečních metrů",
+        "summary_cs": "Vzácné motorky nebo jen běžné dobové povlečení, které se používalo v nemocnicích v 80. letech minulého století. To všechno teď stěhují muzejníci na Vysočině do nového centrálního depozitáře v Pelhřimově. K uložení uměleckých a historických artefaktů nabízí téměř 2500 metrů čtverečních plochy."
+      },
+      {
+        "id": "6babee03a52cbadd",
+        "title": "Prošli jsme novou budovu pražského magistrátu. K vidění je tu i potrubní pošta",
+        "summary": "V rámci akce Open House Praha, začínající v pondělí, si veřejnost prohlédne i budovu na Václavském náměstí, v níž sídlila Komerční banka. Do paláce bývalé Poštovní spořitelny se přestěhují magistrátní úředníci z Jungmannovy ulice.",
+        "link": "https://www.seznamzpravy.cz/clanek/magazin-architektura-prosli-jsme-novou-budovu-prazskeho-magistratu-k-videni-je-tu-i-potrubni-posta-306208",
+        "published": "2026-05-16T09:30:00+02:00",
+        "source": "Seznam Zprávy",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Prošli jsme novou budovu pražského magistrátu. K vidění je tu i potrubní pošta",
+        "summary_cs": "V rámci akce Open House Praha, začínající v pondělí, si veřejnost prohlédne i budovu na Václavském náměstí, v níž sídlila Komerční banka. Do paláce bývalé Poštovní spořitelny se přestěhují magistrátní úředníci z Jungmannovy ulice."
+      },
+      {
+        "id": "1b1069e0e18adf8a",
+        "title": "Dacia letos představí nový elektromobil. V základní výbavě bude jedním z nejlevnějších",
+        "summary": "Dacia už letos představí další elektromobil . \nNovinka bude větší a dospělejší alternativou stávajícího modelu Spring. \nAutomobilka zatím model nepředstavila.",
+        "link": "https://www.e15.cz/byznys/cesky-a-evropsky-autoprumysl/dacia-letos-predstavi-novy-elektromobil-v-zakladni-vybave-bude-jednim-z-nejlevnejsich-1432863",
+        "published": "2026-05-16T09:30:00+02:00",
+        "source": "E15",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Dacia letos představí nový elektromobil. V základní výbavě bude jedním z nejlevnějších",
+        "summary_cs": "Dacia už letos představí další elektromobil . \nNovinka bude větší a dospělejší alternativou stávajícího modelu Spring. \nAutomobilka zatím model nepředstavila."
+      },
+      {
+        "id": "7d944f5f41b37383",
+        "title": "Přijďte za námi. Český rozhlas otevírá redakce ve všech regionech i na pražských Vinohradech",
+        "summary": "V tradiční Den otevřených dveří Českého rozhlasu se posluchači mohou podívat do komplexu budov v Praze na Vinohradech i do rozhlasových studií v regionech. V sobotu 16. května 2026 se od 9 hodin do 17.30 můžete seznámit s naší nabídkou a prací rozhlasáků. Nahlédnete do zákulisí vysílání, natáčení rozhlasových her, setkáte se s oblíbenými moderátory a užijete si doprovodný program.",
+        "link": "https://www.irozhlas.cz/zpravy-domov/prijdte-za-nami-cesky-rozhlas-otevira-redakce-ve-vsech-regionech-i-na-prazskych_2605160919_adn",
+        "published": "2026-05-16T09:19:00+02:00",
+        "source": "iRozhlas",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Přijďte za námi. Český rozhlas otevírá redakce ve všech regionech i na pražských Vinohradech",
+        "summary_cs": "V tradiční Den otevřených dveří Českého rozhlasu se posluchači mohou podívat do komplexu budov v Praze na Vinohradech i do rozhlasových studií v regionech. V sobotu 16. května 2026 se od 9 hodin do 17.30 můžete seznámit s naší nabídkou a prací rozhlasáků. Nahlédnete do zákulisí vysílání, natáčení rozhlasových her, setkáte se s oblíbenými moderátory a užijete si doprovodný program."
+      },
+      {
+        "id": "478d4b092078d454",
+        "title": "Veřejný prostor ve Vysokém Mýtě ožije hudbou. Hudební škola vytvořila dvě místa pro busking",
         "summary": "Chodba na autobusovém nádraží nebo altán na náměstí ve Vysokém Mýtě bývají často místem hlučných dýchánků a nepořádku. Místní základní umělecká škola se rozhodla proměnit problémová místa po svém. Pro festival ZUŠ Open tam vytvořila originální buskovací pokojíčky s pianiny, květinami a dalšími dekoracemi.",
         "link": "https://www.irozhlas.cz/zpravy-domov/verejny-prostor-ve-vysokem-mytu-ozije-hudbou-hudebni-skola-vytvorila-dve-mista_2605160902_vdv",
         "published": "2026-05-16T09:02:00+02:00",
         "source": "iRozhlas",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Veřejný prostor ve Vysokém Mýtu ožije hudbou. Hudební škola vytvořila dvě místa pro busking",
+        "title_cs": "Veřejný prostor ve Vysokém Mýtě ožije hudbou. Hudební škola vytvořila dvě místa pro busking",
         "summary_cs": "Chodba na autobusovém nádraží nebo altán na náměstí ve Vysokém Mýtě bývají často místem hlučných dýchánků a nepořádku. Místní základní umělecká škola se rozhodla proměnit problémová místa po svém. Pro festival ZUŠ Open tam vytvořila originální buskovací pokojíčky s pianiny, květinami a dalšími dekoracemi."
       },
       {
@@ -266,15 +314,15 @@
         "summary_cs": "Jak se proměňuje náš jazyk? S Martinem Kavkou, bývalým novinářem, autorem webu Čeština 2.0 a knihy Hacknutá čeština 2.0, lektorem srozumitelného psaní a expertem na chytré emaily a newslettery jsme probrali, jak na kvalitní text a jakou roli má dnes AI."
       },
       {
-        "id": "c92a969d66ef1ffd",
-        "title": "„Možná už mám hotovo. Teď si chci jen hrát,“ říká Jan Svěrák",
+        "id": "ae8c253b2f0ae4f1",
+        "title": "Pět let mi chodily americké scénáře, všechny jsem je odmítl, říká Jan Svěrák",
         "summary": "Oscarový režisér se vrací s novým filmem Pět švestek. Vznikl tak trochu mimo plán. Po letech, kdy čelil tlaku na další „velké“ projekty, mluví Jan Svěrák o svobodě, pochybnostech i proměně vztahu s otcem Zdeňkem Svěrákem.",
         "link": "https://www.seznamzpravy.cz/clanek/audio-podcast-galerie-osobnosti-mozna-uz-mam-hotovo-ted-si-chci-jen-hrat-rika-jan-sverak-303989",
         "published": "2026-05-16T08:30:00+02:00",
         "source": "Seznam Zprávy",
         "lang": "cs",
         "sub": null,
-        "title_cs": "„Možná už mám hotovo. Teď si chci jen hrát,“ říká Jan Svěrák",
+        "title_cs": "Pět let mi chodily americké scénáře, všechny jsem je odmítl, říká Jan Svěrák",
         "summary_cs": "Oscarový režisér se vrací s novým filmem Pět švestek. Vznikl tak trochu mimo plán. Po letech, kdy čelil tlaku na další „velké“ projekty, mluví Jan Svěrák o svobodě, pochybnostech i proměně vztahu s otcem Zdeňkem Svěrákem."
       },
       {
@@ -290,18 +338,6 @@
         "summary_cs": "Stát loni vybral na správních poplatcích 3,1 miliardy korun. Bylo to o pětinu víc, než plánoval. Meziročně na nich získal o třetinu víc. Téměř polovinu z toho vybral Český úřad zeměměřický a katastrální, který přispěl částkou 1,4 miliardy korun. Šlo hlavně o poplatky za vklad práv do katastru."
       },
       {
-        "id": "15e0e635c06863aa",
-        "title": "Přijmout euro je pro Česko povinnost, říká eurokomisař",
-        "summary": "Eurokomisař Valdis Dombrovskis má na starosti oblast hospodářství a produktivity. Jeho rolí je mimo jiné posílení mezinárodní role eura a také zavedení digitálního eura. Závazek přijmout společnou měnu podle něj platí pro všechny.",
-        "link": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-prijmout-euro-je-pro-cesko-povinnost-rika-eurokomisar-sankce-ale-nehrozi-306138",
-        "published": "2026-05-16T08:15:00+02:00",
-        "source": "Seznam Zprávy",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Přijmout euro je pro Česko povinnost, říká eurokomisař",
-        "summary_cs": "Eurokomisař Valdis Dombrovskis má na starosti oblast hospodářství a produktivity. Jeho rolí je mimo jiné posílení mezinárodní role eura a také zavedení digitálního eura. Závazek přijmout společnou měnu podle něj platí pro všechny."
-      },
-      {
         "id": "4498581deda0222f",
         "title": "Casting na nového Jamese Bonda začal, favority jsou Britové a Australan",
         "summary": "Po pěti letech od poslední bondovky s Danielem Craigem začaly castingy na roli agenta 007. Mezi favority je pět britských herců a jeden Australan. Režie se ujme Denis Villeneuve.",
@@ -312,45 +348,21 @@
         "sub": null,
         "title_cs": "Casting na nového Jamese Bonda začal, favority jsou Britové a Australan",
         "summary_cs": "Po pěti letech od poslední bondovky s Danielem Craigem začaly castingy na roli agenta 007. Mezi favority je pět britských herců a jeden Australan. Režie se ujme Denis Villeneuve."
-      },
-      {
-        "id": "0a4f0965a5eab055",
-        "title": "Stovky dobrovolníků uklízejí Krkonoše. Odpadky sbírají na turistických trasách i pod lanovkou",
-        "summary": "Ve Špindlerově Mlýně dnes začíná třídenní velký úklid Krkonoš. Do tradiční akce nazvané Zelený Špindl se podle odhadů organizátorů zapojí stovky dobrovolníků a desítky organizací. V pátek začal sběr odpadků u dolní stanice lanovky na Medvědín.",
-        "link": "https://www.irozhlas.cz/zpravy-domov/stovky-dobrovolniku-uklizeji-krkonose-odpadky-sbiraji-na-turistickych-trasach-i_2605160810_mkm",
-        "published": "2026-05-16T08:10:00+02:00",
-        "source": "iRozhlas",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Stovky dobrovolníků uklízejí Krkonoše. Odpadky sbírají na turistických trasách i pod lanovkou",
-        "summary_cs": "Ve Špindlerově Mlýně dnes začíná třídenní velký úklid Krkonoš. Do tradiční akce nazvané Zelený Špindl se podle odhadů organizátorů zapojí stovky dobrovolníků a desítky organizací. V pátek začal sběr odpadků u dolní stanice lanovky na Medvědín."
-      },
-      {
-        "id": "e486872c2ce07fa7",
-        "title": "Kysané výrobky nejsou tak důležité, jak se tvrdí. Potřebujete zeleninu a luštěniny",
-        "summary": "Výrazným výživovým trendem jsou teď kysané výrobky: jogurty, kefíry, ale třeba i kimči. Mají příznivý vliv na zažívání, ale není potřeba je jíst na sílu, pokud vám nechutnají. A už vůbec ne, jestliže je vám po nich dokonce špatně.",
-        "link": "https://www.seznamzpravy.cz/clanek/zdravi-plus-pokud-je-vam-po-kysanych-vyrobcich-spatne-nejezte-je-nejsou-tak-nutne-305113",
-        "published": "2026-05-16T08:00:00+02:00",
-        "source": "Seznam Zprávy",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Kysané výrobky nejsou tak důležité, jak se tvrdí. Potřebujete zeleninu a luštěniny",
-        "summary_cs": "Výrazným výživovým trendem jsou teď kysané výrobky: jogurty, kefíry, ale třeba i kimči. Mají příznivý vliv na zažívání, ale není potřeba je jíst na sílu, pokud vám nechutnají. A už vůbec ne, jestliže je vám po nich dokonce špatně."
-      },
-      {
-        "id": "d925c253e79e38d9",
-        "title": "Během proti osamělosti. V Liberci v sobotu startuje třetí ročník Adraběhu",
-        "summary": "Lidé v Liberci mohou v sobotu od 14 hodin běžet pro dobrou věc. Startuje takzvaný Adraběh s mottem Osamělost není radost. Jde o celorepublikovou akci, do které se kromě Liberce zapojila také třeba Praha, Brno nebo České Budějovice.",
-        "link": "https://www.irozhlas.cz/zpravy-domov/behem-proti-osamelosti-v-liberci-v-sobotu-startuje-treti-rocnik-adrabehu_2605160748_vdv",
-        "published": "2026-05-16T07:48:00+02:00",
-        "source": "iRozhlas",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Během proti osamělosti. V Liberci v sobotu startuje třetí ročník Adraběhu",
-        "summary_cs": "Lidé v Liberci mohou v sobotu od 14 hodin běžet pro dobrou věc. Startuje takzvaný Adraběh s mottem Osamělost není radost. Jde o celorepublikovou akci, do které se kromě Liberce zapojila také třeba Praha, Brno nebo České Budějovice."
       }
     ],
     "sport": [
+      {
+        "id": "5a47b22920be5c18",
+        "title": "Spurs eliminate Timberwolves to set up blockbuster Thunder showdown",
+        "summary": "Victor Wembanyama's San Antonio Spurs eliminated Anthony Edwards' Minnesota Timberwolves with a dominant 139-109 win that secured a 4-2 series victory and a place in the Western Conference Finals.",
+        "link": "https://www.skysports.com/basketball/news/12040/13544552/nba-playoffs-victor-wembanyamas-san-antonio-spurs-set-up-blockbuster-oklahoma-city-thunder-showdown-by-beating-minnesota-timberwolves",
+        "published": "2026-05-16T07:22:00+00:00",
+        "source": "Sky Sports Premier League",
+        "lang": "en",
+        "sub": "football",
+        "title_cs": "Spurs vyřadili Timberwolves a postaví se Thunder v epickém souboji",
+        "summary_cs": "San Antonio Spurs Victora Wembanyamy vyřadili Minnesota Timberwolves Anthonyho Edwardse dominantním vítězstvím 139:109, čímž si zajistili vítězství v sérii 4:2 a postup do finále Západní konference."
+      },
       {
         "id": "4a72599d55ed4f30",
         "title": "Baník a Duklu čekají důležitá utkání o záchranu, Hradec hostí Slavii - Chance Liga",
@@ -364,16 +376,16 @@
         "summary_cs": "Baník a Duklu čekají důležitá utkání o záchranu, Hradec hostí Slavii Chance Liga"
       },
       {
-        "id": "560d718506efca94",
-        "title": "‘It defies belief’: West Ham and Tottenham fans fume amid relegation panic",
+        "id": "db146ca5d17d3e8a",
+        "title": "‘It defies belief’: West Ham and Tottenham fans fume amid relegation dread",
         "summary": "Our photographer, Tom Jenkins, captures the discontent at both clubs after years of mismanagement as the trapdoor awaits one of them Fury. Grief. Embarrassment. Horror. Resignation. The emotions run hot for supporters of West Ham and Tottenham right now as the two grand old clubs stare at potential relegation from the Premier League. With their spiritual homes demolished at the altar of progress and profit, first Upton Park in 2016 and then White Hart Lane in 2017, both clubs had visions of g...",
         "link": "https://www.theguardian.com/football/2026/may/16/west-ham-tottenham-fans-fume-amid-relegation-panic-picture-essay",
         "published": "2026-05-16T07:00:04+00:00",
         "source": "Guardian Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "„Je to neuvěřitelné“: Fanoušci West Hamu a Tottenhamu zuří v panice z sestupu",
-        "summary_cs": "Náš fotograf Tom Jenkins zachycuje nespokojenost v obou klubech po letech špatného řízení, zatímco jeden z nich čeká sestupová propast. Vztek. Zármutek. Zahanbení. Hrůza. Rezignace. Emoce fanoušků West Hamu a Tottenhamu právě teď vřou, když oba slavné kluby čelí hrozbě sestupu z Premier League. S jejich duchovními domovy zničenými na oltáři pokroku a zisku, nejprve Upton Park v roce 2016 a poté White Hart Lane v roce 2017, oba kluby měly vize..."
+        "title_cs": "„Je to neuvěřitelné“: Fanoušci West Hamu a Tottenhamu zuří uprostřed obav z sestupu",
+        "summary_cs": "Náš fotograf Tom Jenkins zachycuje nespokojenost v obou klubech po letech špatného řízení, zatímco jedním z nich visí hrozba sestupu. Vztek. Žal. Zahanbení. Hrůza. Rezignace. Emoce fanoušků West Hamu a Tottenhamu momentálně vřou, neboť oba slavné kluby čelí hrozbě sestupu z Premier League. S jejich duchovními domovy zničenými na oltáři pokroku a zisku, nejprve Upton Park v roce 2016 a poté White Hart Lane v roce 2017, oba kluby měly vize..."
       },
       {
         "id": "7cce80ea5fe1a11a",
@@ -400,18 +412,6 @@
         "summary_cs": "Od skromné garsonky na stadionu ke stříbru z Eura. Legendární Jiří Němec oslavil 60. narozeniny Ruik"
       },
       {
-        "id": "a58033ec38472cf7",
-        "title": "Chance Liga - preview 4. kola nadstavby: Baník odvrací sestup, finále play off o umístění - Eurofotbal",
-        "summary": "Chance Liga - preview 4. kola nadstavby: Baník odvrací sestup, finále play off o umístění Eurofotbal",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSThPSWU0SE52a1l4cWdfYkRncHpKZlJfYU92RDVkWE5UcDZaWHRsRVZfeHMzMFYzZlEyNngzSk13a1pGNkp1a05GSkUxTnl6YTdtT3hOVTF0ZEVrdWFBeFNjSkVWOVNDNF9mSm5uRl9BVUxFYXktWlRJaEhkRER6UHBqMy0zRkQ4eTZwWDRWSzc3MXpNMjJyT2V4cjBvUFRKU3M5MXVjYndvV0hfWEJwYlc2NXVDRVdYa3FRMnJSYlE5a0U?oc=5",
-        "published": "2026-05-16T06:36:46+00:00",
-        "source": "Česká liga (fotbal)",
-        "lang": "cs",
-        "sub": "football",
-        "title_cs": "Chance Liga - preview 4. kola nadstavby: Baník odvrací sestup, finále play off o umístění - Eurofotbal",
-        "summary_cs": "Chance Liga - preview 4. kola nadstavby: Baník odvrací sestup, finále play off o umístění Eurofotbal"
-      },
-      {
         "id": "e656c3f2af2e3445",
         "title": "Allen: AJ, Fury, Usyk will all tell you I'm a very good fighter",
         "summary": "Dave Allen is a hugely likeable heavyweight nearly-man on the British boxing scene.",
@@ -421,7 +421,7 @@
         "lang": "en",
         "sub": "football",
         "title_cs": "Allen: AJ, Fury, Usyk vám všichni řeknou, že jsem velmi dobrý bojovník",
-        "summary_cs": "Dave Allen je velmi sympatický těžký boxer na britské boxerské scéně, který se vždy ocitá těsně pod vrcholem."
+        "summary_cs": "Dave Allen je nesmírně sympatický boxer těžké váhy, který se pohybuje na britské boxerské scéně."
       },
       {
         "id": "6061b7ed67b8c1ab",
@@ -456,8 +456,20 @@
         "source": "Sky Sports Premier League",
         "lang": "en",
         "sub": "football",
-        "title_cs": "Jaký rozdíl udělá jeden den! | McIlroyova vtipná odpověď na virální odpověď „s***!“",
+        "title_cs": "Jaký rozdíl udělá jeden den! | McIlroyho vtipná odpověď na virální odpověď „s***!“",
         "summary_cs": "Rory McIlroy vtipně odpověděl novináři, který ho požádal o porovnání jeho prvních dvou kol na PGA Championship."
+      },
+      {
+        "id": "c174031a235f1139",
+        "title": "MS v hokeji ONLINE: Je mi to jedno... Kořenář se po zápase vyjádřil k Dostálovi - iSport.cz",
+        "summary": "MS v hokeji ONLINE: Je mi to jedno... Kořenář se po zápase vyjádřil k Dostálovi iSport.cz",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYVItbzFlN3dsXzk1NWlOVXNFTEozekZzU2VjeDVlZVlsck1xcDNDM2pQVXVINHhJdF8yT1g2aFR3R0pjUmd3NVJwZDVZRXVoQnc2Z29KdXRuQ0hvU0trTjBhZklvRlRHM040MlhBLXJQdzhwWlByODJfRFQzdmQwYzk3RXctOGxERUtVa3d0Q21rdU1YQkFqUzNKNlQxUDZDWnQ5ZnJwNFhZY2VScnpqRWZIdkZicDAtTjVSd2l4ekNqVGhPOS1nbmt6cUhEZTYwNmhKbjdQRV9oTm9NdlNXeTBYaw?oc=5",
+        "published": "2026-05-16T06:49:18+00:00",
+        "source": "Česká hokejová reprezentace",
+        "lang": "cs",
+        "sub": "hockey",
+        "title_cs": "MS v hokeji ONLINE: Je mi to jedno... Kořenář se po zápase vyjádřil k Dostálovi - iSport.cz",
+        "summary_cs": "MS v hokeji ONLINE: Je mi to jedno... Kořenář se po zápase vyjádřil k Dostálovi iSport.cz"
       },
       {
         "id": "db4a11083e9e0500",
@@ -484,18 +496,6 @@
         "summary_cs": "MS v hokeji 2026 dnes: Česko vs. Slovinsko. Svěřenci Rulíka chtějí získat tři body Metro.cz"
       },
       {
-        "id": "cec36c76a6aa3d6a",
-        "title": "Recap of Stanley Cup Playoff from 15 May 2026 - Pro Hockey News",
-        "summary": "Recap of Stanley Cup Playoff from 15 May 2026 Pro Hockey News",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1UR0dWVXBDbkxzdGpuQlZ0c2JhQ25MeEFlUEtqOWZXVE1NMm1aVHZ2NWFVd0kzY3NMSUoyVjV5Z1FMXzJQNTBtaTZ5WEV2cjVuYndhd3drQlEwTnNOdHNqWmRRNkVkbThaWE9tQk53Z09TNFRYTVhUNjlUTzc?oc=5",
-        "published": "2026-05-16T04:43:30+00:00",
-        "source": "NHL News",
-        "lang": "en",
-        "sub": "hockey",
-        "title_cs": "Rekapitulace Stanley Cup Playoff z 15. května 2026 - Pro Hockey News",
-        "summary_cs": "Rekapitulace Stanley Cup Playoff z 15. května 2026 Pro Hockey News"
-      },
-      {
         "id": "d6a2b4dd1dab7796",
         "title": "Sinner leading Medvedev before semi-final postponed",
         "summary": "Jannik Sinner overcomes his physical struggles to lead Daniil Medvedev in a deciding set before rain stops their compelling Italian Open semi-final.",
@@ -504,8 +504,8 @@
         "source": "BBC Tennis",
         "lang": "en",
         "sub": "tennis",
-        "title_cs": "Sinner vede nad Medvedevim před odloženým semifinále",
-        "summary_cs": "Jannik Sinner překonává své fyzické potíže a vede nad Daniilem Medvedevim v rozhodujícím setu, než déšť zastaví jejich strhující semifinále Italian Open."
+        "title_cs": "Sinner vede nad Medvěděvem před odložením semifinále",
+        "summary_cs": "Jannik Sinner překonává své fyzické potíže a vede nad Daniilem Medveděvem v rozhodujícím setu, než déšť zastaví jejich strhující semifinále Italian Open."
       },
       {
         "id": "53fe53ee183b4475",
@@ -528,8 +528,8 @@
         "source": "Autosport F1",
         "lang": "en",
         "sub": "f1",
-        "title_cs": "Bývalý šéf aerodynamiky FIA oficiálně posílil Alpine na seniorské pozici ve F1",
-        "summary_cs": "Bývalý šéf aerodynamiky FIA Jason Somerville oficiálně posílil tým Alpine ve Formuli 1 poté, co dokončil šestiměsíční „zahradnickou dovolenou“. Jak Autosport poprvé informoval v listopadu, Somerville se dohodl na smlouvě s Alpine a poté absolvoval šestiměsíční výpovědní lhůtu, než nastoupil k novému zaměstnavateli. S koncem této výpovědní lhůty, během níž Somerville stále..."
+        "title_cs": "Bývalý šéf aerodynamiky FIA oficiálně posílí Alpine na seniorské pozici ve F1",
+        "summary_cs": "Bývalý šéf aerodynamiky FIA Jason Somerville oficiálně posílil tým Alpine ve Formuli 1 poté, co dokončil šestiměsíční placené volno. Jak Autosport poprvé informoval v listopadu, Somerville se dohodl na smlouvě s Alpine a poté absolvoval šestiměsíční výpovědní lhůtu, než nastoupil k novému zaměstnavateli. Jelikož toto období placeného volna nyní skončilo, během kterého Somerville stále..."
       }
     ],
     "tech": [
@@ -538,120 +538,120 @@
         "title": "Closing time",
         "summary": "Today was closing arguments in the Musk v. Altman trial, and I almost feel bad writing about the unbelievable demolition derby I just witnessed. Steven Molo, Musk's lawyer, stumbled over his words. He at one point called Greg Brockman - a co-defendant - Greg Altman. He erroneously claimed that Musk wasn't asking for money and […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis",
-        "published": "2026-05-16T07:16:46.471096+00:00",
+        "published": "2026-05-16T07:57:42.869622+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Závěrečné řeči",
-        "summary_cs": "Dnes proběhly závěrečné řeči v procesu Musk vs. Altman a skoro mě mrzí psát o neuvěřitelné demoliční derby, které jsem právě viděl. Steven Molo, Muskovův právník, zakoktal. V jednu chvíli nazval Grega Brockmana – spoluběžce – Gregem Altmanem. Nesprávně tvrdil, že Musk nežádá peníze a […]"
+        "title_cs": "Zavírací doba",
+        "summary_cs": "Dnes byly závěrečné argumenty v procesu Musk vs. Altman a téměř se cítím špatně, když píšu o neuvěřitelném demoličním derby, kterého jsem byl právě svědkem. Steven Molo, Muskův právník, zakopl o svá slova. V jednu chvíli zavolal Gregu Brockmanovi - spoluobžalovanému - Gregu Altmanovi. Chybně tvrdil, že Musk nežádal o peníze a […]"
       },
       {
         "id": "0d7eacdba2079b83",
         "title": "AI research papers are getting better, and it’s a big problem for scientists",
         "summary": "Last summer, Peter Degen's postdoctoral supervisor came to him with an unusual problem: One of his papers was being cited too much. Citations are the currency of academia, but there was something unusual about these. Published in 2017, the paper had assessed the accuracy of a particular type of statistical analysis on epidemiological data and […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/930522/ai-research-papers-slop-peer-review-problem",
-        "published": "2026-05-16T07:16:46.471038+00:00",
+        "published": "2026-05-16T07:57:42.869580+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Výzkumné práce o AI se zlepšují a to je pro vědce velký problém",
-        "summary_cs": "Minulé léto za ním přišel postdoktorandský vedoucí Peter Degena s neobvyklým problémem: Jeden z jeho článků byl citován příliš často. Citace jsou měnou akademické sféry, ale na těchto bylo něco neobvyklého. Článek publikovaný v roce 2017 hodnotil přesnost určitého typu statistické analýzy epidemiologických dat a […]"
+        "title_cs": "Výzkumné práce o umělé inteligenci se zlepšují a pro vědce je to velký problém",
+        "summary_cs": "Minulé léto za ním přišel postdoktorandský vedoucí Petera Degena s neobvyklým problémem: jedna z jeho prací byla příliš citována. Citace jsou měnou akademické obce, ale bylo na nich něco neobvyklého. Článek, který byl publikován v roce 2017, posuzoval přesnost konkrétního typu statistické analýzy epidemiologických údajů a […]"
       },
       {
         "id": "16ba6a237a733f18",
         "title": "The promises and pitfalls of personalized health",
         "summary": "This is Optimizer, a weekly newsletter sent every Friday from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. A few days ago, my esthetician was smearing hot wax on my face. The two caterpillars I call […]",
         "link": "https://www.theverge.com/column/931148/optimizer-pmos-pcos-personalized-health",
-        "published": "2026-05-16T07:16:46.470978+00:00",
+        "published": "2026-05-16T07:57:42.869538+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Sliby a úskalí personalizovaného zdraví",
-        "summary_cs": "Toto je Optimizer, týdenní zpravodaj zasílaný každý pátek od senior recenzentky Verge Victorie Song, který rozebírá a diskutuje nejnovější vychytávky a lektvary, které slibují, že vám změní život. Přihlaste se k odběru Optimizeru zde. Před pár dny mi kosmetička mazala horký vosk na obličej. Dva housenky, kterým říkám […]"
+        "title_cs": "Přísliby a úskalí osobního zdraví",
+        "summary_cs": "Toto je Optimizer, týdenní zpravodaj zasílaný každý pátek od Victorie Song, hlavní recenzentky Verge, který rozebírá a diskutuje o nejnovějších vychytávkách a lektvarech, které přísahají, že změní váš život. Přihlaste se k Optimalizátoru zde. Před několika dny mi můj estetik rozmazával horký vosk na obličej. Dvě housenky, kterým říkám [...]"
       },
       {
         "id": "4662ea2e516fab26",
         "title": "OpenAI now wants ChatGPT to access your bank accounts",
         "summary": "Your trust in AI is about to be put to the test: OpenAI will soon let you give the chatbot direct access to your bank accounts. The new feature announced in preview today will allow users to \"securely connect\" ChatGPT with Plaid - the bank-to-app bridging platform used by 12,000 financial institutions, including Schwab, Fidelity, […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection",
-        "published": "2026-05-16T07:16:46.470918+00:00",
+        "published": "2026-05-16T07:57:42.869496+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "OpenAI nyní chce, aby ChatGPT přistupoval k vašim bankovním účtům",
-        "summary_cs": "Vaše důvěra v AI bude brzy podrobena zkoušce: OpenAI vám brzy umožní dát chatbotu přímý přístup k vašim bankovním účtům. Nová funkce oznámená dnes v náhledu umožní uživatelům „bezpečně propojit“ ChatGPT s Plaid – platformou pro propojení bank s aplikacemi, kterou používá 12 000 finančních institucí, včetně Schwab, Fidelity, […]"
+        "title_cs": "OpenAI nyní chce, aby ChatGPT získal přístup k vašim bankovním účtům",
+        "summary_cs": "Vaše důvěra v umělou inteligenci bude podrobena zkoušce: OpenAI vám brzy umožní dát chatbotovi přímý přístup k vašim bankovním účtům. Nová funkce, která byla dnes oznámena v náhledu, umožní uživatelům „bezpečně propojit“ ChatGPT s Plaid - překlenovací platformou mezi bankami používanou 12 000 finančními institucemi, včetně Schwab, Fidelity, […]"
       },
       {
         "id": "0cc643c5e7399c54",
         "title": "Google updates its spam rules to include attempts to ‘manipulate’ AI",
         "summary": "Google updated its spam policy to mark attempts to \"manipulate\" its AI model in search results as spam, including results in AI Overview or AI Mode in Search, as Search Engine Land reports: \"In the context of Google Search, spam refers to techniques used to deceive users or manipulate our Search systems into featuring content […]",
         "link": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
-        "published": "2026-05-16T07:16:46.470847+00:00",
+        "published": "2026-05-16T07:57:42.869451+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Google aktualizuje svá pravidla pro spam, aby zahrnovala pokusy o „manipulaci“ s AI",
-        "summary_cs": "Google aktualizoval svou politiku pro spam tak, aby pokusy o „manipulaci“ s jeho modelem AI ve výsledcích vyhledávání byly označeny jako spam, včetně výsledků v AI Overview nebo AI Mode ve Vyhledávání, jak uvádí Search Engine Land: „V kontextu Google Vyhledávání spam odkazuje na techniky používané k oklamání uživatelů nebo k manipulaci s našimi systémy Vyhledávání za účelem zobrazení obsahu […]"
+        "title_cs": "Google aktualizuje pravidla spamu tak, aby zahrnovala pokusy o „manipulaci“ s umělou inteligencí",
+        "summary_cs": "Společnost Google aktualizovala své zásady týkající se spamu tak, aby označila pokusy o „manipulaci“ se svým modelem umělé inteligence ve výsledcích vyhledávání jako spam, včetně výsledků v přehledu umělé inteligence nebo režimu umělé inteligence ve vyhledávání, jak uvádí země vyhledávače: „V kontextu Vyhledávání Google se spam týká technik používaných k oklamání uživatelů nebo manipulaci s našimi vyhledávacími systémy, aby zobrazovaly obsah […]"
       },
       {
         "id": "216f7ed28d49918e",
         "title": "Does Trump Mobile know how many stripes are on the American flag?",
         "summary": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. This week, despite our best hopes, we still don't have our phone - but we do have some fresh doubts about the company's patriotic credentials. This has been a momentous […]",
         "link": "https://www.theverge.com/gadgets/931347/trump-mobile-t1-phone-logo-flag-stars-stripes",
-        "published": "2026-05-16T07:16:46.470767+00:00",
+        "published": "2026-05-16T07:57:42.869406+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Věděl by Trump Mobile, kolik pruhů má americká vlajka?",
-        "summary_cs": "Kde je Trumpův telefon? Budeme o něm mluvit každý týden. Jako obvykle jsme se obrátili, abychom se zeptali na místo pobytu Trumpova telefonu. Tento týden, navzdory našim nejlepším nadějím, stále nemáme náš telefon – ale máme nové pochybnosti o vlasteneckých pověřeních společnosti. Toto byl památný […]"
+        "title_cs": "Ví Trump Mobile, kolik pruhů je na americké vlajce?",
+        "summary_cs": "Kde je telefon s Trumpem? Budeme o tom mluvit každý týden. Ozvali jsme se, jako obvykle, abychom se zeptali na místo pobytu Trumpova telefonu. Tento týden, navzdory našim nejlepším nadějím, stále nemáme svůj telefon - ale máme nějaké nové pochybnosti o vlasteneckých pověřeních společnosti. Byl to významný […]"
       },
       {
         "id": "de5cc7c0f5498c67",
         "title": "AI radio hosts demonstrate why AI can’t be trusted alone",
         "summary": "Andon Labs has been running a series of experiments in which AI agents run businesses without human intervention. Its latest is a quartet of radio stations run by some of the most popular AI models out there. \"Thinking Frequencies\" is run by Claude, \"OpenAIR\" by ChatGPT, \"Backlink Broadcast\" by Google's Gemini, and \"Grok and Roll […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies",
-        "published": "2026-05-16T07:16:46.470705+00:00",
+        "published": "2026-05-16T07:57:42.869360+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "AI rozhlasoví moderátoři ukazují, proč AI nelze důvěřovat samostatně",
-        "summary_cs": "Andon Labs provozuje sérii experimentů, ve kterých AI agenti řídí podniky bez lidského zásahu. Jejich nejnovější je kvartet rozhlasových stanic řízených některými z nejpopulárnějších AI modelů. „Thinking Frequencies“ provozuje Claude, „OpenAIR“ ChatGPT, „Backlink Broadcast“ Google Gemini a „Grok and Roll […]"
+        "title_cs": "Hostitelé rádia s umělou inteligencí ukazují, proč nelze umělé inteligenci důvěřovat",
+        "summary_cs": "Andon Labs provádí řadu experimentů, ve kterých agenti AI provozují podniky bez lidského zásahu. Jeho nejnovější je kvartet rozhlasových stanic provozovaných některými z nejpopulárnějších modelů AI. „Thinking Frequencies“ provozuje Claude, „OpenAIR“ ChatGPT, „Backlink Broadcast“ Google Gemini a „Grok and Roll […]"
       },
       {
         "id": "cd82e7189ec0c402",
         "title": "OpenAI keeps shuffling its executives in bid to win AI agent battle",
         "summary": "OpenAI announced yet another reorganization Friday, consolidating certain areas and making company president Greg Brockman the official lead of all things product. In a memo viewed by The Verge, Brockman wrote that since OpenAI's product strategy for this year is to go all-in on AI agents, the company is combining its products to \"invest in […]",
         "link": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
-        "published": "2026-05-16T07:16:46.470640+00:00",
+        "published": "2026-05-16T07:57:42.869309+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "OpenAI nadále přesouvá své vedoucí pracovníky ve snaze vyhrát bitvu o AI agenty",
-        "summary_cs": "OpenAI v pátek oznámil další reorganizaci, konsolidoval určité oblasti a jmenoval prezidenta společnosti Grega Brockmana oficiálním vedoucím všech produktových záležitostí. V memorandu, které viděl The Verge, Brockman napsal, že jelikož produktová strategie OpenAI pro tento rok je jít naplno do AI agentů, společnost kombinuje své produkty, aby „investovala do […]"
+        "title_cs": "OpenAI neustále míchá své vedoucí pracovníky ve snaze vyhrát bitvu agentů AI",
+        "summary_cs": "OpenAI v pátek oznámila další reorganizaci, konsolidaci určitých oblastí a učinila prezidenta společnosti Grega Brockmana oficiálním vedoucím všech produktů. V memorandu, které si The Verge prohlédl, Brockman napsal, že vzhledem k tomu, že produktovou strategií OpenAI pro letošní rok je jít all-in na agenty AI, společnost kombinuje své produkty a „investuje do [...]"
       },
       {
         "id": "efd68b5c5ea3eda7",
         "title": "ArXiv will ban researchers who upload papers full of AI slop",
         "summary": "ArXiv, a popular platform for preprint academic research, is taking a new step to attempt to reduce the volume of papers that include AI slop. If a paper has \"incontrovertible evidence that the authors did not check the results of LLM generation,\" such as hallucinated references or \"meta-comments\" left by an LLM, authors will be […]",
         "link": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
-        "published": "2026-05-16T07:16:46.470573+00:00",
+        "published": "2026-05-16T07:57:42.869253+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "ArXiv zakáže výzkumníky, kteří nahrávají články plné AI odpadu",
-        "summary_cs": "ArXiv, populární platforma pro předtiskový akademický výzkum, podniká nový krok ve snaze snížit objem článků obsahujících AI odpad. Pokud článek obsahuje „nezvratné důkazy, že autoři nekontrolovali výsledky generování LLM“, jako jsou halucinované reference nebo „meta-komentáře“ ponechané LLM, autoři budou […]"
+        "title_cs": "ArXiv zakáže výzkumníkům, kteří nahrávají příspěvky plné AI slop",
+        "summary_cs": "ArXiv, populární platforma pro předtištěný akademický výzkum, podniká nový krok ve snaze snížit objem příspěvků, které zahrnují AI Slop. Pokud má článek „nezvratný důkaz, že autoři nekontrolovali výsledky generování LLM“, jako jsou halucinované odkazy nebo „meta-komentáře“ zanechané LLM, budou autoři […]"
       },
       {
         "id": "7d4e290fee7652ee",
         "title": "YouTube is expanding its AI deepfake detection tool to all adult users",
         "summary": "YouTube is expanding its AI likeness detection program to all users over the age of 18 - meaning just about anyone can have the platform hunt for potential deepfakes of themselves. The likeness detection feature uses a selfie-style scan of a person's face to monitor YouTube for lookalikes. If there is a match, YouTube alerts […]",
         "link": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
-        "published": "2026-05-16T07:16:46.470491+00:00",
+        "published": "2026-05-16T07:57:42.869168+00:00",
         "source": "The Verge AI",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "YouTube rozšiřuje svůj nástroj pro detekci deepfakes pomocí AI na všechny dospělé uživatele",
-        "summary_cs": "YouTube rozšiřuje svůj program detekce podobnosti pomocí AI na všechny uživatele starší 18 let – což znamená, že téměř kdokoli může nechat platformu hledat potenciální deepfakes sebe sama. Funkce detekce podobnosti používá skenování obličeje ve stylu selfie k monitorování YouTube pro podobné tváře. Pokud dojde k shodě, YouTube upozorní […]"
+        "title_cs": "YouTube rozšiřuje svůj nástroj pro detekci deepfake umělé inteligence na všechny dospělé uživatele",
+        "summary_cs": "YouTube rozšiřuje svůj program detekce podoby AI na všechny uživatele starší 18 let - což znamená, že téměř každý může mít platformu pro vyhledávání potenciálních deepfake sebe sama. Funkce detekce podobnosti používá skenování obličeje osoby ve stylu selfie k monitorování YouTube pro vzhledy. Pokud existuje shoda, YouTube upozorní [...]"
       },
       {
         "id": "bc9f3febb5ac9666",
@@ -674,8 +674,20 @@
         "source": "MIT Tech Review",
         "lang": "en",
         "sub": "ai",
-        "title_cs": "Musk vs. Altman 3. týden: Musk a Altman si vyměňovali údery ohledně své důvěryhodnosti. Nyní si porota vybere stranu.",
-        "summary_cs": "V posledním týdnu procesu Musk vs. Altman si právníci vyměňovali údery ohledně důvěryhodnosti Elona Muska a generálního ředitele OpenAI Sama Altmana. Altman byl grilován ohledně své údajné historie lhaní a střetu zájmů týkajících se společností, které obchodují s OpenAI. Ale on vrátil úder a vykreslil Muska jako hledače moci, který chtěl ovládat vývoj…"
+        "title_cs": "Musk v. Altman týden 3: Musk a Altman si vyměnili rány nad důvěryhodností toho druhého. Nyní si porota vybere stranu.",
+        "summary_cs": "V posledním týdnu procesu Musk vs. Altman si právníci vyměnili rány za důvěryhodnost Elona Muska a generálního ředitele OpenAI Sama Altmana. Altman byl obviněn z jeho údajné historie lhaní a sebeobrany zahrnující společnosti, které obchodují s OpenAI. Ale on vystřelil a namaloval Muska jako hledače moci, který chtěl kontrolovat vývoj..."
+      },
+      {
+        "id": "865b3aa82d6ab7f9",
+        "title": "Jsme oba v tom velkém světě noví. Nejbohatší Čech chce investovat i spolu s nejbohatší Češkou",
+        "summary": "Většinový majitel CSG Michal Strnad zakládá novou investiční společnost a chce budovat dlouhodobý odkaz. Je v kontaktu i s Renátou Kellnerovou. Článek Jsme oba v tom velkém světě noví. Nejbohatší Čech chce investovat i spolu s nejbohatší Češkou se nejdříve objevil na CzechCrunch .",
+        "link": "https://cc.cz/jsme-oba-v-tom-velkem-svete-novi-nejbohatsi-cech-chce-investovat-i-spolu-s-nejbohatsi-ceskou/",
+        "published": "2026-05-16T07:34:24+00:00",
+        "source": "CzechCrunch",
+        "lang": "cs",
+        "sub": "startups",
+        "title_cs": "Jsme oba v tom velkém světě noví. Nejbohatší Čech chce investovat i spolu s nejbohatší Češkou",
+        "summary_cs": "Většinový majitel CSG Michal Strnad zakládá novou investiční společnost a chce budovat dlouhodobý odkaz. Je v kontaktu i s Renátou Kellnerovou. Článek Jsme oba v tom velkém světě noví. Nejbohatší Čech chce investovat i spolu s nejbohatší Češkou se nejdříve objevil na CzechCrunch ."
       },
       {
         "id": "50b31994b2b3bf53",
@@ -726,18 +738,6 @@
         "summary_cs": "Součástí areálu mají být tři rozdílné typy domů, které reagují na okolí plné silnic a kolejí, ale také na výhledy směrem k Vltavě a Vyšehradu. Článek Po 11 letech čekání má developer zelenou. U smíchovského přístavu vystaví přes tisíc bytů se nejdříve objevil na CzechCrunch ."
       },
       {
-        "id": "b4eaa0d571ed4b52",
-        "title": "Meridian Ventures launched a $35M fund with a focus on MBA-deferred founders",
-        "summary": "This new fund will back founders building enterprise technology in the United States. Meridian is agnostic, co-founder Devon Gethers said, noting that the firm has already invested in companies in fintech, logistics, healthcare, and of course, AI.",
-        "link": "https://techcrunch.com/2026/05/15/meridian-ventures-launched-35m-fund-to-back-mba-deferred-founders/",
-        "published": "2026-05-15T13:00:00+00:00",
-        "source": "TechCrunch Startups",
-        "lang": "en",
-        "sub": "startups",
-        "title_cs": "Meridian Ventures spustil fond za 35 milionů dolarů se zaměřením na zakladatele s odloženým MBA",
-        "summary_cs": "Tento nový fond podpoří zakladatele budující podnikový software ve Spojených státech. Meridian je agnostický, řekl spoluzakladatel Devon Gethers a poznamenal, že firma již investovala do společností ve fintech, logistice, zdravotnictví a samozřejmě v AI."
-      },
-      {
         "id": "0caabc8ce4f8c35f",
         "title": "Video Friday: Heavy Robotic Machinery Operates Itself",
         "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026 : 1–5 June 2026, VIENNA RSS 2026 : 13–17 July 2026, SYDNEY Summer School on Multi-Robot Systems : 29 July–4 August 2026, PRAGUE Actuate 2026 : 18–19 August 2026, SAN FRANCISCO Enjoy today’s videos! Bulk material handling is a critical, labor-...",
@@ -746,8 +746,8 @@
         "source": "IEEE Spectrum Robotics",
         "lang": "en",
         "sub": "robotics",
-        "title_cs": "Páteční video: Těžké robotické stroje pracují samy",
-        "summary_cs": "Páteční video je váš týdenní výběr úžasných robotických videí, které pro vás shromáždili vaši přátelé z robotiky IEEE Spectrum. Každý týden také zveřejňujeme kalendář nadcházejících robotických akcí na příštích několik měsíců. Prosím, pošlete nám své akce k zařazení. ICRA 2026: 1.–5. června 2026, VÍDEŇ RSS 2026: 13.–17. července 2026, SYDNEY Letní škola pro vícero robotické systémy: 29. července–4. srpna 2026, PRAHA Actuate 2026: 18.–19. srpna 2026, SAN FRANCISCO Užijte si dnešní videa! Manipulace s hromadným materiálem je kritická, práce-…"
+        "title_cs": "Video Friday: Těžké robotické stroje se obsluhují samy",
+        "summary_cs": "Video Friday je váš týdenní výběr úžasných robotických videí shromážděných vašimi přáteli v IEEE Spectrum robotics. Zveřejňujeme také týdenní kalendář nadcházejících robotických událostí pro příštích několik měsíců. Zašlete nám prosím své akce k zařazení. ICRA 2026 : 1.-5. června 2026, VÍDEŇ RSS 2026 : 13.-17. července 2026, SYDNEY Summer School on Multi-Robot Systems : 29. července-4. srpna 2026, PRAGUE Actuate 2026 : 18-19. srpna 2026, SAN FRANCISCO Užijte si dnešní videa! Manipulace se sypkým materiálem je"
       },
       {
         "id": "a86db8fe6ddb4b30",
@@ -758,8 +758,8 @@
         "source": "IEEE Spectrum Robotics",
         "lang": "en",
         "sub": "robotics",
-        "title_cs": "Hello Robot stanovuje standard pro praktické a bezpečné domácí roboty",
-        "summary_cs": "Mnoho robotiků (a alespoň jeden robotický novinář) podlehlo snu o robotickém komorníkovi. A nekontrolovaná popularita videí ukazujících humanoidní roboty provádějící domácí práce v nepravděpodobně čistých kuchyních a nerealisticky uklizených ložnicích naznačuje, že nejsme jediní, kdo se zajímá o robota, který by mohl dělat naše práce. Ale ze všech možných důvodů, nohatí humanoidi ještě nejsou připraveni na průmyslové nebo komerční aplikace ve velkém měřítku a domácí aplikace (pokud lidé vůbec chtějí…"
+        "title_cs": "Hello Robot nastavuje standard pro praktické, bezpečné domácí roboty",
+        "summary_cs": "Mnoho robotiků (a alespoň jeden robotický novinář) bylo svedeno snem robotického komorníka. A nekontrolovatelná popularita videí, která ukazují humanoidní roboty, jak dělají domácí úkoly v nepravděpodobně čistých kuchyních a nerealisticky uklizených ložnicích, naznačuje, že nejsme jediní, kdo se zajímá o robota, který může dělat naše domácí práce. Ale ze všech možných důvodů nejsou legged humanoids ještě připraveni pro průmyslové nebo komerční aplikace v měřítku a domácí aplikace ( pokud"
       },
       {
         "id": "2305686fda463dcc",
@@ -770,8 +770,8 @@
         "source": "IEEE Spectrum Robotics",
         "lang": "en",
         "sub": "robotics",
-        "title_cs": "Páteční video: AI dává robotickým rukám lidskou zručnost",
-        "summary_cs": "Páteční video je váš týdenní výběr úžasných robotických videí, které pro vás shromáždili vaši přátelé z robotiky IEEE Spectrum. Každý týden také zveřejňujeme kalendář nadcházejících robotických akcí na příštích několik měsíců. Prosím, pošlete nám své akce k zařazení. ICRA 2026: 1.–5. června 2026, VÍDEŇ RSS 2026: 13.–17. července 2026, SYDNEY Letní škola pro vícero robotické systémy: 29. července–4. srpna 2026, PRAHA Actuate 2026: 18.–19. srpna 2026, SAN FRANCISCO Užijte si dnešní videa! Představujeme GENE-26.5 – první AI mozek, který…"
+        "title_cs": "Video Friday: Umělá inteligence dává robotovi lidskou zručnost",
+        "summary_cs": "Video Friday je váš týdenní výběr úžasných robotických videí shromážděných vašimi přáteli v IEEE Spectrum robotics. Zveřejňujeme také týdenní kalendář nadcházejících robotických událostí pro příštích několik měsíců. Zašlete nám prosím své akce k zařazení. ICRA 2026 : 1.-5. června 2026, VÍDEŇ RSS 2026 : 13.-17. července 2026, SYDNEY Summer School on Multi-Robot Systems : 29. července-4. srpna 2026, PRAGUE Actuate 2026 : 18-19. srpna 2026, SAN FRANCISCO Užijte si dnešní videa! Představujeme GenE-26.5-the f"
       }
     ],
     "culture": [
@@ -796,8 +796,8 @@
         "source": "Rolling Stone",
         "lang": "en",
         "sub": "music",
-        "title_cs": "Drake je nejsledovanějším umělcem Spotify za jediný den v roce 2026 po vydání tří alb",
-        "summary_cs": "Rapper pustil Icemana v pátek spolu s dalšími dvěma překvapivými LP"
+        "title_cs": "Drake je nejstreamovanější umělec Spotify za den v roce 2026 po vydání tří alb",
+        "summary_cs": "Rapper v pátek vydal Iceman spolu s dvěma dalšími překvapivými LP."
       },
       {
         "id": "45d174a87789c838",
@@ -808,8 +808,8 @@
         "source": "Pitchfork",
         "lang": "en",
         "sub": "music",
-        "title_cs": "Ibeyi oznamuje novou nabídku alba",
-        "summary_cs": "Jejich první celovečerní po čtyřech letech dorazí letos v létě"
+        "title_cs": "Ibeyi oznamují nové album",
+        "summary_cs": "Jejich první dlouhohrající deska po čtyřech letech vychází toto léto."
       },
       {
         "id": "cdbc7715e3e63b23",
@@ -820,8 +820,8 @@
         "source": "NME Music",
         "lang": "en",
         "sub": "music",
-        "title_cs": "Parfém Genius oznamuje další termíny „Duo Tour“ ve Velké Británii a Severní Americe",
-        "summary_cs": "V říjnu odehraje jednorázovou show v londýnské Union Chapel Post Perfume Genius oznamuje více koncertů „Duo Tour“ ve Velké Británii a Severní Americe, které se poprvé objevily na NME ."
+        "title_cs": "Perfume Genius oznamuje další termíny 'Duo Tour' ve Velké Británii a Severní Americe",
+        "summary_cs": "V říjnu odehraje jednorázový koncert v londýnské Union Chapel. Příspěvek Perfume Genius oznamuje další termíny 'Duo Tour' ve Velké Británii a Severní Americe se poprvé objevil na NME."
       },
       {
         "id": "5d0b20c8d5affce7",
@@ -832,8 +832,8 @@
         "source": "Variety",
         "lang": "en",
         "sub": "film",
-        "title_cs": "Indonésie Oči Cannes 2028 Čestná země jako ministr kultury Fadli Zon prosazuje agendu globální obrazovky (EXKLUZIVNĚ)",
-        "summary_cs": "Indonésie se oficiálně zaměřuje na status čestné země v Cannes v roce 2028. Ministr kultury Fadli Zon v rozhovoru pro Variety v Cannes předložil rozsáhlou strategii, jak posunout Indonésii z okrajů mezinárodního obrazovkového průmyslu směrem k tomu, co popisuje jako ústřední a vlivnou roli v něm. „Nejde jen o prestiž, […]"
+        "title_cs": "Indonésie míří na Cannes 2028 jako Čestná země, ministr kultury Fadli Zon prosazuje globální filmovou agendu (EXKLUZIVNĚ)",
+        "summary_cs": "Indonésie se oficiálně uchází o status Čestné země na filmovém festivalu v Cannes v roce 2028. Ministr kultury Fadli Zon v rozhovoru pro Variety v Cannes nastínil rozsáhlou strategii, jak posunout Indonésii z okraje mezinárodního filmového průmyslu k tomu, co popisuje jako centrální a vlivnou roli v něm. „Nejde jen o prestiž, [...]"
       },
       {
         "id": "e65d76de06a40b5d",
@@ -844,8 +844,8 @@
         "source": "Variety",
         "lang": "en",
         "sub": "film",
-        "title_cs": "Pablo Larraín's Pijama Cuts MK2, Alpha Violet, Visit Films Deals (EXKLUZIVNÍ)",
-        "summary_cs": "Pijama, platforma TVOD, kterou právě spustili Pablo a Juan de Dios Larraín, režisér a producent „Jackie“, „Spencer“ a „Maria“, uzavřela své první velké komerční smlouvy s MK2, Alpha Violet, Visit Films, Les Films du Losange, Electric Shadow a Utopia Films. Myšlenkou Pijamy je nabídnout producentům jakýkoli film, který neprodává [...]"
+        "title_cs": "Pablo Larraínův Pijama Cuts uzavírá dohody s MK2, Alpha Violet, Visit Films (EXKLUZIVNĚ)",
+        "summary_cs": "Pijama, platforma TVOD právě spuštěná Pablem a Juanem de Dios Larraínovými, režisérem a producentem filmů „Jackie“, „Spencer“ a „Maria“, uzavřela své první významné komerční dohody s MK2, Alpha Violet, Visit Films, Les Films du Losange, Electric Shadow a Utopia Films. Myšlenkou Pijamy je nabídnout producentům jakéhokoli filmu, který se neprodává [...]"
       },
       {
         "id": "299383486c244ac1",
@@ -856,8 +856,8 @@
         "source": "Variety",
         "lang": "en",
         "sub": "film",
-        "title_cs": "Francouzské městské tovární rady „Los Eastman“ v Cannes Fantastic Pavilion (EXKLUZIVNĚ)",
-        "summary_cs": "Francouzská městská továrna a mexická společnost Fidelio Films se nalodily na psychologický thriller kolumbijského filmaře Mauricia Leiva-Cocka „Los Eastman“, který byl vybrán do Fantastického kola Robin v Fantastickém pavilonu v Cannes. Podle Frédérica Corveze z Urban Factory objevili projekt během kolumbijského setkání producentů BAM, kde jako mentor působila partnerka Florencia Gil. „Tento projekt vyčníval z […]"
+        "title_cs": "Francouzský Urban Factory se připojuje k filmu 'Los Eastman' na Cannes Fantastic Pavilion (EXKLUZIVNĚ)",
+        "summary_cs": "Francouzský Urban Factory a mexický Fidelio Films se připojily k psychologickému thrilleru kolumbijského filmaře Mauricia Leiva-Cocka „Los Eastman“, který byl vybrán do soutěže Fantastic Round Robin na festivalu Cannes Fantastic Pavilion. Podle Frédérica Corveze z Urban Factory objevili projekt během kolumbijského BAM Producers Meeting, kde partnerka Florencia Gil působila jako mentorka. „Tento projekt vynikal z [...]"
       },
       {
         "id": "7bab861f8183ba97",
@@ -868,8 +868,8 @@
         "source": "Linkin Park News",
         "lang": "en",
         "sub": "linkin_park",
-        "title_cs": "Od fáze Ligy mistrů po tahání karet: Linkin Park 1/1 SuperFractor Surfaces - Sports Illustrated",
-        "summary_cs": "Od fáze Ligy mistrů po tahání karet: Linkin Park 1/1 SuperFractor Povrchy Sportovní ilustrace"
+        "title_cs": "Z pódia Ligy mistrů k vytažení karty: Objevuje se karta Linkin Park 1/1 SuperFractor - Sports Illustrated",
+        "summary_cs": "Z pódia Ligy mistrů k vytažení karty: Objevuje se karta Linkin Park 1/1 SuperFractor Sports Illustrated"
       },
       {
         "id": "4d6525cee82fffb0",
@@ -880,8 +880,8 @@
         "source": "Oasis News",
         "lang": "en",
         "sub": "oasis",
-        "title_cs": "Rozhodně bohatí: Bratři Gallagherové se po znovusjednocení v Oasis dostali na britský „Sunday Times“ Rich List - 105,7 The Point",
-        "summary_cs": "Rozhodně bohatí: Bratři Gallagherové se po znovusjednocení Oasis 105.7 The Point dostali na britský „Sunday Times“ Rich List"
+        "title_cs": "Zjevně bohatí: Bratři Gallagherovi se po reunionu Oasis dostali na britský seznam bohatých 'Sunday Times' - 105.7 The Point",
+        "summary_cs": "Zjevně bohatí: Bratři Gallagherovi se po reunionu Oasis dostali na britský seznam bohatých 'Sunday Times' 105.7 The Point"
       },
       {
         "id": "85109abd2f2e23b4",
@@ -892,11 +892,23 @@
         "source": "Oasis News",
         "lang": "en",
         "sub": "oasis",
-        "title_cs": "Špinavý boháč: Čistá hodnota Oasis odhalena na seznamu bohatých 375 milionů £ - časopis Far Out",
-        "summary_cs": "Špinavý boháč: Čistá hodnota Oasis odhalena na seznamu bohatých 375 milionů £ časopisu Far Out"
+        "title_cs": "Filmově bohatí: Čisté jmění Oasis odhaleno na 375 milionů liber na seznamu bohatých - Far Out Magazine",
+        "summary_cs": "Filmově bohatí: Čisté jmění Oasis odhaleno na 375 milionů liber na seznamu bohatých Far Out Magazine"
       }
     ],
     "good_news": [
+      {
+        "id": "f14727720c011287",
+        "title": "Good News in History, May 16",
+        "summary": "60 years ago today, The Beach Boys released their iconic album Pet Sounds. Widely praised as one of the most influential records ever released, it was ranked No.2 on Rolling Stone magazine’s list of 500 Greatest Albums of All Time (behind Sgt. Pepper’s). WATCH a video on the making of Pet Sounds… (1966) The composer, […] The post Good News in History, May 16 appeared first on Good News Network .",
+        "link": "https://www.goodnewsnetwork.org/events060516/",
+        "published": "2026-05-16T07:00:00+00:00",
+        "source": "Good News Network",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Dobré zprávy v historii, 16. května",
+        "summary_cs": "Před 60 lety vydali The Beach Boys své ikonické album Pet Sounds. Široce chválena jako jedna z nejvlivnějších nahrávek, která kdy byla vydána, byla zařazena na 2. místo v seznamu 500 nejlepších alb všech dob časopisu Rolling Stone (za Sgt. Pepper's). PODÍVEJTE se na video o natáčení Pet Sounds… (1966) Skladatel, […] Příspěvek Good News in History, 16. května se poprvé objevil na Good News Network ."
+      },
       {
         "id": "3c2bab7be25eab6f",
         "title": "Extraordinary Breakthrough for Physics as Scientists Put Building-Size Magnet into the Palm of Your Hand",
@@ -906,8 +918,20 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Mimořádný průlom ve fyzice: Vědci vměstnali magnet o velikosti budovy do dlaně",
-        "summary_cs": "Ve výjimečném průlomu pro fyziku vědci z ETH Curych zmenšili výkon supravodivého magnetu o velikosti malé budovy do zařízení, které se vejde do dlaně. Tento počin, připomínající Tonyho Starka, slibuje nepředstavitelné možnosti v oblastech jaderné fúze a nukleární magnetické rezonance. Zvláště […] Příspěvek Mimořádný průlom ve fyzice: Vědci vměstnali magnet o velikosti budovy do dlaně se poprvé objevil na Good News..."
+        "title_cs": "Mimořádný průlom pro fyziku, protože vědci vkládají magnet velikosti budovy do dlaně vaší ruky",
+        "summary_cs": "V mimořádném průlomu pro fyziku vědci z ETH Zurich zkondenzovali sílu supravodivého magnetu velkého jako malá budova do zařízení, které se vejde do dlaně. Tento úspěch podobný Tonymu Starkovi slibuje nepředstavitelné možnosti v oblasti jaderné fúze a nukleární magnetické rezonance. Zejména […] Objevil se příspěvek Extraordinary Breakthrough for Physics as Scientists Put Building-Size Magnet into the Palm of Your Hand f"
+      },
+      {
+        "id": "7cf2c21b0d41b040",
+        "title": "What if the news reflected what matters most to you?",
+        "summary": "A Positive News listening project will explore what people truly value – and how media can support a healthier relationship with the world The post What if the news reflected what matters most to you? appeared first on Positive News .",
+        "link": "https://www.positive.news/society/what-if-the-news-media-reflected-what-matters-to-you/",
+        "published": "2026-05-15T13:51:53+00:00",
+        "source": "Positive News",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Co kdyby zprávy odrážely to, na čem vám nejvíc záleží?",
+        "summary_cs": "Posluchačský projekt Pozitivní zprávy prozkoumá, čeho si lidé skutečně cení – a jak mohou média podpořit zdravější vztah se světem Příspěvek Co kdyby zprávy odrážely to, co je pro vás nejdůležitější? objevil se nejprve v Pozitivních zprávách ."
       },
       {
         "id": "d94cd3943bcc436b",
@@ -918,8 +942,8 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Další zákaz lovu vlečnými sítěmi, další velká obnova mořského života",
-        "summary_cs": "Dekádu po zákazu lovu vlečnými sítěmi a bagrováním ve Skotsku se zde rozvíjejí populace nejméně 1 500 druhů, které jsou klíčové pro integritu mořského dna. Zpráva přišla prostřednictvím průzkumu, který porovnával Jihoaranskou mořskou chráněnou oblast s blízkými lovenými zónami, v nichž vědci identifikovali dvakrát více druhů a třikrát více jedinců […] Příspěvek Další zákaz lovu vlečnými sítěmi, další velká obnova mořského života se poprvé objevil na Good News Network."
+        "title_cs": "Další zákaz rybolovu vlečnými sítěmi, další velká obnova mořského života",
+        "summary_cs": "Deset let poté, co Skotsko zakázalo lov vlečnými sítěmi a bagrování pod vodou, existují vzkvétající populace ne méně než 1 500 druhů, které jsou kritické pro integritu mořského dna. Zpráva přišla prostřednictvím průzkumu, který porovnával chráněnou mořskou oblast South Arran s blízkými rybolovnými zónami, ve kterých vědci identifikovali dvakrát více druhů a třikrát větší množství [...] Příspěvek Another Trawling Ban, Another Big Recovery for Sea Life se objevil nejprve na Good News Network ."
       },
       {
         "id": "679e0ee839900cd3",
@@ -930,8 +954,20 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "3 teenageři získali Earth Prize za vynález prášku z tamarindu, který snadno odstraňuje mikroplasty",
-        "summary_cs": "Když se indický vědecký tým rozhodl pokusit se najít řešení znečištění mikroplasty, dá se říci, že pravděpodobně nečekali, že toto řešení najdou ve svých kuchyňských spížích. Šestnáctiletí Vivaan Chhawchharia, Ariana Agarwal a Avyana Mehta použili prášek ze semen tamarindu jako základ pro zcela přírodní aglomerant mikroplastů. Po […] Příspěvek 3 teenageři získali Earth Prize za vynález prášku z tamarindu, který snadno odstraňuje mikroplasty se poprvé objevil na Good News Network."
+        "title_cs": "3 dospívající vyhrávají cenu Earth Prize pro Asii, která vynalezla tamarindový prášek, který snadno odstraňuje mikroplasty",
+        "summary_cs": "Když se indický vědecký tým rozhodl, že se pokusí vyřešit znečištění mikroplasty, je spravedlivé říci, že pravděpodobně nečekali, že najdou toto řešení ve svých kuchyňských spižírnách. 16letí Vivaan Chhawchharia, Ariana Agarwal a Avyana Mehta použili práškové tamarindové semeno jako základ pro zcela přírodní mikroplastové shlukovací činidlo. Po […] Příspěvek 3 Teens Win Earth Prize for Asia Inventing Tamarind Powder That Easily Removes Microplastics se poprvé objevil na Good N"
+      },
+      {
+        "id": "794eb2b8710b5510",
+        "title": "Polish Influencer Raises $67 Million for Cancer Research During 9-day Livestream",
+        "summary": "It is understood that a recent Polish influencer recently concluded one of the highest-ever fundraisers YouTube has hosted, generating $67 million to support childhood cancer patients and their families. The marathon, 9-day livestreaming event garnered more than 50-times the originally aimed-for amount, gathering substantial momentum from a series of celebrity appearances that included a who’s-who […] The post Polish Influencer Raises $67 Million for Cancer Research During 9-day Livestream ap...",
+        "link": "https://www.goodnewsnetwork.org/polish-influencer-raises-67-million-for-cancer-research-during-9-day-livestream/",
+        "published": "2026-05-15T09:31:07+00:00",
+        "source": "Good News Network",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Polský influencer získal 67 milionů $ na výzkum rakoviny během 9denního živého vysílání",
+        "summary_cs": "Rozumí se, že nedávný polský influencer nedávno uzavřel jeden z největších fundraiserů, který YouTube hostil, a vygeneroval 67 milionů $ na podporu dětských pacientů s rakovinou a jejich rodin. Maraton, 9denní živě vysílaná událost, získala více než 50krát více, než bylo původně zamýšleno, a získala značnou hybnou sílu ze série vystoupení celebrit, které zahrnovaly kdoje kdo […] Příspěvek polského influencera zvyšuje 67 milionů $ na výzkum rakoviny během 9-"
       },
       {
         "id": "3cf61f46c7bb0800",
@@ -942,8 +978,20 @@
         "source": "Positive News",
         "lang": "en",
         "sub": null,
-        "title_cs": "Co se tento týden povedlo: důležité dobré zprávy",
-        "summary_cs": "Vakcína proti malárii snížila dětskou úmrtnost, obhájci oceánů triumfovali u soudu a elektrické nákladní vozy se rozjely, a další. Příspěvek Co se tento týden povedlo: důležité dobré zprávy se poprvé objevil na Positive News."
+        "title_cs": "Co se tento týden povedlo: dobrá zpráva, na které záleží",
+        "summary_cs": "Vakcína proti malárii snížila počet dětských úmrtí, obránci oceánů zvítězili u soudu a elektrické nákladní automobily vzlétly, plus další Příspěvek Co se tento týden povedlo: Dobrá zpráva, na které záleží, se objevila nejprve v Pozitivních zprávách ."
+      },
+      {
+        "id": "faef8ce637825277",
+        "title": "With Mills Shuttered, Grassroots Effort Hopes to Give Welsh Valley New Purpose with Gorgeous 83-mile Hiking Trail",
+        "summary": "A new 3-day hiking trail is breathing life (and money) back into a historic valley in the Welsh countryside. Famous for its valleys and its countryside, Wales is no stranger to hiking routes; the region has a robust rambling community and an existing famous trail that traces the Welsh coastline. Now, meandering along the Teifi […] The post With Mills Shuttered, Grassroots Effort Hopes to Give Welsh Valley New Purpose with Gorgeous 83-mile Hiking Trail appeared first on Good News Network .",
+        "link": "https://www.goodnewsnetwork.org/with-mills-shuttered-grassroots-effort-hopes-to-give-welsh-valley-new-purpose-with-gorgeous-83-mile-hiking-trail/",
+        "published": "2026-05-14T18:30:40+00:00",
+        "source": "Good News Network",
+        "lang": "en",
+        "sub": null,
+        "title_cs": "Se zavřenými mlýny se Grassroots snaží dát velšskému údolí nový účel s nádhernou 83 mil dlouhou turistickou stezkou",
+        "summary_cs": "Nová třídenní turistická stezka vdechuje život (a peníze) zpět do historického údolí na velšském venkově. Wales, který je proslulý svými údolími a venkovskou krajinou, není žádným cizincem v turistických trasách; region má robustní nesourodou komunitu a existující slavnou stezku, která sleduje velšské pobřeží. Nyní, meandrující podél Teifi […] Příspěvek s Mills Shuttered, Grassroots doufá, že dá Welsh Valley nový účel s nádhernou 83-míle turistická stezka se poprvé objevila na Good N"
       },
       {
         "id": "18e58c9f14e76da6",
@@ -954,8 +1002,8 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Studie ukazuje pokles odpadků v Americe o 34 % od roku 2020",
-        "summary_cs": "Odpadky po celé Americe poklesly od roku 2020 o 34 %, podle nové zprávy charitativní organizace Keep America Beautiful. Zpráva uvádí, že podíl odpadků na každého Američana podél silnic a vodních toků klesl za tu dobu ze 152 kusů na 96. Před desetiletími zakladatelka GNN Geri Weis-Corbleyová zorganizovala místní jarní úklid podél její […] Příspěvek Studie ukazuje pokles odpadků v Americe o 34 % od roku 2020 se poprvé objevil na Good News Network."
+        "title_cs": "Studie ukazuje, že odhazování odpadků se v celé Americe od roku 2020 snížilo o 34%",
+        "summary_cs": "Podle nové zprávy organizace Charity Keep America Beautiful se odpadky po celé Americe od roku 2020 snížily o 34%. Zpráva počítá s tím, že podíl odpadu každého Američana podél silnic a vodních cest za tu dobu klesl ze 152 kusů na 96. Před několika desítkami let zorganizovala zakladatelka GNN Geri Weis-Corbleyová místní jarní úklid podél své […] Příspěvek Study Shows Littering Declined 34% Across America Od roku 2020 se poprvé objevil na Good News Network ."
       },
       {
         "id": "473c65639fd101d5",
@@ -966,56 +1014,8 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Irák zahájil práce na záchraně zikkuratu v Uru pomocí cihel z identického materiálu jako 5000 let starý originál",
-        "summary_cs": "Irák zahájil rozsáhlé záchranné práce na starověkém zikkuratu v Uru, aby jej ochránil před živly měnícího se klimatu. Jedna z nejznámějších ukázek sumerské architektury, památka UNESCO, je vystavena extrémnímu riziku eroze a poškození. Ur je jedním z nejstarších známých městských sídel, […] Příspěvek Irák zahájil práce na záchraně zikkuratu v Uru pomocí cihel z identického materiálu jako 5000 let starý originál se poprvé objevil na Good News Network."
-      },
-      {
-        "id": "4349adb14ca307f0",
-        "title": "EU Passes Animal Protection Law for Keeping, Breeding, and Selling",
-        "summary": "The European Parliament has agreed on the bloc’s first set of rules governing animal welfare that will cut out harmful breeding and ownership practices. The vote came in with 558 in favor, 35 against, and with 52 abstentions. It has already been green lit by the European Council, and will enter into effect for breeders […] The post EU Passes Animal Protection Law for Keeping, Breeding, and Selling appeared first on Good News Network .",
-        "link": "https://www.goodnewsnetwork.org/eu-parliament-passes-first-bloc-wide-animal-welfare-law-for-keeping-breeding-and-selling/",
-        "published": "2026-05-13T18:30:56+00:00",
-        "source": "Good News Network",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "EU schválila zákon na ochranu zvířat při chovu, držení a prodeji",
-        "summary_cs": "Evropský parlament se dohodl na prvních pravidlech pro dobré životní podmínky zvířat v bloku, která omezí škodlivé praktiky chovu a vlastnictví. Hlasování dopadlo s 558 hlasy pro, 35 proti a 52 se zdrželo. Již bylo schváleno Evropskou radou a vstoupí v platnost pro chovatele […] Příspěvek EU schválila zákon na ochranu zvířat při chovu, držení a prodeji se poprvé objevil na Good News Network."
-      },
-      {
-        "id": "985a2f3e40595faf",
-        "title": "Shanghai Achieves 98% Industrial Recycling Rates After 2019 Waste Management Plan",
-        "summary": "In 2019, the Chinese megalopolis of Shanghai began a full-steam-ahead approach to reducing solid waste generation in the city. In that year, some 26,000 metric tons of waste was produced every day, but after 6 years of intensive investment, messaging, and habit-forming, the household recycling rate is up 10%, with 35 to 45% of all […] The post Shanghai Achieves 98% Industrial Recycling Rates After 2019 Waste Management Plan appeared first on Good News Network .",
-        "link": "https://www.goodnewsnetwork.org/shanghai-achieves-98-industrial-45-home-recycling-rates-after-2019-waste-management-plan/",
-        "published": "2026-05-13T15:30:45+00:00",
-        "source": "Good News Network",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Šanghaj dosáhla 98% míry průmyslové recyklace po plánu nakládání s odpady z roku 2019",
-        "summary_cs": "V roce 2019 zahájila čínská megalopole Šanghaj razantní přístup ke snižování produkce pevného odpadu ve městě. V tomto roce se vyprodukovalo přibližně 26 000 metrických tun odpadu denně, ale po 6 letech intenzivních investic, osvěty a formování návyků se míra recyklace v domácnostech zvýšila o 10 %, přičemž 35 až 45 % veškerého […] Příspěvek Šanghaj dosáhla 98% míry průmyslové recyklace po plánu nakládání s odpady z roku 2019 se poprvé objevil na Good News Network."
-      },
-      {
-        "id": "79e0c3cb29a2d8d7",
-        "title": "Vital Island Home for Endangered Monk Seals Gains Marine Protections from Greece",
-        "summary": "With the flourish of a pen, the President of Greece recently signed into law a new marine protected area at the national level around Gyaros, an uninhabited island in the Cyclades that hosts the world’s largest colony of Mediterranean monk seals. These seals are among the most endangered marine mammals in the world, and despite […] The post Vital Island Home for Endangered Monk Seals Gains Marine Protections from Greece appeared first on Good News Network .",
-        "link": "https://www.goodnewsnetwork.org/vital-island-home-for-endangered-monk-seals-gains-marine-protections-from-greece/",
-        "published": "2026-05-13T13:00:40+00:00",
-        "source": "Good News Network",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Životně důležitý ostrovní domov ohrožených středomořských tuleňů získal námořní ochranu od Řecka",
-        "summary_cs": "Mávnutím pera podepsal řecký prezident nedávno zákon o nové národní mořské chráněné oblasti kolem Gyarosu, neobydleného ostrova v Kykladech, kde se nachází největší kolonie středomořských tuleňů na světě. Tito tuleni patří mezi nejvíce ohrožené mořské savce na světě a navzdory […] Příspěvek Životně důležitý ostrovní domov ohrožených středomořských tuleňů získal námořní ochranu od Řecka se poprvé objevil na Good News Network."
-      },
-      {
-        "id": "146025af0b8bcb1e",
-        "title": "Butterfly That Went Extinct in Britain a Century Ago Set for Return to Famous Rewilded Estate Land",
-        "summary": "As GNN has reported before, Britain loves her butterflies, and this black-veined beauty is getting special attention as it prepares to re-establish itself across the island. Extinct in the UK since the early 20th century due to land-use changes and habitat loss, the black-veined white butterfly seems set for a return thanks to a reintroduction […] The post Butterfly That Went Extinct in Britain a Century Ago Set for Return to Famous Rewilded Estate Land appeared first on Good News Network .",
-        "link": "https://www.goodnewsnetwork.org/butterfly-that-went-extinct-in-britain-a-century-ago-set-for-return-to-famous-rewilded-estate-land/",
-        "published": "2026-05-13T11:00:11+00:00",
-        "source": "Good News Network",
-        "lang": "en",
-        "sub": null,
-        "title_cs": "Motýl, který před sto lety ve Velké Británii vyhynul, se má vrátit na pozemky slavného znovuzalesněného panství",
-        "summary_cs": "Jak již GNN dříve informovala, Británie miluje své motýly a tento krásný černopruhý druh dostává zvláštní pozornost, protože se připravuje na obnovení svého výskytu po celé zemi. Černopruhý bílý motýl, který ve Velké Británii vyhynul na počátku 20. století kvůli změnám ve využívání půdy a ztrátě přirozeného prostředí, se má díky reintrodukci vrátit […] Příspěvek Motýl, který před sto lety ve Velké Británii vyhynul, se má vrátit na pozemky slavného znovuzalesněného panství se poprvé objevil na Good News Network."
+        "title_cs": "Irák zahajuje konzervační práce pro Ziggurat Ur pomocí cihel z identického materiálu na 5000 let originálu",
+        "summary_cs": "Irák provedl rozsáhlé záchranné práce na starobylém Zigguratu v Uru, aby jej ochránil před prvky měnícího se klimatu. Jedním z nejznámějších příkladů sumerské architektury je památka světového dědictví UNESCO, která je vystavena extrémnímu riziku eroze a poškození. Ur je jedním z nejstarších známých městských sídel, […] Post Irák se pustil do konzervačních prací pro Ziggurat Ur pomocí cihel z identického materiálu na 5000 yo Originál se objevil jako první na Goo"
       }
     ]
   }
