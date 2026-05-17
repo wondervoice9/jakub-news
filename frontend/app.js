@@ -1,20 +1,20 @@
 import { startWeatherBg } from "./weather-bg.js";
 import { fetchWeather, searchCity, weatherInfo, splitTodayByPart } from "./weather.js";
 import { saveArticle, unsaveArticle, getSavedIds, getAllSaved } from "./storage.js";
-import { renderCOT } from "./cot.js";
 
 const DEFAULT_CITY = { name: "Liberec", country: "Česko", latitude: 50.7663, longitude: 15.0543 };
 const TABS = [
+  { id: "world_en", label: "World" },
   { id: "world", label: "Svět" },
   { id: "czech", label: "Česko" },
   { id: "sport", label: "Sport" },
   { id: "tech", label: "Technologie" },
   { id: "culture", label: "Kultura" },
+  { id: "events", label: "Events" },
   { id: "good_news", label: "Good News" },
   { id: "lesson", label: "Naučit se" },
   { id: "joke", label: "Vtip" },
   { id: "quote", label: "Citát" },
-  { id: "cot", label: "COT" },
 ];
 
 const SECONDARY_TABS = [
@@ -26,11 +26,28 @@ const CZ_DAY_SHORT = ["Po", "Út", "St", "Čt", "Pá", "So", "Ne"];
 const CZ_MONTHS_GEN = ["ledna","února","března","dubna","května","června","července","srpna","září","října","listopadu","prosince"];
 
 const SUBSECTIONS = {
+  world: [
+    { key: "politics", label: "Politika" },
+    { key: "conflicts", label: "Konflikty" },
+    { key: "economy", label: "Ekonomika" },
+    { key: "society", label: "Společnost" },
+  ],
+  world_en: [
+    { key: "politics", label: "Politics" },
+    { key: "conflicts", label: "Conflicts" },
+    { key: "economy", label: "Economy" },
+    { key: "society", label: "Society" },
+  ],
+  czech: [
+    { key: "business", label: "Ekonomika" },
+    { key: "social", label: "Společnost" },
+    { key: "infrastructure", label: "Doprava" },
+    { key: "crime", label: "Krimi" },
+  ],
   sport: [
     { key: "football", label: "Fotbal" },
     { key: "hockey", label: "Hokej" },
-    { key: "tennis", label: "Tenis" },
-    { key: "f1", label: "F1" },
+    { key: "other", label: "Ostatní" },
   ],
   tech: [
     { key: "ai", label: "AI novinky" },
@@ -56,7 +73,14 @@ const state = {
   stopBg: null,
   infoPanelOpen: false,
   weatherTimer: null,
+  eventsRegion: "liberec",   // "liberec" | "liberec_okoli" | "praha"
 };
+
+const EVENT_REGION_FILTERS = [
+  { id: "liberec", label: "Liberec" },
+  { id: "liberec_okoli", label: "Liberec okolí" },
+  { id: "praha", label: "Praha" },
+];
 
 // -------------------- DATA LOADING --------------------
 
@@ -260,7 +284,7 @@ function articleEl(a) {
     <h2 class="article__title">
       <a href="${a.link}" target="_blank" rel="noopener noreferrer">${escape(a.title_cs || a.title)}</a>
     </h2>
-    ${a.summary_cs ? `<p class="article__summary">${escape(a.summary_cs)}</p>` : ""}
+    ${(a.summary_cs || a.summary) ? `<p class="article__summary">${escape(a.summary_cs || a.summary)}</p>` : ""}
     <div class="article__footer">
       <div class="article__meta">
         <span class="article__source">${escape(a.source)}</span>
@@ -268,12 +292,40 @@ function articleEl(a) {
       </div>
       <div class="article__actions">
         <button class="btn-save ${saved ? "btn-save--saved" : ""}">${saved ? "★ Uloženo" : "☆ Uložit"}</button>
+        <div class="article__menu-wrap">
+          <button class="btn-menu" aria-label="Více možností" aria-haspopup="menu" aria-expanded="false">⋮</button>
+          <div class="article__menu" role="menu" hidden>
+            <a href="${a.link}" target="_blank" rel="noopener noreferrer" role="menuitem">
+              ↗ Otevřít originál
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   `;
   el.querySelector(".btn-save").onclick = () => toggleSave({ ...a, _type: "article" });
+  const menuBtn = el.querySelector(".btn-menu");
+  const menu = el.querySelector(".article__menu");
+  menuBtn.onclick = (e) => {
+    e.stopPropagation();
+    const wasOpen = !menu.hidden;
+    closeAllArticleMenus();
+    if (!wasOpen) {
+      menu.hidden = false;
+      menuBtn.setAttribute("aria-expanded", "true");
+    }
+  };
   return el;
 }
+
+function closeAllArticleMenus() {
+  document.querySelectorAll(".article__menu").forEach(m => { m.hidden = true; });
+  document.querySelectorAll(".btn-menu[aria-expanded='true']").forEach(b => b.setAttribute("aria-expanded", "false"));
+}
+
+// Close any open article kebab menu when clicking elsewhere or pressing Escape.
+document.addEventListener("click", closeAllArticleMenus);
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeAllArticleMenus(); });
 
 async function toggleSave(item) {
   if (state.savedIds.has(item.id)) {
@@ -286,36 +338,59 @@ async function toggleSave(item) {
   renderContent();
 }
 
-function renderArticleList(articles, container, subsection) {
+function renderArticleList(articles, container, subsection, tabId) {
   if (!articles.length) {
     container.innerHTML = `<div class="empty">Žádné články pro dnešek.</div>`;
     return;
   }
-  if (subsection) {
-    const groups = {};
-    for (const sub of subsection) groups[sub.key] = [];
-    for (const a of articles) {
-      if (groups[a.sub]) groups[a.sub].push(a);
-      else (groups._other = groups._other || []).push(a);
-    }
-    for (const sub of subsection) {
-      if (!groups[sub.key] || !groups[sub.key].length) continue;
-      const h = document.createElement("div");
-      h.className = "subsection";
-      h.textContent = sub.label;
-      container.appendChild(h);
-      for (const a of groups[sub.key]) container.appendChild(articleEl(a));
-    }
-    if (groups._other && groups._other.length) {
-      const h = document.createElement("div");
-      h.className = "subsection";
-      h.textContent = "Další";
-      container.appendChild(h);
-      for (const a of groups._other) container.appendChild(articleEl(a));
-    }
-  } else {
+  if (!subsection) {
     for (const a of articles) container.appendChild(articleEl(a));
+    return;
   }
+
+  // Build counts and chips (same pattern as events region filter)
+  const knownKeys = subsection.map(s => s.key);
+  const knownSet = new Set(knownKeys);
+  const counts = { all: articles.length, _other: 0 };
+  for (const k of knownKeys) counts[k] = 0;
+  for (const a of articles) {
+    if (knownSet.has(a.sub)) counts[a.sub]++;
+    else counts._other++;
+  }
+
+  state.subsectionFilter = state.subsectionFilter || {};
+  const current = state.subsectionFilter[tabId] || subsection[0].key;
+
+  const filters = [...subsection];
+  if (counts._other > 0) filters.push({ key: "_other", label: "Další" });
+
+  const chips = document.createElement("div");
+  chips.className = "event-region-chips";
+  for (const f of filters) {
+    const btn = document.createElement("button");
+    btn.className = "event-region-chip" + (current === f.key ? " event-region-chip--active" : "");
+    btn.innerHTML = `${escape(f.label)} <span class="event-region-chip__count">${counts[f.key] || 0}</span>`;
+    btn.onclick = () => {
+      if (state.subsectionFilter[tabId] === f.key) return;
+      state.subsectionFilter[tabId] = f.key;
+      renderContent();
+    };
+    chips.appendChild(btn);
+  }
+  container.appendChild(chips);
+
+  let toShow;
+  if (current === "_other") toShow = articles.filter(a => !knownSet.has(a.sub));
+  else toShow = articles.filter(a => a.sub === current);
+
+  if (!toShow.length) {
+    const empty = document.createElement("div");
+    empty.className = "empty";
+    empty.textContent = "V této kategorii dnes nic není.";
+    container.appendChild(empty);
+    return;
+  }
+  for (const a of toShow) container.appendChild(articleEl(a));
 }
 
 // -------------------- JOKE / QUOTE --------------------
@@ -562,6 +637,164 @@ function renderLesson(data, container) {
   container.appendChild(lessonCardEl(lesson));
 }
 
+// -------------------- EVENTS --------------------
+
+function formatEventDate(iso) {
+  if (!iso) return "";
+  try {
+    const d = new Date(iso + "T00:00:00");
+    const day = CZ_DAY_SHORT[(d.getDay() + 6) % 7];
+    return `${day} ${d.getDate()}. ${CZ_MONTHS_GEN[d.getMonth()]}`;
+  } catch { return iso; }
+}
+
+function eventGroupLabel(iso) {
+  if (!iso) return "Bez data";
+  try {
+    const ev = new Date(iso + "T00:00:00");
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const diffDays = Math.round((ev - today) / 86400000);
+    if (diffDays < 0) return "Proběhlo";
+    if (diffDays === 0) return "Dnes";
+    if (diffDays === 1) return "Zítra";
+    if (diffDays <= 7) return "Tento týden";
+    if (diffDays <= 14) return "Příští týden";
+    if (diffDays <= 30) return "Tento měsíc";
+    return "Později";
+  } catch { return "Bez data"; }
+}
+
+function eventCardEl(ev) {
+  const saved = state.savedIds.has(ev.id);
+  const el = document.createElement("article");
+  el.className = "article event-card" + (ev.is_tip ? " event-card--tip" : "");
+  const dateStr = ev.date ? formatEventDate(ev.date) : "";
+  const timeStr = ev.time ? ev.time : "";
+  const dateTime = [dateStr, timeStr].filter(Boolean).join(" · ");
+  const meta = [];
+  if (ev.city) meta.push(`<span class="event-card__city">📍 ${escape(ev.city)}</span>`);
+  if (ev.place) meta.push(`<span class="event-card__place">${escape(ev.place)}</span>`);
+  if (dateTime) meta.push(`<span class="event-card__date">🗓 ${escape(dateTime)}</span>`);
+  const tipBadge = ev.is_tip
+    ? `<span class="event-card__tip-badge" title="Tip z médií (Google News)">📰 Tip</span>`
+    : "";
+  el.innerHTML = `
+    <h2 class="article__title">
+      ${tipBadge}
+      <a href="${escape(ev.url)}" target="_blank" rel="noopener noreferrer">${escape(ev.title)}</a>
+    </h2>
+    <div class="event-card__meta">${meta.join("")}</div>
+    <div class="article__footer">
+      <div class="article__meta">
+        <span class="article__source">${escape(ev.source)}</span>
+      </div>
+      <div class="article__actions">
+        <button class="btn-save ${saved ? "btn-save--saved" : ""}">${saved ? "★ Uloženo" : "☆ Uložit"}</button>
+        <div class="event-card__kebab-wrap">
+          <button class="event-card__kebab-btn" aria-label="Další možnosti" aria-haspopup="true" aria-expanded="false">⋮</button>
+          <div class="event-card__kebab-menu" hidden>
+            <a class="event-card__kebab-item" href="${escape(ev.url)}" target="_blank" rel="noopener noreferrer">↗ Otevřít originál</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  el.querySelector(".btn-save").onclick = () => toggleSave({ ...ev, _type: "event" });
+  const kebabBtn = el.querySelector(".event-card__kebab-btn");
+  const kebabMenu = el.querySelector(".event-card__kebab-menu");
+  kebabBtn.onclick = (e) => {
+    e.stopPropagation();
+    closeAllKebabMenus(kebabMenu);
+    const open = !kebabMenu.hidden;
+    kebabMenu.hidden = open;
+    kebabBtn.setAttribute("aria-expanded", String(!open));
+    // Lift card above siblings while menu is open so dropdown isn't clipped
+    el.classList.toggle("event-card--menu-open", !open);
+  };
+  return el;
+}
+
+function closeAllKebabMenus(except) {
+  document.querySelectorAll(".event-card__kebab-menu").forEach(m => {
+    if (m === except) return;
+    if (!m.hidden) {
+      m.hidden = true;
+      const btn = m.parentElement?.querySelector(".event-card__kebab-btn");
+      if (btn) btn.setAttribute("aria-expanded", "false");
+      const card = m.closest(".event-card");
+      if (card) card.classList.remove("event-card--menu-open");
+    }
+  });
+}
+
+// Click outside any kebab menu closes them all
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".event-card__kebab-wrap")) {
+    closeAllKebabMenus(null);
+  }
+});
+
+function renderEventRegionChips(allEvents, container) {
+  // Count events per region so chips show how many fall under each
+  const counts = { liberec: 0, liberec_okoli: 0, praha: 0 };
+  for (const ev of allEvents) {
+    if (counts[ev.region] !== undefined) counts[ev.region]++;
+  }
+  const wrap = document.createElement("div");
+  wrap.className = "event-region-chips";
+  for (const f of EVENT_REGION_FILTERS) {
+    const btn = document.createElement("button");
+    btn.className = "event-region-chip" + (state.eventsRegion === f.id ? " event-region-chip--active" : "");
+    btn.innerHTML = `${escape(f.label)} <span class="event-region-chip__count">${counts[f.id] || 0}</span>`;
+    btn.onclick = () => {
+      if (state.eventsRegion === f.id) return;
+      state.eventsRegion = f.id;
+      renderContent();
+    };
+    wrap.appendChild(btn);
+  }
+  container.appendChild(wrap);
+}
+
+function renderEvents(data, container) {
+  const events = data.events || [];
+  if (!events.length) {
+    container.innerHTML = `<div class="empty">Žádné eventy nejsou aktuálně k dispozici.<br><small>Aggregator je možná ještě nestáhl, nebo selhala síť.</small></div>`;
+    return;
+  }
+  // Region filter chips at top — counts derived from full event list
+  renderEventRegionChips(events, container);
+  // Apply region filter
+  const filtered = events.filter(ev => ev.region === state.eventsRegion);
+  // Group by time bucket
+  const order = ["Dnes", "Zítra", "Tento týden", "Příští týden", "Tento měsíc", "Později", "Bez data", "Proběhlo"];
+  const groups = {};
+  for (const ev of filtered) {
+    const g = eventGroupLabel(ev.date);
+    (groups[g] = groups[g] || []).push(ev);
+  }
+  let rendered = 0;
+  for (const label of order) {
+    const items = groups[label];
+    if (!items || !items.length) continue;
+    const h = document.createElement("div");
+    h.className = "subsection";
+    h.textContent = `${label} (${items.length})`;
+    container.appendChild(h);
+    for (const ev of items) {
+      container.appendChild(eventCardEl(ev));
+      rendered++;
+    }
+  }
+  if (!rendered) {
+    const empty = document.createElement("div");
+    empty.className = "empty";
+    empty.textContent = "V této oblasti zatím žádné nadcházející eventy.";
+    container.appendChild(empty);
+  }
+}
+
 // -------------------- SAVED --------------------
 
 async function renderSaved(container) {
@@ -575,6 +808,7 @@ async function renderSaved(container) {
   const jokes = saved.filter(s => s._type === "joke");
   const quotes = saved.filter(s => s._type === "quote");
   const lessons = saved.filter(s => s._type === "lesson");
+  const events = saved.filter(s => s._type === "event");
 
   if (articles.length) {
     const h = document.createElement("div");
@@ -603,6 +837,13 @@ async function renderSaved(container) {
     h.textContent = `Lekce (${lessons.length})`;
     container.appendChild(h);
     for (const l of lessons) container.appendChild(lessonCardEl(l));
+  }
+  if (events.length) {
+    const h = document.createElement("div");
+    h.className = "subsection";
+    h.textContent = `Events (${events.length})`;
+    container.appendChild(h);
+    for (const ev of events) container.appendChild(eventCardEl(ev));
   }
 }
 
@@ -675,38 +916,64 @@ function renderContent() {
   if (tab === "quote") return renderQuote(state.data, c);
   if (tab === "lesson") return renderLesson(state.data, c);
   if (tab === "weather_10d") return renderWeather10Day(c);
-  if (tab === "cot") return renderCOT(c);
   if (tab === "saved") return renderSaved(c);
   if (tab === "settings") return renderSettings(c);
+  if (tab === "events") return renderEvents(state.data, c);
 
   const articles = state.data.tabs[tab] || [];
-  renderArticleList(articles, c, SUBSECTIONS[tab]);
+  renderArticleList(articles, c, SUBSECTIONS[tab], tab);
 
   if (tab === "sport" && state.data.sport_fixtures) {
-    renderSportFixtures(state.data.sport_fixtures, c);
+    const sub = (state.subsectionFilter && state.subsectionFilter.sport) || SUBSECTIONS.sport[0].key;
+    renderSportFixtures(state.data.sport_fixtures, c, sub);
   }
 }
 
-function renderSportFixtures(fixtures, container) {
+function renderSportFixtures(fixtures, container, sportFilter) {
+  // Display order — all keys grouped by sport (football → hockey → other).
   const order = [
-    "premier_league",
-    "czech_national_football",
-    "czech_first_league",
-    "czech_extraliga",
-    "czech_national_hockey",
-    "f1",
+    // football — Czech
+    "czech_first_league", "czech_cup",
+    // football — English
+    "premier_league", "fa_cup", "efl_cup",
+    // football — UEFA clubs
+    "champions_league", "europa_league", "conference_league",
+    // football — national teams / international
+    "world_cup", "world_cup_qualifiers", "euro", "euro_qualifiers",
+    "nations_league", "czech_national_football",
+    // hockey
+    "czech_extraliga", "iihf_worlds", "olympic_hockey", "czech_national_hockey",
+    // other (motorsport)
+    "f1", "motogp",
   ];
+
+  // Map subsection chip → fixture sport field. "_other" (unknown) → "other".
+  const filter = (sportFilter === "_other") ? "other"
+                : (sportFilter || null);
+
+  const visibleKeys = order.filter(k => {
+    const cat = fixtures[k];
+    if (!cat) return false;
+    if (filter && cat.sport !== filter) return false;
+    return true;
+  });
+  if (!visibleKeys.length) return;
+
+  const headingText = {
+    football: "📅 Dnešní fotbal",
+    hockey: "📅 Dnešní hokej",
+    other: "📅 Dnešní program",
+  }[filter] || "📅 Dnešní program";
+
   const wrap = document.createElement("div");
   wrap.className = "fixtures-wrap";
   const heading = document.createElement("h2");
   heading.className = "fixtures-heading";
-  heading.textContent = "📅 Dnešní program";
+  heading.textContent = headingText;
   wrap.appendChild(heading);
 
-  let totalMatches = 0;
-  for (const key of order) {
+  for (const key of visibleKeys) {
     const cat = fixtures[key];
-    if (!cat) continue;
     const block = document.createElement("div");
     block.className = "fixtures-block";
     const title = document.createElement("div");
@@ -719,7 +986,6 @@ function renderSportFixtures(fixtures, container) {
       empty.textContent = "Dnes žádný zápas.";
       block.appendChild(empty);
     } else {
-      totalMatches += cat.matches.length;
       for (const m of cat.matches) {
         const row = document.createElement("div");
         row.className = "fixture-row";

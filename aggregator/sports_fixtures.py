@@ -1,7 +1,8 @@
-"""Today's match fixtures for: Premier League, Czech national football, Czech first league,
-Czech hockey extraliga, NHL, Czech national hockey, F1.
+"""Today's match fixtures for: Czech first league + cup, Premier League + FA Cup + EFL Cup,
+Champions/Europa/Conference League, Czech hockey extraliga, F1 (main race), MotoGP (main race),
+plus Czech national football/hockey when playing.
 
-All sources are free, no API key required.
+All sources are free, no API key required (ESPN, TheSportsDB, Ergast/Jolpica).
 """
 import requests
 from datetime import datetime, date, timezone
@@ -75,6 +76,65 @@ def _espn_fetch(sport: str, league: str, ymd: str) -> list[dict]:
 
 def fetch_premier_league() -> list[dict]:
     return _espn_fetch("soccer", "eng.1", _today_yyyymmdd())
+
+
+def fetch_fa_cup() -> list[dict]:
+    return _espn_fetch("soccer", "eng.fa", _today_yyyymmdd())
+
+
+def fetch_efl_cup() -> list[dict]:
+    return _espn_fetch("soccer", "eng.league_cup", _today_yyyymmdd())
+
+
+def fetch_champions_league() -> list[dict]:
+    return _espn_fetch("soccer", "uefa.champions", _today_yyyymmdd())
+
+
+def fetch_europa_league() -> list[dict]:
+    return _espn_fetch("soccer", "uefa.europa", _today_yyyymmdd())
+
+
+def fetch_conference_league() -> list[dict]:
+    return _espn_fetch("soccer", "uefa.europa.conf", _today_yyyymmdd())
+
+
+def fetch_czech_cup() -> list[dict]:
+    return _espn_fetch("soccer", "cze.cup", _today_yyyymmdd())
+
+
+def fetch_world_cup() -> list[dict]:
+    return _espn_fetch("soccer", "fifa.world", _today_yyyymmdd())
+
+
+def fetch_world_cup_qualifiers() -> list[dict]:
+    """UEFA region qualifiers (most relevant for CZ audience)."""
+    return _espn_fetch("soccer", "fifa.worldq.uefa", _today_yyyymmdd())
+
+
+def fetch_euro() -> list[dict]:
+    return _espn_fetch("soccer", "uefa.euro", _today_yyyymmdd())
+
+
+def fetch_euro_qualifiers() -> list[dict]:
+    return _espn_fetch("soccer", "uefa.euroq", _today_yyyymmdd())
+
+
+def fetch_nations_league() -> list[dict]:
+    """Combine all UEFA Nations League divisions (A/B/C/D)."""
+    ymd = _today_yyyymmdd()
+    out = []
+    for div in ("uefa.nations_league_a", "uefa.nations_league_b",
+                "uefa.nations_league_c", "uefa.nations_league_d"):
+        out.extend(_espn_fetch("soccer", div, ymd))
+    return out
+
+
+def fetch_iihf_worlds() -> list[dict]:
+    return _espn_fetch("hockey", "iihf-mens-world-championship", _today_yyyymmdd())
+
+
+def fetch_olympic_hockey() -> list[dict]:
+    return _espn_fetch("hockey", "mens-olympic-hockey", _today_yyyymmdd())
 
 
 def fetch_nhl() -> list[dict]:
@@ -193,7 +253,7 @@ def fetch_czech_extraliga() -> list[dict]:
 # -------------------- F1 (Ergast / Jolpica) --------------------
 
 def fetch_f1_today() -> list[dict]:
-    """Return today's F1 sessions (race, qualifying, sprint, practice)."""
+    """Return today's F1 main race only (no qualifying/practice/sprint)."""
     today_iso = _today_iso()
     year = datetime.now(CZ_TZ).year
     try:
@@ -202,72 +262,194 @@ def fetch_f1_today() -> list[dict]:
         races = d.get("MRData", {}).get("RaceTable", {}).get("Races", [])
         out = []
         for race in races:
-            sessions = []
-            # Race itself
-            if race.get("date"):
-                sessions.append(("Závod", race["date"], race.get("time")))
-            for key, label in [
-                ("Qualifying", "Kvalifikace"),
-                ("Sprint", "Sprint"),
-                ("SprintQualifying", "Sprint kvalifikace"),
-                ("FirstPractice", "1. trénink"),
-                ("SecondPractice", "2. trénink"),
-                ("ThirdPractice", "3. trénink"),
-            ]:
-                s = race.get(key)
-                if s and s.get("date"):
-                    sessions.append((label, s["date"], s.get("time")))
-            for label, dte, tme in sessions:
-                if dte == today_iso:
-                    iso = f"{dte}T{tme}" if tme else f"{dte}T00:00:00Z"
-                    out.append({
-                        "time": _to_local_time(iso),
-                        "home": race.get("raceName", ""),
-                        "away": label,
-                        "status": "",
-                    })
+            if race.get("date") == today_iso:
+                tme = race.get("time")
+                iso = f"{today_iso}T{tme}" if tme else f"{today_iso}T00:00:00Z"
+                out.append({
+                    "time": _to_local_time(iso),
+                    "home": race.get("raceName", ""),
+                    "away": "Závod",
+                    "status": "",
+                })
         return out
     except Exception as e:
         print(f"  [f1 ergast error] {e}")
         return []
 
 
+def fetch_motogp_today() -> list[dict]:
+    """Today's MotoGP main race (skip Moto2/Moto3, qualifying, practice, sprint)."""
+    try:
+        r = requests.get(
+            f"{SPORTSDB_BASE}/eventsday.php",
+            params={"d": _today_iso(), "l": "MotoGP"},
+            timeout=15,
+        )
+        d = r.json()
+        events = d.get("events") or []
+        out = []
+        skip_terms = ("moto2", "moto3", "qualifying", "practice", "sprint", "warm", "fp1", "fp2", "fp3", "fp4")
+        for e in events:
+            name = (e.get("strEvent") or "").lower()
+            if any(term in name for term in skip_terms):
+                continue
+            time_local = ""
+            t_iso = e.get("strTimestamp")
+            if t_iso:
+                time_local = _to_local_time(t_iso)
+            else:
+                t = e.get("strTime") or ""
+                if t and t != "00:00:00":
+                    try:
+                        dt = datetime.fromisoformat(f"{e.get('dateEvent')}T{t}").replace(tzinfo=timezone.utc)
+                        time_local = dt.astimezone(CZ_TZ).strftime("%H:%M")
+                    except Exception:
+                        time_local = t[:5]
+            out.append({
+                "time": time_local,
+                "home": e.get("strEvent") or "MotoGP",
+                "away": "Závod",
+                "status": "",
+            })
+        return out
+    except Exception as e:
+        print(f"  [motogp error] {e}")
+        return []
+
+
 # -------------------- AGGREGATE --------------------
 
 def fetch_today_fixtures() -> dict:
-    """Returns dict in user-requested order:
-    premier_league, czech_national_football, czech_first_league,
-    czech_extraliga, czech_national_hockey, f1
+    """Returns dict of today's matches/races per competition, in display order.
+
+    Each entry has a 'sport' field ('football' | 'hockey' | 'other') so the
+    frontend can filter by sport subsection (Fotbal / Hokej / Ostatní).
     """
     return {
-        "premier_league": {
-            "label": "Premier League",
-            "icon": "⚽",
-            "matches": fetch_premier_league(),
-        },
-        "czech_national_football": {
-            "label": "Reprezentace ČR — fotbal",
-            "icon": "🇨🇿⚽",
-            "matches": fetch_czech_national_football(),
-        },
+        # ---------- FOOTBALL — Czech ----------
         "czech_first_league": {
+            "sport": "football",
             "label": "Chance Liga (1. liga ČR)",
             "icon": "⚽",
             "matches": fetch_czech_first_league(),
         },
+        "czech_cup": {
+            "sport": "football",
+            "label": "MOL Cup (český pohár)",
+            "icon": "🏆",
+            "matches": fetch_czech_cup(),
+        },
+        # ---------- FOOTBALL — English ----------
+        "premier_league": {
+            "sport": "football",
+            "label": "Premier League (1. liga Anglie)",
+            "icon": "⚽",
+            "matches": fetch_premier_league(),
+        },
+        "fa_cup": {
+            "sport": "football",
+            "label": "FA Cup (anglický pohár)",
+            "icon": "🏆",
+            "matches": fetch_fa_cup(),
+        },
+        "efl_cup": {
+            "sport": "football",
+            "label": "EFL Cup (Carabao Cup)",
+            "icon": "🏆",
+            "matches": fetch_efl_cup(),
+        },
+        # ---------- FOOTBALL — UEFA clubs ----------
+        "champions_league": {
+            "sport": "football",
+            "label": "Liga mistrů",
+            "icon": "🌟",
+            "matches": fetch_champions_league(),
+        },
+        "europa_league": {
+            "sport": "football",
+            "label": "Evropská liga",
+            "icon": "🌍",
+            "matches": fetch_europa_league(),
+        },
+        "conference_league": {
+            "sport": "football",
+            "label": "Konferenční liga",
+            "icon": "🏅",
+            "matches": fetch_conference_league(),
+        },
+        # ---------- FOOTBALL — international (national teams) ----------
+        "world_cup": {
+            "sport": "football",
+            "label": "MS ve fotbale",
+            "icon": "🌐",
+            "matches": fetch_world_cup(),
+        },
+        "world_cup_qualifiers": {
+            "sport": "football",
+            "label": "Kvalifikace MS (UEFA)",
+            "icon": "🌐",
+            "matches": fetch_world_cup_qualifiers(),
+        },
+        "euro": {
+            "sport": "football",
+            "label": "ME ve fotbale",
+            "icon": "🇪🇺",
+            "matches": fetch_euro(),
+        },
+        "euro_qualifiers": {
+            "sport": "football",
+            "label": "Kvalifikace ME",
+            "icon": "🇪🇺",
+            "matches": fetch_euro_qualifiers(),
+        },
+        "nations_league": {
+            "sport": "football",
+            "label": "Liga národů (UEFA)",
+            "icon": "🇪🇺",
+            "matches": fetch_nations_league(),
+        },
+        "czech_national_football": {
+            "sport": "football",
+            "label": "Reprezentace ČR — fotbal",
+            "icon": "🇨🇿⚽",
+            "matches": fetch_czech_national_football(),
+        },
+        # ---------- HOCKEY ----------
         "czech_extraliga": {
+            "sport": "hockey",
             "label": "Tipsport Extraliga (ČR hokej)",
             "icon": "🏒",
             "matches": fetch_czech_extraliga(),
         },
+        "iihf_worlds": {
+            "sport": "hockey",
+            "label": "MS v hokeji (IIHF)",
+            "icon": "🌐",
+            "matches": fetch_iihf_worlds(),
+        },
+        "olympic_hockey": {
+            "sport": "hockey",
+            "label": "Olympiáda — hokej",
+            "icon": "🥇",
+            "matches": fetch_olympic_hockey(),
+        },
         "czech_national_hockey": {
+            "sport": "hockey",
             "label": "Reprezentace ČR — hokej",
             "icon": "🇨🇿🏒",
             "matches": fetch_czech_national_hockey(),
         },
+        # ---------- OTHER (motorsport) ----------
         "f1": {
-            "label": "Formule 1",
+            "sport": "other",
+            "label": "Formule 1 — závod",
             "icon": "🏎️",
             "matches": fetch_f1_today(),
+        },
+        "motogp": {
+            "sport": "other",
+            "label": "MotoGP — závod",
+            "icon": "🏍️",
+            "matches": fetch_motogp_today(),
         },
     }
