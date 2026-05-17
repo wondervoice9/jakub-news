@@ -108,15 +108,15 @@ SOURCES = {
     ],
 }
 
-# Articles per tab (override default of 10)
+# Articles per tab — 12 napříč všemi záložkami pro konzistentní zážitek.
 LIMITS = {
-    "world": 10,
-    "world_en": 10,
-    "czech": 10,
-    "sport": 15,        # higher due to football priority
-    "tech": 20,         # AI-focused, more content
-    "culture": 10,
-    "good_news": 10,
+    "world": 12,
+    "world_en": 12,
+    "czech": 12,
+    "sport": 12,
+    "tech": 12,
+    "culture": 12,
+    "good_news": 12,
 }
 
 # Weather location

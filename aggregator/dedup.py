@@ -11,7 +11,15 @@ def _normalize(title: str) -> str:
 
 
 def _token_set(title: str) -> set:
-    return set(_normalize(title).split())
+    """Tokenize and drop short stopword-like tokens (1–2 chars).
+
+    Czech/English prepositions and conjunctions ("se", "z", "v", "k", "a",
+    "je", "i", "u", "o", "to", "na", "do", "po", "by", "of", "is", "in",
+    "at", "on") inflate the union and depress Jaccard similarity for
+    otherwise near-identical headlines. Dropping them gives better dedup
+    without needing a stopword list per language.
+    """
+    return {w for w in _normalize(title).split() if len(w) >= 3}
 
 
 def _similarity(a: set, b: set) -> float:
@@ -22,10 +30,15 @@ def _similarity(a: set, b: set) -> float:
     return inter / union if union else 0.0
 
 
-def dedup(articles: list[dict], threshold: float = 0.6) -> list[dict]:
+def dedup(articles: list[dict], threshold: float = 0.45) -> list[dict]:
     """Remove duplicates. Keep first occurrence.
     - Same URL → dup.
-    - Jaccard similarity of title tokens >= threshold → dup.
+    - Jaccard similarity of title tokens (short tokens stripped) >= threshold → dup.
+
+    The 0.45 threshold catches paraphrases like
+        "Lebku svaté Zdislavy se podařilo vyjmout z betonu"
+        "Experti vyjmuli lebku svaté Zdislavy z betonu"
+    without flagging unrelated stories that happen to share a noun or two.
     """
     seen_urls = set()
     kept = []
