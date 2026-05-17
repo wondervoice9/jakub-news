@@ -93,4 +93,26 @@ LESSON_TOPICS = [
     "Romantismus", "Průmyslová revoluce",
     "Mayská civilizace", "Incká říše", "Aztécká říše",
     "Starověká Mezopotámie", "Féničané",
+
+    # Psychologie
+    "Sigmund Freud", "Carl Gustav Jung", "Ivan Petrovič Pavlov",
+    "Psychoanalýza", "Behaviorismus", "Kognitivní psychologie",
+    "Maslowova pyramida potřeb", "Paměť", "Emoce",
+    "Stres", "Deprese", "Schizofrenie",
+    "Spánek", "Inteligence", "Placebo",
+    "Stockholmský syndrom",
+
+    # Sociologie
+    "Sociologie", "Émile Durkheim", "Max Weber",
+    "Karl Marx", "Demografie", "Urbanizace",
+    "Migrace", "Rodina", "Chudoba",
+    "Subkultura", "Veřejné mínění", "Sčítání lidu",
+
+    # Lékařství
+    "Hippokratés", "Louis Pasteur", "Alexander Fleming",
+    "Edward Jenner", "Penicilin", "Očkování",
+    "Antibiotikum", "Anestezie", "Transplantace",
+    "Pandemie covidu-19", "Španělská chřipka", "Černá smrt",
+    "Tuberkulóza", "Cukrovka", "Rakovina",
+    "Aspirin", "Inzulin", "Rentgenové záření",
 ]
