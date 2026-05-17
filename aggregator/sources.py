@@ -45,14 +45,20 @@ SOURCES = {
         {"name": "Česká hokejová repre (Google News)", "lang": "cs", "sub": "hockey",
          "url": "https://news.google.com/rss/search?q=%22%C4%8Desk%C3%A1+hokejov%C3%A1+reprezentace%22&hl=cs-CZ&gl=CZ&ceid=CZ:cs"},
 
-        # Tenis (přes Google News v češtině — čistý český tenisový feed neexistuje)
-        {"name": "Tenis (Google News CZ)", "lang": "cs", "sub": "tennis",
+        # Ostatní sporty (priorita 3) — tenis, F1, basketbal, atletika, motorsporty,
+        # zimní sporty, MMA, plavání atd. Spadají sem všechny sporty kromě fotbalu a hokeje.
+        {"name": "iSport – Ostatní sporty", "url": "http://isport.blesk.cz/rss/203", "lang": "cs", "sub": "other"},
+        {"name": "iSport – Basketbal", "url": "http://isport.blesk.cz/rss/204", "lang": "cs", "sub": "other"},
+        {"name": "iSport – Motorsporty", "url": "http://isport.blesk.cz/rss/184", "lang": "cs", "sub": "other"},
+        {"name": "iSport – F1", "url": "http://isport.blesk.cz/rss/57", "lang": "cs", "sub": "other"},
+        # Tenis přes Google News v češtině (čistý český tenisový feed neexistuje)
+        {"name": "Tenis (Google News CZ)", "lang": "cs", "sub": "other",
          "url": "https://news.google.com/rss/search?q=tenis+ATP+OR+WTA+OR+grand+slam&hl=cs-CZ&gl=CZ&ceid=CZ:cs"},
+        # Zimní sporty přes Google News (biatlon, lyžování — populární v ČR)
+        {"name": "Zimní sporty (Google News CZ)", "lang": "cs", "sub": "other",
+         "url": "https://news.google.com/rss/search?q=biatlon+OR+%22b%C4%9B%C5%BEky%22+OR+%22sjezdov%C3%A9+ly%C5%BEov%C3%A1n%C3%AD%22&hl=cs-CZ&gl=CZ&ceid=CZ:cs"},
 
-        # F1
-        {"name": "iSport – F1", "url": "http://isport.blesk.cz/rss/57", "lang": "cs", "sub": "f1"},
-
-        # iRozhlas sport jako doplněk (mix všech disciplín — default football)
+        # iRozhlas sport jako doplněk (mix všech disciplín — default fotbal)
         {"name": "iRozhlas – Sport", "url": "https://www.irozhlas.cz/rss/irozhlas/section/sport", "lang": "cs", "sub": "football"},
     ],
 
@@ -83,6 +89,17 @@ SOURCES = {
          "url": "https://news.google.com/rss/search?q=%22Oasis%22+kapela+OR+reunion&hl=cs-CZ&gl=CZ&ceid=CZ:cs"},
     ],
 
+    # Anglické světové zprávy — originální jazyk, BEZ překladu (viz main.py:build_tab)
+    "world_en": [
+        {"name": "BBC World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "lang": "en"},
+        {"name": "Guardian World", "url": "https://www.theguardian.com/world/rss", "lang": "en"},
+        {"name": "NYT World", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "lang": "en"},
+        {"name": "NPR World", "url": "https://feeds.npr.org/1004/rss.xml", "lang": "en"},
+        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "lang": "en"},
+        {"name": "DW World", "url": "https://rss.dw.com/xml/rss-en-world", "lang": "en"},
+        {"name": "Reuters World", "url": "https://www.reutersagency.com/feed/?best-topics=top-news&post_type=best", "lang": "en"},
+    ],
+
     # Výjimka — anglické zdroje s překladem (český ekvivalent neexistuje)
     "good_news": [
         {"name": "Positive News", "url": "https://www.positive.news/feed/", "lang": "en"},
@@ -94,6 +111,7 @@ SOURCES = {
 # Articles per tab (override default of 10)
 LIMITS = {
     "world": 10,
+    "world_en": 10,
     "czech": 10,
     "sport": 15,        # higher due to football priority
     "tech": 20,         # AI-focused, more content
