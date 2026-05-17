@@ -292,42 +292,12 @@ function articleEl(a) {
       </div>
       <div class="article__actions">
         <button class="btn-save ${saved ? "btn-save--saved" : ""}">${saved ? "★ Uloženo" : "☆ Uložit"}</button>
-        <div class="article__menu-wrap">
-          <button class="btn-menu" aria-label="Více možností" aria-haspopup="menu" aria-expanded="false">⋮</button>
-          <div class="article__menu" role="menu" hidden>
-            <a href="${a.link}" target="_blank" rel="noopener noreferrer" role="menuitem">
-              ↗ Otevřít originál
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   `;
   el.querySelector(".btn-save").onclick = () => toggleSave({ ...a, _type: "article" });
-  const menuBtn = el.querySelector(".btn-menu");
-  const menu = el.querySelector(".article__menu");
-  menuBtn.onclick = (e) => {
-    e.stopPropagation();
-    const wasOpen = !menu.hidden;
-    closeAllArticleMenus();
-    if (!wasOpen) {
-      menu.hidden = false;
-      menuBtn.setAttribute("aria-expanded", "true");
-      el.classList.add("article--menu-open");
-    }
-  };
   return el;
 }
-
-function closeAllArticleMenus() {
-  document.querySelectorAll(".article__menu").forEach(m => { m.hidden = true; });
-  document.querySelectorAll(".btn-menu[aria-expanded='true']").forEach(b => b.setAttribute("aria-expanded", "false"));
-  document.querySelectorAll(".article--menu-open").forEach(a => a.classList.remove("article--menu-open"));
-}
-
-// Close any open article kebab menu when clicking elsewhere or pressing Escape.
-document.addEventListener("click", closeAllArticleMenus);
-document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeAllArticleMenus(); });
 
 async function toggleSave(item) {
   if (state.savedIds.has(item.id)) {
