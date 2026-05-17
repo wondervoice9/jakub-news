@@ -200,8 +200,48 @@ Pokaždé, když vytvoříš novou složku nebo soubor, **vysvětli uživateli j
 
 ```
 /
-<!-- Claude doplní při prvním průzkumu. Ke KAŽDÉ složce napiš co tam patří a proč existuje. -->
+├── aggregator/                Python backend — stahuje data, generuje frontend/data.json
+│   ├── main.py                entrypoint: pustí všechny fetchery, zapíše data.json
+│   ├── sources.py             RSS zdroje per záložka (world/czech/sport/tech/culture/good_news)
+│   ├── rss_fetcher.py         generický RSS fetcher (feedparser) + normalizace
+│   ├── dedup.py               deduplikace článků
+│   ├── translator.py          překlad EN→CS (deep-translator)
+│   ├── gemini_filter.py       AI filtry (Gemini): „je v češtině", „je pozitivní", „není znepokojující"
+│   ├── keyword_filter.py      deterministický klíčový filtr (fallback když Gemini selže)
+│   ├── extras.py              počasí, jmeniny, světové dny, vtipy, citát
+│   ├── sports_fixtures.py     dnešní sportovní zápasy (ESPN, SportsDB, F1)
+│   ├── daily_lesson.py        denní lekce z Wikipedie
+│   ├── lesson_topics.py       seznam témat pro daily_lesson
+│   ├── jokes_cs.py            scraper českých vtipů (alik.cz)
+│   ├── namedays.py            jmeniny
+│   ├── world_holidays.py      mezinárodní/světové dny
+│   └── events.py              eventy z Liberecka + okolí do 1 h jízdy
+├── frontend/                  statická PWA — žádný framework, čistý HTML/CSS/JS
+│   ├── index.html             kostra appky
+│   ├── app.js                 logika: tabs, render článků/eventů/Uloženo, swipe
+│   ├── styles.css             vizuál (tmavý motiv #0f172a, design tokens)
+│   ├── sw.js                  service worker (PWA offline)
+│   ├── weather-bg.js          animované pozadí podle počasí
+│   ├── weather.js             fetch počasí (Open-Meteo)
+│   ├── storage.js             localStorage pro Uložené (články, vtipy, eventy)
+│   ├── data.json              výstup aggregátoru
+│   └── manifest.webmanifest   PWA manifest
+├── config/                    konfigurační JSON soubory
+├── scripts/                   pomocné skripty (run_aggregator.bat, generate-twa.mjs pro APK)
+├── .github/workflows/         CI/CD — aggregator schedule + build Android APK (Bubblewrap)
+└── tests/                     pytest testy
 ```
+
+### Záložka **Eventy** — jak funguje (přidáno 2026-05-17)
+- [aggregator/events.py](aggregator/events.py) stahuje denně eventy ze **tří vrstev**:
+  - **Agregátory (5):** kalendar.kraj-lbc.cz, zivyliberec.cz, iliberecko.cz, kudyznudy.cz/liberecky-kraj, goout.net/cs/liberec
+  - **Městské weby (13):** scrapery šablon `vismo` (Jablonné, Semily, Č. Lípa, N. Bor, Doksy, Ml. Boleslav) + `redakce` (Turnov, Frýdlant, Tanvald, Hejnice) + custom (Železný Brod, Hrádek, Mn. Hradiště, Vratislavice 101010, Vratislavice úřad, 365 Jablonec)
+  - **Google News RSS** pro 16 měst × 4 klíčová slova → tipy z médií (badge „📰 Tip")
+- Sjednocené schéma: `{id, title, city, place, date, time, url, source, category, is_tip}`
+- Output: `data.events` v [frontend/data.json](frontend/data.json)
+- Frontend: záložka „Eventy" — grupování po blocích (Dnes / Zítra / Tento týden / Příští týden / Tento měsíc / Později)
+- Eventy jdou uložit ☆ stejně jako články (`_type: "event"`)
+- Aktuální výnos: ~590 unikátních eventů denně (276 strukturovaných + 236 mediálních tipů)
 
 ## Omezení agenta
 - Rozhoduj sám, vysvětluj zpětně

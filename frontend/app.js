@@ -313,6 +313,7 @@ function articleEl(a) {
     if (!wasOpen) {
       menu.hidden = false;
       menuBtn.setAttribute("aria-expanded", "true");
+      el.classList.add("article--menu-open");
     }
   };
   return el;
@@ -321,6 +322,7 @@ function articleEl(a) {
 function closeAllArticleMenus() {
   document.querySelectorAll(".article__menu").forEach(m => { m.hidden = true; });
   document.querySelectorAll(".btn-menu[aria-expanded='true']").forEach(b => b.setAttribute("aria-expanded", "false"));
+  document.querySelectorAll(".article--menu-open").forEach(a => a.classList.remove("article--menu-open"));
 }
 
 // Close any open article kebab menu when clicking elsewhere or pressing Escape.

@@ -6,6 +6,14 @@ from pathlib import Path
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 
+# Use OS trust store for SSL — works around Python 3.13+ strict cert validation
+# that rejects several Czech servers' certificates (e.g. iRozhlas).
+try:
+    import truststore
+    truststore.inject_into_ssl()
+except ImportError:
+    pass
+
 # Force UTF-8 stdout on Windows (prevents cp1252 crash on Czech chars)
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout.reconfigure(encoding="utf-8")
@@ -25,6 +33,8 @@ from aggregator.extras import (
 )
 from aggregator.sports_fixtures import fetch_today_fixtures
 from aggregator.daily_lesson import fetch_daily_lesson
+from aggregator.events import fetch_all_events
+from aggregator.news_classifier import classify_world, classify_czech
 
 
 def _sort_by_date(articles: list[dict]) -> list[dict]:
@@ -32,14 +42,14 @@ def _sort_by_date(articles: list[dict]) -> list[dict]:
 
 
 def _prioritize_sport(articles: list[dict], limit: int) -> list[dict]:
-    """Football first (most), then hockey, then tennis/F1."""
-    priorities = {"football": 0, "hockey": 1, "tennis": 2, "f1": 2}
+    """Football first, then hockey, then everything else (tennis, F1, basketball, …)."""
+    priorities = {"football": 0, "hockey": 1, "other": 2}
     buckets = {0: [], 1: [], 2: []}
     for a in articles:
         p = priorities.get(a.get("sub"), 2)
         buckets[p].append(a)
-    # Football up to 60% of limit, hockey 25%, rest 15%
-    f_take = int(limit * 0.60)
+    # Football 50%, hockey 25%, other 25%
+    f_take = int(limit * 0.50)
     h_take = int(limit * 0.25)
     r_take = limit - f_take - h_take
     result = buckets[0][:f_take] + buckets[1][:h_take] + buckets[2][:r_take]
@@ -91,6 +101,42 @@ def _prioritize_culture(articles: list[dict], limit: int) -> list[dict]:
     return result
 
 
+_NEWS_SUBS = {
+    "world": ["politics", "conflicts", "economy", "society"],
+    "world_en": ["politics", "conflicts", "economy", "society"],
+    "czech": ["business", "social", "infrastructure", "crime"],
+}
+
+
+def _prioritize_news(articles: list[dict], limit: int, tab: str) -> list[dict]:
+    """Even split across the tab's news subcategories with leftover spillover.
+
+    Buckets the articles by `sub`, gives each subcategory limit//N slots,
+    then fills any remaining slots from whatever buckets still have surplus.
+    """
+    subs = _NEWS_SUBS.get(tab, [])
+    if not subs:
+        return articles[:limit]
+    buckets = {s: [] for s in subs}
+    for a in articles:
+        s = a.get("sub")
+        if s in buckets:
+            buckets[s].append(a)
+    per_bucket = limit // len(subs)
+    result = []
+    for s in subs:
+        result.extend(buckets[s][:per_bucket])
+    remaining = limit - len(result)
+    if remaining > 0:
+        leftovers = []
+        for s in subs:
+            leftovers.extend(buckets[s][per_bucket:])
+        # Preserve date order within leftovers
+        leftovers.sort(key=lambda a: a.get("published", ""), reverse=True)
+        result.extend(leftovers[:remaining])
+    return result
+
+
 def build_tab(name: str, sources: list[dict]) -> list[dict]:
     print(f"\n=== TAB: {name} ===")
     articles = fetch_category(sources)
@@ -111,6 +157,15 @@ def build_tab(name: str, sources: list[dict]) -> list[dict]:
     elif name == "good_news":
         articles = filter_good_news(articles)
 
+    # Content-based subcategory tagging for news tabs (chips UI in frontend
+    # filters by `sub`). Sport tagging already happens in rss_fetcher.
+    if name in ("world", "world_en"):
+        for a in articles:
+            a["sub"] = classify_world(a.get("title", ""), a.get("summary", ""))
+    elif name == "czech":
+        for a in articles:
+            a["sub"] = classify_czech(a.get("title", ""), a.get("summary", ""))
+
     limit = LIMITS.get(name, 10)
 
     if name == "sport":
@@ -119,11 +174,17 @@ def build_tab(name: str, sources: list[dict]) -> list[dict]:
         articles = _prioritize_tech(articles, limit)
     elif name == "culture":
         articles = _prioritize_culture(articles, limit)
+    elif name in ("world", "world_en", "czech"):
+        articles = _prioritize_news(articles, limit, name)
     else:
         articles = articles[:limit]
 
-    print(f"  Translating to Czech ({sum(1 for a in articles if a['lang'] == 'en')} EN articles)...")
-    articles = translate_articles(articles)
+    # The world_en tab intentionally keeps original English — no translation.
+    if name == "world_en":
+        print(f"  Skipping translation (world_en keeps original English)")
+    else:
+        print(f"  Translating to Czech ({sum(1 for a in articles if a['lang'] == 'en')} EN articles)...")
+        articles = translate_articles(articles)
 
     print(f"  Final: {len(articles)} articles")
     return articles
@@ -156,6 +217,9 @@ def main():
     print("  Daily lesson...")
     lesson = fetch_daily_lesson()
 
+    # Events tab (Liberec region + surroundings within ~1h drive)
+    events = fetch_all_events()
+
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "today": today_info(),
@@ -167,6 +231,7 @@ def main():
         "quote": quote,
         "lesson": lesson,
         "sport_fixtures": sport_fixtures,
+        "events": events,
         "tabs": tabs,
     }
 

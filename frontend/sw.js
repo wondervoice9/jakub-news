@@ -1,6 +1,5 @@
-// Service worker for offline app shell. Does NOT cache data.json or
-// cot_gold.json (always fresh).
-const VERSION = "v21-sticky-fix";
+// Service worker for offline app shell. Does NOT cache data.json (always fresh).
+const VERSION = "v26-news-subcategories";
 const CACHE = `jakub-news-${VERSION}`;
 const SHELL = [
   "./",
@@ -10,7 +9,6 @@ const SHELL = [
   "./storage.js",
   "./weather.js",
   "./weather-bg.js",
-  "./cot.js",
   "./manifest.webmanifest",
   "./icons/icon.svg",
   "./icons/icon-192.png",
@@ -32,8 +30,8 @@ self.addEventListener("activate", e => {
 
 self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
-  // Never cache data.json or cot_gold.json — always fetch fresh
-  if (url.pathname.endsWith("/data.json") || url.pathname.endsWith("/cot_gold.json")) {
+  // Never cache data.json — always fetch fresh
+  if (url.pathname.endsWith("/data.json")) {
     e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
     return;
   }

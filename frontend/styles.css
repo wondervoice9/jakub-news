@@ -1009,11 +1009,13 @@ body {
 }
 
 /* Card with open kebab menu lifts above siblings so dropdown isn't clipped */
-.event-card {
+.event-card,
+.article {
   position: relative;
   z-index: 1;
 }
-.event-card--menu-open {
+.event-card--menu-open,
+.article--menu-open {
   z-index: 100;
 }
 

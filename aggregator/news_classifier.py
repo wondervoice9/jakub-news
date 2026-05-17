@@ -52,17 +52,20 @@ _WORLD_POLITICS_RE = re.compile(
 
 _WORLD_ECONOMY_RE = re.compile(
     r"\b("
-    # CZ
-    r"ekonomi\w*|hospod[aá][řr]\w*|inflac\w*|recese?\w*|HDP|"
-    r"akcie?\w*|burz\w*|rop[aěy]\w*|plyn\w*|dolar\w*|"
-    r"euro\w*|m[ěe]n\w*|bank[ya]?\w*|úv[ěe]r\w*|sazb\w*|"
-    r"ECB|FED|firma?\w*|trh\w*|kryptom[ěe]n\w*|bitcoin\w*|"
-    r"obchodn[ií]\w*|export\w*|import\w*|"
+    # CZ — vyhněte se příliš krátkým kořenům, které matchnou názvy lidí/míst
+    # (např. dřívější `m[ěe]n\w*` matchovalo Mengelem). Místo toho explicitní tvary.
+    r"ekonomik\w*|hospod[aá][řr]\w*|inflac\w*|recese?\w*|HDP\b|"
+    r"akci(?:e|í|ích|emi)\b|burz[aěyou]\w*|rop[aěyu]\w*|plyn[aěyou]\w*|"
+    r"dolar\w*|euro\w*|m[ěe]n[aěyou]\w*|"  # měna/měny/měně/měnu/měnou — vyžaduje samohlásku po men
+    r"komerční\s+bank\w*|centrální\s+bank\w*|"
+    r"úv[ěe]r\w*|sazb[aěyou]\w*|sazeb\b|"
+    r"ECB\b|FED\b|firma?\w*|trh[uy]\b|trhů\b|kryptom[ěe]n\w*|bitcoin\w*|"
+    r"export\w*|import\w*|tržb\w*|zisk\w*|HDP|"
     # EN
     r"economy|GDP|inflation|recession|"
-    r"stock|stocks|markets?|oil|gas|dollar|euro|"
+    r"stock|stocks|markets?|oil|gas|dollar|"
     r"central\s+bank|interest\s+rate|"
-    r"earnings|revenue|trade|tariff|crypto|bitcoin"
+    r"earnings|revenue|trade\s+(?:deal|war|talks)|tariff|crypto|bitcoin"
     r")\b",
     re.IGNORECASE | re.UNICODE,
 )

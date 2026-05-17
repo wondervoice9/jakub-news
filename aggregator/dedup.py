@@ -33,12 +33,13 @@ def _similarity(a: set, b: set) -> float:
 def dedup(articles: list[dict], threshold: float = 0.45) -> list[dict]:
     """Remove duplicates. Keep first occurrence.
     - Same URL → dup.
-    - Jaccard similarity of title tokens (short tokens stripped) >= threshold → dup.
+    - Jaccard similarity of (title + summary) tokens >= threshold → dup.
 
-    The 0.45 threshold catches paraphrases like
-        "Lebku svaté Zdislavy se podařilo vyjmout z betonu"
-        "Experti vyjmuli lebku svaté Zdislavy z betonu"
-    without flagging unrelated stories that happen to share a noun or two.
+    Czech morphology mangles titles heavily — "Mengelem" vs "Mengele",
+    "Švýcarsko" vs "Švýcarska", "zpřístupnit" vs "zpřístupní" all look
+    like different tokens. Including the summary in the comparison
+    catches the many wire stories that share near-identical body text
+    even when headlines were rewritten by each editor.
     """
     seen_urls = set()
     kept = []
@@ -49,7 +50,10 @@ def dedup(articles: list[dict], threshold: float = 0.45) -> list[dict]:
         if url in seen_urls:
             continue
 
-        tokens = _token_set(art["title"])
+        # Combine title + summary so paraphrased headlines that wrap the
+        # same wire story still match.
+        text = f"{art.get('title', '')} {art.get('summary', '')}"
+        tokens = _token_set(text)
         is_dup = False
         for prev in kept_tokens:
             if _similarity(tokens, prev) >= threshold:
