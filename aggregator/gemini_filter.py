@@ -21,16 +21,27 @@ def _get_client():
 CZECH_FILTER_PROMPT = """Jsi filtr zpráv. Pro každý článek rozhodni, zda ho NECHAT (keep=true) nebo ZAHODIT (keep=false).
 
 ZAHOĎ (keep=false) pokud článek je o:
-- politice, volbách, politicích, vládě, parlamentu, stranách
-- násilí, vraždách, nehodách, zločinech, soudních kauzách
-- jednotlivcích a jejich osobních příbězích (úmrtí celebrit, nemoci, osobní tragédie)
-- bulváru, drbech, celebritách v osobním kontextu
+- politice, volbách, politicích, vládě, parlamentu, politických stranách
+- jakémkoli násilí nebo zločinu, kde někdo přišel k újmě na zdraví nebo zemřel
+  (vraždy, napadení, znásilnění, ublížení na zdraví, dopravní nehody se zraněnými, požáry s oběťmi)
+- soudních kauzách týkajících se násilí, vražd, znásilnění
 
 NECHEJ (keep=true) články o:
 - ekonomice, firmách, businessu, trzích
 - společenských trendech, vzdělávání, vědě, výzkumu
-- infrastruktuře, dopravě, zdravotnictví (systémově, ne případy)
-- kultuře obecně, technologiích
+- infrastruktuře, dopravě, zdravotnictví
+- kultuře, technologiích
+- osobních příbězích jednotlivců a celebrit (úmrtí přirozenou cestou, nemoci, osobní tragédie, rozvody, výročí)
+- majetkových zločinech (krádeže, vloupání, podvody, korupce, daňové úniky, defraudace,
+  finanční zločiny, kybernetické útoky bez fyzické újmy)
+- soudních kauzách o majetkových a finančních věcech
+
+Hraniční příklady:
+- "Zloděj ukradl auto za milion" → NECHEJ (majetkový zločin, bez újmy na zdraví)
+- "Hackeři ukradli data 100 000 klientů banky" → NECHEJ (kybernetický, bez újmy)
+- "Známý herec zemřel ve věku 78 let" → NECHEJ (osobní příběh celebrity)
+- "Útočník pobodal tři lidi v centru Prahy" → ZAHOĎ (násilí + zranění)
+- "Senátor schválil zákon o..." → ZAHOĎ (politika)
 
 Odpověz POUZE JSONem: [{"id": "...", "keep": true/false}, ...]
 

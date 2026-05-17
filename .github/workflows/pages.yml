@@ -1,14 +1,24 @@
 name: Deploy PWA to GitHub Pages
 
-# Deploys /frontend to GitHub Pages whenever main changes.
+# Deploys /frontend to GitHub Pages.
 # GitHub Pages can only serve from repo root or /docs natively, so we use
 # the official Actions-based deployment to publish an arbitrary folder.
+#
+# Triggers:
+#   1. Push to main (when a real user edits frontend/** or this workflow)
+#   2. After Daily aggregator / Weekly COT workflows finish — those commit
+#      via GITHUB_TOKEN, whose pushes do NOT trigger other workflows. The
+#      workflow_run trigger is the official escape hatch for this.
 on:
   push:
     branches: ["main"]
     paths:
       - "frontend/**"
       - ".github/workflows/pages.yml"
+  workflow_run:
+    workflows: ["Daily aggregator", "Weekly COT fetch (Gold)"]
+    types: [completed]
+    branches: ["main"]
   workflow_dispatch: {}
 
 permissions:
