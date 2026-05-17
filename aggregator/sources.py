@@ -30,7 +30,9 @@ SOURCES = {
         {"name": "iSport – Fotbal", "url": "http://isport.blesk.cz/rss/56", "lang": "cs", "sub": "football"},
         {"name": "iSport – Česká repre", "url": "http://isport.blesk.cz/rss/72", "lang": "cs", "sub": "football"},
         {"name": "Aktuálně – Fotbal", "url": "https://sport.aktualne.cz/rss/fotbal/", "lang": "cs", "sub": "football"},
-        {"name": "Sport.cz", "url": "https://www.sport.cz/rss", "lang": "cs", "sub": "football"},
+        # Sport.cz je generický mix všech sportů. Default "other" — klasifikátor
+        # v rss_fetcher.py promotuje fotbal/hokej dle klíčových slov.
+        {"name": "Sport.cz", "url": "https://www.sport.cz/rss", "lang": "cs", "sub": "other"},
         # Česká fotbalová liga přes Google News (čistí mix od Sport.cz)
         {"name": "Chance Liga (Google News)", "lang": "cs", "sub": "football",
          "url": "https://news.google.com/rss/search?q=%22Chance+Liga%22+OR+%22Fortuna+Liga%22&hl=cs-CZ&gl=CZ&ceid=CZ:cs"},
@@ -58,8 +60,9 @@ SOURCES = {
         {"name": "Zimní sporty (Google News CZ)", "lang": "cs", "sub": "other",
          "url": "https://news.google.com/rss/search?q=biatlon+OR+%22b%C4%9B%C5%BEky%22+OR+%22sjezdov%C3%A9+ly%C5%BEov%C3%A1n%C3%AD%22&hl=cs-CZ&gl=CZ&ceid=CZ:cs"},
 
-        # iRozhlas sport jako doplněk (mix všech disciplín — default fotbal)
-        {"name": "iRozhlas – Sport", "url": "https://www.irozhlas.cz/rss/irozhlas/section/sport", "lang": "cs", "sub": "football"},
+        # iRozhlas sport — mix všech disciplín. Default "other", klasifikátor
+        # promotuje dle obsahu.
+        {"name": "iRozhlas – Sport", "url": "https://www.irozhlas.cz/rss/irozhlas/section/sport", "lang": "cs", "sub": "other"},
     ],
 
     "tech": [
