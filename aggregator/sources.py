@@ -108,11 +108,13 @@ SOURCES = {
     ],
 }
 
-# Articles per tab — 12 napříč všemi záložkami pro konzistentní zážitek.
+# Articles per tab.
+# - world / world_en / czech mají 20 (5 článků × 4 podkategorie)
+# - sport / tech / culture / good_news mají 12
 LIMITS = {
-    "world": 12,
-    "world_en": 12,
-    "czech": 12,
+    "world": 20,
+    "world_en": 20,
+    "czech": 20,
     "sport": 12,
     "tech": 12,
     "culture": 12,
