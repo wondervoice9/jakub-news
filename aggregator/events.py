@@ -91,19 +91,93 @@ def _get(url: str) -> Optional[str]:
 _DATE_RE = re.compile(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})")
 _TIME_RE = re.compile(r"(\d{1,2}):(\d{2})")
 
+# Czech month names in both nominative (leden) and genitive (ledna) forms —
+# Czech writes dates as "17. května" (genitive) or just "květen" in listings.
+CZ_MONTHS: dict[str, int] = {
+    "leden": 1, "ledna": 1,
+    "únor": 2, "února": 2,
+    "březen": 3, "března": 3,
+    "duben": 4, "dubna": 4,
+    "květen": 5, "května": 5,
+    "červen": 6, "června": 6,
+    "červenec": 7, "července": 7,
+    "srpen": 8, "srpna": 8,
+    "září": 9,
+    "říjen": 10, "října": 10,
+    "listopad": 11, "listopadu": 11,
+    "prosinec": 12, "prosince": 12,
+}
+_CZ_MONTH_PAT = "|".join(sorted(CZ_MONTHS.keys(), key=len, reverse=True))
+_CZ_TEXT_DATE_RE = re.compile(
+    rf"\b(\d{{1,2}})\.?\s+({_CZ_MONTH_PAT})\b\.?\s*(\d{{4}})?",
+    re.IGNORECASE,
+)
+
+
+def _parse_cz_text_date(text: str) -> Optional[str]:
+    """Extract date in 'DAY [.] CZECH_MONTH_NAME [YEAR]' format → YYYY-MM-DD.
+
+    Examples: '17. května 2026', '17 květen', '5. září'.
+    If year is missing, assume current year (or next year if month already passed).
+    """
+    if not text:
+        return None
+    for m in _CZ_TEXT_DATE_RE.finditer(text):
+        day = int(m.group(1))
+        month = CZ_MONTHS.get(m.group(2).lower())
+        if not month or not (1 <= day <= 31):
+            continue
+        year = int(m.group(3)) if m.group(3) else _infer_year(month, day)
+        try:
+            return date(year, month, day).isoformat()
+        except ValueError:
+            continue
+    return None
+
+
+def _infer_year(month: int, day: int) -> int:
+    """Pick the most likely year for a (month, day) seen without an explicit year.
+    Default to current year, but jump to next year if the date is clearly in the past
+    (more than a week back) — typical when a January listing shows 'December'.
+    """
+    today = date.today()
+    if (month, day) < (today.month, today.day - 7 if today.day > 7 else today.day):
+        return today.year + 1
+    return today.year
+
+
+# Short Czech date 'DD. M.' (no year) — used by 365jablonec.cz, vismo footers, etc.
+# Negative lookahead skips four-digit years (handled by _DATE_RE).
+_SHORT_DATE_RE = re.compile(r"\b(\d{1,2})\.\s*(\d{1,2})\.\s*(?!\d{4})")
+
 
 def _parse_cz_date(text: str) -> Optional[str]:
-    """Extract first DD.MM.YYYY date from text, return YYYY-MM-DD or None."""
+    """Extract a date from text. Tries, in order:
+      1) numeric DD.MM.YYYY
+      2) Czech month-name form ('17. května 2026', '5. září')
+      3) short DD. M. form ('pá 22. 5.') — year inferred
+    """
     if not text:
         return None
     m = _DATE_RE.search(text)
-    if not m:
-        return None
-    d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
-    try:
-        return date(y, mo, d).isoformat()
-    except ValueError:
-        return None
+    if m:
+        d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        try:
+            return date(y, mo, d).isoformat()
+        except ValueError:
+            pass
+    iso = _parse_cz_text_date(text)
+    if iso:
+        return iso
+    m = _SHORT_DATE_RE.search(text)
+    if m:
+        day, month = int(m.group(1)), int(m.group(2))
+        if 1 <= day <= 31 and 1 <= month <= 12:
+            try:
+                return date(_infer_year(month, day), month, day).isoformat()
+            except ValueError:
+                pass
+    return None
 
 
 def _parse_cz_time(text: str) -> Optional[str]:
@@ -116,6 +190,38 @@ def _parse_cz_time(text: str) -> Optional[str]:
     if 0 <= h < 24 and 0 <= mi < 60:
         return f"{h:02d}:{mi:02d}"
     return None
+
+
+# Titles that appear because a scraper grabbed a nav-link, ticket-link, listing-page link
+# or generic "more"/"read" button rather than an actual event.
+_JUNK_TITLES = {
+    "vstupenky", "vyprodáno", "více", "detail", "zpět", "číst",
+    "zobrazit akce", "přejít na detail události", "festivaly",
+    "akce", "kalendář", "kalendář akcí", "kalendář událostí",
+    # iLIBERECKO regional category links
+    "liberecko", "jablonecko", "českolipsko", "turnovsko",
+    "semilsko", "novoborsko", "frýdlantsko",
+}
+# URL fragments that mark a link as non-event (cart, javascript handler, listing root)
+_JUNK_URL_FRAGMENTS = (
+    "/listky/", "javascript:",
+    "/kalendar-akci/liberecky-kraj",
+    "/kalendar-akci/hlavni-mesto-praha",
+    "/kalendar-akci/festivaly",
+)
+
+
+def _is_junk_event(ev: dict) -> bool:
+    """True if the event is obviously not a real event (nav/ticket/listing link)."""
+    title = (ev.get("title") or "").strip().lower()
+    if not title or len(title) < 3:
+        return True
+    if title in _JUNK_TITLES:
+        return True
+    url = ev.get("url") or ""
+    if any(frag in url for frag in _JUNK_URL_FRAGMENTS):
+        return True
+    return False
 
 
 def _event_id(title: str, url: str) -> str:
@@ -199,34 +305,95 @@ def fetch_kraj_lbc() -> list[dict]:
     return out
 
 
+_DAYNAME_TOKENS = {"pondělí", "úterý", "středa", "čtvrtek", "pátek", "sobota", "neděle",
+                   "po", "út", "st", "čt", "pá", "so", "ne"}
+
+
+def _parse_zivyliberec_block(text: str) -> tuple[Optional[str], Optional[str], str]:
+    """Parse Živý Liberec listing entries.
+
+    On the page, each event anchor concatenates date prefix + title + description as
+    one text node, e.g. '17 neděle 15:00 květen O vílách a Králi draků Návrat příběhu…'
+    or range form '16 květen 17 květen BURZA DIVADELNÍCH KOSTÝMŮ …'.
+
+    Returns (date_iso, time_str, clean_title). If parsing fails, date is None and
+    clean_title falls back to the raw text.
+    """
+    tokens = text.split()
+    if not tokens:
+        return None, None, text
+    try:
+        day = int(tokens[0])
+    except ValueError:
+        return None, None, text
+    if not (1 <= day <= 31):
+        return None, None, text
+    # Collect all month tokens within the first ~10 tokens (covers ranges).
+    month_positions: list[tuple[int, int]] = []
+    for i in range(1, min(len(tokens), 10)):
+        m = CZ_MONTHS.get(tokens[i].lower().strip(",.;"))
+        if m:
+            month_positions.append((i, m))
+    if not month_positions:
+        return None, None, text
+    first_idx, first_month = month_positions[0]
+    last_idx = month_positions[-1][0]
+    try:
+        date_iso = date(_infer_year(first_month, day), first_month, day).isoformat()
+    except ValueError:
+        return None, None, text
+    # Time: any HH:MM token before the first month
+    time_str: Optional[str] = None
+    for tok in tokens[1:first_idx]:
+        m = re.match(r"^(\d{1,2}):(\d{2})$", tok)
+        if m:
+            h, mi = int(m.group(1)), int(m.group(2))
+            if 0 <= h < 24 and 0 <= mi < 60:
+                time_str = f"{h:02d}:{mi:02d}"
+                break
+    # Title: everything after the LAST month token (skips both ends of a range).
+    title = " ".join(tokens[last_idx + 1:]).strip()
+    # Block text bleeds into description; cap at ~90 chars on a word boundary.
+    if len(title) > 90:
+        title = title[:90].rsplit(" ", 1)[0].rstrip(",.;:-") + "…"
+    return date_iso, time_str, title
+
+
 def fetch_zivyliberec() -> list[dict]:
-    """Živá kultura Liberec — large aggregator (300+ events)."""
+    """Živá kultura Liberec — large aggregator (300+ events).
+
+    The page renders each event's date+title+description as a single concatenated
+    text node inside the <a>, so we extract the date from that prefix and strip it
+    out of the title via _parse_zivyliberec_block.
+    """
     url = "https://zivyliberec.cz/"
     html = _get(url)
     if not html:
         return []
     soup = BeautifulSoup(html, "html.parser")
     out = []
-    # Events link to /akce/{id}
+    seen_urls = set()
     for a in soup.select('a[href*="/akce/"]'):
         href = a.get("href", "")
         if not re.search(r"/akce/\d+", href):
             continue
         full_url = urljoin(url, href)
-        title = a.get_text(" ", strip=True)
-        # Skip nav links / very short ones
-        if len(title) < 5 or title.lower() in ("akce", "více"):
+        if full_url in seen_urls:
             continue
-        # Date often in parent block
-        block = a.find_parent(["article", "li", "div"]) or a
-        text = block.get_text(" ", strip=True)
+        text = a.get_text(" ", strip=True)
+        if len(text) < 5 or text.lower() in ("akce", "více"):
+            continue
+        date_iso, time_str, clean_title = _parse_zivyliberec_block(text)
+        if not clean_title or len(clean_title) < 3:
+            continue
+        seen_urls.add(full_url)
         out.append(_make_event(
-            title=title[:200],
+            title=clean_title[:200],
             url=full_url,
             city="Liberec",
             source="Živá kultura Liberec",
-            date_iso=_parse_cz_date(text),
-            time=_parse_cz_time(text),
+            date_iso=date_iso,
+            time=time_str,
         ))
     return out
 
@@ -443,6 +610,11 @@ def fetch_zeleznybrod() -> list[dict]:
             m = re.search(r"o_(\d{4})_(\d{2})_(\d{2})", img.get("src", ""))
             if m:
                 date_iso = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+        # Fallback: scan parent block text for a Czech date (numeric or word form)
+        if not date_iso:
+            block = a.find_parent(["li", "tr", "div", "article"])
+            if block:
+                date_iso = _parse_cz_date(block.get_text(" ", strip=True))
         out.append(_make_event(
             title=title[:200],
             url=full_url,
@@ -536,34 +708,50 @@ def fetch_mnhradiste() -> list[dict]:
     return out
 
 
+_GENERIC_LINK_TEXTS = {"přejít na detail události", "více", "detail", "číst", "více informací",
+                        "zobrazit detail", "více info"}
+
+
 def fetch_jablonec_365() -> list[dict]:
-    """Jablonec nad Nisou — events on 365jablonec.cz portal (run by city)."""
+    """Jablonec nad Nisou — events on 365jablonec.cz portal (run by city).
+
+    Each event card has a generic 'Přejít na detail události' link AND a heading
+    <h2/h3/h4> with the real title. We iterate detail URLs once per card and pull
+    title from the heading inside the card, falling back to the URL slug.
+    """
     url = "https://www.365jablonec.cz/"
     html = _get(url)
     if not html:
         return []
     soup = BeautifulSoup(html, "html.parser")
     out = []
-    seen = set()
+    seen_urls = set()
     for a in soup.select('a[href*="/udalosti-v-jablonci/"]'):
         href = a["href"]
-        # Skip the listing page itself, only detail URLs (.../ID/slug)
         if not re.search(r"/udalosti-v-jablonci/\d+/", href):
             continue
-        title = a.get_text(" ", strip=True)
-        if len(title) < 5:
-            # Maybe title is in nested element
-            h = a.find(["h2", "h3", "h4"])
-            if h:
-                title = h.get_text(" ", strip=True)
-        if len(title) < 5:
-            continue
         full_url = urljoin(url, href)
-        block = a.find_parent(["article", "li", "div"]) or a
-        text = block.get_text(" ", strip=True)
-        if (title[:80], full_url) in seen:
+        if full_url in seen_urls:
             continue
-        seen.add((title[:80], full_url))
+        # Find the wrapping card (article/li, fallback to nearest div)
+        card = a.find_parent(["article", "li"]) or a.find_parent("div") or a
+        # Title: prefer heading inside the card, then anchor text, then URL slug
+        title = ""
+        h = card.find(["h2", "h3", "h4"])
+        if h:
+            title = h.get_text(" ", strip=True)
+        if not title or title.lower() in _GENERIC_LINK_TEXTS:
+            anchor_text = a.get_text(" ", strip=True)
+            if anchor_text and anchor_text.lower() not in _GENERIC_LINK_TEXTS:
+                title = anchor_text
+        if not title or title.lower() in _GENERIC_LINK_TEXTS:
+            slug_m = re.search(r"/udalosti-v-jablonci/\d+/([^/?#]+)", href)
+            if slug_m:
+                title = slug_m.group(1).replace("-", " ").strip().capitalize()
+        if len(title) < 5:
+            continue
+        text = card.get_text(" ", strip=True)
+        seen_urls.add(full_url)
         out.append(_make_event(
             title=title[:200],
             url=full_url,
@@ -734,7 +922,12 @@ def fetch_kudyznudy_praha() -> list[dict]:
 
 
 def fetch_praha_eu() -> list[dict]:
-    """praha.eu — oficiální portál hl. m. Prahy (MHMP)."""
+    """praha.eu — oficiální portál hl. m. Prahy (MHMP).
+
+    Previous version used h.find_next("a") as fallback, which grabs the next link
+    in document order even if it belongs to the *next* event card — pairing title N
+    with URL N+1. We now require the anchor to be inside the same card as the heading.
+    """
     url = "https://praha.eu/kalendar-akci"
     html = _get(url)
     if not html:
@@ -743,16 +936,21 @@ def fetch_praha_eu() -> list[dict]:
     out = []
     seen = set()
     for h in soup.find_all(["h2", "h3", "h4"]):
-        a = h.find("a", href=True) or (h.find_next("a", href=True) if h.find_next("a", href=True) else None)
-        if not a:
-            continue
         title = h.get_text(" ", strip=True)
         if len(title) < 5:
             continue
+        # Find the wrapping card; only accept anchors inside it.
         block = h.find_parent(["article", "li", "div"]) or h.parent
-        text = block.get_text(" ", strip=True) if block else title
-        date_iso = _parse_cz_date(text)
-        full_url = urljoin(url, a["href"])
+        if not block:
+            continue
+        a = h.find("a", href=True) or block.find("a", href=True)
+        if not a:
+            continue
+        href = a["href"]
+        if not href or href.startswith("#"):
+            continue
+        full_url = urljoin(url, href)
+        text = block.get_text(" ", strip=True)
         key = (title[:80], full_url)
         if key in seen:
             continue
@@ -762,7 +960,7 @@ def fetch_praha_eu() -> list[dict]:
             url=full_url,
             city="Praha",
             source="praha.eu",
-            date_iso=date_iso,
+            date_iso=_parse_cz_date(text),
             time=_parse_cz_time(text),
             region="praha",
         ))
@@ -1042,9 +1240,11 @@ def fetch_all_events() -> list[dict]:
     # Layer B: Praha topical Google News (koncerty, AI, gastro…)
     all_events += _safe_call(fetch_gnews_praha_topical, label="Google News Praha (topics)")
 
-    # Dedup by id (title+url hash)
+    # Dedup by id (title+url hash) + drop junk + drop dateless structured events.
     seen_ids: set[str] = set()
     deduped: list[dict] = []
+    dropped_junk = 0
+    dropped_nodate = 0
     for ev in all_events:
         if ev["id"] in seen_ids:
             continue
@@ -1053,8 +1253,17 @@ def fetch_all_events() -> list[dict]:
         # we want Praha filter to be strictly Praha).
         if ev.get("region") == "praha" and (ev.get("city") or "").strip().lower() != "praha":
             continue
+        # Drop nav/ticket/category links that aren't real events.
+        if _is_junk_event(ev):
+            dropped_junk += 1
+            continue
+        # Structured events (not media tips) must have a date — otherwise they're noise.
+        if not ev.get("is_tip") and not ev.get("date"):
+            dropped_nodate += 1
+            continue
         seen_ids.add(ev["id"])
         deduped.append(ev)
+    print(f"  Filtered out: {dropped_junk} junk + {dropped_nodate} dateless structured")
 
     # Sort: dated first (chronological), undated/tips last
     def sort_key(ev):
