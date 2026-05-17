@@ -4,13 +4,13 @@ Each source has: name, url, lang (cs/en), category (subsection within tab).
 """
 
 SOURCES = {
-    # Svět očima českých médií
+    # Svět očima českých médií — JEN zdroje se skutečnou zahraniční sekcí.
+    # Novinky.cz a Seznam Zprávy zde dříve byly, ale jejich RSS jsou
+    # generické feedy (vrací i domácí zprávy) — proto vyřazeny.
     "world": [
         {"name": "ČT24 – Svět", "url": "https://ct24.ceskatelevize.cz/rss/rubrika/svet-16", "lang": "cs"},
         {"name": "iRozhlas – Zahraničí", "url": "https://www.irozhlas.cz/rss/irozhlas/section/zpravy-svet", "lang": "cs"},
         {"name": "Aktuálně – Zahraničí", "url": "https://zpravy.aktualne.cz/rss/zahranici/", "lang": "cs"},
-        {"name": "Novinky – Zahraniční", "url": "https://www.novinky.cz/rss/zahranicni", "lang": "cs"},
-        {"name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/rss", "lang": "cs"},
     ],
 
     # Domácí české zpravodajství
