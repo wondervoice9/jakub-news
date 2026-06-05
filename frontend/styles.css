@@ -1,11 +1,11 @@
 :root {
-  --bg: #0b1120;
-  --bg-alt: #1e293b;
-  --bg-card: rgba(30, 41, 59, 0.55);
-  --bg-card-hover: rgba(30, 41, 59, 0.75);
-  --bg-glass: rgba(15, 23, 42, 0.55);
-  --border: rgba(148, 163, 184, 0.18);
-  --border-strong: rgba(148, 163, 184, 0.35);
+  --bg: #08080b;
+  --bg-alt: #18181c;
+  --bg-card: rgba(26, 26, 30, 0.55);
+  --bg-card-hover: rgba(26, 26, 30, 0.75);
+  --bg-glass: rgba(12, 12, 15, 0.55);
+  --border: rgba(150, 150, 158, 0.18);
+  --border-strong: rgba(150, 150, 158, 0.35);
   --text: #e2e8f0;
   --text-muted: #94a3b8;
   --text-dim: #64748b;
@@ -14,7 +14,7 @@
   --accent-glow: rgba(59, 130, 246, 0.3);
   --saved: #fbbf24;
   --gradient-accent: linear-gradient(135deg, #60a5fa, #2563eb);
-  --gradient-surface: linear-gradient(180deg, rgba(30, 41, 59, 0.65), rgba(15, 23, 42, 0.45));
+  --gradient-surface: linear-gradient(180deg, rgba(26, 26, 30, 0.65), rgba(12, 12, 15, 0.45));
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25);
   --shadow-md: 0 6px 18px -4px rgba(0, 0, 0, 0.45);
   --shadow-lg: 0 20px 40px -16px rgba(0, 0, 0, 0.6);
@@ -36,7 +36,7 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue",
                Arial, "Noto Sans", sans-serif;
-  background: radial-gradient(ellipse at top, #1a2442 0%, var(--bg) 60%);
+  background: radial-gradient(ellipse at top, #16161c 0%, var(--bg) 60%);
   background-attachment: fixed;
   color: var(--text);
   line-height: 1.5;
@@ -60,7 +60,7 @@ body {
 
 .top-bar {
   padding: calc(var(--safe-top) + 0.6rem) 0.9rem 0.5rem;
-  background: linear-gradient(to bottom, rgba(15, 23, 42, 0.94) 0%, rgba(15, 23, 42, 0.82) 70%, rgba(15, 23, 42, 0.6));
+  background: linear-gradient(to bottom, rgba(12, 12, 15, 0.94) 0%, rgba(12, 12, 15, 0.82) 70%, rgba(12, 12, 15, 0.6));
   border-bottom: 1px solid var(--border);
 }
 
@@ -102,7 +102,7 @@ body {
   align-items: center;
   gap: 0.35rem;
   padding: 0.3rem 0.65rem;
-  background: rgba(30, 41, 59, 0.55);
+  background: rgba(26, 26, 30, 0.55);
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   font-size: 0.82rem;
@@ -130,7 +130,7 @@ body {
 }
 .chip--holiday:hover {
   border-color: var(--accent);
-  background: rgba(30, 41, 59, 0.8);
+  background: rgba(26, 26, 30, 0.8);
 }
 .chip--holiday .chip__text { color: var(--text-muted); }
 .chip__caret {
@@ -185,7 +185,7 @@ body {
   right: 0;
   z-index: 15;
   padding: 0.75rem 0.85rem;
-  background: rgba(15, 23, 42, 0.96);
+  background: rgba(12, 12, 15, 0.96);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   animation: panel-drop 0.22s var(--ease);
@@ -330,7 +330,7 @@ body {
   padding: 0.45rem 0.95rem;
   border-radius: var(--radius-pill);
   border: 1px solid var(--border);
-  background: rgba(30, 41, 59, 0.35);
+  background: rgba(26, 26, 30, 0.35);
   color: var(--text-muted);
   font-size: 0.85rem;
   font-family: inherit;
@@ -423,13 +423,13 @@ body {
   padding: 0.18rem 0.55rem;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  background: rgba(30, 41, 59, 0.5);
+  background: rgba(26, 26, 30, 0.5);
   font-weight: 600;
 }
 .article__actions { display: flex; gap: 0.5rem; }
 
 .btn-save {
-  background: rgba(30, 41, 59, 0.5);
+  background: rgba(26, 26, 30, 0.5);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   color: var(--text-muted);
@@ -770,7 +770,7 @@ body {
   overflow: visible;
 }
 .wx-chart__grid {
-  stroke: rgba(148, 163, 184, 0.18);
+  stroke: rgba(150, 150, 158, 0.18);
   stroke-width: 1;
   stroke-dasharray: 2 4;
 }
@@ -850,7 +850,7 @@ body {
   padding: 0;
   border-radius: var(--radius-pill);
   border: 1px solid var(--border-strong);
-  background: rgba(15, 23, 42, 0.88);
+  background: rgba(12, 12, 15, 0.88);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   color: var(--text);
@@ -987,7 +987,7 @@ body {
   gap: 0.4rem;
   margin: 0 0 1rem;
   padding: 0.4rem;
-  background: var(--bg-glass, rgba(15, 23, 42, 0.55));
+  background: var(--bg-glass, rgba(12, 12, 15, 0.55));
   border: 1px solid var(--border);
   border-radius: var(--radius-pill, 999px);
   position: sticky;
@@ -1040,7 +1040,7 @@ body {
   min-width: 22px;
   padding: 0 0.4rem;
   height: 18px;
-  background: rgba(148, 163, 184, 0.18);
+  background: rgba(150, 150, 158, 0.18);
   border-radius: 999px;
   font-size: 0.72rem;
   font-weight: 600;

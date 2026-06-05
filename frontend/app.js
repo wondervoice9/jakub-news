@@ -4,7 +4,6 @@ import { saveArticle, unsaveArticle, getSavedIds, getAllSaved } from "./storage.
 
 const DEFAULT_CITY = { name: "Liberec", country: "Česko", latitude: 50.7663, longitude: 15.0543 };
 const TABS = [
-  { id: "world_en", label: "World" },
   { id: "world", label: "Svět" },
   { id: "czech", label: "Česko" },
   { id: "sport", label: "Sport" },
@@ -26,24 +25,6 @@ const CZ_DAY_SHORT = ["Po", "Út", "St", "Čt", "Pá", "So", "Ne"];
 const CZ_MONTHS_GEN = ["ledna","února","března","dubna","května","června","července","srpna","září","října","listopadu","prosince"];
 
 const SUBSECTIONS = {
-  world: [
-    { key: "politics", label: "Politika" },
-    { key: "conflicts", label: "Konflikty" },
-    { key: "economy", label: "Ekonomika" },
-    { key: "society", label: "Společnost" },
-  ],
-  world_en: [
-    { key: "politics", label: "Politics" },
-    { key: "conflicts", label: "Conflicts" },
-    { key: "economy", label: "Economy" },
-    { key: "society", label: "Society" },
-  ],
-  czech: [
-    { key: "business", label: "Ekonomika" },
-    { key: "social", label: "Společnost" },
-    { key: "infrastructure", label: "Doprava" },
-    { key: "crime", label: "Krimi" },
-  ],
   sport: [
     { key: "football", label: "Fotbal" },
     { key: "hockey", label: "Hokej" },

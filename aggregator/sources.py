@@ -4,16 +4,19 @@ Each source has: name, url, lang (cs/en), category (subsection within tab).
 """
 
 SOURCES = {
-    # Svět očima českých médií — JEN zdroje se skutečnou zahraniční sekcí.
-    # Novinky.cz a Seznam Zprávy zde dříve byly, ale jejich RSS jsou
-    # generické feedy (vrací i domácí zprávy) — proto vyřazeny.
+    # Svět očima českých médií — kurátorované zahraniční rubriky + Google News
+    # téma WORLD (cs/CZ), které agreguje desítky českých zdrojů a řadí je podle
+    # důležitosti → "nejhlavnější" zprávy z různých médií.
     "world": [
         {"name": "ČT24 – Svět", "url": "https://ct24.ceskatelevize.cz/rss/rubrika/svet-16", "lang": "cs"},
         {"name": "iRozhlas – Zahraničí", "url": "https://www.irozhlas.cz/rss/irozhlas/section/zpravy-svet", "lang": "cs"},
         {"name": "Aktuálně – Zahraničí", "url": "https://zpravy.aktualne.cz/rss/zahranici/", "lang": "cs"},
+        {"name": "Google News – Svět", "lang": "cs",
+         "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=cs&gl=CZ&ceid=CZ:cs"},
     ],
 
-    # Domácí české zpravodajství
+    # Domácí české zpravodajství — velká česká média + Google News téma NATION
+    # (cs/CZ) pro nejhlavnější domácí zprávy napříč zdroji.
     "czech": [
         {"name": "Seznam Zprávy", "url": "https://www.seznamzpravy.cz/rss", "lang": "cs"},
         {"name": "ČT24", "url": "https://ct24.ceskatelevize.cz/rss/hlavni-zpravy", "lang": "cs"},
@@ -23,6 +26,8 @@ SOURCES = {
         {"name": "Deník N", "url": "https://denikn.cz/feed/", "lang": "cs"},
         {"name": "E15", "url": "https://www.e15.cz/rss", "lang": "cs"},
         {"name": "Forbes CZ", "url": "https://forbes.cz/feed/", "lang": "cs"},
+        {"name": "Google News – Domácí", "lang": "cs",
+         "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=cs&gl=CZ&ceid=CZ:cs"},
     ],
 
     "sport": [
@@ -92,17 +97,6 @@ SOURCES = {
          "url": "https://news.google.com/rss/search?q=%22Oasis%22+kapela+OR+reunion&hl=cs-CZ&gl=CZ&ceid=CZ:cs"},
     ],
 
-    # Anglické světové zprávy — originální jazyk, BEZ překladu (viz main.py:build_tab)
-    "world_en": [
-        {"name": "BBC World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "lang": "en"},
-        {"name": "Guardian World", "url": "https://www.theguardian.com/world/rss", "lang": "en"},
-        {"name": "NYT World", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "lang": "en"},
-        {"name": "NPR World", "url": "https://feeds.npr.org/1004/rss.xml", "lang": "en"},
-        {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "lang": "en"},
-        {"name": "DW World", "url": "https://rss.dw.com/xml/rss-en-world", "lang": "en"},
-        {"name": "Reuters World", "url": "https://www.reutersagency.com/feed/?best-topics=top-news&post_type=best", "lang": "en"},
-    ],
-
     # Výjimka — anglické zdroje s překladem (český ekvivalent neexistuje)
     "good_news": [
         {"name": "Positive News", "url": "https://www.positive.news/feed/", "lang": "en"},
@@ -112,12 +106,11 @@ SOURCES = {
 }
 
 # Articles per tab.
-# - world / world_en / czech mají 20 (5 článků × 4 podkategorie)
+# - world / czech: 30 nejhlavnějších (plochý seznam, bez podkategorií)
 # - sport / tech / culture / good_news mají 12
 LIMITS = {
-    "world": 20,
-    "world_en": 20,
-    "czech": 20,
+    "world": 30,
+    "czech": 30,
     "sport": 12,
     "tech": 12,
     "culture": 12,

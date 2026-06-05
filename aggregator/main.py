@@ -34,7 +34,6 @@ from aggregator.extras import (
 from aggregator.sports_fixtures import fetch_today_fixtures
 from aggregator.daily_lesson import fetch_daily_lesson
 from aggregator.events import fetch_all_events
-from aggregator.news_classifier import classify_world, classify_czech
 
 
 def _sort_by_date(articles: list[dict]) -> list[dict]:
@@ -101,39 +100,33 @@ def _prioritize_culture(articles: list[dict], limit: int) -> list[dict]:
     return result
 
 
-_NEWS_SUBS = {
-    "world": ["politics", "conflicts", "economy", "society"],
-    "world_en": ["politics", "conflicts", "economy", "society"],
-    "czech": ["business", "social", "infrastructure", "crime"],
-}
+def _diversify_by_source(articles: list[dict], limit: int) -> list[dict]:
+    """Round-robin across sources so the top-N isn't dominated by one outlet.
 
-
-def _prioritize_news(articles: list[dict], limit: int, tab: str) -> list[dict]:
-    """Even split across the tab's news subcategories with leftover spillover.
-
-    Buckets the articles by `sub`, gives each subcategory limit//N slots,
-    then fills any remaining slots from whatever buckets still have surplus.
+    Articles are expected newest-first; recency order within each source is
+    preserved. Picks one article per source in turn until `limit` is reached —
+    gives a flat "top news from various sources" list.
     """
-    subs = _NEWS_SUBS.get(tab, [])
-    if not subs:
-        return articles[:limit]
-    buckets = {s: [] for s in subs}
+    buckets: dict[str, list[dict]] = {}
+    order: list[str] = []
     for a in articles:
-        s = a.get("sub")
-        if s in buckets:
-            buckets[s].append(a)
-    per_bucket = limit // len(subs)
-    result = []
-    for s in subs:
-        result.extend(buckets[s][:per_bucket])
-    remaining = limit - len(result)
-    if remaining > 0:
-        leftovers = []
-        for s in subs:
-            leftovers.extend(buckets[s][per_bucket:])
-        # Preserve date order within leftovers
-        leftovers.sort(key=lambda a: a.get("published", ""), reverse=True)
-        result.extend(leftovers[:remaining])
+        src = a.get("source", "")
+        if src not in buckets:
+            buckets[src] = []
+            order.append(src)
+        buckets[src].append(a)
+    result: list[dict] = []
+    while len(result) < limit:
+        progressed = False
+        for src in order:
+            q = buckets[src]
+            if q:
+                result.append(q.pop(0))
+                progressed = True
+                if len(result) >= limit:
+                    break
+        if not progressed:
+            break
     return result
 
 
@@ -157,15 +150,6 @@ def build_tab(name: str, sources: list[dict]) -> list[dict]:
     elif name == "good_news":
         articles = filter_good_news(articles)
 
-    # Content-based subcategory tagging for news tabs (chips UI in frontend
-    # filters by `sub`). Sport tagging already happens in rss_fetcher.
-    if name in ("world", "world_en"):
-        for a in articles:
-            a["sub"] = classify_world(a.get("title", ""), a.get("summary", ""))
-    elif name == "czech":
-        for a in articles:
-            a["sub"] = classify_czech(a.get("title", ""), a.get("summary", ""))
-
     limit = LIMITS.get(name, 10)
 
     if name == "sport":
@@ -174,17 +158,14 @@ def build_tab(name: str, sources: list[dict]) -> list[dict]:
         articles = _prioritize_tech(articles, limit)
     elif name == "culture":
         articles = _prioritize_culture(articles, limit)
-    elif name in ("world", "world_en", "czech"):
-        articles = _prioritize_news(articles, limit, name)
+    elif name in ("world", "czech"):
+        # Flat list of the top-N, spread across sources (no subcategories).
+        articles = _diversify_by_source(articles, limit)
     else:
         articles = articles[:limit]
 
-    # The world_en tab intentionally keeps original English — no translation.
-    if name == "world_en":
-        print(f"  Skipping translation (world_en keeps original English)")
-    else:
-        print(f"  Translating to Czech ({sum(1 for a in articles if a['lang'] == 'en')} EN articles)...")
-        articles = translate_articles(articles)
+    print(f"  Translating to Czech ({sum(1 for a in articles if a['lang'] == 'en')} EN articles)...")
+    articles = translate_articles(articles)
 
     print(f"  Final: {len(articles)} articles")
     return articles

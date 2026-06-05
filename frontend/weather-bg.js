@@ -100,32 +100,32 @@ export function startWeatherBg(canvas, weatherCode) {
     if (night) {
       grad = ctx.createLinearGradient(0, 0, 0, height);
       grad.addColorStop(0, "#020617");
-      grad.addColorStop(1, "#0f172a");
+      grad.addColorStop(1, "#08080b");
     } else if (cat === "clear") {
       grad = ctx.createLinearGradient(0, 0, 0, height);
       grad.addColorStop(0, "#0c4a6e");
       grad.addColorStop(0.5, "#0369a1");
-      grad.addColorStop(1, "#0f172a");
+      grad.addColorStop(1, "#08080b");
     } else if (cat === "rain" || cat === "drizzle") {
       grad = ctx.createLinearGradient(0, 0, 0, height);
       grad.addColorStop(0, "#1e293b");
-      grad.addColorStop(1, "#0f172a");
+      grad.addColorStop(1, "#08080b");
     } else if (cat === "storm") {
       grad = ctx.createLinearGradient(0, 0, 0, height);
       grad.addColorStop(0, "#1e1b4b");
-      grad.addColorStop(1, "#0f172a");
+      grad.addColorStop(1, "#08080b");
     } else if (cat === "snow") {
       grad = ctx.createLinearGradient(0, 0, 0, height);
       grad.addColorStop(0, "#334155");
-      grad.addColorStop(1, "#0f172a");
+      grad.addColorStop(1, "#08080b");
     } else if (cat === "fog") {
       grad = ctx.createLinearGradient(0, 0, 0, height);
       grad.addColorStop(0, "#475569");
-      grad.addColorStop(1, "#0f172a");
+      grad.addColorStop(1, "#08080b");
     } else {
       grad = ctx.createLinearGradient(0, 0, 0, height);
       grad.addColorStop(0, "#1e293b");
-      grad.addColorStop(1, "#0f172a");
+      grad.addColorStop(1, "#08080b");
     }
     ctx.fillStyle = grad;
     ctx.fillRect(0, 0, width, height);
@@ -153,7 +153,7 @@ export function startWeatherBg(canvas, weatherCode) {
     ctx.fill();
     ctx.beginPath();
     ctx.arc(cx + 12, cy - 4, r, 0, Math.PI * 2);
-    ctx.fillStyle = "#0f172a";
+    ctx.fillStyle = "#08080b";
     ctx.fill();
   }
 
