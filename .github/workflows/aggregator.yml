@@ -53,7 +53,27 @@ jobs:
           git add frontend/data.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "chore: daily data refresh [$(date -u +%Y-%m-%dT%H:%MZ)]"
-            git push
+            exit 0
           fi
+          # Push, tolerating a concurrent run that pushed first. On rejection we
+          # fetch the latest main and re-apply our freshly generated data.json on
+          # top of it (ours wins — it's the newest data), then retry. This keeps
+          # the three morning attempts from failing when GitHub delays them into
+          # overlapping each other.
+          for i in 1 2 3 4 5; do
+            if git diff --cached --quiet; then
+              echo "Data already current on origin (another run pushed it)."
+              exit 0
+            fi
+            git commit -m "chore: daily data refresh [$(date -u +%Y-%m-%dT%H:%MZ)]"
+            if git push; then
+              echo "Pushed on attempt $i."
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) — syncing with origin/main and retrying."
+            git fetch origin main
+            git reset --soft FETCH_HEAD
+            sleep $((RANDOM % 4 + 2))
+          done
+          echo "Could not push after 5 attempts." >&2
+          exit 1
