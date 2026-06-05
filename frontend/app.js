@@ -906,7 +906,7 @@ function renderFalco(falco, container) {
     return;
   }
 
-  const order = ["matches", "schedule", "table", "scorers", "hattricks"];
+  const order = ["matches", "table", "scorers", "hattricks", "schedule"];
   const wrap = document.createElement("div");
   wrap.className = "falco";
 
