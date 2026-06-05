@@ -1,5 +1,5 @@
 // Service worker for offline app shell. Does NOT cache data.json (always fresh).
-const VERSION = "v28-black-theme-flat-news";
+const VERSION = "v29-falco-section";
 const CACHE = `jakub-news-${VERSION}`;
 const SHELL = [
   "./",

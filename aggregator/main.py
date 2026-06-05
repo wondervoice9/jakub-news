@@ -34,6 +34,7 @@ from aggregator.extras import (
 from aggregator.sports_fixtures import fetch_today_fixtures
 from aggregator.daily_lesson import fetch_daily_lesson
 from aggregator.events import fetch_all_events
+from aggregator.falco import fetch_falco
 
 
 def _sort_by_date(articles: list[dict]) -> list[dict]:
@@ -201,6 +202,10 @@ def main():
     # Events tab (Liberec region + surroundings within ~1h drive)
     events = fetch_all_events()
 
+    # Falco — Vratliga images (schedule, current round, standings, scorers)
+    print("  Falco (Vratliga)...")
+    falco = fetch_falco()
+
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "today": today_info(),
@@ -213,6 +218,7 @@ def main():
         "lesson": lesson,
         "sport_fixtures": sport_fixtures,
         "events": events,
+        "falco": falco,
         "tabs": tabs,
     }
 

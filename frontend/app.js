@@ -29,6 +29,7 @@ const SUBSECTIONS = {
     { key: "football", label: "Fotbal" },
     { key: "hockey", label: "Hokej" },
     { key: "other", label: "Ostatní" },
+    { key: "falco", label: "Falco" },
   ],
   tech: [
     { key: "ai", label: "AI novinky" },
@@ -322,7 +323,9 @@ function renderArticleList(articles, container, subsection, tabId) {
   for (const f of filters) {
     const btn = document.createElement("button");
     btn.className = "event-region-chip" + (current === f.key ? " event-region-chip--active" : "");
-    btn.innerHTML = `${escape(f.label)} <span class="event-region-chip__count">${counts[f.key] || 0}</span>`;
+    btn.innerHTML = f.key === "falco"
+      ? escape(f.label)
+      : `${escape(f.label)} <span class="event-region-chip__count">${counts[f.key] || 0}</span>`;
     btn.onclick = () => {
       if (state.subsectionFilter[tabId] === f.key) return;
       state.subsectionFilter[tabId] = f.key;
@@ -331,6 +334,10 @@ function renderArticleList(articles, container, subsection, tabId) {
     chips.appendChild(btn);
   }
   container.appendChild(chips);
+
+  // Falco isn't an article category — it's images. Render only the chips here;
+  // the caller (renderContent) appends the Falco view below.
+  if (current === "falco") return;
 
   let toShow;
   if (current === "_other") toShow = articles.filter(a => !knownSet.has(a.sub));
@@ -876,10 +883,78 @@ function renderContent() {
   const articles = state.data.tabs[tab] || [];
   renderArticleList(articles, c, SUBSECTIONS[tab], tab);
 
-  if (tab === "sport" && state.data.sport_fixtures) {
+  if (tab === "sport") {
     const sub = (state.subsectionFilter && state.subsectionFilter.sport) || SUBSECTIONS.sport[0].key;
-    renderSportFixtures(state.data.sport_fixtures, c, sub);
+    if (sub === "falco") {
+      renderFalco(state.data.falco, c);
+    } else if (state.data.sport_fixtures) {
+      renderSportFixtures(state.data.sport_fixtures, c, sub);
+    }
   }
+}
+
+// -------------------- FALCO (Vratliga) --------------------
+
+// The Vratliga site publishes everything as images, so we just display the
+// current images scraped daily into data.falco. No text to parse.
+function renderFalco(falco, container) {
+  if (!falco || !falco.sections) {
+    const e = document.createElement("div");
+    e.className = "empty";
+    e.textContent = "Falco data zatím nejsou k dispozici (aggregator ještě neproběhl).";
+    container.appendChild(e);
+    return;
+  }
+
+  const order = ["matches", "schedule", "table", "scorers", "hattricks"];
+  const wrap = document.createElement("div");
+  wrap.className = "falco";
+
+  for (const key of order) {
+    const sec = falco.sections[key];
+    if (!sec || !sec.images || !sec.images.length) continue;
+
+    const block = document.createElement("section");
+    block.className = "falco__block";
+
+    const h = document.createElement("h3");
+    h.className = "falco__heading";
+    h.textContent = sec.label || key;
+    block.appendChild(h);
+
+    for (const src of sec.images) {
+      const link = document.createElement("a");
+      link.href = sec.url;
+      link.target = "_blank";
+      link.rel = "noopener";
+      const img = document.createElement("img");
+      img.className = "falco__img";
+      img.loading = "lazy";
+      img.alt = sec.label || key;
+      img.src = src;
+      link.appendChild(img);
+      block.appendChild(link);
+    }
+    wrap.appendChild(block);
+  }
+
+  if (!wrap.children.length) {
+    const e = document.createElement("div");
+    e.className = "empty";
+    e.textContent = "Z webu Vratligy se teď nepodařilo načíst obrázky.";
+    container.appendChild(e);
+    return;
+  }
+
+  const source = document.createElement("a");
+  source.className = "falco__source";
+  source.href = falco.source_url || "https://vratliga.webnode.cz/";
+  source.target = "_blank";
+  source.rel = "noopener";
+  source.textContent = "Zdroj: vratliga.webnode.cz";
+  wrap.appendChild(source);
+
+  container.appendChild(wrap);
 }
 
 function renderSportFixtures(fixtures, container, sportFilter) {

@@ -1102,3 +1102,40 @@ body {
   background: rgba(96, 165, 250, 0.15);
   color: var(--accent);
 }
+
+/* ============ FALCO (Vratliga) ============ */
+
+.falco {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 0.4rem 0 1rem;
+}
+.falco__block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.falco__heading {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+.falco__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-md);
+}
+.falco__source {
+  align-self: flex-start;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+.falco__source:hover { color: var(--accent); }
