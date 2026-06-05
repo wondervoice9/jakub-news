@@ -1,14 +1,23 @@
 name: Daily aggregator
 
-# Runs every day around 07:00 Europe/Prague local time.
-# Cron is UTC-only, so we fire twice to cover both DST variants:
-#   05:00 UTC = 07:00 CEST (summer)
-#   06:00 UTC = 07:00 CET  (winter)
-# Workflow is idempotent — running twice/day just refreshes data.json.
+# Goal: fresh data.json ready BEFORE 07:00 Europe/Prague every morning.
+#
+# GitHub's free scheduler has no SLA — runs at minute :00 sit in the most
+# congested slot and are routinely delayed 1-4h. We work around that with:
+#   1. Early start (well before 07:00 local) so even a delayed run finishes in time.
+#   2. Off-peak minute (:23, not :00) to avoid the top-of-hour queue.
+#   3. Several attempts — the aggregator is idempotent, so redundant runs just
+#      refresh data.json; we only need one to land before 07:00.
+#
+# Times below in UTC → local (CEST = UTC+2 summer / CET = UTC+1 winter):
+#   02:23 UTC = 04:23 CEST / 03:23 CET
+#   03:23 UTC = 05:23 CEST / 04:23 CET
+#   04:23 UTC = 06:23 CEST / 05:23 CET
 on:
   schedule:
-    - cron: "0 5 * * *"
-    - cron: "0 6 * * *"
+    - cron: "23 2 * * *"
+    - cron: "23 3 * * *"
+    - cron: "23 4 * * *"
   workflow_dispatch: {}
 
 jobs:
