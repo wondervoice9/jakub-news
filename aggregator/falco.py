@@ -71,9 +71,14 @@ def fetch_falco() -> dict:
     sections: dict[str, dict] = {}
     for key, path in PAGES.items():
         url = BASE + path
-        # The standings page posts a result sheet per round (many images);
-        # cap it lower than the rest so the section stays readable.
-        cap = 6 if key in ("table", "schedule") else 3
+        # The standings page posts many result sheets; we only want the current
+        # standings, which is the first (top-of-page) image. Schedule keeps a few.
+        if key == "table":
+            cap = 1
+        elif key == "schedule":
+            cap = 6
+        else:
+            cap = 3
         try:
             r = requests.get(
                 url, headers={"User-Agent": "Mozilla/5.0"}, timeout=25, verify=False
