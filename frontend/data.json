@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:24:50.325931+00:00",
+  "generated_at": "2026-08-20T04:11:27.417724+00:00",
   "today": {
     "day_name": "Čtvrtek",
     "date_cz": "20. srpna",
@@ -12,11 +12,11 @@
   "weather": {
     "location": "Liberec",
     "current": {
-      "temperature": 17.2,
+      "temperature": 17.4,
       "weather_code": 80,
       "weather_desc": "Přeháňky",
-      "wind_speed": 5.8,
-      "humidity": 90
+      "wind_speed": 6.8,
+      "humidity": 91
     },
     "forecast": [
       {
@@ -37,17 +37,17 @@
       },
       {
         "date": "2026-08-22",
-        "temp_max": 15.9,
-        "temp_min": 12.2,
+        "temp_max": 16.1,
+        "temp_min": 11.7,
         "weather_code": 95,
         "weather_desc": "Bouřka",
-        "precipitation": 28.58
+        "precipitation": 21.7
       }
     ]
   },
   "joke_en": {
     "id": "joke_en_20260820",
-    "text": "Yo mama is so old, she knew Burger King while he was still a prince.",
+    "text": "I've got a really good UDP joke to tell you but I don’t know if you'll get it.",
     "source": "JokeAPI",
     "source_url": "https://jokeapi.dev/"
   },
@@ -59,11 +59,11 @@
   },
   "quote": {
     "id": "quote_20260820",
-    "text": "Nikdo neví, co je smrt, a přece se jí všichni bojí, jako by uznávali, že je největším zlem, třeba je pro člověka největším dobrem.",
-    "author": "Platón",
-    "author_bio": "Platón byl starořecký filozof, žák Sokrata. Žil přibližně v letech 427–347 př. n. l. a jeho hlavní činností bylo psaní dialogů a zakládání Akademie.",
+    "text": "Nejkrásnější věc, kterou můžeme objevit, je záhada.",
+    "author": "Albert Einstein",
+    "author_bio": "Albert Einstein byl německý fyzik, který navždy změnil naše chápání vesmíru. Žil v letech 1879–1955 a proslavil se zejména svou teorií relativity.",
     "source": "Citáty.net",
-    "source_url": "https://citaty.net/autori/platon/"
+    "source_url": "https://citaty.net/autori/albert-einstein/"
   },
   "lesson": {
     "id": "lesson_20260820",
@@ -2875,19 +2875,6 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "397c170675b2",
-      "title": "Bleší trhy",
-      "city": "Mnichovo Hradiště",
-      "place": null,
-      "date": "2026-09-19",
-      "time": null,
-      "url": "https://www.mnhradiste.cz/kalendar/blesi-trhy/2026-09-19",
-      "source": "Mnichovo Hradiště (oficiální web)",
-      "category": null,
-      "is_tip": false,
-      "region": "liberec_okoli"
-    },
-    {
       "id": "ad331dad0bbb",
       "title": "Přes pole alejemi",
       "city": "Mnichovo Hradiště",
@@ -2895,6 +2882,19 @@
       "date": "2026-09-19",
       "time": null,
       "url": "https://www.mnhradiste.cz/kalendar/pres-pole-alejemi/2026-09-19",
+      "source": "Mnichovo Hradiště (oficiální web)",
+      "category": null,
+      "is_tip": false,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "397c170675b2",
+      "title": "Bleší trhy",
+      "city": "Mnichovo Hradiště",
+      "place": null,
+      "date": "2026-09-19",
+      "time": null,
+      "url": "https://www.mnhradiste.cz/kalendar/blesi-trhy/2026-09-19",
       "source": "Mnichovo Hradiště (oficiální web)",
       "category": null,
       "is_tip": false,
@@ -4669,19 +4669,6 @@
       "region": "liberec"
     },
     {
-      "id": "d2a8c589d53f",
-      "title": "Stálost krajiny a lidská proměnlivost. Pražské Podolí představuje výstava fotografií v libereckém muzeu - iROZHLAS",
-      "city": "Liberec",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnBsSnNJWkhCMVMtQUwtVzU0c3E4SXBEdjFqNktMRHJXWkxhSjZrRDZxWlFNYTU4QnBoQWVGbi1lUEgwVXF0WThwQTM2cEpZZHlGX0w2cnBsZnBGRHB2ZFUzNXlEaFBlMmJHNmExWWxLSXVwcklFT2ZMTUFMSnZlYkYyanhLNnkzN3BsX2RjbnBlcFhPYUNCdDZSYWhBSWdqOTRGT3VjQ0NiZW9uTjlONC1hUUxDeF83MFAwR2c0LUI5bmlOSm95ZDlKLWdTY3N0OVhqTzln?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec"
-    },
-    {
       "id": "65535ba8d70b",
       "title": "Tipy na víkend v Libereckém kraji - Český rozhlas Liberec",
       "city": "Liberec",
@@ -4689,19 +4676,6 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT2NZNHpvS0ZQMUxRUV9KWnZKOWhBblNfOW1ackREc0F4Y2MwUW5DWFN4VnJ5eS1MQXpSZ2pGT1BtbWtHZFlCYXRSZG1zSXBVVVhpRTJjNFBEcDVvYnFCblZCeHZZb0swLUZxa3dHeU9RY0NhZzlfOEhkZEsyWkg0RV9wRVVzWlhJb2k1REhvdUk5SzFCR2FEQ3BPdU90R1BwRkc4c1k3RWNmMkUzM09JYXRUQQ?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec"
-    },
-    {
-      "id": "4a14d7ac01a5",
-      "title": "Galerie: Chutě z celého světa ohromily Liberec. Festival nabídl gastronomické zážitky - Liberecký deník",
-      "city": "Liberec",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaDhGdHRqZlptcGVWM2w2NVY5M3dndmtNczVTcEZTZnVPTXZadG1PZWtOOXhCcFNBM3FLbjdtR1p2UFVuR0FrVlN3RmZRU1lWUHUteVRjdXQtcnZTaS1xYlBPT25Bcmp5YWJJajRyQ3VucUhFeE1UWE1sX2NnZklRMHQ4S0U?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -4721,6 +4695,19 @@
       "region": "liberec"
     },
     {
+      "id": "4a14d7ac01a5",
+      "title": "Galerie: Chutě z celého světa ohromily Liberec. Festival nabídl gastronomické zážitky - Liberecký deník",
+      "city": "Liberec",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaDhGdHRqZlptcGVWM2w2NVY5M3dndmtNczVTcEZTZnVPTXZadG1PZWtOOXhCcFNBM3FLbjdtR1p2UFVuR0FrVlN3RmZRU1lWUHUteVRjdXQtcnZTaS1xYlBPT25Bcmp5YWJJajRyQ3VucUhFeE1UWE1sX2NnZklRMHQ4S0U?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec"
+    },
+    {
       "id": "7f9737d3c25b",
       "title": "Hrady kolem Liberce v miniatuře: do modelů hradů se „pašuje“ třeba gramofon či bicykl - iDNES.cz",
       "city": "Liberec",
@@ -4728,32 +4715,6 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcDlKalpSZkNxeFZ0ckhZTXo1NGhGdW1FTk8wOXZpR1RUeGw5NmFKdl9mU3p2VkhlTTl4MHh2MkpPWS1oX1NYMUFmSGNuY1RGYmI4RHNDMFZoY2tlenBCeTlYa1B0RDQtOXRKRDJfR3V1Qk52WWtPWkFMOENMVFVIWWhfYnlWcFAtR1pqdWhvb2dTRnRBWUhzc2hKWDF4anowdVNsemctUml5b0hWZkFqNmUyUUlCT0VJWG5GeXhDT3dPV0U?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec"
-    },
-    {
-      "id": "f3d811790527",
-      "title": "Výstava Domy s pamětí | Dílo architekta Václava Girsy - Národní památkový ústav",
-      "city": "Liberec",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbWdTeDJwaVpLYkM5QWpjOUhiZWdvdHUzbmtEQnN4VDByZmFlUGtKWC1SZFNRbjdhZDJTZEp3bFhGTnB0N3pWWFA3Z1pfNExXdllJWjFjc25NbTAtemtQNndrYXl4YWNfM3JMSWpvbjlVSGtNSFBBbE9XcGUzbkFIZ0FFWVIzRVU2WUNRV0JCQzR4ZS1OSnYxN2ZQa1I5Wkk5cFBGc19ZeEo?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec"
-    },
-    {
-      "id": "a5ef5ab61edf",
-      "title": "Acháty, jaspisy i záhnědy. Výstava v Radostné pod Kozákovem zve do světa minerálů - Český rozhlas Liberec",
-      "city": "Liberec",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcll0RkJxcmhkWlpQcXZBazJNMDhHZWxuQWdIY0NkUWJKNXlabHZwT2RHOWNlcjcwR3Vway03RmYxVlVSV0tydVB5QXRhVjNZeWF3bTNnOXhBTW9VVllpNmJ2c29vSHJSODl2Snk3b1ZCTEpKWXpQV0FmbHVEWjg4RlNKWFl2enI3MmExallGcmFUS0ZuRHdGc2ZsNllBZkpNaGhpaWc1Um9SWll2QVRtLUVWRkE?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -4773,13 +4734,13 @@
       "region": "liberec"
     },
     {
-      "id": "5ab6d10e35f4",
-      "title": "Galerie: FOTO: Dobrovolníci v Liberci dostali jako dárek hudební vystoupení - Liberecký deník",
+      "id": "a5ef5ab61edf",
+      "title": "Acháty, jaspisy i záhnědy. Výstava v Radostné pod Kozákovem zve do světa minerálů - Český rozhlas Liberec",
       "city": "Liberec",
       "place": null,
       "date": null,
       "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOc3R4ZDRKSXY5QzlWWUc1YVNfclBjdjhjbm1sdXIwSlBrWkR1cHJ2NGV0QmZLRnB5ODhrTHJnb3ZtUFNIZEZ5cWp1VTVyZnB4Z3R6Z0IyY1J5dnltSld3TWc2RlBxNjR0aklobmpGZkJSSUN2Q0pRYjRhbTR5MjlZWnhB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcll0RkJxcmhkWlpQcXZBazJNMDhHZWxuQWdIY0NkUWJKNXlabHZwT2RHOWNlcjcwR3Vway03RmYxVlVSV0tydVB5QXRhVjNZeWF3bTNnOXhBTW9VVllpNmJ2c29vSHJSODl2Snk3b1ZCTEpKWXpQV0FmbHVEWjg4RlNKWFl2enI3MmExallGcmFUS0ZuRHdGc2ZsNllBZkpNaGhpaWc1Um9SWll2QVRtLUVWRkE?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -4812,6 +4773,32 @@
       "region": "liberec"
     },
     {
+      "id": "15901435560d",
+      "title": "Největší akce na Liberecku: Podívejte se, na co se můžete v blízké době těšit - Liberecký deník",
+      "city": "Liberec",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVlRjTURuNDhyN1pnZkE1Tm1pRW4tRmdEYjJza3NPSHVfT3NuNmxrcEFFYXJpeURkT2Exd09hTURPWW5PMm5ENlVuTWlTSUNsTW56Ni1wX3V4OGtidlhjcVRjSC1yRW1VMEhKUHpaZTNSRE16UEZtYUxZNDFVSUhuNXZNZEhzeG1YREgtMQ?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec"
+    },
+    {
+      "id": "f3d811790527",
+      "title": "Výstava Domy s pamětí | Dílo architekta Václava Girsy - Národní památkový ústav",
+      "city": "Liberec",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbWdTeDJwaVpLYkM5QWpjOUhiZWdvdHUzbmtEQnN4VDByZmFlUGtKWC1SZFNRbjdhZDJTZEp3bFhGTnB0N3pWWFA3Z1pfNExXdllJWjFjc25NbTAtemtQNndrYXl4YWNfM3JMSWpvbjlVSGtNSFBBbE9XcGUzbkFIZ0FFWVIzRVU2WUNRV0JCQzR4ZS1OSnYxN2ZQa1I5Wkk5cFBGc19ZeEo?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec"
+    },
+    {
       "id": "09e6993a75c4",
       "title": "Festival, který přerostl kino: Anifilm vrací Liberec na mapu Evropy - Liberecký deník",
       "city": "Liberec",
@@ -4819,6 +4806,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMUx4TXZ1Snh4d1NQbHRzR3p1QlNRUm1jc0JFN3NzaEd3a0hMMlJQVEp6UnQzcF8waFJ2RXE4a1J1MDN3dHg1U0N6allNQkUxUTRTbHJxRzRFVmI1dkY4cHMwR2poVDN1WG9ybGRVakprRzV3RkZwX0dMbTdYS3ptak1lUnpaMzVxZWdoUVduQVVaTkJscEUtaQ?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec"
+    },
+    {
+      "id": "e6f707f7b577",
+      "title": "Liberecké výstavní trhy ožívají. Nová výstava připomíná jejich nejslavnější éru - Liberecký deník",
+      "city": "Liberec",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdlVrdC1SNko5cFpLVkFyeXg3Zm5nNXFxNmN3cE1IOHhLTGlZUVBSQWtoZEVla182bGJ6OTVDdzJLVW4tS0pzOFBVT3p2UkJINTJQNk0tZlNUT1ZNNHZsMzN0SU5XLW80N3FPbVp5czhvRUgzay1VZ0dLbnRaS2U2S0tad2NwTndVMTdj?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -4838,13 +4838,13 @@
       "region": "liberec"
     },
     {
-      "id": "86feb4890a3e",
-      "title": "Akce po desáté hodině večer? Liberec sbírá žádosti o výjimky z nočního klidu - Liberecký deník",
+      "id": "5ab6d10e35f4",
+      "title": "Galerie: FOTO: Dobrovolníci v Liberci dostali jako dárek hudební vystoupení - Liberecký deník",
       "city": "Liberec",
       "place": null,
       "date": null,
       "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSTQ4VTlORDNjS3Z6SXBPNU8xeXhrcFZmWlRMUE9PaDNuZC1fN0p5c0xBNlh5WFVTejRIU2tnWkQ2eGhZTFlEUWwtLU9TOS1La00yZ3ZDT08tNXoxdkIzRGNaMWJjbEpnUzBReFdHeGx1RGlhS3U0MWlWd3JvbW9seUNqaUJTZUdxY2JjdF9Rb1IyWVdYcFVqMDNjVUM5Q1ZoeU9VN1JPWHUxckh1MnFna1VwakQweGJj?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOc3R4ZDRKSXY5QzlWWUc1YVNfclBjdjhjbm1sdXIwSlBrWkR1cHJ2NGV0QmZLRnB5ODhrTHJnb3ZtUFNIZEZ5cWp1VTVyZnB4Z3R6Z0IyY1J5dnltSld3TWc2RlBxNjR0aklobmpGZkJSSUN2Q0pRYjRhbTR5MjlZWnhB?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -5111,26 +5111,13 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "f671c0827455",
-      "title": "Půl tisíciletí stará radnice v Turnově odhalí svá zákoutí všem zájemcům - Jablonecký deník",
+      "id": "3c3674507861",
+      "title": "Kytara v Českém ráji 2026 - Město Turnov",
       "city": "Turnov",
       "place": null,
       "date": null,
       "time": null,
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzdpNzVzdmdSUE44a2F6amlIUnJTbXFyR0dPNGZYSEJiWTdUVnhKeVpoSUxnSUYwVlZINTNXTzNZcDJPTFctbDZfc2Q5S0RmWjUxZVJ0SHVSSUNtUk1jRW5SZjZMaUMxUGZYc3VWQkc0RVBpRE5KdVBUdDJWeElSMzNRVm5kYVFjX2p4bXI1MlY?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
-      "id": "49512a4b96af",
-      "title": "SKAUTSKÉ STŘEDISKO ŠTIKA TURNOV SLAVÍ 110 LET. CHYBĚT NEBUDE ANI STAVBA 110 STANŮ V MĚSTSKÉM PARKU - Turnovsko v akci",
-      "city": "Turnov",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeWVRTV84dnFFaTBmUGh0MFJxblFOa3ZMdUstZVdwLUQ2UkxDdF9wT2JWaGpwaVFQUk4xZVM5UDN6ckdFNmk2dVo5ZF9lRlozbFItUUpKT1poX25XT3lrM1dHSzZTWXhZdGY3NWNQRExqNHhHVjA0NlFlV1lHV1FnbFVnVmYwck85OVBPcEREY1RFcnVwakt1NzduMUhQcDEwcUNzWldvaGY5Z0I1cGUybF9VcmhzQVB1eWNtekVVenZrZ0NBWml3QzNvUHJQQW1NVzhObG1n?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhZVRIUWhFUEo1UHBVYXZyRlVMYlg3Q2NjSThMenpKVUFKb05zUmhGaURmcG9QMDFxRkZULWF0eUxEeXRiTUVaVkN1TnNtRV95ZHVVcFZHMmRlV0ZvS3JtUkVNZW5QMnBQOFVPS29yUXNpRjNFbks2Ml93VXN0dw?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -5150,39 +5137,13 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "e633b95ddd3f",
-      "title": "Víkendové pozvánky - Turnovsko v akci",
+      "id": "f671c0827455",
+      "title": "Půl tisíciletí stará radnice v Turnově odhalí svá zákoutí všem zájemcům - Jablonecký deník",
       "city": "Turnov",
       "place": null,
       "date": null,
       "time": null,
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAySkhXYy1TV2tWenZlNHRGMzBQTS1oRkNqYjBra29PdnpIQVF2S1dmZWR5bXNVdVJURHRRZVI3U3ExaTVkdzNvQUJKYW4zTmZFXzlEZ1owMWptcE5sOFVQRmg5MzVQamVWXzBFR0NkSHY?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
-      "id": "d1b2a1e8e7a3",
-      "title": "Půl tisíciletí turnovské radnice na venkovní výstavě - Město Turnov",
-      "city": "Turnov",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX053TnpKZHhOSlFoY1FJNzZsNWVFeUwtdDJUbjRlSW41NzVvc2tZOGRjM0hQd2lWcmZFZEhTSUt2MXVZTzJMaFQ1cjUwSDNjQ29vN2VmcGZmOXhUSXVQNERHNkZkQkVGOHhmR0o2X0RaTjJsSUNCQXlqUmNucmRsUVJyNmNOU3ZFbk5tSUFIdnk3Qnc3V0kyOThhZjFnNjFOZEpzd3FJOA?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
-      "id": "1725de4362b5",
-      "title": "Odpoledne o zdraví pod titulem Zdravě? Hravě! se vrací - Město Turnov",
-      "city": "Turnov",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb2FXMUdaWHBYUmk2RmFBWklUSGtNUmdoMFJ2LTZhdkdCbU93ejd0SUM3M0VFZUl0ZkR0VUxUZVpaTUFMTkZIZ2gwckNCSm1zYS1SUk9xaWZkTDV2dnM2TTFoM1VaUlZ0R2lDXzhVVzFXSjFhWi04M2Y0cDkyR05tS2k5NGxBQWZVYkhqdWVTZGw4Sm9fLTJZeTZ2Y1poMnpBT1JFTmE3NHhUWDY2OGFKTWZuSnp2VDZZQ3ZZ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzdpNzVzdmdSUE44a2F6amlIUnJTbXFyR0dPNGZYSEJiWTdUVnhKeVpoSUxnSUYwVlZINTNXTzNZcDJPTFctbDZfc2Q5S0RmWjUxZVJ0SHVSSUNtUk1jRW5SZjZMaUMxUGZYc3VWQkc0RVBpRE5KdVBUdDJWeElSMzNRVm5kYVFjX2p4bXI1MlY?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -5202,26 +5163,13 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "3c3674507861",
-      "title": "Kytara v Českém ráji 2026 - Město Turnov",
+      "id": "8994ab7d7f96",
+      "title": "Ukliďme Turnov 2026 - Město Turnov",
       "city": "Turnov",
       "place": null,
       "date": null,
       "time": null,
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhZVRIUWhFUEo1UHBVYXZyRlVMYlg3Q2NjSThMenpKVUFKb05zUmhGaURmcG9QMDFxRkZULWF0eUxEeXRiTUVaVkN1TnNtRV95ZHVVcFZHMmRlV0ZvS3JtUkVNZW5QMnBQOFVPS29yUXNpRjNFbks2Ml93VXN0dw?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
-      "id": "740c06ef8d0b",
-      "title": "Odpadový den v Turnově - Město Turnov",
-      "city": "Turnov",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeGxkVHJFVG9wOE5IemRMMGkxYXFHU1plOW1iN3NDSkFvUUJNV3ZNUVMtMldrQlJTV0JmM185V2NCS1EzT3VLMlduUWJZUFcwS0V5Z01yb2FOTzk0WW5rSFRvNS1DdFZkQXExYXAwWVdkNXFMTWlxNENHZXo2alRObDA2azc3dzg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnJhV200cjVBRjNyUHRJUGR4N1dCRi1ob2lsbUhlRkt6MEhXUm5pa184enZOd3hvY1ozY2lzYlFOa2ZHZTBmLXAzX3laQnVEZEYyT2FiUEVabUxENDduS1VGM25URTNuUU1ubDNxZDBZbUNfRW9nME5tWXh3dFVPWVhIaWtxRkk0LU03NEk3NA?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -5235,6 +5183,58 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZHFuSDRYQkVWbzRmQ2Flc1Vnb2I0bERYZENzcVN3WDdEQ1ZxbGNCV0NmMWtNYUl5RFduTmlGWVFvX1I4elhWNW1jRVc2d05kb0RwcXFJVzlvTWJfeXQzSlN4a1lEZlRxemV4Rm1rQTBkVG82QUh4anRJY1VKcEE4dzF1em9xR3dqWHR1Z00xXzZlUzZ6QkhWZGxVdw?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "d1b2a1e8e7a3",
+      "title": "Půl tisíciletí turnovské radnice na venkovní výstavě - Město Turnov",
+      "city": "Turnov",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX053TnpKZHhOSlFoY1FJNzZsNWVFeUwtdDJUbjRlSW41NzVvc2tZOGRjM0hQd2lWcmZFZEhTSUt2MXVZTzJMaFQ1cjUwSDNjQ29vN2VmcGZmOXhUSXVQNERHNkZkQkVGOHhmR0o2X0RaTjJsSUNCQXlqUmNucmRsUVJyNmNOU3ZFbk5tSUFIdnk3Qnc3V0kyOThhZjFnNjFOZEpzd3FJOA?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "3c60828c1cec",
+      "title": "Sokol Turnov zve na akci 365 dní do Sokolgym - Město Turnov",
+      "city": "Turnov",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRTd5a2xHX3NyaER3Z2NpYjM3NkN6djUtWk9GaUhySHB6M1FNeFJwNkRBbDhmQ3ZVUjhaclFNMUJhUlRoLWY5N3BEenJGUF9XRk1nMkE1ekdISnhCcU9SMFRRblV2YzRiYmZQVWYwdWoyNUhqdFJQcFYyMDZfUmxadHR0ZXBZZDVjMXpHUEdKelphMC0x?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "e5b2afcd6fd7",
+      "title": "Kulturní přehled na prosinec 2025 - Město Turnov",
+      "city": "Turnov",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUVd1WEtJNndXa0VIWWlNUnBWVmYxNy14ZFFIQTE3UXkxVy1Yd3pVUnFneGgtTVFpTkZtYmk4ck1wZGt4R2E0dzVkdlVoNmo1N3pTOVkyZjE0TG14ZDNUbkJabFFaUU1kY0NzdEZFZ2Q4R0FNNEtZbTVkdkhlLWRsZTQ4THZ3QnozR0RrVExXWjI5eG1tcEktOHJpOA?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "49512a4b96af",
+      "title": "SKAUTSKÉ STŘEDISKO ŠTIKA TURNOV SLAVÍ 110 LET. CHYBĚT NEBUDE ANI STAVBA 110 STANŮ V MĚSTSKÉM PARKU - Turnovsko v akci",
+      "city": "Turnov",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeWVRTV84dnFFaTBmUGh0MFJxblFOa3ZMdUstZVdwLUQ2UkxDdF9wT2JWaGpwaVFQUk4xZVM5UDN6ckdFNmk2dVo5ZF9lRlozbFItUUpKT1poX25XT3lrM1dHSzZTWXhZdGY3NWNQRExqNHhHVjA0NlFlV1lHV1FnbFVnVmYwck85OVBPcEREY1RFcnVwakt1NzduMUhQcDEwcUNzWldvaGY5Z0I1cGUybF9VcmhzQVB1eWNtekVVenZrZ0NBWml3QzNvUHJQQW1NVzhObG1n?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -5644,19 +5644,6 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "5eaaa43d4ded",
-      "title": "Vánoční koncert Lenny + Unique kvartet, Bazilika minor sv. Vavřince a sv. Zdislavy, Jablonné v Podještědí - Vstupenky - Ticketstream.cz",
-      "city": "Jablonné v Podještědí",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTTd6b01CaElKclJfRGszWGRKYmo3ZHZRMzhGODg2c3VyTzN2aXlVVGY2RVhOTWJFRVhzMnRPdThZck9UUDNkdTZhX0NGa1dFVk9wdkUyZDd5LW44OGxxU0U4U2tMUDQyS0hUTjktSXFCZEk2MkFqajNHSkI5UHk4LWhB?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
       "id": "196c1469fd51",
       "title": "HZS Libereckého kraje - Akce s tematikou PVČ a „hasičská osvěta“ závěru roku 2025 - Hasičský záchranný sbor České republiky",
       "city": "Jablonné v Podještědí",
@@ -5664,6 +5651,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2Ftck1fSU40OHMyZktYd0FNZ1FleFZtOWcwalRVZmNhaEFpYU9vOUdOaGxWUW5YVUJ6UkprMzdMZGYyVGxNWkZKbzVsY0pBaGhJcXd1eFF5Z29QMWd4Y1JMY2k3TGFhN3FVY1hSOF9EbzVkbFhvd3RickdSWDYtMGJJVEdUQlVQb2tYWUhUazk5Zw?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "5eaaa43d4ded",
+      "title": "Vánoční koncert Lenny + Unique kvartet, Bazilika minor sv. Vavřince a sv. Zdislavy, Jablonné v Podještědí - Vstupenky - Ticketstream.cz",
+      "city": "Jablonné v Podještědí",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTTd6b01CaElKclJfRGszWGRKYmo3ZHZRMzhGODg2c3VyTzN2aXlVVGY2RVhOTWJFRVhzMnRPdThZck9UUDNkdTZhX0NGa1dFVk9wdkUyZDd5LW44OGxxU0U4U2tMUDQyS0hUTjktSXFCZEk2MkFqajNHSkI5UHk4LWhB?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -5904,19 +5904,6 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "3f9092ada664",
-      "title": "Výstava Zdeněk Smetana a jeho světy - 25. října 2025 - Tamtam - Česká televize",
-      "city": "Semily",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPblRqWXBMNUJ6LXlIeW81RGRlc3RRZks0NExNSy1KSmo3TEFhbW1uNWp1VVRJOWFJM0cxSE4yRE9GcVc5MXh1WTBzZVJsRVZxNjdieUJRU1JUQlFCS2sxVEdhQUYwLVVpZEZ2UVdZbDB5dzIxTkFsS1k3b3FZeElnZGRsU1ZyRnJiaHJhZw?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
       "id": "1d83485a1639",
       "title": "Prázdninové akce pod patronací Sportovního centra Semily - Naše Pojizeří",
       "city": "Semily",
@@ -5943,6 +5930,19 @@
       "region": "liberec_okoli"
     },
     {
+      "id": "3f9092ada664",
+      "title": "Výstava Zdeněk Smetana a jeho světy - 25. října 2025 - Tamtam - Česká televize",
+      "city": "Semily",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPblRqWXBMNUJ6LXlIeW81RGRlc3RRZks0NExNSy1KSmo3TEFhbW1uNWp1VVRJOWFJM0cxSE4yRE9GcVc5MXh1WTBzZVJsRVZxNjdieUJRU1JUQlFCS2sxVEdhQUYwLVVpZEZ2UVdZbDB5dzIxTkFsS1k3b3FZeElnZGRsU1ZyRnJiaHJhZw?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
       "id": "b951fd04ed9d",
       "title": "Podporu prezidentu Pavlovi vyjádří lidé v Libereckém kraji v neděli na 24 místech - Liberecká Drbna",
       "city": "Semily",
@@ -5950,6 +5950,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT3JJTnE5dzg3M3d0WHd3cTg5QjFmZG90RTE0RnlyRm1HQnpKMWF6bzB1TllzNktldEdBN1ktdDFqWDh0aXZqZ2ZJRDdpcVdLYUtxaWh3QllNQ1lTZE9YX3N0cHNtV1gybmV5cWt6Vk44N1FEZEVmYnlKeExMUzZhV0tRS0xDbjdFbWhpSFZZS2I5X1dINmJuZXY1YXFXemRwWm8yNDYxME9tdDNuUXAwbHJnS25vXzIzVXJ2QXRn?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "6e57d7cf3087",
+      "title": "Jarní zrychlený přesun žáků oboru Požární ochrana SŠ Semily - POŽÁRY.cz",
+      "city": "Semily",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd2ZwaEdXUEgyakZaTDFodVJudTRGVW5Jd0tCWDYyenJlWjZCU3pfRlZJQi1uNkdVU3FVM1BwNjFtNFcyV2NXRWtWaVVGS2NkMlh5U2RDN003QmloQlZlbGE5OEFMSDU2RXFPUzZQeHJlaWQ0Y3F5R3JJMWR5UEpCaGNHcUxwX0tBVjJzV2hmZWZSU3NZWU9hV3p5WFk?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -5969,26 +5982,13 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "2f55ff283883",
-      "title": "Bývalá textilka v Semilech se za půl miliardy korun promění v kulturní centrum - České noviny",
+      "id": "d084b0375fe8",
+      "title": "Kdo si hraje, nezlobí - ČT24",
       "city": "Semily",
       "place": null,
       "date": null,
       "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNY3ZBUEUzR0hQMzJqY2x0TUdWM2RhaWNLbUs1MHktR3hvU05iMGJqTEtYZFVFYzFITS1aMnQwWExvZE5tRTJhSGRaOWk1S3hOVGZr?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
-      "id": "6e57d7cf3087",
-      "title": "Jarní zrychlený přesun žáků oboru Požární ochrana SŠ Semily - POŽÁRY.cz",
-      "city": "Semily",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd2ZwaEdXUEgyakZaTDFodVJudTRGVW5Jd0tCWDYyenJlWjZCU3pfRlZJQi1uNkdVU3FVM1BwNjFtNFcyV2NXRWtWaVVGS2NkMlh5U2RDN003QmloQlZlbGE5OEFMSDU2RXFPUzZQeHJlaWQ0Y3F5R3JJMWR5UEpCaGNHcUxwX0tBVjJzV2hmZWZSU3NZWU9hV3p5WFk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9EZkVBZ3dvNU91WGFZaHdyUFRJMjU3VHlsWlNucGlOcm9YOTMyLUthUHRQUnd5MVZXeUNVYWF5aGtIUmh2eGFHY3ZmVGlZdmZvQmZQRngycjJ0Wm1mLTBGbTl0LU8xQnJmaUkwQXAtSktVOTlvSlRhaXk4X0Q?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -6905,13 +6905,13 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "d2e589b54ea3",
-      "title": "Dobrovolní hasiči Tanvald Šumburk ovládli anketu, starosta popsal cestu sboru - Jablonecký deník",
+      "id": "8fe6cf59bf32",
+      "title": "Vladimír Vyhnálek byl pro Tanvald oporou, jeho odchod zasáhl mnohé - Jablonecký deník",
       "city": "Tanvald",
       "place": null,
       "date": null,
       "time": null,
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLWd2R1NjM0Jkb3pYQmxuS1dUeDE2V2NJYWFiVzJrTk45VWVPNUpkWkRSNXNRWUtvdkx5aHVLVGFWVkFUWjdkUmJKN1ByTjRmME9XT3hSOFB0VFZ2eHRHSEhVbVFwSDU0WXZoRmRyREpvY0xsaUoxRllVZGdzcTZRLXVISHlzdGxBQ01KLWVLSlJoVlp4TEJr?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVNOV2xiZDRKZnBjQWJRNmJ4UDZ0YmJNcWdrb3NQT2FYU2dtTVBlczhoOWh1ekJGX3lIcjdiUWM0bFZKeVk5WndPQ1VmOFhSVkVyU2ZUTjBRbGh6XzNPTWFmckwtZjNteThxWGRrVWFkYlhWTkRYeGc4UUZ0aHdoUG9tUGFpZ2o1bGItZEE1b2xyMURFMGt5OFRRZHJrZk9GcllzNzV0TDdHSVZJT3djVFhB?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -6938,6 +6938,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeTdqUXgtbmZSVTMwWFBUSU9xNkZOVzB3aXQ1M0V0SWVxak8xcVc2R19VdFl5eDhqZy1rUHYyd3gzSUp2NUZmSnNlV05Qd2liS3k3cHZNd0tTZnVJTDJRWVE3UnRDYU54RTEtbXRudUNENW1tQXdHMmJoUnB5QTBROUtVSnFjbXliVlZHRVh4NmE?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "d2e589b54ea3",
+      "title": "Dobrovolní hasiči Tanvald Šumburk ovládli anketu, starosta popsal cestu sboru - Jablonecký deník",
+      "city": "Tanvald",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLWd2R1NjM0Jkb3pYQmxuS1dUeDE2V2NJYWFiVzJrTk45VWVPNUpkWkRSNXNRWUtvdkx5aHVLVGFWVkFUWjdkUmJKN1ByTjRmME9XT3hSOFB0VFZ2eHRHSEhVbVFwSDU0WXZoRmRyREpvY0xsaUoxRllVZGdzcTZRLXVISHlzdGxBQ01KLWVLSlJoVlp4TEJr?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -7295,13 +7308,13 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "0b2457f00eeb",
-      "title": "Festival kultur v Pluhárně 5: Oldtimer Bohemia Rally - Město Mladá Boleslav",
+      "id": "cf2761a80dcf",
+      "title": "Gala koncert operety a muzikály v divadle 1 - Město Mladá Boleslav",
       "city": "Mladá Boleslav",
       "place": null,
       "date": null,
       "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOF8zd3h3WnNuSWpYQnZNRDdDanktdWVRYXp6cXZNaDF2NW5mYnkydGd5dW92ZW5FRHgtQWppLUgwSVdIVUdhLXlFWnlZcUVDTzVwM1ZCVk1RRWRvVDdrSmV1TlNIWHFFM3h0eTdjZlVVcEhhUElJdWM4NTUweng2TDVn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbUVYRXgxX1p5Z0taNjNHZ2RmTjdDVllWZXpIN2hEQ18tY1I4VWF4b3J4NUtVWHFsUURUT2wyQ3NqaFg0UUN2LTBaTGhXQ3U2OF9PQVZ4MWlmSkdnTHZYampCQ2tjaEI0WW82MTZySnFUOHhsbjh1eS1jY0lrZEM4dnZIbUlEOXpKMWdqWGROWkZEdmc?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -7321,19 +7334,6 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "29da7f392639",
-      "title": "Boleslav čeká první velký tuningový sraz. Na Krásnou louku dorazí stovky aut - Boleslavský deník",
-      "city": "Mladá Boleslav",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMmIzQjVSdEhUckRFODV3SmhQNnQ2V2xPVUZNRjVaT051bFh6MlFpMndOLWNQMXF5RnlDX2F1RDIxLUNyT1JFOE5VTE5Eb3NqS2ItbUhYQjVSOTdLeUNFREtzel83NzRJTXlUZUZYblhvUXBQQld6TXhud3c0dEZJc3NxUjVSMThZSGNfRERYdHYxWFNad1dRLVREZmlnYWxoWUdEVy04UGVsZ3Q4bkJ1OFR5aWIzSjJURVZZ?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
       "id": "141ac65442ab",
       "title": "Dasha - koncert ve Škoda Muzeu 17: Rally Bohemia - Město Mladá Boleslav",
       "city": "Mladá Boleslav",
@@ -7341,6 +7341,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOU9JMENEN0J3WkpITW51dVBmbTdHTUQtdGJSdWJYRWgwajNRaWxudkVzVHBibXlVbUZhZURaTk9raUZ5cXVPYlFDOEVCQU5Bb2pFSWZzblp6MXJNT1g5QkVqOUlJNnozcjMxQkpDY1d1c3RsSV90a1R0THhrdlE0NnlCMHU4cGQzM3FUWG9rWTczV2FvZXhXVV85OWI?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "29da7f392639",
+      "title": "Boleslav čeká první velký tuningový sraz. Na Krásnou louku dorazí stovky aut - Boleslavský deník",
+      "city": "Mladá Boleslav",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMmIzQjVSdEhUckRFODV3SmhQNnQ2V2xPVUZNRjVaT051bFh6MlFpMndOLWNQMXF5RnlDX2F1RDIxLUNyT1JFOE5VTE5Eb3NqS2ItbUhYQjVSOTdLeUNFREtzel83NzRJTXlUZUZYblhvUXBQQld6TXhud3c0dEZJc3NxUjVSMThZSGNfRERYdHYxWFNad1dRLVREZmlnYWxoWUdEVy04UGVsZ3Q4bkJ1OFR5aWIzSjJURVZZ?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -7360,19 +7373,6 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "9f4e6f86710e",
-      "title": "Kam o víkendu na Boleslavsku: na food festival, blešáky nebo řízkovou smršť - Boleslavský deník",
-      "city": "Mladá Boleslav",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZjJRd0ZJeEhUVEtlWUhQMmQxaWg4TTdyY0NLejJta3RXZG5aenVEUDZuOXFEaHJrNkhxc1pFR2M4UkVRcnFfVlRLVDN0Z0lua0N2M3BCb2k3dEx0bVJmbnhsLTZpV1F3TXNPRXN6RTFodTMxeGE5bjFaVzA1ek9HSklfWk5LbzFQNXBUdlNXSVJvUkU2cXVubFhITXlwOENzWHF5MlVxZ1BseEpvSjZPM2NPWQ?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
       "id": "7eac5bddfdfe",
       "title": "Koncert Dana Bárty a kapely Illustratosphere 16 - Město Mladá Boleslav",
       "city": "Mladá Boleslav",
@@ -7380,6 +7380,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWlBldFgxOGZrcFhqUC1pcEZyMHloS292Mnh0MFBmQXdQU1Jpc2tiVFQyWll4ZTh2NmVVWDdNbmFhbDlUQnFyQmllVHZ0VEVQRndBVERDX0lMYk5POFVCUUdseE5TOHdEb3VJMlJGTlR2OU10eWJiVWVGVUZkaU5qa1JzZnJmVXRMYy1tNWdB?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "9f4e6f86710e",
+      "title": "Kam o víkendu na Boleslavsku: na food festival, blešáky nebo řízkovou smršť - Boleslavský deník",
+      "city": "Mladá Boleslav",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZjJRd0ZJeEhUVEtlWUhQMmQxaWg4TTdyY0NLejJta3RXZG5aenVEUDZuOXFEaHJrNkhxc1pFR2M4UkVRcnFfVlRLVDN0Z0lua0N2M3BCb2k3dEx0bVJmbnhsLTZpV1F3TXNPRXN6RTFodTMxeGE5bjFaVzA1ek9HSklfWk5LbzFQNXBUdlNXSVJvUkU2cXVubFhITXlwOENzWHF5MlVxZ1BseEpvSjZPM2NPWQ?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -7399,19 +7412,6 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "75bdd6f38306",
-      "title": "Na festivalu v Boleslavi explodovala plynová láhev. Jeden člověk se popálil - Boleslavský deník",
-      "city": "Mladá Boleslav",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSS0zUkJCRGN6QUs5OW1rNVVxZkpOYUU1RDBvTzh4aDRIVWJfWUl1OVkzZUpIUU40WmkwMjNoU25tWHZKUjJudTRSOFNrOTctcG1VNmZRWmdqVF93RVdGSXlfS25vUV9fVkM3bHRRY01mYVBSNlNIS19XTWpBYy1aRUhTWmlzenl4WFNIZnVjdTR1SDUtSW9CVjRoRGhTNFkwZWxLVkdIZExhVWxL?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
       "id": "5103b2eee387",
       "title": "Staré město žije: městský festival v Mladé Boleslavi - Město Mladá Boleslav",
       "city": "Mladá Boleslav",
@@ -7419,6 +7419,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82ekY4U0d0NkJUV0F5MVp2eHdob3FMa20tbkh4YjB3SENaV1VIOGduT3lfSk9LR1lFaW82bkNVYnozZ2R6ZEQyRkRsM1JpV2l5M1FUNThWRGE2eXFVZG5mVQ?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "75bdd6f38306",
+      "title": "Na festivalu v Boleslavi explodovala plynová láhev. Jeden člověk se popálil - Boleslavský deník",
+      "city": "Mladá Boleslav",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSS0zUkJCRGN6QUs5OW1rNVVxZkpOYUU1RDBvTzh4aDRIVWJfWUl1OVkzZUpIUU40WmkwMjNoU25tWHZKUjJudTRSOFNrOTctcG1VNmZRWmdqVF93RVdGSXlfS25vUV9fVkM3bHRRY01mYVBSNlNIS19XTWpBYy1aRUhTWmlzenl4WFNIZnVjdTR1SDUtSW9CVjRoRGhTNFkwZWxLVkdIZExhVWxL?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -7568,19 +7581,6 @@
       "region": "liberec_okoli"
     },
     {
-      "id": "244deaf2db9e",
-      "title": "Požár na koncertu. Laco Deczi veřejnost prosí o peněžní pomoc na novou aparaturu - iDNES.cz",
-      "city": "Mnichovo Hradiště",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY2RIeng0cmp0eFpkOWpmbVk0T0UwMkJGX0habmVKODN2T2xua3lGd0s5M3JJV29yTjFUcWZkZTN1TkVVdnI4eldRMW1fT3RKZ2pBNnBhaXJfcDUwNEtJRlJHZmpGZDIzWEJoRnZJV0lQRkpoVkwwNDBaQjQ3a3loaUlXc3dldXNpal9pQk1FRUJhbkxDTzloc0FZc2YzUGVZdFI5V3hGbw?oc=5",
-      "source": "Google News",
-      "category": null,
-      "is_tip": true,
-      "region": "liberec_okoli"
-    },
-    {
       "id": "3603582bf4b3",
       "title": "Hradozámecká noc na zámku Mnichovo Hradiště - Národní památkový ústav",
       "city": "Mnichovo Hradiště",
@@ -7679,6 +7679,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdDE1R0R5ejA2MzVtZjhGOGIta2d4UGQtbXV4NkR4Z2tmeVI1YzFORkxCWXQwTGx2NmNEdGJzR0dDakVpWmhhNDM2bFI5Ym5yT2FZOTNFQW1McUh3endvaHpuUm0xSlBkZ3RoRDVMMms2MHdIZ1hhcVBoNTdJYnRhdEM3S2pDMHJMc0x6VDd5UUNkbVNWUWhGUHhpdk1kYXhlMFE?oc=5",
+      "source": "Google News",
+      "category": null,
+      "is_tip": true,
+      "region": "liberec_okoli"
+    },
+    {
+      "id": "25dc291831b9",
+      "title": "Zámek Mnichovo Hradiště a okolí. Hospodářské dvory na bývalých valdštejnských panstvích v Čechách - Národní památkový ústav",
+      "city": "Mnichovo Hradiště",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcWZYR3VjbFdQeG9PYUFGeWxBN2p4X1FjUm5RaTA2Ny00Xy1BaWNhTmJXdjF4bFpfLW0zeXotbWcyUlRfbEZlMkdOZ2U0S2l0b2J1UWlDRFlfVHJLdGY0anM3TzJ1ZldHc2Z2b0R0bHpmS0l4VGNMX0p0WG9HbV9XOGctRi1tVGtKeHZnSVZRejlsQTRlZDlZc2Rpa0FZN1RQNlY0T0hSMXRLa0RiVGdDMG5mVEUyVDBuN05wZWxMbHV0LV9NdGdETUZiaEkzOUtjWHpZUg?oc=5",
       "source": "Google News",
       "category": null,
       "is_tip": true,
@@ -7815,19 +7828,6 @@
       "region": "praha"
     },
     {
-      "id": "458c8cb5c874",
-      "title": "Hvězda Gladiátora poprvé zahraje v Praze. Russell Crowe přiveze vlastní kapelu - forum 24",
-      "city": "Praha",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmlKUHAxM3REVEFJNWJOSmdjWUFsSW5saFJsWVU5VTZSaDhlTTgtRlZSNG52dkF5MmE5STFCRjU2Z3hzY2oteWNlcFh2MUtkN1VRRXZNY0dyS0stWFdCLVpEQkdQdnVrNXNJcnloMk0wNmZ1QjBMM1kzekxNRzdaVldnQUY5TEpaU3pvVjFGQ3Jra0tncTNGZzIyNnBUdmVCZUE?oc=5",
-      "source": "Google News (Koncerty)",
-      "category": "Koncerty",
-      "is_tip": true,
-      "region": "praha"
-    },
-    {
       "id": "6868cdca61b9",
       "title": "Marek Ztracený na dvouhodinovém koncertu na Letné nabídl většinu svých hitů - České noviny",
       "city": "Praha",
@@ -7835,6 +7835,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHYjZxdHplWkc4c1dmZFNVS0lNNF9TcGdadHQyVlV4VEJMbjBBWGd3SnJDZGEyRHFhalBYMEZpTnpGdTc4TWt0YXJVTEhWMG5MTElN?oc=5",
+      "source": "Google News (Koncerty)",
+      "category": "Koncerty",
+      "is_tip": true,
+      "region": "praha"
+    },
+    {
+      "id": "458c8cb5c874",
+      "title": "Hvězda Gladiátora poprvé zahraje v Praze. Russell Crowe přiveze vlastní kapelu - forum 24",
+      "city": "Praha",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmlKUHAxM3REVEFJNWJOSmdjWUFsSW5saFJsWVU5VTZSaDhlTTgtRlZSNG52dkF5MmE5STFCRjU2Z3hzY2oteWNlcFh2MUtkN1VRRXZNY0dyS0stWFdCLVpEQkdQdnVrNXNJcnloMk0wNmZ1QjBMM1kzekxNRzdaVldnQUY5TEpaU3pvVjFGQ3Jra0tncTNGZzIyNnBUdmVCZUE?oc=5",
       "source": "Google News (Koncerty)",
       "category": "Koncerty",
       "is_tip": true,
@@ -7854,19 +7867,6 @@
       "region": "praha"
     },
     {
-      "id": "5a5a03db1e64",
-      "title": "Literatura naživo dávno není nuda, ukazuje festival Inverze - www.prahanadlani.cz",
-      "city": "Praha",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORzg2eURjNUQ1d1QtUUlYa0kza3Q4aGRxeDlDT0dqbk9HTzlKR1ZUR0hXU1hkS2hrMTlzU3V0MmFzRVZRQk5Zc2EwY0hDUjJsNGhOVWRXUUpMM2ZXcFRmeVl5SmR1Q005NG41aWJEbTJpQkxBSVZESWVMQlBWUFdKYmVNWHJDR0JPUUVqT2FLalQ5OERmODJhQXNmdUpZdjluVTNZei1NXzVZbXRlOExYVFd0NNIBuAFBVV95cUxPaHRJSFJJVDdUakNkZmNLN3BGbW81c282ZTZncUJUMXlUSXVSZmRPaGRrOTBkdHkzaFdaZUpRTm1LeDFtdU9qaUVqdl9rMHJKSl9obmJpRzQ0LVF1Wk9RektnNXRfVUpUWkpDc09NdnJKZmxsRGFrYXJmRy10bzhlOUwzT2toRldDRVMxR3JnTTdQdVY3a3dUOS1oRmc5ajgwSGd0cTNCSkZZd3dZbktVY2NOY0F4YVNK?oc=5",
-      "source": "Google News (Festivaly)",
-      "category": "Festivaly",
-      "is_tip": true,
-      "region": "praha"
-    },
-    {
       "id": "dc38b3d7d1fd",
       "title": "Galerie: OBRAZEM: Festival ambasád Food & Culture - Pražský deník",
       "city": "Praha",
@@ -7874,6 +7874,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS3Z3VGNqUmJ6VGItaGpEam1IS2k2d2pHVlZyT0VmUXhYdVlWd3RxbkFfVWNmU3lMTjN3YnlZSlRGS3BUQVRQMHFpUkQ3eFlWbzU0cHEwMDJmczRLTjN3VEV2Y1I5a2x0MWk5MlNPWkk2Um9rTEZkSzdtaXI4SlY3U05kY3NEQQ?oc=5",
+      "source": "Google News (Festivaly)",
+      "category": "Festivaly",
+      "is_tip": true,
+      "region": "praha"
+    },
+    {
+      "id": "5a5a03db1e64",
+      "title": "Literatura naživo dávno není nuda, ukazuje festival Inverze - www.prahanadlani.cz",
+      "city": "Praha",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORzg2eURjNUQ1d1QtUUlYa0kza3Q4aGRxeDlDT0dqbk9HTzlKR1ZUR0hXU1hkS2hrMTlzU3V0MmFzRVZRQk5Zc2EwY0hDUjJsNGhOVWRXUUpMM2ZXcFRmeVl5SmR1Q005NG41aWJEbTJpQkxBSVZESWVMQlBWUFdKYmVNWHJDR0JPUUVqT2FLalQ5OERmODJhQXNmdUpZdjluVTNZei1NXzVZbXRlOExYVFd0NNIBuAFBVV95cUxPaHRJSFJJVDdUakNkZmNLN3BGbW81c282ZTZncUJUMXlUSXVSZmRPaGRrOTBkdHkzaFdaZUpRTm1LeDFtdU9qaUVqdl9rMHJKSl9obmJpRzQ0LVF1Wk9RektnNXRfVUpUWkpDc09NdnJKZmxsRGFrYXJmRy10bzhlOUwzT2toRldDRVMxR3JnTTdQdVY3a3dUOS1oRmc5ajgwSGd0cTNCSkZZd3dZbktVY2NOY0F4YVNK?oc=5",
       "source": "Google News (Festivaly)",
       "category": "Festivaly",
       "is_tip": true,
@@ -7893,19 +7906,6 @@
       "region": "praha"
     },
     {
-      "id": "637448c2cf22",
-      "title": "Festival NeverMore 68 se vrací na Výstaviště Praha. Připomene osudy lidí, kteří za okupace odešli do exilu - REFRESHER.cz",
-      "city": "Praha",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUW5uWE9GOVhXdUdiMzE3QmpKaDJSVVlkb2h3d3Vrd0JkM21UT1ZDX09fQ0E2TVlKTVZ2ejlDMmhaSTdsYk4wN0tyNGJQTnE4U2hNTnh6Z3BFZE0xSXRUUlJJQktFNV9BZFN1OUFxa3pyZF90Tjl4cG5pTUw5NDcxUnBFQXRnYWh6Qjd3MHhMVUx4QlhCMlBiRUJON19fX01oV1Iwa3FsOHZQN3c4cjJfbmM1ZWxZQ0ZxcV83WEVEdkk5Z2RJWkRoYzAxcS0?oc=5",
-      "source": "Google News (Festivaly)",
-      "category": "Festivaly",
-      "is_tip": true,
-      "region": "praha"
-    },
-    {
       "id": "0ad0d34f7a29",
       "title": "V Praze začal festival Prague Pride - ČT24",
       "city": "Praha",
@@ -7913,6 +7913,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSUtKNk9Jd1JzOHdMVXBpQUFUSGZsdVRqM1NNTWVkcU5nc1QyVWliMkZXbXFlaWJwQnJYUTJiSEpRN00za3U4bE96SkxxSUVFOE1HQ190eXo2X3g2LXpWaTBfSkl5N0lKY0JrT1oyLWVZeW1xT0lvZmphSXg5eXhRbU9uWmNsS3Fkb3E0aXNkMA?oc=5",
+      "source": "Google News (Festivaly)",
+      "category": "Festivaly",
+      "is_tip": true,
+      "region": "praha"
+    },
+    {
+      "id": "637448c2cf22",
+      "title": "Festival NeverMore 68 se vrací na Výstaviště Praha. Připomene osudy lidí, kteří za okupace odešli do exilu - REFRESHER.cz",
+      "city": "Praha",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUW5uWE9GOVhXdUdiMzE3QmpKaDJSVVlkb2h3d3Vrd0JkM21UT1ZDX09fQ0E2TVlKTVZ2ejlDMmhaSTdsYk4wN0tyNGJQTnE4U2hNTnh6Z3BFZE0xSXRUUlJJQktFNV9BZFN1OUFxa3pyZF90Tjl4cG5pTUw5NDcxUnBFQXRnYWh6Qjd3MHhMVUx4QlhCMlBiRUJON19fX01oV1Iwa3FsOHZQN3c4cjJfbmM1ZWxZQ0ZxcV83WEVEdkk5Z2RJWkRoYzAxcS0?oc=5",
       "source": "Google News (Festivaly)",
       "category": "Festivaly",
       "is_tip": true,
@@ -8101,19 +8114,6 @@
       "region": "praha"
     },
     {
-      "id": "e89b7789da68",
-      "title": "Co pořídila pražská galerie. Výstava ukazuje umění od Grygara, Škody i Petrboka - www.prahanadlani.cz",
-      "city": "Praha",
-      "place": null,
-      "date": null,
-      "time": null,
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQWd6MmZZZnlITU9pS0dZNWlxQm9zMUExQkVuUGs0QXd4OFpyNE56M0l0RVBybUNVYzJHVkhNQnNaa0VVdE5FSlRibmg5VHY0SHRFRFpxeHh3ODBvOWdRQVBpLXNzX25jeXI0aFR3akJLc00wWmxWTEpZUkhBdjZOUnR5TmpWUDNjZDVyOFZzcWFUMWEyTmFrTWdITjlIVklIdVE1UlZ5SzFSZzI2VDk4bnAwWURyY1ZQeExKREVSQ1BublAyZWlYUmVDQkJ6MENQWGg40gHYAUFVX3lxTFBKN2Z1WGdXUVFpMlZ4X1dLRzdrR0wxc3JXMEgzR3lqbDlVRUFJQzVvbFR5NzBid0tnaHV6cWJYUHJPQVh3Zmdkd0FyVnJGcXJTeDVYdHBFWFZOdGxyUUNVWGttVjlSWTFKNklzUXFvZ0NJSXpQQVA0Ynplc2R5MVpsTUp1SUtvSzZSUXRmSnlMWFdJbjNkQ3dUWXlPNXFUZ2swZzFUdkdzLXJzeTZtUGx4bmh3WVhiRVZEemtXaTc3V0R0bjFCRTBReWx0TnFBMXNiRzc4SERzSQ?oc=5",
-      "source": "Google News (Výstavy)",
-      "category": "Výstavy",
-      "is_tip": true,
-      "region": "praha"
-    },
-    {
       "id": "3dc9f1fb78e4",
       "title": "Bradavice jsou v Praze. Výstava Harryho Pottera láká na kouzla i originální rekvizity - Tiscali.cz",
       "city": "Praha",
@@ -8121,6 +8121,19 @@
       "date": null,
       "time": null,
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb3RKVHBNWVpaOTc3bUNYQ0xkZXppcFJGZ2F4dUVJdkQ0VTMxVFBuVXB6c3RlN1liTkdZRE9jS1lpVnRxMGhSLXkxVktXNHZoNE03cG9KemZaMllLTEJEamdZUU9nTXV0dlNaOTdOa0E0VzMtaXVXWGRmZm9LQWFLR3NQMXJORy1ZbWItNkstN2Q4Tm4xRVlBN1dBNW5tZ29IQ1ZoZ2JxZVRZUjdWWnZMSXJKVjYyZzFY?oc=5",
+      "source": "Google News (Výstavy)",
+      "category": "Výstavy",
+      "is_tip": true,
+      "region": "praha"
+    },
+    {
+      "id": "e89b7789da68",
+      "title": "Co pořídila pražská galerie. Výstava ukazuje umění od Grygara, Škody i Petrboka - www.prahanadlani.cz",
+      "city": "Praha",
+      "place": null,
+      "date": null,
+      "time": null,
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQWd6MmZZZnlITU9pS0dZNWlxQm9zMUExQkVuUGs0QXd4OFpyNE56M0l0RVBybUNVYzJHVkhNQnNaa0VVdE5FSlRibmg5VHY0SHRFRFpxeHh3ODBvOWdRQVBpLXNzX25jeXI0aFR3akJLc00wWmxWTEpZUkhBdjZOUnR5TmpWUDNjZDVyOFZzcWFUMWEyTmFrTWdITjlIVklIdVE1UlZ5SzFSZzI2VDk4bnAwWURyY1ZQeExKREVSQ1BublAyZWlYUmVDQkJ6MENQWGg40gHYAUFVX3lxTFBKN2Z1WGdXUVFpMlZ4X1dLRzdrR0wxc3JXMEgzR3lqbDlVRUFJQzVvbFR5NzBid0tnaHV6cWJYUHJPQVh3Zmdkd0FyVnJGcXJTeDVYdHBFWFZOdGxyUUNVWGttVjlSWTFKNklzUXFvZ0NJSXpQQVA0Ynplc2R5MVpsTUp1SUtvSzZSUXRmSnlMWFdJbjNkQ3dUWXlPNXFUZ2swZzFUdkdzLXJzeTZtUGx4bmh3WVhiRVZEemtXaTc3V0R0bjFCRTBReWx0TnFBMXNiRzc4SERzSQ?oc=5",
       "source": "Google News (Výstavy)",
       "category": "Výstavy",
       "is_tip": true,
@@ -8699,8 +8712,8 @@
       "region": "praha"
     },
     {
-      "id": "b198aebbc096",
-      "title": "Kam vzít děti za vysvědčení v Praze? Gastro experti odhalili 6 tipů na místa, kde budou spokojené děti i rodiče - apetitonline.cz",
+      "id": "0277b449b6ef",
+      "title": "Kam vzít děti za vysvědčení v Praze? Gastro experti odhalili 6 tipů na místa, kde budou spokojené děti i rodiče - Apetit Online",
       "city": "Praha",
       "place": null,
       "date": null,
@@ -8920,16 +8933,28 @@
   "tabs": {
     "world": [
       {
-        "id": "ead5f7a2919e19d0",
-        "title": "Trump vyhlásil ekonomickou válku Íránu. Pohrozil všem, kdo by Teheránu pomáhali",
-        "summary": "Americký prezident Donald Trump ve středu večer (v noci na čtvrtek SELČ) na své sociální síti vyhlásil „ekonomickou válku“ Íránu a pohrozil tvrdými dopady na hospodářství všech zemí, které by Teheránu jakkoli pomáhaly. Podle agentury AFP se tak šéf Bílého domu snaží stupňovat tlak na Írán bezmála šest měsíců od zahájení vleklého konfliktu.",
-        "link": "https://ct24.ceskatelevize.cz/clanek/svet/trump-vyhlasil-ekonomickou-valku-iranu-pohrozil-vsem-kdo-by-teheranu-pomahali-376773",
-        "published": "2026-08-20T00:34:23+00:00",
+        "id": "790b104248c731d7",
+        "title": "Žije v něm milenka, jezdí tam obrněný vlak. Víme, jak vypadá Putinův palác",
+        "summary": "Minulý týden se objevila informace, že slavný palác ruského prezidenta Vladimira Putina na břehu Černého moře je prakticky bez ochrany. Ukrajincům se totiž dronovým útokem podařilo zničit protiletadlový systém S-400 i stanici elektronického boje, které měly luxusní rezidenci ruského prezidenta chránit. Popisujeme, jak palác uvnitř vypadá, kdo v něm bydlí či díky komu svět o jeho existenci ví.",
+        "link": "https://zpravy.aktualne.cz/zahranici/zije-v-nem-milenka-jezdi-tam-obrneny-vlak-vime-jak-vypada-putinuv-palac/r~aaa29eb830a821730204d4ee673ab8d0/",
+        "published": "2026-08-20T05:30:00+02:00",
+        "source": "Aktuálně – Zahraničí",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Žije v něm milenka, jezdí tam obrněný vlak. Víme, jak vypadá Putinův palác",
+        "summary_cs": "Minulý týden se objevila informace, že slavný palác ruského prezidenta Vladimira Putina na břehu Černého moře je prakticky bez ochrany. Ukrajincům se totiž dronovým útokem podařilo zničit protiletadlový systém S-400 i stanici elektronického boje, které měly luxusní rezidenci ruského prezidenta chránit. Popisujeme, jak palác uvnitř vypadá, kdo v něm bydlí či díky komu svět o jeho existenci ví."
+      },
+      {
+        "id": "1af91ccafc0778a8",
+        "title": "Konec obecných a zavádějících tvrzení. Blíží se nová pravidla proti „greenwashingu“",
+        "summary": "Na konci září by měla v EU začít platit nová pravidla, jejichž cílem je přinést transparentní informace o udržitelnosti výrobků a služeb. Směrnice by měla omezit takzvaný greenwashing („lakování nazeleno“), tedy zavádějící označování výrobků za ekologické. Firmy nebudou moci propagovat své výrobky či služby pouze obecnými označeními jako „ekologické“ či „zelené“, aniž by toto tvrzení náležitě doložily. Do českého právního řádu novinky zavede novela zákona o ochraně spotřebitele a občanského z...",
+        "link": "https://ct24.ceskatelevize.cz/clanek/svet/konec-obecnych-a-zavadejicich-tvrzeni-blizi-se-nova-pravidla-proti-greenwashingu-376605",
+        "published": "2026-08-20T04:00:00+00:00",
         "source": "ČT24 – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Trump vyhlásil ekonomickou válku Íránu. Pohrozil všem, kdo by Teheránu pomáhali",
-        "summary_cs": "Americký prezident Donald Trump ve středu večer (v noci na čtvrtek SELČ) na své sociální síti vyhlásil „ekonomickou válku“ Íránu a pohrozil tvrdými dopady na hospodářství všech zemí, které by Teheránu jakkoli pomáhaly. Podle agentury AFP se tak šéf Bílého domu snaží stupňovat tlak na Írán bezmála šest měsíců od zahájení vleklého konfliktu."
+        "title_cs": "Konec obecných a zavádějících tvrzení. Blíží se nová pravidla proti „greenwashingu“",
+        "summary_cs": "Na konci září by měla v EU začít platit nová pravidla, jejichž cílem je přinést transparentní informace o udržitelnosti výrobků a služeb. Směrnice by měla omezit takzvaný greenwashing („lakování nazeleno“), tedy zavádějící označování výrobků za ekologické. Firmy nebudou moci propagovat své výrobky či služby pouze obecnými označeními jako „ekologické“ či „zelené“, aniž by toto tvrzení náležitě doložily. Do českého právního řádu novinky zavede novela zákona o ochraně spotřebitele a občanského z..."
       },
       {
         "id": "19986476590a1b73",
@@ -8968,16 +8993,16 @@
         "summary_cs": "Donald Trump vyžaduje od lidí ve svém okolí nekompromisní loajalitu. Málokdo si však jeho důvěru získal tak jako 35letá Natalie Harpová. Žena, která mu zanechává obdivné vzkazy, spravuje jeho sociální sítě a doprovází ho na každém kroku, si s prezidentem vybudovala tak blízký vztah, že dokonce vyvolal i spekulace o milostném poměru. Co za její mimořádnou blízkostí k prezidentovi stojí?"
       },
       {
-        "id": "4adbf9dd9ee95210",
-        "title": "Humanitární pracovníci pomáhají milionům lidí. Často i s nasazením vlastního života",
-        "summary": "Devatenáctý srpen je Světovým humanitárním dnem. Z podnětu Valného shromáždění OSN od roku 2008 vzdává hold organizacím a dobrovolníkům, kteří na celém světě pomáhají lidem v nouzi i těm, kteří se ocitnou v ohrožení života. Humanitární pracovníci tak často činí s nasazením toho vlastního. V loňském roce čelil dle kanadsko-australské databáze útoku nebo únosu rekordní počet z nich. Bylo jich více než devět set, přičemž 350 zemřelo. „Vážíme si obětavých pracovníků, kteří poskytují životně důlež...",
-        "link": "https://ct24.ceskatelevize.cz/clanek/svet/humanitarni-pracovnici-pomahaji-milionum-lidi-casto-i-s-nasazenim-vlastniho-zivota-376760",
-        "published": "2026-08-19T20:08:57+00:00",
+        "id": "ead5f7a2919e19d0",
+        "title": "Trump vyhlásil ekonomickou válku Íránu. Pohrozil všem, kdo by Teheránu pomáhali",
+        "summary": "Americký prezident Donald Trump ve středu večer (v noci na čtvrtek SELČ) na své sociální síti vyhlásil „ekonomickou válku“ Íránu a pohrozil tvrdými dopady na hospodářství všech zemí, které by Teheránu jakkoli pomáhaly. Podle agentury AFP se tak šéf Bílého domu snaží stupňovat tlak na Írán bezmála šest měsíců od zahájení vleklého konfliktu.",
+        "link": "https://ct24.ceskatelevize.cz/clanek/svet/trump-vyhlasil-ekonomickou-valku-iranu-pohrozil-vsem-kdo-by-teheranu-pomahali-376773",
+        "published": "2026-08-20T00:34:23+00:00",
         "source": "ČT24 – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Humanitární pracovníci pomáhají milionům lidí. Často i s nasazením vlastního života",
-        "summary_cs": "Devatenáctý srpen je Světovým humanitárním dnem. Z podnětu Valného shromáždění OSN od roku 2008 vzdává hold organizacím a dobrovolníkům, kteří na celém světě pomáhají lidem v nouzi i těm, kteří se ocitnou v ohrožení života. Humanitární pracovníci tak často činí s nasazením toho vlastního. V loňském roce čelil dle kanadsko-australské databáze útoku nebo únosu rekordní počet z nich. Bylo jich více než devět set, přičemž 350 zemřelo. „Vážíme si obětavých pracovníků, kteří poskytují životně důlež..."
+        "title_cs": "Trump vyhlásil ekonomickou válku Íránu. Pohrozil všem, kdo by Teheránu pomáhali",
+        "summary_cs": "Americký prezident Donald Trump ve středu večer (v noci na čtvrtek SELČ) na své sociální síti vyhlásil „ekonomickou válku“ Íránu a pohrozil tvrdými dopady na hospodářství všech zemí, které by Teheránu jakkoli pomáhaly. Podle agentury AFP se tak šéf Bílého domu snaží stupňovat tlak na Írán bezmála šest měsíců od zahájení vleklého konfliktu."
       },
       {
         "id": "48571b3fb9ef48d9",
@@ -9016,16 +9041,16 @@
         "summary_cs": "Německo a Francie ostře odsoudily výzvy izraelského ministra Itamara Ben Gvira k zabíjení Palestinců, informují veřejnoprávní televize ARD a agentura AFP. Izraelská armáda mezitím zahájila vyšetřování několika případů možných zločinů svých vojáků v Pásmu Gazy."
       },
       {
-        "id": "57f6dc2e6552e451",
-        "title": "Maďarské úřady ukončily vyšetřování „zlatého konvoje“, žádný zločin se nestal",
-        "summary": "Maďarská celní a daňová správa (NAV) ukončila vyšetřování podezření z praní špinavých peněz, kvůli kterému maďarské úřady v březnu dočasně zadržely pracovníky ukrajinské banky přepravující přes Maďarsko hotovost a zlato z Rakouska na Ukrajinu. Vyšetřování skončilo, protože se žádný zločin nestal, napsala agentura MTI.",
-        "link": "https://ct24.ceskatelevize.cz/clanek/svet/madarske-urady-ukoncily-vysetrovani-zlateho-konvoje-zadny-zlocin-se-nestal-376769",
-        "published": "2026-08-19T19:29:07+00:00",
+        "id": "4adbf9dd9ee95210",
+        "title": "Humanitární pracovníci pomáhají milionům lidí. Často i s nasazením vlastního života",
+        "summary": "Devatenáctý srpen je Světovým humanitárním dnem. Z podnětu Valného shromáždění OSN od roku 2008 vzdává hold organizacím a dobrovolníkům, kteří na celém světě pomáhají lidem v nouzi i těm, kteří se ocitnou v ohrožení života. Humanitární pracovníci tak často činí s nasazením toho vlastního. V loňském roce čelil dle kanadsko-australské databáze útoku nebo únosu rekordní počet z nich. Bylo jich více než devět set, přičemž 350 zemřelo. „Vážíme si obětavých pracovníků, kteří poskytují životně důlež...",
+        "link": "https://ct24.ceskatelevize.cz/clanek/svet/humanitarni-pracovnici-pomahaji-milionum-lidi-casto-i-s-nasazenim-vlastniho-zivota-376760",
+        "published": "2026-08-19T20:08:57+00:00",
         "source": "ČT24 – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Maďarské úřady ukončily vyšetřování „zlatého konvoje“, žádný zločin se nestal",
-        "summary_cs": "Maďarská celní a daňová správa (NAV) ukončila vyšetřování podezření z praní špinavých peněz, kvůli kterému maďarské úřady v březnu dočasně zadržely pracovníky ukrajinské banky přepravující přes Maďarsko hotovost a zlato z Rakouska na Ukrajinu. Vyšetřování skončilo, protože se žádný zločin nestal, napsala agentura MTI."
+        "title_cs": "Humanitární pracovníci pomáhají milionům lidí. Často i s nasazením vlastního života",
+        "summary_cs": "Devatenáctý srpen je Světovým humanitárním dnem. Z podnětu Valného shromáždění OSN od roku 2008 vzdává hold organizacím a dobrovolníkům, kteří na celém světě pomáhají lidem v nouzi i těm, kteří se ocitnou v ohrožení života. Humanitární pracovníci tak často činí s nasazením toho vlastního. V loňském roce čelil dle kanadsko-australské databáze útoku nebo únosu rekordní počet z nich. Bylo jich více než devět set, přičemž 350 zemřelo. „Vážíme si obětavých pracovníků, kteří poskytují životně důlež..."
       },
       {
         "id": "e166d4449ef7fa7d",
@@ -9040,16 +9065,16 @@
         "summary_cs": "Ruský soud poslal na 11 let do vězení místopředsedu opoziční strany Jabloko, která byla nedávno soudně vyloučena ze zářijových parlamentních voleb. Lev Markovič Šlosberg se údajně provinil pomlouváním ruské armády a výzvami k míru na sociálních sítích. „Je to výjimečné, takto drakonické tresty nepadaly dosud ani v Rusku. Souvisí to se strachem, který v Kremlu před volbami zavládl,“ upozorňuje novinářka Petra Procházková v pořadu Interview Plus."
       },
       {
-        "id": "b2b6ff4f1b2d09d4",
-        "title": "Maďaři dokončili vyšetřování „zlatého konvoje“ z Ukrajiny. Žádný zločin se nestal - Aktuálně.cz",
-        "summary": "Maďaři dokončili vyšetřování „zlatého konvoje“ z Ukrajiny. Žádný zločin se nestal Aktuálně.cz",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQR01Gek1YQVNKeDZxUXZZOVJNYTVGT1ROT1FXUVgzQ2trcnpXcFkySHlnN2FRNVRRTlRrbVFGUm43TDRlbGUxTWVmSnJUbEJwNm84NW5DYmxrQ282UHN6MjNJSjVlVng0RVA4SHJKWV9MTjVKU0dGQnVtbXdkMmNRT0F0X0hfNkVqNUFDZWpmanEtTW56ZDY5ZTJoMnRDQTV0MjZlYWhhZEZBVkd2emVPRFRXLXg1SmI3bm5fZFJBWjZkYWFmaVJ1My13NWNPa25zY25mWnFnbWdwenZwU0Z3Qw?oc=5",
-        "published": "2026-08-19T18:40:00+00:00",
+        "id": "d0f3fbf418e994e5",
+        "title": "Situace v Ceutě je opět vyhrocená. Migranti přespávají na plážích a v ulicích - TN.cz",
+        "summary": "Situace v Ceutě je opět vyhrocená. Migranti přespávají na plážích a v ulicích TN.cz V Ceutě začali stavět stany pro migranty Novinky Pouštění migrantů do Ceuty? K tomu nemáme důkazy, tvrdí expertka. Pašeráci prý chtějí tisíce dolarů iROZHLAS Ceuta staví stany jako dočasné ubytování pro zhruba 1500 migrantů Aktuálně.cz Kohoutek drží Rabat, naději drží Madrid. A po osmd... forum 24",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONDd5QzFsY3UzY1Y3ZWE0NW5aNU5oT3doNFNOYlRidzlxbzNuN0xyVjI5cTdTcnVLQ0xQS0NabzZicDB4UWpDOEM0ekFKejFNMU1CSlV0LW5TNG5ZUUp5amM0dlRNbUp0b0x2X1BJTVVRVUNHQ21LT0FSQVN3UlVCTy0xV1BIUHhsb1lKRURRNFdnWEtiWmM1cFh5TFo2Y1hybDV4OUM3VmNiZ0xSWVd2WWJHdFdoc2xTSHBER1VHcGw?oc=5",
+        "published": "2026-08-19T19:16:00+00:00",
         "source": "Google News – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Maďaři dokončili vyšetřování „zlatého konvoje“ z Ukrajiny. Žádný zločin se nestal - Aktuálně.cz",
-        "summary_cs": "Maďaři dokončili vyšetřování „zlatého konvoje“ z Ukrajiny. Žádný zločin se nestal Aktuálně.cz"
+        "title_cs": "Situace v Ceutě je opět vyhrocená. Migranti přespávají na plážích a v ulicích - TN.cz",
+        "summary_cs": "Situace v Ceutě je opět vyhrocená. Migranti přespávají na plážích a v ulicích TN.cz V Ceutě začali stavět stany pro migranty Novinky Pouštění migrantů do Ceuty? K tomu nemáme důkazy, tvrdí expertka. Pašeráci prý chtějí tisíce dolarů iROZHLAS Ceuta staví stany jako dočasné ubytování pro zhruba 1500 migrantů Aktuálně.cz Kohoutek drží Rabat, naději drží Madrid. A po osmd... forum 24"
       },
       {
         "id": "db71a5b9bac5ba69",
@@ -9064,16 +9089,16 @@
         "summary_cs": "Severoatlantická aliance připravuje scénář pro případ, že by Rusko zaútočilo na některý z pobaltských států. Podle německého deníku Bild počítá plán se třemi úrovněmi obrany. Koncept ale nepočítá s obsazením ruského území, cílem má být zastavit postup ruských sil a zatlačit je zpět k hranicím."
       },
       {
-        "id": "5f5cf2487a2f832b",
-        "title": "Antisemitské útoky jsou v USA na vzestupu, mezi nábožensky motivovanými dominují",
-        "summary": "Vyšetřovatelé řeší ve Spojených státech ročně jedenáct tisíc zločinů z nenávisti motivovaných etnickou příslušností, rasou, pohlavím, sexuální orientací nebo náboženskou příslušností oběti. V poslední kategorii dominují židé, na něž loni mířilo 62,3 procenta z 2703 nahlášených útoků. Nejvíc alarmující je dle FBI situace v New Yorku, kde židovská komunita tvoří asi desetinu obyvatel. Ačkoli starosta této metropole Zohran Mamdani deklaruje, že vytváří městskou skupinu pro boj s antisemitismem, ...",
-        "link": "https://ct24.ceskatelevize.cz/clanek/svet/antisemitske-utoky-jsou-v-usa-na-vzestupu-mezi-nabozensky-motivovanymi-dominuji-376759",
-        "published": "2026-08-19T18:20:44+00:00",
+        "id": "57f6dc2e6552e451",
+        "title": "Maďarské úřady ukončily vyšetřování „zlatého konvoje“, žádný zločin se nestal",
+        "summary": "Maďarská celní a daňová správa (NAV) ukončila vyšetřování podezření z praní špinavých peněz, kvůli kterému maďarské úřady v březnu dočasně zadržely pracovníky ukrajinské banky přepravující přes Maďarsko hotovost a zlato z Rakouska na Ukrajinu. Vyšetřování skončilo, protože se žádný zločin nestal, napsala agentura MTI.",
+        "link": "https://ct24.ceskatelevize.cz/clanek/svet/madarske-urady-ukoncily-vysetrovani-zlateho-konvoje-zadny-zlocin-se-nestal-376769",
+        "published": "2026-08-19T19:29:07+00:00",
         "source": "ČT24 – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Antisemitské útoky jsou v USA na vzestupu, mezi nábožensky motivovanými dominují",
-        "summary_cs": "Vyšetřovatelé řeší ve Spojených státech ročně jedenáct tisíc zločinů z nenávisti motivovaných etnickou příslušností, rasou, pohlavím, sexuální orientací nebo náboženskou příslušností oběti. V poslední kategorii dominují židé, na něž loni mířilo 62,3 procenta z 2703 nahlášených útoků. Nejvíc alarmující je dle FBI situace v New Yorku, kde židovská komunita tvoří asi desetinu obyvatel. Ačkoli starosta této metropole Zohran Mamdani deklaruje, že vytváří městskou skupinu pro boj s antisemitismem, ..."
+        "title_cs": "Maďarské úřady ukončily vyšetřování „zlatého konvoje“, žádný zločin se nestal",
+        "summary_cs": "Maďarská celní a daňová správa (NAV) ukončila vyšetřování podezření z praní špinavých peněz, kvůli kterému maďarské úřady v březnu dočasně zadržely pracovníky ukrajinské banky přepravující přes Maďarsko hotovost a zlato z Rakouska na Ukrajinu. Vyšetřování skončilo, protože se žádný zločin nestal, napsala agentura MTI."
       },
       {
         "id": "23cff7ccb626859f",
@@ -9088,16 +9113,16 @@
         "summary_cs": "V Polsku se rozpadá pravicová konzervativní strana PiS, v Maďarsku je Fidesz po šestnácti letech v opozici. Jejich témata – migrace, suverenita, národní zájem či vztah k Bruselu – ale žijí. „Napříč západním světem sledujeme protiliberální vzpouru. Původní tradiční pravice se v důsledku toho kloní k liberální straně barikády,“ popisuje v Osobnosti Plus publicista a politolog z Centra transatlantických vztahů CEVRO Univerzity Maciej Ruczaj."
       },
       {
-        "id": "51b16801e6462b77",
-        "title": "Byla líná si obout boty. Šlápla na hrábě, hrot jí probodl nohu. Pomoct museli hasiči - iDNES.cz",
-        "summary": "Byla líná si obout boty. Šlápla na hrábě, hrot jí probodl nohu. Pomoct museli hasiči iDNES.cz",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb0YwR0N1MHFOSzRnMDZIc0QzdDBuOXpEWWZTVXhEdlVlZ3UtQkdiLWdtdzJXb1lFeGx5cEwtU2NyZUpoU3d4OHdCUE9MYW4zdzZnbENNRHBMRUFWdWtNNVNJMlFtTk9NTHFvMGs2U045SGNTUHppQTJIb1JpNDUzQ2FtdmhTTlFSRFk3VFZ1LXJ6bVRtOGdYam1WMUlQQzRjTE9WVTVrOUlwcWREUE9EbnJUdHExSTZfOTA3MUMtSXNJMTg5NTdLNS1EbXlrMVE?oc=5",
-        "published": "2026-08-19T18:15:00+00:00",
+        "id": "b2b6ff4f1b2d09d4",
+        "title": "Maďaři dokončili vyšetřování „zlatého konvoje“ z Ukrajiny. Žádný zločin se nestal - Aktuálně.cz",
+        "summary": "Maďaři dokončili vyšetřování „zlatého konvoje“ z Ukrajiny. Žádný zločin se nestal Aktuálně.cz",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQR01Gek1YQVNKeDZxUXZZOVJNYTVGT1ROT1FXUVgzQ2trcnpXcFkySHlnN2FRNVRRTlRrbVFGUm43TDRlbGUxTWVmSnJUbEJwNm84NW5DYmxrQ282UHN6MjNJSjVlVng0RVA4SHJKWV9MTjVKU0dGQnVtbXdkMmNRT0F0X0hfNkVqNUFDZWpmanEtTW56ZDY5ZTJoMnRDQTV0MjZlYWhhZEZBVkd2emVPRFRXLXg1SmI3bm5fZFJBWjZkYWFmaVJ1My13NWNPa25zY25mWnFnbWdwenZwU0Z3Qw?oc=5",
+        "published": "2026-08-19T18:40:00+00:00",
         "source": "Google News – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Byla líná si obout boty. Šlápla na hrábě, hrot jí probodl nohu. Pomoct museli hasiči - iDNES.cz",
-        "summary_cs": "Byla líná si obout boty. Šlápla na hrábě, hrot jí probodl nohu. Pomoct museli hasiči iDNES.cz"
+        "title_cs": "Maďaři dokončili vyšetřování „zlatého konvoje“ z Ukrajiny. Žádný zločin se nestal - Aktuálně.cz",
+        "summary_cs": "Maďaři dokončili vyšetřování „zlatého konvoje“ z Ukrajiny. Žádný zločin se nestal Aktuálně.cz"
       },
       {
         "id": "1b7bd460eafecbf1",
@@ -9112,16 +9137,16 @@
         "summary_cs": "V kukuřičném poli nečinně stojí jeden z nejcennějších systémů ukrajinské protivzdušné obrany. Odpalovací zařízení Patriot má za sebou řadu ostrých nasazení, jenže v posledních týdnech z něj nevyšla jediná střela. Nejde o to, že by bylo rozbité, Ukrajincům ale zoufale chybí rakety PAC-3, které z něj střílejí."
       },
       {
-        "id": "e05ca7c9b3e88628",
-        "title": "Počet příslušníků německé armády je nejvyšší za třináct let",
-        "summary": "Zájem o službu v německé armádě výrazně roste. Počet žádostí o přijetí se meziročně zvýšil o 26 procent, což německá vláda vítá v době rostoucího napětí mezi Ruskem a členskými státy NATO.",
-        "link": "https://ct24.ceskatelevize.cz/clanek/svet/pocet-prislusniku-nemecke-armady-je-nejvyssi-za-trinact-let-376748",
-        "published": "2026-08-19T16:31:00+00:00",
+        "id": "2411fa3f523db540",
+        "title": "Nový maďarský prezident se ujal funkce",
+        "summary": "Třiasedmdesátiletý právník András Baka se ujal funkce maďarského prezidenta. Zvolila ho do ní vládní strana Tisza, zatímco opoziční Fidesz volbu bojkotoval. Předčasné ukončení mandátu jeho předchůdce Tamáse Sulyoka, kterého premiér Péter Magyar označoval za loutku režimu svého předchůdce Viktora Orbána, bylo součástí rychlých a výrazných změn ve fungování země, kterou současná vláda provádí. Úkolem prezidenta Baky bude mimo jiné dohlížet na jejich ústavnost. „Stav našich institucí je pouze je...",
+        "link": "https://ct24.ceskatelevize.cz/clanek/svet/novy-madarsky-prezident-se-ujal-funkce-376768",
+        "published": "2026-08-19T19:13:53+00:00",
         "source": "ČT24 – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Počet příslušníků německé armády je nejvyšší za třináct let",
-        "summary_cs": "Zájem o službu v německé armádě výrazně roste. Počet žádostí o přijetí se meziročně zvýšil o 26 procent, což německá vláda vítá v době rostoucího napětí mezi Ruskem a členskými státy NATO."
+        "title_cs": "Nový maďarský prezident se ujal funkce",
+        "summary_cs": "Třiasedmdesátiletý právník András Baka se ujal funkce maďarského prezidenta. Zvolila ho do ní vládní strana Tisza, zatímco opoziční Fidesz volbu bojkotoval. Předčasné ukončení mandátu jeho předchůdce Tamáse Sulyoka, kterého premiér Péter Magyar označoval za loutku režimu svého předchůdce Viktora Orbána, bylo součástí rychlých a výrazných změn ve fungování země, kterou současná vláda provádí. Úkolem prezidenta Baky bude mimo jiné dohlížet na jejich ústavnost. „Stav našich institucí je pouze je..."
       },
       {
         "id": "c27bf27843b5fe56",
@@ -9160,16 +9185,16 @@
         "summary_cs": "Největší belgický požár v pohraniční oblasti Hautes Fagnes se dále nešíří směrem k Německu. Hasičům se podařilo oheň obklíčit, uvedly ve středu podle agentury AFP úřady. Proti požáru, který vypukl v pátek, není ale stále možné nasadit letecké prostředky. Situaci částečně komplikuje mírný déšť, který přispívá k rozvoji dýmu a snižování viditelnosti."
       },
       {
-        "id": "351c033684da72c4",
-        "title": "KLDR chce přesunout část jaderných sil na moře",
-        "summary": "Severní Korea se v rámci „nové éry“ námořnictva snaží o vývoj nukleárních ponorek, velkých válečných lodí s raketami schopnými jaderného úderu a budování nových základen. Zatím však námořní síly KLDR početně i technologicky nesrovnatelně zaostávají za kapacitami Jižní Korey či USA a nová moderní plavidla navíc slouží spíše k propagandě. I tak ale panují obavy, že spojenci budou muset vynaložit více prostředků a sil ke sledování situace ve vodách u KLDR.",
-        "link": "https://ct24.ceskatelevize.cz/clanek/svet/kldr-chce-presunout-cast-jadernych-sil-na-more-376747",
-        "published": "2026-08-19T15:57:04+00:00",
+        "id": "5f5cf2487a2f832b",
+        "title": "Antisemitské útoky jsou v USA na vzestupu, mezi nábožensky motivovanými dominují",
+        "summary": "Vyšetřovatelé řeší ve Spojených státech ročně jedenáct tisíc zločinů z nenávisti motivovaných etnickou příslušností, rasou, pohlavím, sexuální orientací nebo náboženskou příslušností oběti. V poslední kategorii dominují židé, na něž loni mířilo 62,3 procenta z 2703 nahlášených útoků. Nejvíc alarmující je dle FBI situace v New Yorku, kde židovská komunita tvoří asi desetinu obyvatel. Ačkoli starosta této metropole Zohran Mamdani deklaruje, že vytváří městskou skupinu pro boj s antisemitismem, ...",
+        "link": "https://ct24.ceskatelevize.cz/clanek/svet/antisemitske-utoky-jsou-v-usa-na-vzestupu-mezi-nabozensky-motivovanymi-dominuji-376759",
+        "published": "2026-08-19T18:20:44+00:00",
         "source": "ČT24 – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "KLDR chce přesunout část jaderných sil na moře",
-        "summary_cs": "Severní Korea se v rámci „nové éry“ námořnictva snaží o vývoj nukleárních ponorek, velkých válečných lodí s raketami schopnými jaderného úderu a budování nových základen. Zatím však námořní síly KLDR početně i technologicky nesrovnatelně zaostávají za kapacitami Jižní Korey či USA a nová moderní plavidla navíc slouží spíše k propagandě. I tak ale panují obavy, že spojenci budou muset vynaložit více prostředků a sil ke sledování situace ve vodách u KLDR."
+        "title_cs": "Antisemitské útoky jsou v USA na vzestupu, mezi nábožensky motivovanými dominují",
+        "summary_cs": "Vyšetřovatelé řeší ve Spojených státech ročně jedenáct tisíc zločinů z nenávisti motivovaných etnickou příslušností, rasou, pohlavím, sexuální orientací nebo náboženskou příslušností oběti. V poslední kategorii dominují židé, na něž loni mířilo 62,3 procenta z 2703 nahlášených útoků. Nejvíc alarmující je dle FBI situace v New Yorku, kde židovská komunita tvoří asi desetinu obyvatel. Ačkoli starosta této metropole Zohran Mamdani deklaruje, že vytváří městskou skupinu pro boj s antisemitismem, ..."
       },
       {
         "id": "01cad89e23f851a6",
@@ -9208,16 +9233,16 @@
         "summary_cs": "Britská armáda obrací logiku dronové války naruby. Zatímco drony na Ukrajině sejmou cokoli, co se hýbe, ty britské přinášejí zraněným vojákům to, co rozhoduje o přežití: krev. Zatímco běžně čekají vojáci na evakuaci i hodiny a hrozí jim vykrvácení, teď dostanou díky dronům krev během pár minut. A k tomu specialistu na dálku, který medikovi v poli radí."
       },
       {
-        "id": "037f4da4e2e703ba",
-        "title": "Děti v Hrušivce vyrůstají za zvuku ruských dronů. Mnozí obyvatelé ale nechtějí odejít",
-        "summary": "Ukrajinská obec Hrušivka v Dněpropetrovské oblasti, ležící podle mapy projektu DeepState šestnáct kilometrů od frontové linie, čelí ruskému dělostřeleckému ostřelování a útokům dronů. Při jednom z posledních útoků v jejím okolí podle místních zahynul dospívající chlapec a jeho dva kamarádi utrpěli zranění. Ruské síly útočí také na centrum obce, kde lidé nakupují a děti si hrají. Úřady přesto dosud nenařídily povinnou evakuaci rodin s dětmi. Jak se místní před útoky chrání a proč nechtějí odejít?",
-        "link": "https://ct24.ceskatelevize.cz/clanek/svet/deti-v-hrusivce-vyrustaji-za-zvuku-ruskych-dronu-mnozi-obyvatele-ale-nechteji-odejit-376754",
-        "published": "2026-08-19T14:36:58+00:00",
+        "id": "e05ca7c9b3e88628",
+        "title": "Počet příslušníků německé armády je nejvyšší za třináct let",
+        "summary": "Zájem o službu v německé armádě výrazně roste. Počet žádostí o přijetí se meziročně zvýšil o 26 procent, což německá vláda vítá v době rostoucího napětí mezi Ruskem a členskými státy NATO.",
+        "link": "https://ct24.ceskatelevize.cz/clanek/svet/pocet-prislusniku-nemecke-armady-je-nejvyssi-za-trinact-let-376748",
+        "published": "2026-08-19T16:31:00+00:00",
         "source": "ČT24 – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Děti v Hrušivce vyrůstají za zvuku ruských dronů. Mnozí obyvatelé ale nechtějí odejít",
-        "summary_cs": "Ukrajinská obec Hrušivka v Dněpropetrovské oblasti, ležící podle mapy projektu DeepState šestnáct kilometrů od frontové linie, čelí ruskému dělostřeleckému ostřelování a útokům dronů. Při jednom z posledních útoků v jejím okolí podle místních zahynul dospívající chlapec a jeho dva kamarádi utrpěli zranění. Ruské síly útočí také na centrum obce, kde lidé nakupují a děti si hrají. Úřady přesto dosud nenařídily povinnou evakuaci rodin s dětmi. Jak se místní před útoky chrání a proč nechtějí odejít?"
+        "title_cs": "Počet příslušníků německé armády je nejvyšší za třináct let",
+        "summary_cs": "Zájem o službu v německé armádě výrazně roste. Počet žádostí o přijetí se meziročně zvýšil o 26 procent, což německá vláda vítá v době rostoucího napětí mezi Ruskem a členskými státy NATO."
       },
       {
         "id": "53fdb619068a446a",
@@ -9232,16 +9257,16 @@
         "summary_cs": "Ukrajinský parlament schválil Jevhenije Chmaru ministrem obrany a Andrije Sybihu ministrem zahraničí. Chmara střídá Mychajla Fedorova, který byl odvolán při rekonstrukci vlády. Fedorov v úterý zveřejnil proslov, ve kterém nepřímo vyzval k uspořádání prezidentských voleb. „Fedorov se staví do pozice, kdy cítí podporu veřejnosti, a možná si chystá půdu na budoucí politické klání,“ říká pro Radiožurnál novinář The Kyiv Independent Adam Sybera."
       },
       {
-        "id": "6c303545b9a1b188",
-        "title": "Noční můra pro NATO. Nemá plány na koordinovaný útok Ruska a Číny - iDNES.cz",
-        "summary": "Noční můra pro NATO. Nemá plány na koordinovaný útok Ruska a Číny iDNES.cz Tři fáze války: co NATO chystá v případě ruského útoku. Jednu věc nechce Aktuálně.cz NATO představilo tři fáze na odražení ruského útoku na Pobaltí Novinky Západ čelí „noční můře“, když Rusko a Čína koordinují útok. Vietnam.vn NATO představilo tři fáze na odražení případného ruského útoku na Pobaltí www.prahanadlani.cz",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQmtZRGhxWHZIbU1JSjV2TGNVV2N0VlZ1M0doWlNQVXdKR2F4VFJQM0RZYVRuczhsREI3ZnFOeXk2Tzd3Nkd0OTR6a1c4MUlyWW5hSmVhZUZuNzh3dG8xLURaNHhnZksySUZEVmVsSDV4VHBnQTNSQW1ESmFIVk9PVVlmV0ZFLVR2czR3UW1fYlpMTHBKRkl1bkJB?oc=5",
+        "id": "dbbed061f018600e",
+        "title": "Sexuální obtěžování na Ceutě. Nemůžeme pomoci, tvrdí prý policie uprchlicím - Seznam Zprávy",
+        "summary": "Sexuální obtěžování na Ceutě. Nemůžeme pomoci, tvrdí prý policie uprchlicím Seznam Zprávy Zobrazit další titulky a pohledy v aplikaci Zprávy Google",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUE92dFctVWh4N0V2WE4xRVJQVU05TXpMbXU2MVFGSjRqMU5leVEzeklOaUFhYmhiYjYydkJXek9WZnBYOGRfT05rQW8tWEFiRDJDdEw5NzhtT3dHQXFQMzlUTnRoLUM0OTRTVnpYTl9CZEczMFdJZVZVNXFIREFiQWQ2aDIyWmdwUzFaVXFMVXJMWWlrU0tvcER5ZVBGdlhTbFpwSHJ4NTVPd1BDOURBcjJpUDNMb0VEb016dmtwTEdfMTd4?oc=5",
         "published": "2026-08-19T18:00:00+00:00",
         "source": "Google News – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Noční můra pro NATO. Nemá plány na koordinovaný útok Ruska a Číny - iDNES.cz",
-        "summary_cs": "Noční můra pro NATO. Nemá plány na koordinovaný útok Ruska a Číny iDNES.cz Tři fáze války: co NATO chystá v případě ruského útoku. Jednu věc nechce Aktuálně.cz NATO představilo tři fáze na odražení ruského útoku na Pobaltí Novinky Západ čelí „noční můře“, když Rusko a Čína koordinují útok. Vietnam.vn NATO představilo tři fáze na odražení případného ruského útoku na Pobaltí www.prahanadlani.cz"
+        "title_cs": "Sexuální obtěžování na Ceutě. Nemůžeme pomoci, tvrdí prý policie uprchlicím - Seznam Zprávy",
+        "summary_cs": "Sexuální obtěžování na Ceutě. Nemůžeme pomoci, tvrdí prý policie uprchlicím Seznam Zprávy Zobrazit další titulky a pohledy v aplikaci Zprávy Google"
       },
       {
         "id": "27c1d6fdcef3ec0f",
@@ -9256,31 +9281,67 @@
         "summary_cs": "Ruský ekonom žijící v litevském exilu Igor Lipsic zná ruskou ekonomiku ještě ze sovětských dob. K hospodářské situaci největší země světa je dlouhodobě kritický a velmi pesimistický. „Válka dohání všechny,“ konstatuje Lipsic v rozhovoru pro deník Aktuálně. Hovoří i o tom, jak fungují sankce, jak by je Evropa měla zpřísnit či kolik ještě zbývá Moskvě peněz ve Fondu národního blahobytu."
       },
       {
-        "id": "264b8208d417e619",
-        "title": "Z fronty do Bruselu: Barbora Maxová o proměnách války i unijní politice",
-        "summary": "Od válečného zpravodajství v krytech a pod protidronovými sítěmi v Chersonu až po diplomacii v unijních kuloárech. Dlouholetá reportérka České televize Barbora Maxová v podcastu Za Horizont reflektuje svých devět náročných turnusů na Ukrajině, proměnu válečné reality i únavu tamní společnosti. Proč po čtyřech letech opouští frontovou linii a jaké výzvy ji čekají v nové roli stálé zpravodajky ČT v Bruselu? O geopolitice, tlaku na veřejnoprávní média i o tom, zda má klasická novinařina v době A...",
-        "link": "https://ct24.ceskatelevize.cz/clanek/svet/z-fronty-do-bruselu-barbora-maxova-o-promenach-valky-i-unijni-politice-376751",
-        "published": "2026-08-19T14:30:44+00:00",
+        "id": "351c033684da72c4",
+        "title": "KLDR chce přesunout část jaderných sil na moře",
+        "summary": "Severní Korea se v rámci „nové éry“ námořnictva snaží o vývoj nukleárních ponorek, velkých válečných lodí s raketami schopnými jaderného úderu a budování nových základen. Zatím však námořní síly KLDR početně i technologicky nesrovnatelně zaostávají za kapacitami Jižní Korey či USA a nová moderní plavidla navíc slouží spíše k propagandě. I tak ale panují obavy, že spojenci budou muset vynaložit více prostředků a sil ke sledování situace ve vodách u KLDR.",
+        "link": "https://ct24.ceskatelevize.cz/clanek/svet/kldr-chce-presunout-cast-jadernych-sil-na-more-376747",
+        "published": "2026-08-19T15:57:04+00:00",
         "source": "ČT24 – Svět",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Z fronty do Bruselu: Barbora Maxová o proměnách války i unijní politice",
-        "summary_cs": "Od válečného zpravodajství v krytech a pod protidronovými sítěmi v Chersonu až po diplomacii v unijních kuloárech. Dlouholetá reportérka České televize Barbora Maxová v podcastu Za Horizont reflektuje svých devět náročných turnusů na Ukrajině, proměnu válečné reality i únavu tamní společnosti. Proč po čtyřech letech opouští frontovou linii a jaké výzvy ji čekají v nové roli stálé zpravodajky ČT v Bruselu? O geopolitice, tlaku na veřejnoprávní média i o tom, zda má klasická novinařina v době A..."
-      },
-      {
-        "id": "4591efb8e42062fc",
-        "title": "Obyvatelé australského ostrova se probudili s vesmírnou raketou SpaceX u pobřeží",
-        "summary": "Obyvatelé odlehlého Vánočního ostrova mohli v úterý ráno spatřit vesmírnou raketu organizace SpaceX, plavící se u pobřeží. „Na první pohled vypadala jako tři velké lodě, ale když jste se podívali blíže, všimli jste si, že jde o raketu,“ řekl předseda ostrovní Turistické asociace. Inženýrský tým na sociálních sítích uvedl, že bude raketu dále zkoumat. Místní doufají, že by neobvyklá událost mohla nalákat turisty.",
-        "link": "https://www.irozhlas.cz/zpravy-svet/spacex-elon-musk-spacex-starship-vesmirna-raketa-australie_2608191232_elev",
-        "published": "2026-08-19T12:32:00+02:00",
-        "source": "iRozhlas – Zahraničí",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Obyvatelé australského ostrova se probudili s vesmírnou raketou SpaceX u pobřeží",
-        "summary_cs": "Obyvatelé odlehlého Vánočního ostrova mohli v úterý ráno spatřit vesmírnou raketu organizace SpaceX, plavící se u pobřeží. „Na první pohled vypadala jako tři velké lodě, ale když jste se podívali blíže, všimli jste si, že jde o raketu,“ řekl předseda ostrovní Turistické asociace. Inženýrský tým na sociálních sítích uvedl, že bude raketu dále zkoumat. Místní doufají, že by neobvyklá událost mohla nalákat turisty."
+        "title_cs": "KLDR chce přesunout část jaderných sil na moře",
+        "summary_cs": "Severní Korea se v rámci „nové éry“ námořnictva snaží o vývoj nukleárních ponorek, velkých válečných lodí s raketami schopnými jaderného úderu a budování nových základen. Zatím však námořní síly KLDR početně i technologicky nesrovnatelně zaostávají za kapacitami Jižní Korey či USA a nová moderní plavidla navíc slouží spíše k propagandě. I tak ale panují obavy, že spojenci budou muset vynaložit více prostředků a sil ke sledování situace ve vodách u KLDR."
       }
     ],
     "czech": [
+      {
+        "id": "bcf83e25e5f4269e",
+        "title": "Část zákroků do větších nemocnic? Novinářka: Nejde o drobnost, jak se tvrdí",
+        "summary": "Složité operace pacientů třeba při rakovině slinivky by podle ministra zdravotnictví Adama Vojtěcha měla v budoucnu provádět výhradně specializovaná centra velkých nemocnic. Přednosti i rizika tohoto plánu rozebírá podcast 5:59.",
+        "link": "https://www.seznamzpravy.cz/clanek/audio-podcast-5-59-cast-zakroku-do-vetsich-nemocnic-novinarka-nejde-o-drobnost-jak-se-tvrdi-313450",
+        "published": "2026-08-20T05:59:00+02:00",
+        "source": "Seznam Zprávy",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Část zákroků do větších nemocnic? Novinářka: Nejde o drobnost, jak se tvrdí",
+        "summary_cs": "Složité operace pacientů třeba při rakovině slinivky by podle ministra zdravotnictví Adama Vojtěcha měla v budoucnu provádět výhradně specializovaná centra velkých nemocnic. Přednosti i rizika tohoto plánu rozebírá podcast 5:59."
+      },
+      {
+        "id": "0475b90b18be1d60",
+        "title": "Česko čekají silné bouřky i vydatné deště",
+        "summary": "Česko čeká deštivý závěr pracovního týdne. Ve čtvrtek a v pátek se objeví i silné bouřky s přívalovým deštěm, kroupami a nárazy větru. Do sobotního rána může místy spadnout až kolem 50 milimetrů srážek. O víkendu se počasí přechodně uklidní, déšť se ale může vrátit už začátkem příštího týdne.",
+        "link": "https://www.novinky.cz/clanek/pocasi-cesko-cekaji-silne-bourky-i-vydatne-deste-40593526",
+        "published": "2026-08-20T05:53:00+02:00",
+        "source": "Novinky.cz",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Česko čekají silné bouřky i vydatné deště",
+        "summary_cs": "Česko čeká deštivý závěr pracovního týdne. Ve čtvrtek a v pátek se objeví i silné bouřky s přívalovým deštěm, kroupami a nárazy větru. Do sobotního rána může místy spadnout až kolem 50 milimetrů srážek. O víkendu se počasí přechodně uklidní, déšť se ale může vrátit už začátkem příštího týdne."
+      },
+      {
+        "id": "28e44c7332edd132",
+        "title": "Známý investor rozlítil důchodce. Měli by přijít o volební právo, prohlásil",
+        "summary": "Stárnutí populace patří k největším společenským tématům současnosti. Poměr mezi lidmi v produktivním věku a seniory se dramaticky mění ve prospěch penzistů. Známý filantrop a investor Václav Dejčmar přišel s radikální úvahou, jak omezit jejich rostoucí vliv na dění ve státě. Rada seniorů ČR ostře reagovala. Dejčmar deníku Aktuálně.cz řekl, že čelil anonymním výhružkám. A seniorům se omluvil.",
+        "link": "https://zpravy.aktualne.cz/domaci/znamy-investor-rozlitil-duchodce-meli-by-prijit-o-volebni-pravo-prohlasil/r~aaa297b9837cfed5ddaa41791e6aa2d7/",
+        "published": "2026-08-20T05:30:00+02:00",
+        "source": "Aktuálně – Domácí",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Známý investor rozlítil důchodce. Měli by přijít o volební právo, prohlásil",
+        "summary_cs": "Stárnutí populace patří k největším společenským tématům současnosti. Poměr mezi lidmi v produktivním věku a seniory se dramaticky mění ve prospěch penzistů. Známý filantrop a investor Václav Dejčmar přišel s radikální úvahou, jak omezit jejich rostoucí vliv na dění ve státě. Rada seniorů ČR ostře reagovala. Dejčmar deníku Aktuálně.cz řekl, že čelil anonymním výhružkám. A seniorům se omluvil."
+      },
+      {
+        "id": "20a5ac497fbaafff",
+        "title": "Odbory žádají růst platů o osm procent. Juchelka slibuje zvýšení, žádná čísla ale neprozradil",
+        "summary": "Ministr práce Juchelka začal jednat se šéfkou státní kasy Schillerovou o zvyšování mezd, rozhodnutí má padnout v září. \nOdbory chtějí plošně přidat všem pracovníkům veřejné sféry. Někteří vládní poslanci ale hovoří jen o vybraných skupinách zaměstnanců. \nČMKOS zatím bezvýsledně usiluje o schůzku s premiérem Babišem. Požadavky centrály by si vyžádaly přes dvacet miliard korun.",
+        "link": "https://www.e15.cz/domaci/politika/odbory-zadaji-rust-platu-o-osm-procent-juchelka-slibuje-zvyseni-zadna-cisla-ale-neprozradil-1435040",
+        "published": "2026-08-20T05:30:00+02:00",
+        "source": "E15",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Odbory žádají růst platů o osm procent. Juchelka slibuje zvýšení, žádná čísla ale neprozradil",
+        "summary_cs": "Ministr práce Juchelka začal jednat se šéfkou státní kasy Schillerovou o zvyšování mezd, rozhodnutí má padnout v září. \nOdbory chtějí plošně přidat všem pracovníkům veřejné sféry. Někteří vládní poslanci ale hovoří jen o vybraných skupinách zaměstnanců. \nČMKOS zatím bezvýsledně usiluje o schůzku s premiérem Babišem. Požadavky centrály by si vyžádaly přes dvacet miliard korun."
+      },
       {
         "id": "74c68eef2e8adb80",
         "title": "Ztrátová pojišťovna si pronajímá v Brně drahé kanceláře. ‚Loni jsme vyjednali slevu,‘ hájí se",
@@ -9294,40 +9355,76 @@
         "summary_cs": "Zdravotní pojišťovna ministerstva vnitra (ZPMV) si platí v Brně drahé kanceláře, ačkoliv je dlouhodobě ve ztrátě. Průměrné nájmy ve stejné oblasti jsou podle oslovených realitní expertů nižší, a to až o pětinu u podobných budov. Ministr zdravotnictví Adam Vojtěch (za ANO) požaduje, aby ZPMV smlouvu přezkoumala. Pojišťovna tvrdí, že postupovala hospodárně a z pěti nabídek vybrala druhou nejvýhodnější. Majitelé budovy komentář ani přes opakované žádosti neposkytli. Do budovy IN Sady se brněnská..."
       },
       {
-        "id": "e0fe3e251f8652d9",
-        "title": "Češi dál zuřivě spoří a brzdí ekonomiku. V Evropě je předčí jen dvě země",
-        "summary": "Češi po pandemii dál spoří výrazně víc než většina Evropy a každý kvartál odkládají stranou desítky miliard korun, píše businessový newsletter 11am.\nVysoké úspory sice domácnostem poskytují větší finanční rezervu, zároveň ale brzdí spotřebu, maloobchod i růst české ekonomiky.\nPeníze navíc často míří do nemovitostí, bankovních vkladů a zahraničních investic, takže jejich přínos pro domácí ekonomiku zůstává omezený.",
-        "link": "https://www.e15.cz/ekonomika/cesi-dal-zurive-spori-a-brzdi-ekonomiku-v-evrope-je-predci-jen-dve-zeme-1435039",
-        "published": "2026-08-20T05:00:00+02:00",
-        "source": "E15",
+        "id": "1af91ccafc0778a8",
+        "title": "Konec obecných a zavádějících tvrzení. Blíží se nová pravidla proti „greenwashingu“",
+        "summary": "Na konci září by měla v EU začít platit nová pravidla, jejichž cílem je přinést transparentní informace o udržitelnosti výrobků a služeb. Směrnice by měla omezit takzvaný greenwashing („lakování nazeleno“), tedy zavádějící označování výrobků za ekologické. Firmy nebudou moci propagovat své výrobky či služby pouze obecnými označeními jako „ekologické“ či „zelené“, aniž by toto tvrzení náležitě doložily. Do českého právního řádu novinky zavede novela zákona o ochraně spotřebitele a občanského z...",
+        "link": "https://ct24.ceskatelevize.cz/clanek/svet/konec-obecnych-a-zavadejicich-tvrzeni-blizi-se-nova-pravidla-proti-greenwashingu-376605",
+        "published": "2026-08-20T04:00:00+00:00",
+        "source": "ČT24",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Češi dál zuřivě spoří a brzdí ekonomiku. V Evropě je předčí jen dvě země",
-        "summary_cs": "Češi po pandemii dál spoří výrazně víc než většina Evropy a každý kvartál odkládají stranou desítky miliard korun, píše businessový newsletter 11am.\nVysoké úspory sice domácnostem poskytují větší finanční rezervu, zároveň ale brzdí spotřebu, maloobchod i růst české ekonomiky.\nPeníze navíc často míří do nemovitostí, bankovních vkladů a zahraničních investic, takže jejich přínos pro domácí ekonomiku zůstává omezený."
+        "title_cs": "Konec obecných a zavádějících tvrzení. Blíží se nová pravidla proti „greenwashingu“",
+        "summary_cs": "Na konci září by měla v EU začít platit nová pravidla, jejichž cílem je přinést transparentní informace o udržitelnosti výrobků a služeb. Směrnice by měla omezit takzvaný greenwashing („lakování nazeleno“), tedy zavádějící označování výrobků za ekologické. Firmy nebudou moci propagovat své výrobky či služby pouze obecnými označeními jako „ekologické“ či „zelené“, aniž by toto tvrzení náležitě doložily. Do českého právního řádu novinky zavede novela zákona o ochraně spotřebitele a občanského z..."
       },
       {
-        "id": "b447292cc3027dcb",
-        "title": "Čínští roboti nadchli investory. Akcie Unitree vylétly o 600 procent",
-        "summary": "Čínský výrobce humanoidních robotů Unitree Robotics zažil ve středu při vstupu na šanghajskou burzu mimořádně úspěšný debut. Akcie společnosti během prvních hodin obchodování vzrostly o víc než 600 procent, což potvrzuje rostoucí nadšení investorů pro sektor robotiky a umělé inteligence.",
-        "link": "https://www.novinky.cz/clanek/ekonomika-cinsti-roboti-nadchli-investory-akcie-unitree-vyletly-o-600-procent-40593411",
-        "published": "2026-08-19T22:54:00+02:00",
-        "source": "Novinky.cz",
+        "id": "df6c3963da0948e3",
+        "title": "Ranní výběr: Uhlí nad zlato. Esa v Dejvicích a český bojovník o Oscara",
+        "summary": "Dobré ráno, světový den má vážně už kdekdo. Třeba komáři. Ti ho slaví dnes. Vzpomeňte si na to, jestli vás nějaký bodne. V dnešním ranním výběru se ale dozvíte i důležité věci, jako třeba jak uhlí přináší nečekané zisky nebo jaká esa byznysu získalo ČVUT. Pojďme na to! The post Ranní výběr: Uhlí nad zlato. Esa v Dejvicích a český bojovník o Oscara appeared first on Forbes .",
+        "link": "https://forbes.cz/ranni-vyber-uhli-nad-zlato-esa-v-dejvicich-a-cesky-bojovnik-o-oscara/",
+        "published": "2026-08-20T04:00:00+00:00",
+        "source": "Forbes CZ",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Čínští roboti nadchli investory. Akcie Unitree vylétly o 600 procent",
-        "summary_cs": "Čínský výrobce humanoidních robotů Unitree Robotics zažil ve středu při vstupu na šanghajskou burzu mimořádně úspěšný debut. Akcie společnosti během prvních hodin obchodování vzrostly o víc než 600 procent, což potvrzuje rostoucí nadšení investorů pro sektor robotiky a umělé inteligence."
+        "title_cs": "Ranní výběr: Uhlí nad zlato. Esa v Dejvicích a český bojovník o Oscara",
+        "summary_cs": "Dobré ráno, světový den má vážně už kdekdo. Třeba komáři. Ti ho slaví dnes. Vzpomeňte si na to, jestli vás nějaký bodne. V dnešním ranním výběru se ale dozvíte i důležité věci, jako třeba jak uhlí přináší nečekané zisky nebo jaká esa byznysu získalo ČVUT. Pojďme na to! The post Ranní výběr: Uhlí nad zlato. Esa v Dejvicích a český bojovník o Oscara appeared first on Forbes ."
       },
       {
-        "id": "5a31c717928a72e1",
-        "title": "Bednárik: Národní výdaje na dopravní stavby budou v příštím roce vyšší",
-        "summary": "Ministr dopravy uvedl, že výdaje na dopravní infrastrukturu budou příští rok vyšší než letos. Prioritou podle něj má být páteřní dálniční síť, naopak šetřit chce na výdajích úřadu.",
-        "link": "https://www.seznamzpravy.cz/clanek/domaci-politika-bednarik-narodni-vydaje-na-dopravni-stavby-budou-v-pristim-roce-vyssi-313503",
-        "published": "2026-08-19T21:50:31+02:00",
+        "id": "78592c2e1add8a4d",
+        "title": "E.ON zlevnil fixaci elektřiny i plynu. Lidé ušetří tisíce korun ročně - Novinky",
+        "summary": "E.ON zlevnil fixaci elektřiny i plynu. Lidé ušetří tisíce korun ročně Novinky Zobrazit další titulky a pohledy v aplikaci Zprávy Google",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeGludlRsRUt5WkkzdndvblJxRlRNQ0h1UEZUVUtwa3RDRFhReDE3YUZOSjY5Y2ozUEVESUVMaTJBMXVHVl9pM1E0bTFFak5RTWstS1ctVjF3bDUyY25qRTNFUlJ0QXB5ZWNQWU5zV2JNOGZERGg2YVNjcmZFcXU4V3pEMTRWelpsdnZnUFowQ2NGZlM3ZWFHcUJaY2lVZzZJNGhIa2lxWXBtV0ZyVUVJZV9haDlRbjg2?oc=5",
+        "published": "2026-08-20T03:33:00+00:00",
+        "source": "Google News – Domácí",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "E.ON zlevnil fixaci elektřiny i plynu. Lidé ušetří tisíce korun ročně - Novinky",
+        "summary_cs": "E.ON zlevnil fixaci elektřiny i plynu. Lidé ušetří tisíce korun ročně Novinky Zobrazit další titulky a pohledy v aplikaci Zprávy Google"
+      },
+      {
+        "id": "cea43fd8bd765ef6",
+        "title": "„Nezměníme názor.“ Špindlerův Mlýn nechce rušit dohodu, která umožní zlegalizovat bazén Tykačových",
+        "summary": "Když Deník N odhalil, že rodina miliardáře Pavla Tykače si u chaty v Krkonoších v rozporu se závaznými pravidly postavila bazén, město Špindlerův Mlýn se ocitlo pod tlakem. Letos na jaře totiž přistoupilo na milionový dar od Tykačových s tím, že stavba bude právně očištěna. K odmítnutí této dohody se však zastupitelé neodhodlali.",
+        "link": "https://denikn.cz/2158166/nezmenime-nazor-spindleruv-mlyn-nechce-rusit-dohodu-ktera-umozni-zlegalizovat-bazen-tykacovych/",
+        "published": "2026-08-19T17:38:29+00:00",
+        "source": "Deník N",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "„Nezměníme názor.“ Špindlerův Mlýn nechce rušit dohodu, která umožní zlegalizovat bazén Tykačových",
+        "summary_cs": "Když Deník N odhalil, že rodina miliardáře Pavla Tykače si u chaty v Krkonoších v rozporu se závaznými pravidly postavila bazén, město Špindlerův Mlýn se ocitlo pod tlakem. Letos na jaře totiž přistoupilo na milionový dar od Tykačových s tím, že stavba bude právně očištěna. K odmítnutí této dohody se však zastupitelé neodhodlali."
+      },
+      {
+        "id": "4d7d29bdbf9ca6a0",
+        "title": "Prodej odpadového byznysu Marius Pedersen se protáhne do podzimu",
+        "summary": "Jedna z největších transakcí na tuzemském trhu – prodej odpadového byznysu Marius Pedersen v Česku a na Slovensku - se opět oddálila. Prodávající totiž chrání informace o svém podnikání. Teprve nyní podali zájemci závazné nabídky.",
+        "link": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-odpadovy-obchod-roku-se-protahne-nejmene-do-podzimu-313411",
+        "published": "2026-08-20T05:30:00+02:00",
         "source": "Seznam Zprávy",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Bednárik: Národní výdaje na dopravní stavby budou v příštím roce vyšší",
-        "summary_cs": "Ministr dopravy uvedl, že výdaje na dopravní infrastrukturu budou příští rok vyšší než letos. Prioritou podle něj má být páteřní dálniční síť, naopak šetřit chce na výdajích úřadu."
+        "title_cs": "Prodej odpadového byznysu Marius Pedersen se protáhne do podzimu",
+        "summary_cs": "Jedna z největších transakcí na tuzemském trhu – prodej odpadového byznysu Marius Pedersen v Česku a na Slovensku - se opět oddálila. Prodávající totiž chrání informace o svém podnikání. Teprve nyní podali zájemci závazné nabídky."
+      },
+      {
+        "id": "c70deac5d69c008e",
+        "title": "Ruské rafinérie se opravují jen naoko a padnou, popsal Chodorkovskij",
+        "summary": "Rusko se problémů s pohonnými hmotami a jejich výrobou nezbavilo, ale jen je odsunulo, tvrdí ruský bývalý ropný oligarcha a pozdější politický vězeň Michail Chodorkovskij žijící nyní v britském exilu. Zařízení se opravují podle něj jen naoko a jednou zkolabují.",
+        "link": "https://www.novinky.cz/clanek/zahranicni-evropa-ruske-rafinerie-se-opravuji-jen-naoko-a-padnou-popsal-chodorkovskij-40593557",
+        "published": "2026-08-20T05:47:00+02:00",
+        "source": "Novinky.cz",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Ruské rafinérie se opravují jen naoko a padnou, popsal Chodorkovskij",
+        "summary_cs": "Rusko se problémů s pohonnými hmotami a jejich výrobou nezbavilo, ale jen je odsunulo, tvrdí ruský bývalý ropný oligarcha a pozdější politický vězeň Michail Chodorkovskij žijící nyní v britském exilu. Zařízení se opravují podle něj jen naoko a jednou zkolabují."
       },
       {
         "id": "c721249ca76a114b",
@@ -9342,16 +9439,28 @@
         "summary_cs": "I když sprchlo, sucho trvá. A řeší to nejen vláda a opozice, ale i prezident Petr Pavel. V úterý si do Lán pozval vědce, experty i influencery, aby s nimi probral změnu klimatu. Hlava státu si sice neodpustila rýpanec do premiéra Andreje Babiše (ANO), ale vítá, že jeho vláda sucho řeší. Podle politologa Lukáše Jelínka je dobře, že prezident na problém upozorňuje – ale měl by to prý dělat opatrně."
       },
       {
-        "id": "d55d444e3c54f4f8",
-        "title": "Nosková uhrála s Američankou jen pět gamů, v Cinicinnati vypadl také Menšík - iDNES.cz",
-        "summary": "Nosková uhrála s Američankou jen pět gamů, v Cinicinnati vypadl také Menšík iDNES.cz TENIS ONLINE: Bouzková a Bejlek zabojují o čtvrtfinále. Nosková i Menšík končí Sport.cz Nosková se trápila a snadno prohrála s Anisimovovou, v Cincinnati si čtvrtfinále nezahraje Livesport Noskovou a Bouzkovou čeká v Cincinnati osmifinále dvouhry, poté se společně představí také ve čtyřhře Ruik Menšík si v Cincinnati čtvrtfinále nezahraje. Ve třech setech prohrál s Argentincem Tirantem iROZHLAS",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa284alhZa3JGVHFKMDVsS0cxek9aRE84NktBbWtsb1dvUlJUSmxzNmRUOVVpSHpIemlQMWpnampLQmFkLXZIWV9ySDA0SzNnc3VUdHZMRktFaDBYWEFWUmVnYzUweEFmT0Jsb01uNUVyQzVLSHFwSDdGN3ZocjBZLWdwbHFyNk81V3FnYlhrRmU2aFNPejlWVVBZM19tcHpoSUxaRnUzd2Roem5fZFBJWGpJMjZweFVpN0pnTllQV1BzUVU?oc=5",
-        "published": "2026-08-19T20:03:00+00:00",
-        "source": "Google News – Domácí",
+        "id": "e0fe3e251f8652d9",
+        "title": "Češi dál zuřivě spoří a brzdí ekonomiku. V Evropě je předčí jen dvě země",
+        "summary": "Češi po pandemii dál spoří výrazně víc než většina Evropy a každý kvartál odkládají stranou desítky miliard korun, píše businessový newsletter 11am.\nVysoké úspory sice domácnostem poskytují větší finanční rezervu, zároveň ale brzdí spotřebu, maloobchod i růst české ekonomiky.\nPeníze navíc často míří do nemovitostí, bankovních vkladů a zahraničních investic, takže jejich přínos pro domácí ekonomiku zůstává omezený.",
+        "link": "https://www.e15.cz/ekonomika/cesi-dal-zurive-spori-a-brzdi-ekonomiku-v-evrope-je-predci-jen-dve-zeme-1435039",
+        "published": "2026-08-20T05:00:00+02:00",
+        "source": "E15",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Nosková uhrála s Američankou jen pět gamů, v Cinicinnati vypadl také Menšík - iDNES.cz",
-        "summary_cs": "Nosková uhrála s Američankou jen pět gamů, v Cinicinnati vypadl také Menšík iDNES.cz TENIS ONLINE: Bouzková a Bejlek zabojují o čtvrtfinále. Nosková i Menšík končí Sport.cz Nosková se trápila a snadno prohrála s Anisimovovou, v Cincinnati si čtvrtfinále nezahraje Livesport Noskovou a Bouzkovou čeká v Cincinnati osmifinále dvouhry, poté se společně představí také ve čtyřhře Ruik Menšík si v Cincinnati čtvrtfinále nezahraje. Ve třech setech prohrál s Argentincem Tirantem iROZHLAS"
+        "title_cs": "Češi dál zuřivě spoří a brzdí ekonomiku. V Evropě je předčí jen dvě země",
+        "summary_cs": "Češi po pandemii dál spoří výrazně víc než většina Evropy a každý kvartál odkládají stranou desítky miliard korun, píše businessový newsletter 11am.\nVysoké úspory sice domácnostem poskytují větší finanční rezervu, zároveň ale brzdí spotřebu, maloobchod i růst české ekonomiky.\nPeníze navíc často míří do nemovitostí, bankovních vkladů a zahraničních investic, takže jejich přínos pro domácí ekonomiku zůstává omezený."
+      },
+      {
+        "id": "d6fd28ec4d3e1bbd",
+        "title": "Do vězení ve 13? Průměrná hranice, míní Vesecká. Advokátka: Trestáme děti, kterým neumíme pomoci",
+        "summary": "Ministr spravedlnosti Jeroným Tejc (za ANO) chce u nejzávažnějších násilných trestných činů snížit věk trestní odpovědnosti z patnácti na třináct let. „Výzkumy říkají: nedělejte to, zaměřte se na pomoc dětem,“ namítá v Pro a proti Českého rozhlasu Plus advokátka Petra Naskosová. „Otázka vyspělosti současné generace odpovídá možnostem snížení právě na třináct let,“ myslí si předsedkyně ústavně-právního výboru Renata Vesecká (za Motoristy).",
+        "link": "https://www.irozhlas.cz/zpravy-domov/do-vezeni-ve-13-prumerna-hranice-mini-vesecka-advokatka-trestame-deti-kterym_2608200010_elev",
+        "published": "2026-08-20T00:10:00+02:00",
+        "source": "iRozhlas – Domácí",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Do vězení ve 13? Průměrná hranice, míní Vesecká. Advokátka: Trestáme děti, kterým neumíme pomoci",
+        "summary_cs": "Ministr spravedlnosti Jeroným Tejc (za ANO) chce u nejzávažnějších násilných trestných činů snížit věk trestní odpovědnosti z patnácti na třináct let. „Výzkumy říkají: nedělejte to, zaměřte se na pomoc dětem,“ namítá v Pro a proti Českého rozhlasu Plus advokátka Petra Naskosová. „Otázka vyspělosti současné generace odpovídá možnostem snížení právě na třináct let,“ myslí si předsedkyně ústavně-právního výboru Renata Vesecká (za Motoristy)."
       },
       {
         "id": "57f6dc2e6552e451",
@@ -9378,64 +9487,52 @@
         "summary_cs": "Dříve zásoboval svět rapovými hity, nyní zásobuje kontroverzní umělec Kanye West převážně titulky světových médií. Kvůli antisemitským prohlášením i veřejné adoraci nacismu ho opustila většina sponzorů a během probíhajícího turné Ye Live je interpretovi odepírán vstup do řady zemí, kde má vystoupit. The post Odvrhnutý sponzory, milovaný fanoušky.  Kanyeho turné láme rekordy skandálům navzdory appeared first on Forbes ."
       },
       {
-        "id": "cea43fd8bd765ef6",
-        "title": "„Nezměníme názor.“ Špindlerův Mlýn nechce rušit dohodu, která umožní zlegalizovat bazén Tykačových",
-        "summary": "Když Deník N odhalil, že rodina miliardáře Pavla Tykače si u chaty v Krkonoších v rozporu se závaznými pravidly postavila bazén, město Špindlerův Mlýn se ocitlo pod tlakem. Letos na jaře totiž přistoupilo na milionový dar od Tykačových s tím, že stavba bude právně očištěna. K odmítnutí této dohody se však zastupitelé neodhodlali.",
-        "link": "https://denikn.cz/2158166/nezmenime-nazor-spindleruv-mlyn-nechce-rusit-dohodu-ktera-umozni-zlegalizovat-bazen-tykacovych/",
-        "published": "2026-08-19T17:38:29+00:00",
+        "id": "cbbb87f40004ef4b",
+        "title": "Matka viní nemocnici v Kadani. Lékaři podle ní neodhalili u syna zelený zákal - Seznam Zprávy",
+        "summary": "Matka viní nemocnici v Kadani. Lékaři podle ní neodhalili u syna zelený zákal Seznam Zprávy",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZHlGU1I4eXlEN3RVbEllM0Q5VTBIaE1lVmI4bXNObWJRRlh6czFCMWFkcXN2OU5RYktrRWYxQ0pQS2pYeUpyTWdKVHNuMWlnY0R5czd1VHN3MktSXzBWMDZ5TXF5a0czRzlNcllacHZJRk14Yi1sWDYwNFNYZ0J5RElVc1JRQWd1alVkUmM4WHJrMW5VeWRJaV9PT2J3WnV3V2lLbF9BVUxJbXJTX0hTTlBqcFFsZzdJYTVFalNnN25JV3pHUVVjQk0wQQ?oc=5",
+        "published": "2026-08-20T03:00:00+00:00",
+        "source": "Google News – Domácí",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Matka viní nemocnici v Kadani. Lékaři podle ní neodhalili u syna zelený zákal - Seznam Zprávy",
+        "summary_cs": "Matka viní nemocnici v Kadani. Lékaři podle ní neodhalili u syna zelený zákal Seznam Zprávy"
+      },
+      {
+        "id": "f8e96b34f945e753",
+        "title": "Ukrajinský Forrest Gump doběhl do prezidentské kanceláře. Zelenského tým opět svírají protikorupční klepeta",
+        "summary": "Jen několik hodin poté, co jeden z nejpopulárnějších politiků na Ukrajině – exministr obrany, datový mág a donedávna věrný souputník prezidenta Zelenského Mychajlo Fedorov – navzdory válce vyzval k novým volbám, vstoupili do domu Iryny Mudré agenti protikorupční policie. Za pár desítek minut už nebyla zástupkyní šéfa prezidentské kanceláře.",
+        "link": "https://denikn.cz/2159174/ukrajinsky-forrest-gump-dobehl-do-prezidentske-kancelare-zelenskeho-tym-opet-sviraji-protikorupcni-klepeta/",
+        "published": "2026-08-19T15:57:35+00:00",
         "source": "Deník N",
         "lang": "cs",
         "sub": null,
-        "title_cs": "„Nezměníme názor.“ Špindlerův Mlýn nechce rušit dohodu, která umožní zlegalizovat bazén Tykačových",
-        "summary_cs": "Když Deník N odhalil, že rodina miliardáře Pavla Tykače si u chaty v Krkonoších v rozporu se závaznými pravidly postavila bazén, město Špindlerův Mlýn se ocitlo pod tlakem. Letos na jaře totiž přistoupilo na milionový dar od Tykačových s tím, že stavba bude právně očištěna. K odmítnutí této dohody se však zastupitelé neodhodlali."
+        "title_cs": "Ukrajinský Forrest Gump doběhl do prezidentské kanceláře. Zelenského tým opět svírají protikorupční klepeta",
+        "summary_cs": "Jen několik hodin poté, co jeden z nejpopulárnějších politiků na Ukrajině – exministr obrany, datový mág a donedávna věrný souputník prezidenta Zelenského Mychajlo Fedorov – navzdory válce vyzval k novým volbám, vstoupili do domu Iryny Mudré agenti protikorupční policie. Za pár desítek minut už nebyla zástupkyní šéfa prezidentské kanceláře."
       },
       {
-        "id": "b9e0ac1a46cce874",
-        "title": "Ministr Bednárik: Výdaje na dopravní stavby se v příštím roce zvýší. Prioritou bude páteřní dálniční síť",
-        "summary": "Národní výdaje na dopravní infrastrukturu budou v příštím roce vyšší než letos. Po středečním jednání s ministryní financí Alenou Schillerovou (ANO) to řekl ministr dopravy Ivan Bednárik (za SPD). Přesnou částku neuvedl, záležet podle něj bude na konečné podobě státního rozpočtu. Letos dá stát na dopravní stavby 169,3 miliardy korun. Prioritou investic v příštím roce bude podle ministra páteřní dálniční síť.",
-        "link": "https://www.irozhlas.cz/zpravy-domov/ministr-bednarik-vydaje-na-dopravni-stavby-se-v-pristim-roce-zvysi-prioritou_2608192314_jar",
-        "published": "2026-08-19T23:14:00+02:00",
-        "source": "iRozhlas – Domácí",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Ministr Bednárik: Výdaje na dopravní stavby se v příštím roce zvýší. Prioritou bude páteřní dálniční síť",
-        "summary_cs": "Národní výdaje na dopravní infrastrukturu budou v příštím roce vyšší než letos. Po středečním jednání s ministryní financí Alenou Schillerovou (ANO) to řekl ministr dopravy Ivan Bednárik (za SPD). Přesnou částku neuvedl, záležet podle něj bude na konečné podobě státního rozpočtu. Letos dá stát na dopravní stavby 169,3 miliardy korun. Prioritou investic v příštím roce bude podle ministra páteřní dálniční síť."
-      },
-      {
-        "id": "cd5ace691438d7c8",
-        "title": "Komerční banka dá novým klientům bonus 4 000 korun",
-        "summary": "Komerční banka nabízí novým klientům bonus až 4 000 korun. \nOdměna je rozdělena na 3 000 korun za aktivní používání účtu a 1 000 korun za přechod z jiné banky.\nKlienti mají na výběr ze čtyř úrovní služeb, které lze měnit podle aktuálních potřeb.",
-        "link": "https://www.e15.cz/finexpert/banky-a-ucty/komercni-banka-da-novym-klientum-bonus-4-000-korun-1435046",
-        "published": "2026-08-19T15:35:00+02:00",
-        "source": "E15",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Komerční banka dá novým klientům bonus 4 000 korun",
-        "summary_cs": "Komerční banka nabízí novým klientům bonus až 4 000 korun. \nOdměna je rozdělena na 3 000 korun za aktivní používání účtu a 1 000 korun za přechod z jiné banky.\nKlienti mají na výběr ze čtyř úrovní služeb, které lze měnit podle aktuálních potřeb."
-      },
-      {
-        "id": "38db8b2df33e6ea5",
-        "title": "Maďarskou jadernou elektrárnu Paks nebude potřeba zcela odstavit",
-        "summary": "Maďarský premiér Péter Magyar (Tisza) ve středu večer oznámil, že jadernou elektrárnu Paks nebude potřeba odstavit a příští týden budou postupně zapojeny všechny turbíny. Vodohospodáři a armáda vybudovala u elektrárny dnový práh, který zvýšil hladinu Dunaje, jehož voda slouží ke chlazení reaktorů.",
-        "link": "https://www.novinky.cz/clanek/zahranicni-evropa-madarskou-jadernou-elektrarnu-paks-nebude-potreba-zcela-odstavit-40593561",
-        "published": "2026-08-19T22:46:35+02:00",
-        "source": "Novinky.cz",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Maďarskou jadernou elektrárnu Paks nebude potřeba zcela odstavit",
-        "summary_cs": "Maďarský premiér Péter Magyar (Tisza) ve středu večer oznámil, že jadernou elektrárnu Paks nebude potřeba odstavit a příští týden budou postupně zapojeny všechny turbíny. Vodohospodáři a armáda vybudovala u elektrárny dnový práh, který zvýšil hladinu Dunaje, jehož voda slouží ke chlazení reaktorů."
-      },
-      {
-        "id": "d8936baf27ef1293",
-        "title": "Vojtěch u Schillerové uspěl. Jeho resort dostane příští rok miliardy navíc",
-        "summary": "Ministerstvo zdravotnictví bude mít příští rok několik miliard navíc, než kolik plánoval návrh rozpočtu. Konkrétní částku navýšení ministr Vojtěch neuvedl, řádově jsou to podle něj jedna až dvě miliardy.",
-        "link": "https://www.seznamzpravy.cz/clanek/domaci-politika-mzd-ziska-proti-puvodnimu-navrhu-mf-pristi-rok-nekolik-miliard-navic-313500",
-        "published": "2026-08-19T21:06:36+02:00",
+        "id": "3c7dd9a3f4fc807b",
+        "title": "Neodhalili zelený zákal u novorozence. Matka od nemocnice požaduje miliony",
+        "summary": "Matka dvouapůlletého chlapce tvrdí, že lékaři v kadaňské nemocnici zanedbali po porodu péči o jejího syna a požaduje odškodné. U chlapce totiž neodhalili zelený zákal. Nemocnice pochybení odmítá. Případem se zabývá policie.",
+        "link": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-matka-vini-nemocnici-v-kadani-lekari-podle-ni-neodhalili-u-syna-zeleny-zakal-313000",
+        "published": "2026-08-20T05:00:00+02:00",
         "source": "Seznam Zprávy",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Vojtěch u Schillerové uspěl. Jeho resort dostane příští rok miliardy navíc",
-        "summary_cs": "Ministerstvo zdravotnictví bude mít příští rok několik miliard navíc, než kolik plánoval návrh rozpočtu. Konkrétní částku navýšení ministr Vojtěch neuvedl, řádově jsou to podle něj jedna až dvě miliardy."
+        "title_cs": "Neodhalili zelený zákal u novorozence. Matka od nemocnice požaduje miliony",
+        "summary_cs": "Matka dvouapůlletého chlapce tvrdí, že lékaři v kadaňské nemocnici zanedbali po porodu péči o jejího syna a požaduje odškodné. U chlapce totiž neodhalili zelený zákal. Nemocnice pochybení odmítá. Případem se zabývá policie."
+      },
+      {
+        "id": "991f7275c3b3b721",
+        "title": "Princ Harry se s Meghan a dětmi plánuje vrátit do Británie",
+        "summary": "Princ Harry a jeho manželka Meghan Markleová se podle britských médií plánují ještě tento měsíc přestěhovat ze Spojených států zpět do Británie. Svou roli pracujících členů královské rodiny ale neobnoví. Jejich děti Archie a Lilibet jsou už zapsané do britské školy. Informovaly o tom britský deník The Telegraph a magazín People.",
+        "link": "https://www.novinky.cz/clanek/zahranicni-evropa-princ-harry-se-s-meghan-a-detmi-planuje-vratit-do-britanie-40593565",
+        "published": "2026-08-20T05:46:48+02:00",
+        "source": "Novinky.cz",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Princ Harry se s Meghan a dětmi plánuje vrátit do Británie",
+        "summary_cs": "Princ Harry a jeho manželka Meghan Markleová se podle britských médií plánují ještě tento měsíc přestěhovat ze Spojených států zpět do Británie. Svou roli pracujících členů královské rodiny ale neobnoví. Jejich děti Archie a Lilibet jsou už zapsané do britské školy. Informovaly o tom britský deník The Telegraph a magazín People."
       },
       {
         "id": "d16943e8b4e1ba6f",
@@ -9450,28 +9547,40 @@
         "summary_cs": "Při kontrole zaměřené na nelegální prodej kratomu a další drogy se našla pochybení u 63 procent z tisíce kontrolovaných prodejen. Protiprávního jednání se dopustily v 900 případech, ve 373 trestného činu. Ministr vnitra Lubomír Metnar (ANO) ve středu výsledky jarní čtyřtýdenní akce představil členům vládní rady pro koordinaci politiky v oblasti závislostí, poté je sdělil novinářům."
       },
       {
-        "id": "f504004cf5f7b908",
-        "title": "Bednárik: Národní výdaje na dopravní stavby budou v příštím roce vyšší - Seznam Zprávy",
-        "summary": "Bednárik: Národní výdaje na dopravní stavby budou v příštím roce vyšší Seznam Zprávy Prioritou Bednárika v rozpočtu na příští rok budou peníze na dopravní stavby České noviny",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYTM0NnE0UERseFRRQ3kzbUYxbmRoOUtQcmtNUXZERG9BakJPbEpFTzhYckRHX1FJanVPMVZTc2h4bkdTbVY1TjFpN3ltSzBDT1Z2bkdIS1E2TGhzTFBtWEo4blAxTHZLTUlzeVZ2a3lsTXlnN0V2akFzLW9YQkpmUmI1b3JhWmhSc0hBc1VWR2hieUF0WXdQVXlLaWNDV1J1NUhCd1VGMU9fU29WeDgzUEduRVl1Z3gtajU2ZElWQUtFUTE4elE?oc=5",
-        "published": "2026-08-19T19:50:31+00:00",
-        "source": "Google News – Domácí",
+        "id": "68393df9a83e30d4",
+        "title": "Babiš se chytil do vlastní důchodové pasti. Přidat penzistům tři stovky bude politicky příliš málo",
+        "summary": "Zákonná valorizace má od ledna zvýšit průměrný důchod jen asi o 300 korun.\nANO zvažuje vyšší růst, přestože by tím zvýšilo budoucí náklady penzijního systému.\nDůchodový účet je nyní téměř vyrovnaný, celý státní rozpočet ale zůstává hluboce deficitní, píše Info.cz.",
+        "link": "https://www.e15.cz/nazory-a-analyzy/babis-se-chytil-do-vlastni-duchodove-pasti-pridat-penzistum-tri-stovky-bude-politicky-prilis-malo-1435050",
+        "published": "2026-08-19T17:20:00+02:00",
+        "source": "E15",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Bednárik: Národní výdaje na dopravní stavby budou v příštím roce vyšší - Seznam Zprávy",
-        "summary_cs": "Bednárik: Národní výdaje na dopravní stavby budou v příštím roce vyšší Seznam Zprávy Prioritou Bednárika v rozpočtu na příští rok budou peníze na dopravní stavby České noviny"
+        "title_cs": "Babiš se chytil do vlastní důchodové pasti. Přidat penzistům tři stovky bude politicky příliš málo",
+        "summary_cs": "Zákonná valorizace má od ledna zvýšit průměrný důchod jen asi o 300 korun.\nANO zvažuje vyšší růst, přestože by tím zvýšilo budoucí náklady penzijního systému.\nDůchodový účet je nyní téměř vyrovnaný, celý státní rozpočet ale zůstává hluboce deficitní, píše Info.cz."
       },
       {
-        "id": "35f6a6125a2bddaa",
-        "title": "Mezi lázeňskými hosty v Luhačovicích se několik týdnů šíří střevní infekce",
-        "summary": "Mezi lázeňskými hosty v Luhačovicích na Zlínsku se několik týdnů šíří norovirová střevní infekce. Šlo o zhruba 140 případů. Výskyt akutních gastroenteritid potvrdila portálu iDNES.cz Krajská hygienická stanice Zlínského kraje (KHS ZK). Od poloviny července zaznamenali hygienici zhruba 25 případů nakažlivého onemocnění týdně. Laboratorní vyšetření u části pacientů potvrdila noroviry, napsal server.",
-        "link": "https://ct24.ceskatelevize.cz/clanek/regiony/mezi-lazenskymi-hosty-v-luhacovicich-se-nekolik-tydnu-siri-strevni-infekce-376761",
-        "published": "2026-08-19T15:37:29+00:00",
+        "id": "4b3716d90d838e8c",
+        "title": "Předseda odborů Bednář: Handrkování o valorizaci platů je nedůstojné. Ať rostou s minimální mzdou",
+        "summary": "Ministr práce a sociálních věcí Aleš Juchelka oznámil, že s ministryní financí Alenou Schillerovou (oba ANO) dohodl zvýšení platů ve veřejné sféře. „Vyjádření pana ministra Juchelky nebo paní ministryně financí bohužel nemáme konkrétně podložená. Opravdu nevíme, s čím přijdou,“ říká v pořadu Dvacet minut Radiožurnálu předseda Odborového svazu státních orgánů a organizací Pavel Bednář.",
+        "link": "https://www.irozhlas.cz/zpravy-domov/predseda-odboru-bednar-handrkovani-o-valorizaci-platu-je-nedustojne-rostou-s_2608192328_kvr",
+        "published": "2026-08-19T23:28:00+02:00",
+        "source": "iRozhlas – Domácí",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Předseda odborů Bednář: Handrkování o valorizaci platů je nedůstojné. Ať rostou s minimální mzdou",
+        "summary_cs": "Ministr práce a sociálních věcí Aleš Juchelka oznámil, že s ministryní financí Alenou Schillerovou (oba ANO) dohodl zvýšení platů ve veřejné sféře. „Vyjádření pana ministra Juchelky nebo paní ministryně financí bohužel nemáme konkrétně podložená. Opravdu nevíme, s čím přijdou,“ říká v pořadu Dvacet minut Radiožurnálu předseda Odborového svazu státních orgánů a organizací Pavel Bednář."
+      },
+      {
+        "id": "c912ad3128503483",
+        "title": "Při nehodě na Chomutovsku zemřeli tři lidé",
+        "summary": "Po nehodě osobního automobilu s autobusem u obce Pětipsy na Chomutovsku zemřeli ve středu vpodvečer tři lidé. Šlo o pasažéry osobního vozidla. V autobuse cestoval pouze řidič, který neutrpěl zranění, které by si vyžádalo ošetření v nemocnici. K události vyrazily všechny záchranné složky včetně letecké záchranné služby, informoval mluvčí krajských záchranářů Patrik Christian Cmorej. Při další podvečerní nehodě v Ústeckém kraji u obce Klapý na Litoměřicku se zranilo pět lidí.",
+        "link": "https://ct24.ceskatelevize.cz/clanek/regiony/pri-nehode-na-chomutovsku-zemreli-tri-lide-376766",
+        "published": "2026-08-19T17:06:22+00:00",
         "source": "ČT24",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Mezi lázeňskými hosty v Luhačovicích se několik týdnů šíří střevní infekce",
-        "summary_cs": "Mezi lázeňskými hosty v Luhačovicích na Zlínsku se několik týdnů šíří norovirová střevní infekce. Šlo o zhruba 140 případů. Výskyt akutních gastroenteritid potvrdila portálu iDNES.cz Krajská hygienická stanice Zlínského kraje (KHS ZK). Od poloviny července zaznamenali hygienici zhruba 25 případů nakažlivého onemocnění týdně. Laboratorní vyšetření u části pacientů potvrdila noroviry, napsal server."
+        "title_cs": "Při nehodě na Chomutovsku zemřeli tři lidé",
+        "summary_cs": "Po nehodě osobního automobilu s autobusem u obce Pětipsy na Chomutovsku zemřeli ve středu vpodvečer tři lidé. Šlo o pasažéry osobního vozidla. V autobuse cestoval pouze řidič, který neutrpěl zranění, které by si vyžádalo ošetření v nemocnici. K události vyrazily všechny záchranné složky včetně letecké záchranné služby, informoval mluvčí krajských záchranářů Patrik Christian Cmorej. Při další podvečerní nehodě v Ústeckém kraji u obce Klapý na Litoměřicku se zranilo pět lidí."
       },
       {
         "id": "53d30538a706ef9b",
@@ -9486,160 +9595,64 @@
         "summary_cs": "James Dacombe nedokončil střední školu, aby založil svůj první startup. Nyní je nejmladším self-made miliardářem v Evropě. The post Síla AI. Brit se stal nejmladším self-made miliardářem v Evropě appeared first on Forbes ."
       },
       {
-        "id": "ea19c537dbb14491",
-        "title": "Vojtěchův plán na revoluci v nemocnicích vyvolává odpor. Hejtmanka se střetla s ministrovým poradcem",
-        "summary": "Složité onkologické operace se mají už od příštího roku koncentrovat jen do několika velkých nemocnic. Středočeská hejtmanka Petra Pecková (STAN) ale tvrdí, že ministerstvo zdravotnictví při výběru center postupovalo chybně. Poradce ministra Adama Vojtěcha to odmítá a hejtmanku viní z toho, že chce zachovat operace v krajských nemocnicích, aby uživily nově nakoupené roboty.",
-        "link": "https://denikn.cz/2159248/vojtechuv-plan-na-revoluci-v-nemocnicich-vyvolava-odpor-hejtmanka-se-stretla-s-ministrovym-poradcem/",
-        "published": "2026-08-19T14:44:49+00:00",
-        "source": "Deník N",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Vojtěchův plán na revoluci v nemocnicích vyvolává odpor. Hejtmanka se střetla s ministrovým poradcem",
-        "summary_cs": "Složité onkologické operace se mají už od příštího roku koncentrovat jen do několika velkých nemocnic. Středočeská hejtmanka Petra Pecková (STAN) ale tvrdí, že ministerstvo zdravotnictví při výběru center postupovalo chybně. Poradce ministra Adama Vojtěcha to odmítá a hejtmanku viní z toho, že chce zachovat operace v krajských nemocnicích, aby uživily nově nakoupené roboty."
-      },
-      {
-        "id": "bfdcbfa6a4764c15",
-        "title": "Nová vojenská nemocnice? Výdaje by se možná mohly započítat do závazků vůči NATO, zamýšlí se Cikrt",
-        "summary": "Nová pražská nemocnice nemá být v Letňanech ani na Bulovce. Vyhrála varianta v areálu Fakultní nemocnice Královské Vinohrady, oznámili premiér Andrej Babiš (ANO) a ministr zdravotnictví za ANO Adam Vojtěch. V běhu už je převod pozemků pod ministerstvo obrany, má jít totiž o vojenskou nemocnici. „Dosud jsme byli ujišťováni, že to bude velkokapacitní nemocnice pro všechny,“ říká pro Radiožurnál šéfredaktor Zdravotnického deníku Tomáš Cikrt.",
-        "link": "https://www.irozhlas.cz/zpravy-domov/nova-vojenska-nemocnice-vydaje-se-mozna-mohly-zapocitat-do-zavazku-vuci-nato_2608192051_jar",
-        "published": "2026-08-19T22:41:00+02:00",
-        "source": "iRozhlas – Domácí",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Nová vojenská nemocnice? Výdaje by se možná mohly započítat do závazků vůči NATO, zamýšlí se Cikrt",
-        "summary_cs": "Nová pražská nemocnice nemá být v Letňanech ani na Bulovce. Vyhrála varianta v areálu Fakultní nemocnice Královské Vinohrady, oznámili premiér Andrej Babiš (ANO) a ministr zdravotnictví za ANO Adam Vojtěch. V běhu už je převod pozemků pod ministerstvo obrany, má jít totiž o vojenskou nemocnici. „Dosud jsme byli ujišťováni, že to bude velkokapacitní nemocnice pro všechny,“ říká pro Radiožurnál šéfredaktor Zdravotnického deníku Tomáš Cikrt."
-      },
-      {
-        "id": "386385b40d742b1e",
-        "title": "Rusové díky Wildberries přelstili sankce. Až Ukrajinci tržiště dorazí, bude na řadě jeho konkurent Ozon",
-        "summary": "Společnost Wildberries nabízela řadu položek, které se hodí k použití na ukrajinském bojišti.\nTržiště rozkvetlo během války, slouží pro koncovou distribuci žádaného zboží, které se do Ruska dostává přes třetí země.\nFirma vystavěla svůj byznys extrémně zranitelně, záchranou pro ni může být nákladná decentralizace.",
-        "link": "https://www.e15.cz/zahranicni/geopolitika/rusove-diky-wildberries-prelstili-sankce-az-ukrajinci-trziste-dorazi-bude-na-rade-jeho-konkurent-ozon-1435038",
-        "published": "2026-08-19T15:11:00+02:00",
-        "source": "E15",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Rusové díky Wildberries přelstili sankce. Až Ukrajinci tržiště dorazí, bude na řadě jeho konkurent Ozon",
-        "summary_cs": "Společnost Wildberries nabízela řadu položek, které se hodí k použití na ukrajinském bojišti.\nTržiště rozkvetlo během války, slouží pro koncovou distribuci žádaného zboží, které se do Ruska dostává přes třetí země.\nFirma vystavěla svůj byznys extrémně zranitelně, záchranou pro ni může být nákladná decentralizace."
-      },
-      {
-        "id": "e4fbdcb22bdf2c48",
-        "title": "Škody nejsou a nemohou být kritické. Putin vyhodnotil útoky na sklady Wildberries",
-        "summary": "Ruský prezident Vladimir Putin ve středu během jednání Rady pro strategický rozvoj a národní projekty okomentoval situaci skladišť ruského prodejce Wildberries po ukrajinských náletech. Škody podle šéfa Kremlu nejsou a ani být nemohou kritické a opravy zčásti zaplatí stát.",
-        "link": "https://www.novinky.cz/clanek/zahranicni-evropa-skody-nejsou-a-nemohou-byt-kriticke-putin-vyhodnotil-utoky-na-sklady-wildberries-40593549",
-        "published": "2026-08-19T20:31:34+02:00",
-        "source": "Novinky.cz",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Škody nejsou a nemohou být kritické. Putin vyhodnotil útoky na sklady Wildberries",
-        "summary_cs": "Ruský prezident Vladimir Putin ve středu během jednání Rady pro strategický rozvoj a národní projekty okomentoval situaci skladišť ruského prodejce Wildberries po ukrajinských náletech. Škody podle šéfa Kremlu nejsou a ani být nemohou kritické a opravy zčásti zaplatí stát."
-      },
-      {
-        "id": "93005e760930218a",
-        "title": "„Impotence státu.“ Zátah ukázal, že kratom, hašiš a konopí jsou skoro všude",
-        "summary": "Vláda zveřejnila výsledky celostátní kontroly zaměřené na kratom a syntetické látky. Každá druhá prodejna porušovala zákon. Devadesát procent analyzovaných produktů obsahovalo nebezpečné látky.",
-        "link": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-impotence-statu-zatah-ukazal-ze-kratom-hasis-a-konopi-jsou-skoro-vsude-313457",
-        "published": "2026-08-19T20:25:48+02:00",
-        "source": "Seznam Zprávy",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "„Impotence státu.“ Zátah ukázal, že kratom, hašiš a konopí jsou skoro všude",
-        "summary_cs": "Vláda zveřejnila výsledky celostátní kontroly zaměřené na kratom a syntetické látky. Každá druhá prodejna porušovala zákon. Devadesát procent analyzovaných produktů obsahovalo nebezpečné látky."
-      },
-      {
-        "id": "e36bc9b95ed6cae9",
-        "title": "Na pomoc drogově závislým má příští rok mířit více peněz",
-        "summary": "Pro adiktologické služby, které pečují o drogově závislé, očekává premiér Andrej Babiš (ANO) příští rok navýšení rozpočtu, letos mají 415 milionů korun. Potřebují peníze navíc, aby mohly najmout více pracovníků, řekl po středečním jednání rady vlády pro koordinaci politiky v oblasti závislostí. Konkrétní částku na dotaz ČTK neuvedl, jasněji bude po středečním jednání na ministerstvu financí.",
-        "link": "https://zpravy.aktualne.cz/domaci/na-pomoc-drogove-zavislym-ma-pristi-rok-mirit-vice-penez/r~aaa2939769ba75d594aabbfd9de1fe77/",
-        "published": "2026-08-19T17:51:00+02:00",
-        "source": "Aktuálně – Domácí",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Na pomoc drogově závislým má příští rok mířit více peněz",
-        "summary_cs": "Pro adiktologické služby, které pečují o drogově závislé, očekává premiér Andrej Babiš (ANO) příští rok navýšení rozpočtu, letos mají 415 milionů korun. Potřebují peníze navíc, aby mohly najmout více pracovníků, řekl po středečním jednání rady vlády pro koordinaci politiky v oblasti závislostí. Konkrétní částku na dotaz ČTK neuvedl, jasněji bude po středečním jednání na ministerstvu financí."
-      },
-      {
-        "id": "86ebcb57d5acc9d0",
-        "title": "Na tříletého chlapce spadla na Šumavě kovová brána - Novinky",
-        "summary": "Na tříletého chlapce spadla na Šumavě kovová brána Novinky",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc0ZKZkpELVBZTHhfbndTamlMbnpWZmxSbEtGOHBPLXVkVmFOVlVUY3BWSWFEdXNwZEQ5LVdlTU1IYjNBLTU2MVdWbVo5MXZmcHNJYjJTTWt0Q0lOQUR4ZWNnMXhVdVhwTnk2M2Jsb0pwbzFjNkZwZWRqOGF3ZzZiSWVkU3E2Tk9BMzBqd1JiRTNVSXRSUFJteVlsSQ?oc=5",
-        "published": "2026-08-19T19:30:23+00:00",
+        "id": "032356374ca86b9f",
+        "title": "NÁZOR: Vůdci opozice nejsou a nebudou. Rozhodně nám je nenadělí říjnové volby - Lidovky.cz",
+        "summary": "NÁZOR: Vůdci opozice nejsou a nebudou. Rozhodně nám je nenadělí říjnové volby Lidovky.cz Kdo o co hraje v senátních volbách? Starostové a ODS o lídra opozice, Grolich o sebe, ANO o hladší vládnutí iROZHLAS Ondřej Konrád: Atraktivní pražské střety o Senát Český rozhlas Plus Názory a argumenty: Ondřej Konrád: Atraktivní pražské střety o Senát (audio) Zprávy Kurzy.cz Říjnové volby mohou vyvolat v opozičních stranách změny Novinky",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaS1BX1FnQ28wNjRPMlBEWVdQd2YwNWZwRkt6NDVKLUJySWdvcWpCTldyaC14Q3QxQzNabi1LTk9leXRXVEFndGZ3X0ZYXzFGMW5Pc1EwVkQ5YWhsajVTZ1RxMkhnMW1ORlAyX21VLVlfTjdRM2JpRTRUV1BxR2otdFNhS2taNGE4Smk3SjU1QXlUQVcwR0RKU0FneHZuX2ljTnNOSWQ2OHB2WE9MNHVlSVIyb1ZvOEow?oc=5",
+        "published": "2026-08-19T22:01:27+00:00",
         "source": "Google News – Domácí",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Na tříletého chlapce spadla na Šumavě kovová brána - Novinky",
-        "summary_cs": "Na tříletého chlapce spadla na Šumavě kovová brána Novinky"
+        "title_cs": "NÁZOR: Vůdci opozice nejsou a nebudou. Rozhodně nám je nenadělí říjnové volby - Lidovky.cz",
+        "summary_cs": "NÁZOR: Vůdci opozice nejsou a nebudou. Rozhodně nám je nenadělí říjnové volby Lidovky.cz Kdo o co hraje v senátních volbách? Starostové a ODS o lídra opozice, Grolich o sebe, ANO o hladší vládnutí iROZHLAS Ondřej Konrád: Atraktivní pražské střety o Senát Český rozhlas Plus Názory a argumenty: Ondřej Konrád: Atraktivní pražské střety o Senát (audio) Zprávy Kurzy.cz Říjnové volby mohou vyvolat v opozičních stranách změny Novinky"
       },
       {
-        "id": "72293a57fa2808af",
-        "title": "Svatyně u Nymburka byla o tisíc let starší než Stonehenge",
-        "summary": "Jako rituální centrum spojené s pohyby Slunce a Měsíce sloužila přes 6500 let stará svatyně nedaleko obce Chleby na Nymbursku. Na jejím výzkumu pracují archeologové pod vedením vědců z Fakulty filozofické Západočeské univerzity v Plzni (FF ZČU). Nově zjistili, že jde o jeden z nejstarších monumentů ve střední Evropě.",
-        "link": "https://ct24.ceskatelevize.cz/clanek/veda/svatyne-u-nymburka-byla-o-tisic-let-starsi-nez-stonehenge-376738",
-        "published": "2026-08-19T11:16:00+00:00",
-        "source": "ČT24",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Svatyně u Nymburka byla o tisíc let starší než Stonehenge",
-        "summary_cs": "Jako rituální centrum spojené s pohyby Slunce a Měsíce sloužila přes 6500 let stará svatyně nedaleko obce Chleby na Nymbursku. Na jejím výzkumu pracují archeologové pod vedením vědců z Fakulty filozofické Západočeské univerzity v Plzni (FF ZČU). Nově zjistili, že jde o jeden z nejstarších monumentů ve střední Evropě."
-      },
-      {
-        "id": "d137fc202c4d94f2",
-        "title": "Wellness, víno a útěk mezi řádky. Na jižní Moravě otevřel nový půlmiliardový resort",
-        "summary": "Místo, kde můžete všechno, ale nemusíte nic. Uprostřed velkopavlovických kopců na začátku léta otevřel hotelový resort Artevini. Přináší bublinky, wellness a výhledy do nekonečných viničních tratí. Jaké to tam je? The post Wellness, víno a útěk mezi řádky. Na jižní Moravě otevřel nový půlmiliardový resort appeared first on Forbes .",
-        "link": "https://forbes.cz/wellness-vino-a-utek-mezi-radky-na-jizni-morave-otevrel-novy-pulmiliardovy-resort/",
-        "published": "2026-08-19T14:00:00+00:00",
-        "source": "Forbes CZ",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Wellness, víno a útěk mezi řádky. Na jižní Moravě otevřel nový půlmiliardový resort",
-        "summary_cs": "Místo, kde můžete všechno, ale nemusíte nic. Uprostřed velkopavlovických kopců na začátku léta otevřel hotelový resort Artevini. Přináší bublinky, wellness a výhledy do nekonečných viničních tratí. Jaké to tam je? The post Wellness, víno a útěk mezi řádky. Na jižní Moravě otevřel nový půlmiliardový resort appeared first on Forbes ."
-      },
-      {
-        "id": "45b027976a5be32d",
-        "title": "Vlna veder může dorazit i v září. Nemusí být silnější, ale důsledky budou ještě větší, říká meteorolog",
-        "summary": "Čím extrémnější je vlna veder, tím větší je potenciál, že extrémní budou i následné bouřky, upozorňuje meteorolog z ČHMÚ Martin Adamovský. V rozhovoru líčí, zda lze kvůli změně klimatu čekat více tornád, jak ústav pracuje s umělou inteligencí nebo jak inovoval vydávání výstrah. „Snažíme se konkrétní jevy popsat tak, aby si veřejnost dokázala situaci lépe představit,“ říká.",
-        "link": "https://denikn.cz/2158538/vlna-veder-muze-dorazit-i-v-zari-nemusi-byt-silnejsi-ale-dusledky-budou-jeste-vetsi-rika-meteorolog/",
-        "published": "2026-08-19T14:37:14+00:00",
+        "id": "0d73c95e6a157928",
+        "title": "Vývoj bojů (1637. den): Boj letadel MiG-29 proti Rusku pokračuje – agresorovi ničí mosty",
+        "summary": "Nová detailní fotografie a čerstvé informace o misích stíhacího letounu MiG-29. U Kaliningradu se uskutečnily velké manévry NATO. Zúčastnilo se jich i unikátní letadlo pro elektronický boj. Rusové se blíží k Dobropillji, i kolem ní se pokusí vytvořit kleště. Kupjanský směr je podle ukrajinského analytika „blízko katastrofě“. Mapy dne: kde útočí letadla na ruské mosty; Kupjansk; boj o Dobropillju. Videa dne: útok […]",
+        "link": "https://denikn.cz/2159308/vyvoj-boju-1637-den-boj-letadel-mig-29-proti-rusku-pokracuje-agresorovi-nici-mosty/",
+        "published": "2026-08-19T15:29:03+00:00",
         "source": "Deník N",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Vlna veder může dorazit i v září. Nemusí být silnější, ale důsledky budou ještě větší, říká meteorolog",
-        "summary_cs": "Čím extrémnější je vlna veder, tím větší je potenciál, že extrémní budou i následné bouřky, upozorňuje meteorolog z ČHMÚ Martin Adamovský. V rozhovoru líčí, zda lze kvůli změně klimatu čekat více tornád, jak ústav pracuje s umělou inteligencí nebo jak inovoval vydávání výstrah. „Snažíme se konkrétní jevy popsat tak, aby si veřejnost dokázala situaci lépe představit,“ říká."
+        "title_cs": "Vývoj bojů (1637. den): Boj letadel MiG-29 proti Rusku pokračuje – agresorovi ničí mosty",
+        "summary_cs": "Nová detailní fotografie a čerstvé informace o misích stíhacího letounu MiG-29. U Kaliningradu se uskutečnily velké manévry NATO. Zúčastnilo se jich i unikátní letadlo pro elektronický boj. Rusové se blíží k Dobropillji, i kolem ní se pokusí vytvořit kleště. Kupjanský směr je podle ukrajinského analytika „blízko katastrofě“. Mapy dne: kde útočí letadla na ruské mosty; Kupjansk; boj o Dobropillju. Videa dne: útok […]"
       },
       {
-        "id": "7af2c708bc01117b",
-        "title": "Pokračují snahy o prodej pozemků v areálu zámku v Brtnici. Nestojí o ně město ani majitel zámku",
-        "summary": "V pořadí už šesté kolo výběrového řízení na prodej pozemků, hradeb a parkánu v areálu zámku v Brtnici na Jihlavsku vyhlásil Úřad pro zastupování státu ve věcech majetkových. Například město i současný majitel zámku ale už dopředu ohlásili, že se do dražby nezapojí.",
-        "link": "https://www.irozhlas.cz/zpravy-domov/pokracuji-snahy-o-prodej-pozemku-v-arealu-zamku-v-brtnici-nestoji-o-ne-mesto-ani_2608191947_aha",
-        "published": "2026-08-19T19:47:00+02:00",
-        "source": "iRozhlas – Domácí",
+        "id": "4b25904ed681f61a",
+        "title": "Ministerstvo příští rok splní dvě procenta HDP na obranu, řekl Zůna",
+        "summary": "Resort obrany má v příštím roce údajně hospodařit s částkou 191 miliard korun. Splní tak svůj závazek vůči NATO v podobě dvou procent HDP. Babiš už v červenci řekl, že vláda plánuje zvýšit rozpočet ministerstva o 36 miliard.",
+        "link": "https://www.seznamzpravy.cz/clanek/domaci-politika-ministerstvo-pristi-rok-splni-dve-procenta-hdp-na-obranu-rekl-zuna-313502",
+        "published": "2026-08-19T22:08:15+02:00",
+        "source": "Seznam Zprávy",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Pokračují snahy o prodej pozemků v areálu zámku v Brtnici. Nestojí o ně město ani majitel zámku",
-        "summary_cs": "V pořadí už šesté kolo výběrového řízení na prodej pozemků, hradeb a parkánu v areálu zámku v Brtnici na Jihlavsku vyhlásil Úřad pro zastupování státu ve věcech majetkových. Například město i současný majitel zámku ale už dopředu ohlásili, že se do dražby nezapojí."
+        "title_cs": "Ministerstvo příští rok splní dvě procenta HDP na obranu, řekl Zůna",
+        "summary_cs": "Resort obrany má v příštím roce údajně hospodařit s částkou 191 miliard korun. Splní tak svůj závazek vůči NATO v podobě dvou procent HDP. Babiš už v červenci řekl, že vláda plánuje zvýšit rozpočet ministerstva o 36 miliard."
       },
       {
-        "id": "ea4084d343381a1f",
-        "title": "Tři pětiny starobních důchodců v Česku pobíraly loni penzi přes 20 tisíc korun",
-        "summary": "Česká správa sociálního zabezpečení zveřejnila důchodovou ročenku za rok 2025.\nPrůměrný starobní důchod dosáhl v loňském roce 21 094 korun.\nMinistr práce Aleš Juchelka prosazuje pro příští rok vyšší navýšení penzí.",
-        "link": "https://www.e15.cz/finexpert/duchody/tri-petiny-starobnich-duchodcu-v-cesku-pobiraly-loni-penzi-pres-20-tisic-korun-1435045",
-        "published": "2026-08-19T14:35:00+02:00",
-        "source": "E15",
-        "lang": "cs",
-        "sub": null,
-        "title_cs": "Tři pětiny starobních důchodců v Česku pobíraly loni penzi přes 20 tisíc korun",
-        "summary_cs": "Česká správa sociálního zabezpečení zveřejnila důchodovou ročenku za rok 2025.\nPrůměrný starobní důchod dosáhl v loňském roce 21 094 korun.\nMinistr práce Aleš Juchelka prosazuje pro příští rok vyšší navýšení penzí."
-      },
-      {
-        "id": "8015b2d959cfd717",
-        "title": "Český hlídač srdce míří do Indie. Arytmii hledá pomocí umělé inteligence",
-        "summary": "Český systém, který hlídá srdeční rytmus pomocí pásu na hrudi a umělé inteligence, míří do Indie. Olomoucký startup Kardi Ai tam získal povolení k dovozu a prodeji řešení, které pomáhá odhalovat arytmie vedoucí k cévní mozkové příhodě či srdečnímu selhání a v Evropě už upozornilo na více než 500 závažných případů. Provoz zahájí ve čtvrtém čtvrtletí.",
-        "link": "https://www.novinky.cz/clanek/ekonomika-cesky-hlidac-srdce-miri-do-indie-arytmii-hleda-pomoci-umele-inteligence-40593196",
-        "published": "2026-08-19T19:45:16+02:00",
+        "id": "179ed1e598ce7212",
+        "title": "Celkový veřejný dluh USA poprvé překonal hranici 40 bilionů dolarů",
+        "summary": "Celkový veřejný dluh federální vlády Spojených států poprvé překonal hranici 40 bilionů dolarů (828 bilionů korun). Oznámilo to ve středu večer americké ministerstvo financí. Prudce rostoucí náklady na obranu, sociální programy i splátky úroků daleko převyšují příjmy federálního rozpočtu, které navíc brzdí daňové úlevy, upozornila agentura Reuters s tím, že podle některých pozorovatelů se schyluje k rozpočtové krizi.",
+        "link": "https://www.novinky.cz/clanek/zahranicni-amerika-celkovy-verejny-dluh-usa-poprve-prekonal-hranici-40-bilionu-dolaru-40593564",
+        "published": "2026-08-20T05:34:29+02:00",
         "source": "Novinky.cz",
         "lang": "cs",
         "sub": null,
-        "title_cs": "Český hlídač srdce míří do Indie. Arytmii hledá pomocí umělé inteligence",
-        "summary_cs": "Český systém, který hlídá srdeční rytmus pomocí pásu na hrudi a umělé inteligence, míří do Indie. Olomoucký startup Kardi Ai tam získal povolení k dovozu a prodeji řešení, které pomáhá odhalovat arytmie vedoucí k cévní mozkové příhodě či srdečnímu selhání a v Evropě už upozornilo na více než 500 závažných případů. Provoz zahájí ve čtvrtém čtvrtletí."
+        "title_cs": "Celkový veřejný dluh USA poprvé překonal hranici 40 bilionů dolarů",
+        "summary_cs": "Celkový veřejný dluh federální vlády Spojených států poprvé překonal hranici 40 bilionů dolarů (828 bilionů korun). Oznámilo to ve středu večer americké ministerstvo financí. Prudce rostoucí náklady na obranu, sociální programy i splátky úroků daleko převyšují příjmy federálního rozpočtu, které navíc brzdí daňové úlevy, upozornila agentura Reuters s tím, že podle některých pozorovatelů se schyluje k rozpočtové krizi."
+      },
+      {
+        "id": "50fe5538a430ab6e",
+        "title": "Ani Ukrajina, ani obrana. Babišův ministr řekl, co rozhodne prezidentské volby",
+        "summary": "Prezidentské volby budou až za rok a půl, přesto se už dostávají stále častěji jako jedno z hlavních témat do veřejných debat. Přesvědčil se o tom naposledy ministr průmyslu Karel Havlíček (ANO).",
+        "link": "https://zpravy.aktualne.cz/domaci/ani-ukrajina-ani-obrana-babisuv-ministr-rekl-co-rozhodne-prezidentske-volby/r~aaa2967675926d17eaad69d3191b821f/",
+        "published": "2026-08-19T18:14:00+02:00",
+        "source": "Aktuálně – Domácí",
+        "lang": "cs",
+        "sub": null,
+        "title_cs": "Ani Ukrajina, ani obrana. Babišův ministr řekl, co rozhodne prezidentské volby",
+        "summary_cs": "Prezidentské volby budou až za rok a půl, přesto se už dostávají stále častěji jako jedno z hlavních témat do veřejných debat. Přesvědčil se o tom naposledy ministr průmyslu Karel Havlíček (ANO)."
       }
     ],
     "sport": [
@@ -9790,6 +9803,30 @@
     ],
     "tech": [
       {
+        "id": "06464b540213dfb0",
+        "title": "Canal+ Sport přidá k Premier League anglický komentář. A chce zkusit virtuální kouzlo",
+        "summary": "Češi a Slováci uvidí všech 380 utkání Premier League. Ve světě je zájem o fotbalovou talk show Big Pete s Petrem Čechem.",
+        "link": "https://www.lupa.cz/clanky/canal-sport-prida-k-premier-league-anglicky-komentar-a-chce-zkusit-virtualni-kouzlo/?utm_source=rss&utm_medium=text&utm_campaign=rss",
+        "published": "2026-08-20T04:00:00+00:00",
+        "source": "Lupa.cz",
+        "lang": "cs",
+        "sub": "ai",
+        "title_cs": "Canal+ Sport přidá k Premier League anglický komentář. A chce zkusit virtuální kouzlo",
+        "summary_cs": "Češi a Slováci uvidí všech 380 utkání Premier League. Ve světě je zájem o fotbalovou talk show Big Pete s Petrem Čechem."
+      },
+      {
+        "id": "e675b62ac48f5f0b",
+        "title": "Intel šlape na plyn ve vývoji procesorů: V každé generaci teď přijde nová architektura jádra",
+        "summary": "S procesory Intel to teď bylo rozpačité: Opožděné výrobní procesy a „refreshe“ starých CPU místo nových generací. Teď to ale možná začne být o dost zajímavější. Tři nebo dokonce čtyři následující generace by každá měla být velkou inovací s novými jádry a růstem výkonu.",
+        "link": "https://www.cnews.cz/clanky/intel-slape-na-plyn-ve-vyvoji-procesoru-v-kazde-generaci-ted-prijde-nova-architektura-jadra/?utm_source=rss&utm_medium=text&utm_campaign=rss",
+        "published": "2026-08-20T04:00:00+00:00",
+        "source": "Cnews.cz",
+        "lang": "cs",
+        "sub": "ai",
+        "title_cs": "Intel šlape na plyn ve vývoji procesorů: V každé generaci teď přijde nová architektura jádra",
+        "summary_cs": "S procesory Intel to teď bylo rozpačité: Opožděné výrobní procesy a „refreshe“ starých CPU místo nových generací. Teď to ale možná začne být o dost zajímavější. Tři nebo dokonce čtyři následující generace by každá měla být velkou inovací s novými jádry a růstem výkonu."
+      },
+      {
         "id": "6060588869d70a4a",
         "title": "Luau: rozšíření jazyka Lua o statické typové kontroly a typovou inferenci (dokončení)",
         "summary": "Na úvodní článek o typovém systému v projektu Luau dnes navážeme a celé téma dokončíme. Vysvětlíme si podrobnosti o typovém systému, včetně hierarchie datových typů, generických funkcích a funkcích spouštěných při typové analýze.",
@@ -9850,30 +9887,6 @@
         "summary_cs": "Radiožurnál si udržel prvenství v denním poslechu a těsně vede také podle podílu na trhu. Největší týdenní i měsíční dosah však mělo Rádio Impuls. Nová vlna Radioprojektu poprvé zahrnuje odložený poslech regionálních stanic Českého rozhlasu."
       },
       {
-        "id": "054b0d85e980354f",
-        "title": "Co se nejvíc hraje na PlayStationu. Tady jsou nejoblíbenější hry pro PS5 v roce 2026",
-        "summary": "Co se letos nejvíc hraje na PlayStationu 5? Vyšli jsme z oficiálních žebříčků, které Sony vydává, a našli nejoblíbenější hry pro PS5.",
-        "link": "https://doupe.zive.cz/nejoblibenejsi-hry-pro-playstation-5-ps5-202608",
-        "published": "2026-08-19T15:45:00+00:00",
-        "source": "Živě.cz",
-        "lang": "cs",
-        "sub": "ai",
-        "title_cs": "Co se nejvíc hraje na PlayStationu. Tady jsou nejoblíbenější hry pro PS5 v roce 2026",
-        "summary_cs": "Co se letos nejvíc hraje na PlayStationu 5? Vyšli jsme z oficiálních žebříčků, které Sony vydává, a našli nejoblíbenější hry pro PS5."
-      },
-      {
-        "id": "08f97fd88babea4e",
-        "title": "Reklamy v ChatGPT se začínají zobrazovat i v Evropě, oznámila OpenAI",
-        "summary": "Půl roku poté, co OpenAI začala testovat zobrazování reklam v AI chatbotu ChatGPT ve Spojených státech, dorazí placené odkazy také do Evropy. Rozšíření do 31 evropských zemí firma oznámila na svém blogu. Má k němu dojít příští týden.",
-        "link": "https://www.lupa.cz/aktuality/reklamy-v-chatgpt-se-zacinaji-zobrazovat-i-v-evrope-oznamila-openai/?utm_source=rss&utm_medium=text&utm_campaign=rss",
-        "published": "2026-08-19T15:21:16+00:00",
-        "source": "Lupa.cz",
-        "lang": "cs",
-        "sub": "ai",
-        "title_cs": "Reklamy v ChatGPT se začínají zobrazovat i v Evropě, oznámila OpenAI",
-        "summary_cs": "Půl roku poté, co OpenAI začala testovat zobrazování reklam v AI chatbotu ChatGPT ve Spojených státech, dorazí placené odkazy také do Evropy. Rozšíření do 31 evropských zemí firma oznámila na svém blogu. Má k němu dojít příští týden."
-      },
-      {
         "id": "a488df16abe6e6e6",
         "title": "Jestli chcete nový androidí telefon, pořiďte si tenhle. Ale spoustu lidí špičkový Google Pixel nepotěší",
         "summary": "Google Pixel 11 je vynikající telefon, který nelze nedoporučit. Tedy za předpokladu, že nemáte třeba Pixel 10. Pak je těch novinek pohříchu málo. Článek Jestli chcete nový androidí telefon, pořiďte si tenhle. Ale spoustu lidí špičkový Google Pixel nepotěší se nejdříve objevil na CzechCrunch .",
@@ -9910,18 +9923,6 @@
         "summary_cs": "Éra rychlého generování odpovědí na úkoly bere za své. OpenAI chce mladé lidi po celém světě v novém chráněném režimu naučit přemýšlet. Článek Teenagerům končí snadná cesta k hotovým úkolům. Novinka od ChatGPT pozná podvádění a pošle je se učit se nejdříve objevil na CzechCrunch ."
       },
       {
-        "id": "0f967e59fd91a2b1",
-        "title": "Čínský robot zpochybňuje lidské limity, běhá rychleji než Usain Bolt. - Vietnam.vn",
-        "summary": "Čínský robot zpochybňuje lidské limity, běhá rychleji než Usain Bolt. Vietnam.vn",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM1dXazVHN0ZLT1Y0V29qZEdIZ21FZHNPQXJIai1SZTJnX00wT1gyZ2VUVm1QTXRkR1g2dVhPR3lJTmQxLXNra0VfMWpkcTg3eTBpNllkUzNPQ3NiSndTUUZ0Zy1zN1NqazJCSXh0T2J0dmRJREoxV09OaEZ5VDh0UFZscTY1NUxNWXM0ZS1oTkg2bHk2OHJqX1VlcjZleFU?oc=5",
-        "published": "2026-08-20T03:14:49+00:00",
-        "source": "Robotika (Google News CZ)",
-        "lang": "cs",
-        "sub": "robotics",
-        "title_cs": "Čínský robot zpochybňuje lidské limity, běhá rychleji než Usain Bolt. - Vietnam.vn",
-        "summary_cs": "Čínský robot zpochybňuje lidské limity, běhá rychleji než Usain Bolt. Vietnam.vn"
-      },
-      {
         "id": "e84f7fb2d1f65959",
         "title": "Humanoidní roboti zatahují USA a Čínu do nových závodů ve zbrojení. - Vietnam.vn",
         "summary": "Humanoidní roboti zatahují USA a Čínu do nových závodů ve zbrojení. Vietnam.vn",
@@ -9932,6 +9933,18 @@
         "sub": "robotics",
         "title_cs": "Humanoidní roboti zatahují USA a Čínu do nových závodů ve zbrojení. - Vietnam.vn",
         "summary_cs": "Humanoidní roboti zatahují USA a Čínu do nových závodů ve zbrojení. Vietnam.vn"
+      },
+      {
+        "id": "c460c87451bc23e4",
+        "title": "Včely pod dohledem robotů. AI už dokáže předvídat, co se v úlu stane - Hospodářské noviny",
+        "summary": "Včely pod dohledem robotů. AI už dokáže předvídat, co se v úlu stane Hospodářské noviny",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNy1ha003YmRPbEN6SGRQd1c1Q0FFTkRZeFk1RGhsbG1ELXpPSmhfOXB6VC11RVlYcXloTzFCaVNMV1Q4LUxZejdZVFRicEprX0Y0YVUtWkwxUmduV2FSSlF0RUJMUUdwX3lNUUdQdGlId1VWbnBQdnUzLVgzXzFjalJCSWtGRkZuTlMxeDM5YTBLRnN4MHFRcnBfWUFKUkxM?oc=5",
+        "published": "2026-08-19T22:00:00+00:00",
+        "source": "Robotika (Google News CZ)",
+        "lang": "cs",
+        "sub": "robotics",
+        "title_cs": "Včely pod dohledem robotů. AI už dokáže předvídat, co se v úlu stane - Hospodářské noviny",
+        "summary_cs": "Včely pod dohledem robotů. AI už dokáže předvídat, co se v úlu stane Hospodářské noviny"
       }
     ],
     "culture": [
@@ -10102,8 +10115,8 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Zion je prvním národním parkem, který nabízí terénní invalidní vozík pro veřejné použití",
-        "summary_cs": "Světově proslulý národní park Zion se stal prvním, který nabízí terénní invalidní vozík pro návštěvníky s postižením, kteří chtějí prozkoumat stezky v kaňonovém systému. Vybavení bylo zpřístupněno díky charitativní neziskové organizaci, která využila darované prostředky k zakoupení invalidního vozíku jménem Zion. Při procesu vybavování […] Příspěvek Zion je prvním národním parkem, který nabízí terénní invalidní vozík pro veřejné použití se poprvé objevil na Good News Network."
+        "title_cs": "Zion jako první národní park nabízí terénní invalidní vozík pro veřejné použití",
+        "summary_cs": "Světově proslulý národní park Zion se stal prvním, který nabízí terénní invalidní vozík pro návštěvníky s postižením, kteří chtějí prozkoumat stezky kaňonového systému. Vybavení bylo zpřístupněno díky charitativní neziskové organizaci, která využila darované prostředky k zakoupení vozíku jménem Zion. Při procesu vybavování […] Příspěvek Zion jako první národní park nabízí terénní invalidní vozík pro veřejné použití se poprvé objevil na Good News Network."
       },
       {
         "id": "cf9b33bcc62f08c6",
@@ -10126,8 +10139,8 @@
         "source": "Good News Network",
         "lang": "en",
         "sub": null,
-        "title_cs": "Ohroženým druhům ptáků nasadili miniaturní sádry na nohy, aby jim pomohli po srážce s autem",
-        "summary_cs": "Pták, který byl sražen autem, prochází poněkud zvláštní rehabilitační procedurou. V nemocnici pro zvířata, kam byl převezen, mu navrhli pár speciálně vyrobených sádrových dlah z kartonu a lepicí pásky. Je to trochu provizorní, ale pták prý dělá dobré pokroky a bude vypuštěn zpět do divočiny […] Příspěvek Ohroženým druhům ptáků nasadili miniaturní sádry na nohy, aby jim pomohli po srážce s autem se poprvé objevil na Good News Network."
+        "title_cs": "Ohroženým druhům ptáků nasazují miniaturní sádry na nohy, aby jim pomohly po srážce s autem",
+        "summary_cs": "Pták, kterého srazil automobil, prochází poněkud zvláštní rehabilitační procedurou. V nemocnici pro zvířata, kam byl převezen, mu navrhli pár speciálně vyrobených sádrových dlah z kartonu a lepicí pásky. Je to trochu provizorní, ale pták prý dělá dobré pokroky a bude vypuštěn zpět do divočiny […] Příspěvek Ohroženým druhům ptáků nasazují miniaturní sádry na nohy, aby jim pomohly po srážce s autem se poprvé objevil na Good News Network."
       },
       {
         "id": "647a70923488e128",
@@ -10175,7 +10188,7 @@
         "lang": "en",
         "sub": null,
         "title_cs": "270 000 čtverečních mil kolem Velikonočního ostrova se stane mořskou rezervací spravovanou domorodci",
-        "summary_cs": "Jako jedna z nejizolovanějších pevninských mas na Zemi se obyvatelé Rapa Nui, neboli Velikonočního ostrova, více než většina spoléhají na dary oceánu. Je to dobré místo jako každé jiné pro zavedení ochrany mořského prostředí, a skutečně slavné kamenné hlavy ostrova, neboli moai, nyní hledí na jednu z největších […] Příspěvek 270 000 čtverečních mil kolem Velikonočního ostrova se stane mořskou rezervací spravovanou domorodci se poprvé objevil na Good News Network."
+        "summary_cs": "Jako jedna z nejizolovanějších pevninských mas na Zemi se obyvatelé Rapa Nui, neboli Velikonočního ostrova, spoléhají na dary oceánu více než většina ostatních. Je to dobré místo jako každé jiné pro zavedení ochrany mořského prostředí, a skutečně slavné kamenné hlavy ostrova, neboli moai, nyní hledí na jednu z největších […] Příspěvek 270 000 čtverečních mil kolem Velikonočního ostrova se stane mořskou rezervací spravovanou domorodci se poprvé objevil na Good News Network."
       },
       {
         "id": "c37345f499ff23cb",
@@ -10211,7 +10224,7 @@
         "lang": "en",
         "sub": null,
         "title_cs": "Dobré zprávy z historie, 16. srpna",
-        "summary_cs": "Před 110 lety dnes byla podepsána Smlouva o migraci ptáků mezi USA a Kanadou, která stanovila pravidla pro ochranu ptáků migrujících mezi oběma zeměmi. Tato dohoda zastavila nekontrolovaný lov a zachránila mnoho druhů ptáků před vyhynutím. Byla dokonce rozšířena o Mexiko, Japonsko a Rusko – a chrání více než 800 druhů. DOZVĚDĚT SE […] Příspěvek Dobré zprávy z historie, 16. srpna se poprvé objevil na Good News Network."
+        "summary_cs": "Před 110 lety dnes byla podepsána Smlouva o migračních ptácích mezi USA a Kanadou, která stanovila pravidla pro ochranu ptáků migrujících mezi oběma zeměmi. Tato dohoda zastavila nekontrolovaný lov a zachránila mnoho druhů ptáků před vyhynutím. Byla dokonce rozšířena o Mexiko, Japonsko a Rusko – a chrání více než 800 druhů. DOZVĚDĚT SE […] Příspěvek Dobré zprávy z historie, 16. srpna se poprvé objevil na Good News Network."
       },
       {
         "id": "178eaaac42e7e2a9",
@@ -10223,7 +10236,7 @@
         "lang": "en",
         "sub": null,
         "title_cs": "Porazit horko s milionem kvetoucích slunečnic v větrném Skotsku (PODÍVEJTE SE)",
-        "summary_cs": "Měsíc srpen přinesl návrat 14 akrů zlatých slunečnic na krajinu Skotska. Balgone Estate, otevřený návštěvníkům do 23. srpna, znovu otevřel svou živou Slunečnicovou stezku, která se nachází hodinu a půl od Glasgow. Akce byla poprvé představena v roce 2023, ale ukázala se jako tak populární, že se vrátila […] Příspěvek Porazit horko s milionem kvetoucích slunečnic v větrném Skotsku (PODÍVEJTE SE) se poprvé objevil na Good News Network."
+        "summary_cs": "Měsíc srpen přinesl návrat 14 akrů zlatých slunečnic na krajinu Skotska. Balgone Estate, otevřený pro návštěvníky do 23. srpna, opět otevřel svou živou Stezku slunečnic, která se nachází hodinu a půl jízdy od Glasgow. Akce byla poprvé představena v roce 2023, ale ukázala se jako natolik populární, že se vrátila […] Příspěvek Porazit horko s milionem kvetoucích slunečnic v větrném Skotsku (PODÍVEJTE SE) se poprvé objevil na Good News Network."
       }
     ]
   }
